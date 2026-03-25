@@ -58,7 +58,7 @@ body {
   width: 1126px;
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
@@ -93,6 +93,7 @@ h2 {
 }
 p {
   margin: 0;
+  text-align: left;
 }
 
 code,
@@ -108,4 +109,20 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+
+.navContainer {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: space-evenly;
+  
+}
+
+button {
+  text-align: center;
+  width: 100px;
+  margin: auto;
 }

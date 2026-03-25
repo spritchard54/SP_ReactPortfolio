@@ -2,10 +2,10 @@ import "./App.css";
 // my code
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/home";
-import { Page1 } from "./pages/page1";
-import { Page2 } from "./pages/page2";
-import { Page3 } from "./pages/page3";
-import { Layout } from "./Layout";
+import { Resume } from "./pages/Resume";
+import { Photos } from "./pages/Photos";
+import { Trips } from "./pages/Trips";
+import { Layout } from "./components/Layout";
 
 // end my code
 
@@ -15,9 +15,9 @@ function App() {
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Home />} />
-          <Route path="/Page1" element={<Page1 />} />
-          <Route path="/Page2" element={<Page2 />} />
-          <Route path="/Page3" element={<Page3 />} />
+          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Photos" element={<Photos />} />
+          <Route path="/Trips" element={<Trips />} />
         </Route>
       </Routes>
     </Router>

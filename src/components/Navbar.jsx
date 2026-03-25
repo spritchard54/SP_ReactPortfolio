@@ -3,18 +3,23 @@ import { Link } from "react-router-dom";
 export function Navbar() {
   return (
     <>
+    <div className="navContainer">
       <Link to="/">
         <button>Home</button>
       </Link>
-      <Link to="/page1">
-        <button>Path 1</button>
+
+      <Link to="/Resume">
+        <button>Resume</button>
       </Link>
-      <Link to="/page2">
-        <button>Path 2</button>
+
+      <Link to="/Photos">
+        <button>Photos</button>
       </Link>
-      <Link to="/page3">
-        <button>Path 3</button>
+
+      <Link to="/Trips">
+        <button>Trips</button>
       </Link>
+      </div>
     </>
   );
 }
