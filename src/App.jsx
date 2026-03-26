@@ -1,4 +1,5 @@
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // my code
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/home";
