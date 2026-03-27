@@ -3,23 +3,52 @@ import { Link } from "react-router-dom";
 export function Navbar() {
   return (
     <>
-    <div className="navContainer">
-      <Link to="/">
-        <button>Home</button>
-      </Link>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
+          <a class="navbar-brand" href="#">
+            Pritchard
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <Link to="/Resume">
-        <button>Resume</button>
-      </Link>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/">
+                  Home
+                </Link>
+              </li>
 
-      <Link to="/Photos">
-        <button>Photos</button>
-      </Link>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/Resume">
+                  Resume
+                </Link>
+              </li>
 
-      <Link to="/Trips">
-        <button>Trips</button>
-      </Link>
-      </div>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Photos">
+                  Photos
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/Trips">
+                  Trips
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </>
   );
 }
