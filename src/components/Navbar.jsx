@@ -6,7 +6,7 @@ export function Navbar() {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a class="navbar-brand" href="#">
-            Pritchard
+            S<span className="second-letter">.</span>Pritchard
           </a>
           <button
             class="navbar-toggler"
