@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 export function Home() {
   return (
     <>
-    
-      <h1>Steve Pritchard</h1>
       <h2>Tech Enthusiast | Aspiring Web Developer</h2>
       <div>
         Former Organizational Change Management (OCM) Consultant, current Customer Success Manager, aspiring Web Developer, and Fullstack Web
