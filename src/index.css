@@ -1,10 +1,20 @@
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: left;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;}
+    /* width: 1126px; */
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    border-inline: 1px solid var(--border);
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+a.navbar-brand::first-letter {
+  font-weight: bold;
+   color: #3d3f54;
+}
+.second-letter {
+  font-weight: bold;
+  color: #166f3c;
+}
