@@ -12,7 +12,7 @@ export function Footer() {
       <footer className="mt-auto py-3 bg-light">
         <div className="container-fluid ">
           <div className="row ">
-            <div className="col">
+            <div className="col-sm-8 text-center text-sm-start ">
               <span className="text-muted">
                 Copyright &copy; 2024-{currentYear} Steve Pritchard |{" "}
                 <a href="mailto:swpritchard54@gmail.com">
@@ -21,10 +21,10 @@ export function Footer() {
               </span>
             </div>
 
-            <div className="col ">
+            <div className="col-sm-4 text-center text-sm-end mt-2 mt-sm-0">
               <a href="https://www.instagram.com/steve_p.54/" target="blank">
                 <img
-                  className="mx-2 float-end"
+                  className="mx-2 "
                   src={iglogo}
                   alt="Instagram Logo"
                 />
@@ -32,14 +32,14 @@ export function Footer() {
 
               <a href="https://github.com/spritchard54" target="blank">
                 <img
-                  className="mx-2 float-end"
+                  className="mx-2 "
                   src={ghlogo}
                   alt="Github Logo"
                 />
               </a>
               <a href="https://www.linkedin.com/in/swpritchard/" target="blank">
                 <img
-                  className="mx-2 float-end"
+                  className="mx-2 "
                   src={lilogo}
                   alt="LinkedIn Logo"
                 />
