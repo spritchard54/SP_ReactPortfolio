@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div className="container-fluid ">
           <a class="navbar-brand" href="#">
             S<span className="second-letter">.</span>Pritchard
           </a>
@@ -20,8 +20,8 @@ export function Navbar() {
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link className="nav-link" aria-current="page" to="/">
                   Home
