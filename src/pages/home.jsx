@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import yose from "../public/images/IMG_6240.jpeg";
+import rapids from "../public/images/IMG_4127.jpeg";
+import keyboard from "../public/images/IMG_0456.jpeg";
 
 export function Home() {
   return (
@@ -19,45 +22,45 @@ export function Home() {
         <div className="row justify-content-center">
           <div className="col-md-4">
             <div className="card mt-5">
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={keyboard} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Resume</h5>
+                <h5 className="card-title">Portfolio</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Download my resume and view my portfolio. Check back regularly for updates.
                 </p>
                 <a href="#" className="btn btn-primary">
-                  Go somewhere
+                  See my work...
                 </a>
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card mt-5">
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={rapids} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Photos</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  I count photography among my many hobbies. This is mostly a collection of photos from trips I've been on.
                 </p>
                 <a href="#" className="btn btn-primary">
-                  Go somewhere
+                  Browse...
                 </a>
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card mt-5">
-              <img src="..." className="card-img-top" alt="..." />
+              <img 
+                className="card-img-top"
+                src={yose}  
+                alt="Yosemite Backcountry" />
               <div className="card-body">
                 <h5 className="card-title">Trips</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  See where I've been recently and over the years. From the hills of Pennsylvania, to the peaks the Mountain West.
                 </p>
                 <a href="#" className="btn btn-primary">
-                  Go somewhere
+                  Explore
                 </a>
               </div>
             </div>
