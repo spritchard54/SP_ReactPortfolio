@@ -19,14 +19,14 @@ export function Home() {
           for stopping by!
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mb-4">
           <div className="col-md-4">
             <div className="card mt-5">
               <img src={keyboard} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Portfolio</h5>
                 <p className="card-text">
-                  Download my resume and view my portfolio. Check back regularly for updates.
+                  Download my resume and view my portfolio. Check back regularly for updates to existing projects and new projects I am working on.
                 </p>
                 <a href="#" className="btn btn-primary">
                   See my work...
@@ -40,7 +40,7 @@ export function Home() {
               <div className="card-body">
                 <h5 className="card-title">Photos</h5>
                 <p className="card-text">
-                  I count photography among my many hobbies. This is mostly a collection of photos from trips I've been on.
+                  I count photography among my many (too many) hobbies. This is mostly a collection of photos from trips I've been on.
                 </p>
                 <a href="#" className="btn btn-primary">
                   Browse...

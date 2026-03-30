@@ -4,7 +4,7 @@ export function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div className="container-fluid ">
+        <div className="container-xxl ">
           <a class="navbar-brand" href="#">
             S<span className="second-letter">.</span>Pritchard
           </a>
