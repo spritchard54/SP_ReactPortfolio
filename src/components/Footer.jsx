@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import dayjs from "dayjs";
-import ghlogo from "../../public/github-mark.png";
-import lilogo from "../../public/icon-logo-linkedin.png";
-import iglogo from "../../public/icon-logo-instagram.png";
+import ghlogo from "../public/github-mark.png";
+import lilogo from "../public/icon-logo-linkedin.png";
+import iglogo from "../public/icon-logo-instagram.png";
 
 export function Footer() {
   const currentYear = dayjs().format("YYYY");
