@@ -9,8 +9,8 @@ export function Footer() {
 
   return (
     <>
-      <footer className="mt-auto py-3 bg-light">
-        <div className="container-fluid ">
+      <footer className="mt-auto py-3 bg-light vw-100">
+        <div className="container-xxl ">
           <div className="row ">
             <div className="col-sm-8 text-center text-sm-start ">
               <span className="text-muted">
