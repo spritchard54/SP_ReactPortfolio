@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 // my code
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/home";
-import { Resume } from "./pages/Resume";
+import { Portfolio } from "./pages/Portfolio";
 import { Photos } from "./pages/Photos";
 import { Trips } from "./pages/Trips";
 import { Layout } from "./components/Layout";
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Home />} />
-          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/Photos" element={<Photos />} />
           <Route path="/Trips" element={<Trips />} />
         </Route>
