@@ -28,9 +28,9 @@ export function Home() {
                 <p className="card-text">
                   Download my resume and view my portfolio. Check back regularly for updates to existing projects and new projects I am working on.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="Portfolio" className="btn btn-primary">
                   See my work...
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -42,9 +42,9 @@ export function Home() {
                 <p className="card-text">
                   I count photography among my many (too many) hobbies. This is mostly a collection of photos from trips I've been on.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="Photos" className="btn btn-primary">
                   Browse...
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -61,9 +61,9 @@ export function Home() {
                 <p className="card-text">
                   See where I've been recently and over the years. From the hills of Pennsylvania, to the peaks the Mountain West.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="Trips" className="btn btn-primary">
                   Explore
-                </a>
+                </Link>
               </div>
             </div>
           </div>
