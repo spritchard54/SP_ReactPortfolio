@@ -48,6 +48,8 @@ export function Home() {
               </div>
             </div>
           </div>
+
+          
           <div className="col-md-4">
             <div className="card mt-5">
               <img 
