@@ -1,5 +1,5 @@
-import activate from "../public/images/actMe_1000w.png";
-import weather from "../public/images/weatherDash_1000w.png";
+import activate from "../assets/portfolioImages/actMe_1000w.png";
+import weather from "../assets/portfolioImages/weatherDash_1000w.png";
 
 export function Portfolio() {
   return (
@@ -182,9 +182,8 @@ export function Portfolio() {
           <h1 className="mb-3">Education</h1>
           <h3>Indiana University of Pennsylvania - Indiana, PA</h3>
           <p>Bachelor of Science: Communications Media</p>
-           <h3>University of Phoenix</h3> 
-           <p>Associate of Arts:
-          Information Technology, Web Design</p> 
+          <h3>University of Phoenix</h3>
+          <p>Associate of Arts: Information Technology, Web Design</p>
           <h3>University of Pennsylvania</h3>
           <p>Certificate: Full Stack Web Development Bootcamp</p>
         </div>

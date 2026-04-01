@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import yose from "../public/images/IMG_6240.jpeg";
-import rapids from "../public/images/IMG_4127.jpeg";
-import keyboard from "../public/images/IMG_0456.jpeg";
+import yose from "../assets/homeImages/IMG_6240.jpeg";
+import rapids from "../assets/homeImages/IMG_4127.jpeg";
+import keyboard from "../assets/homeImages/IMG_0456.jpeg";
 
 export function Home() {
   return (
