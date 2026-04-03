@@ -9,7 +9,7 @@ export function Home() {
       <div className="container-fluid">
         <h3 className="mt-2">Tech Enthusiast | Aspiring Web Developer</h3>
         <div>
-          Former Organizational Change Management (OCM) Consultant, current
+          Former Organizational Change Management &#40;OCM&#41; Consultant, current
           Customer Success Manager, aspiring Web Developer, and Fullstack Web
           Development Bootcamp graduate from the University of Pennsylvania.
           Having worked in or adjacent to technology for over a decade, I've
