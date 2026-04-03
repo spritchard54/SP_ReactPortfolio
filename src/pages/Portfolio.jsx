@@ -180,11 +180,11 @@ export function Portfolio() {
         </div>
         <div className="row">
           <h1 className="mb-3">Education</h1>
-          <h3>Indiana University of Pennsylvania - Indiana, PA</h3>
+          <h4>Indiana University of Pennsylvania - Indiana, PA</h4>
           <p>Bachelor of Science: Communications Media</p>
-          <h3>University of Phoenix</h3>
+          <h4>University of Phoenix</h4>
           <p>Associate of Arts: Information Technology, Web Design</p>
-          <h3>University of Pennsylvania</h3>
+          <h4>University of Pennsylvania</h4>
           <p>Certificate: Full Stack Web Development Bootcamp</p>
         </div>
       </div>
