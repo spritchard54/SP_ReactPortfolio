@@ -24,3 +24,7 @@ a.navbar-brand::first-letter {
   font-weight: bold;
   color: #166f3c;
 }
+
+.leaflet-container {
+  height: 100vh;
+}
