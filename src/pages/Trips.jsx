@@ -1,6 +1,27 @@
 import { Link } from "react-router-dom";
 import "../../node_modules/leaflet/dist/leaflet.css";
-import { MapContainer, TileLayer } from "react-leaflet";
+import { Icon } from "leaflet";
+import  L  from "leaflet";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import mapLocations from "../assets/js/mapLocations";
+
+const iconMap = {
+  skiing: new L.Icon({
+    iconUrl: "https://cdn-icons-png.flaticon.com/128/94/94150.png",
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+  }),
+  // city: new L.Icon({
+  //   iconUrl: "/icons/blue-marker.png",
+  //   iconSize: [25, 41],
+  //   // iconAnchor: [12, 41],
+  // }),
+  // beach: new L.Icon({
+  //   iconUrl: "/icons/yellow-marker.png",
+  //   iconSize: [25, 41],
+  //   // iconAnchor: [12, 41],
+  // }),
+};
 
 export function Trips() {
   return (
@@ -33,6 +54,14 @@ export function Trips() {
                 attribution='&copy;<a href="https://www.openstreetmap.org/#map=4/38.01/-95.84">OpenStreetMap</a>'
                 url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
+
+              {mapLocations.map((marker) => (
+                <Marker
+                  key={marker.id}
+                  position={marker.geocode}
+                  icon={iconMap[marker.iconType]}
+                ></Marker>
+              ))}
             </MapContainer>
           </div>
         </div>
