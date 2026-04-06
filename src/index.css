@@ -26,5 +26,5 @@ a.navbar-brand::first-letter {
 }
 
 .leaflet-container {
-  height: 100vh;
+  height: 60vh;
 }
