@@ -1,21 +1,29 @@
 import { Link } from "react-router-dom";
 import "../../node_modules/leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
-import  L  from "leaflet";
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import L from "leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  LayersControl,
+  LayerGroup,
+} from "react-leaflet";
 import mapLocations from "../assets/js/mapLocations";
+import MarkerClusterGroup from "react-leaflet-cluster";
+import "react-leaflet-cluster/dist/assets/MarkerCluster.css";
+import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
 
 const iconMap = {
   skiing: new L.Icon({
-    iconUrl: "https://cdn-icons-png.flaticon.com/128/94/94150.png",
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
+    iconUrl: "/images/ski.png",
+    iconSize: [40, 40],
   }),
-  // city: new L.Icon({
-  //   iconUrl: "/icons/blue-marker.png",
-  //   iconSize: [25, 41],
-  //   // iconAnchor: [12, 41],
-  // }),
+  np: new L.Icon({
+    iconUrl: "/images/nps.png",
+    iconSize: [60, 55],
+  }),
   // beach: new L.Icon({
   //   iconUrl: "/icons/yellow-marker.png",
   //   iconSize: [25, 41],
@@ -24,6 +32,14 @@ const iconMap = {
 };
 
 export function Trips() {
+  // acc = accumulator
+  const groupedMarkers = mapLocations.reduce((acc, marker) => {
+    const category = marker.category || "Other";
+    if (!acc[category]) acc[category] = [];
+    acc[category].push(marker);
+    return acc;
+  }, {});
+
   return (
     <>
       <div className="container-fluid">
@@ -44,24 +60,37 @@ export function Trips() {
             where Yosemite National Park is and click on 'Details...'.
           </p>
         </div>
-        <div className="row>">
+        <div className="row">
           <div className="col-12 100vh">
             <MapContainer
               center={[40.01224336270498, -97.76226241579424]}
-              zoom={3}
+              zoom={4}
             >
               <TileLayer
                 attribution='&copy;<a href="https://www.openstreetmap.org/#map=4/38.01/-95.84">OpenStreetMap</a>'
                 url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
 
-              {mapLocations.map((marker) => (
-                <Marker
-                  key={marker.id}
-                  position={marker.geocode}
-                  icon={iconMap[marker.iconType]}
-                ></Marker>
-              ))}
+              <LayersControl position="topright">
+                {/* Dynamically create layers per category */}
+                {Object.keys(groupedMarkers).map((category) => (
+                  <LayersControl.Overlay key={category} name={category} checked={category === "National Parks"} >
+                    <LayerGroup>
+                      <MarkerClusterGroup chunkedLoading>
+                        {groupedMarkers[category].map((marker) => (
+                          <Marker
+                            key={marker.id}
+                            position={marker.geocode}
+                            icon={iconMap[marker.iconType] || iconMap.default}
+                          >
+                            <Popup>{marker.popup}</Popup>
+                          </Marker>
+                        ))}
+                      </MarkerClusterGroup>
+                    </LayerGroup>
+                  </LayersControl.Overlay>
+                ))}
+              </LayersControl>
             </MapContainer>
           </div>
         </div>
