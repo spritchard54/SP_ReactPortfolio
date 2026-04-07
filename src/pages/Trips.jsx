@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "../../node_modules/leaflet/dist/leaflet.css";
-import { Icon } from "leaflet";
 import L from "leaflet";
 import {
   MapContainer,
@@ -33,8 +32,10 @@ const iconMap = {
 
 export function Trips() {
   // acc = accumulator
+  // .reduce() moves through the mapLocations array accumulating objects into the various category "buckets" or arrays
   const groupedMarkers = mapLocations.reduce((acc, marker) => {
     const category = marker.category || "Other";
+    // if an array for the category does not exist, they create a new empy array for that caetgory
     if (!acc[category]) acc[category] = [];
     acc[category].push(marker);
     return acc;
@@ -64,17 +65,40 @@ export function Trips() {
           <div className="col-12 100vh">
             <MapContainer
               center={[40.01224336270498, -97.76226241579424]}
-              zoom={4}
+              zoom={4} 
             >
-              <TileLayer
-                attribution='&copy;<a href="https://www.openstreetmap.org/#map=4/38.01/-95.84">OpenStreetMap</a>'
-                url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-              />
-
               <LayersControl position="topright">
+                {/* Base Layers */}
+                <LayersControl.BaseLayer checked name="OpenStreetMap">
+                  <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                    url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  />
+                </LayersControl.BaseLayer>
+
+                 {/* Satellite + Labels Base Layer */}
+              <LayersControl.BaseLayer name="Satellite + Labels">
+                <LayerGroup>
+                  {/* Satellite imagery */}
+                  <TileLayer
+                    url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                    attribution="Tiles © Esri"
+                  />
+                  {/* Labels overlay on top */}
+                  <TileLayer
+                    url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+                    attribution="Labels © Esri"
+                  />
+                </LayerGroup>
+              </LayersControl.BaseLayer>
+
                 {/* Dynamically create layers per category */}
                 {Object.keys(groupedMarkers).map((category) => (
-                  <LayersControl.Overlay key={category} name={category} checked={category === "National Parks"} >
+                  <LayersControl.Overlay
+                    key={category}
+                    name={category}
+                    checked={category === "National Parks"}
+                  >
                     <LayerGroup>
                       <MarkerClusterGroup chunkedLoading>
                         {groupedMarkers[category].map((marker) => (
