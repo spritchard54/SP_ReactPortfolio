@@ -2,7 +2,7 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 // my code
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages/home";
 import { Portfolio } from "./pages/Portfolio";
 import { Photos } from "./pages/Photos";
@@ -13,7 +13,7 @@ import { Layout } from "./components/Layout";
 
 function App() {
   return (
-    <Router>
+   
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/Trips" element={<Trips />} />
         </Route>
       </Routes>
-    </Router>
+   
   );
 }
 
