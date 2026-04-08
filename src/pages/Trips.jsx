@@ -13,14 +13,16 @@ import mapLocations from "../assets/js/mapLocations";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import "react-leaflet-cluster/dist/assets/MarkerCluster.css";
 import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
+import skiIcon from "../assets/images/ski.png";
+import npsIcon from "../assets/images/nps.png";
 
 const iconMap = {
   skiing: new L.Icon({
-    iconUrl: "/images/ski.png",
+    iconUrl: skiIcon,
     iconSize: [40, 40],
   }),
   np: new L.Icon({
-    iconUrl: "/images/nps.png",
+    iconUrl: npsIcon,
     iconSize: [60, 55],
   }),
   // beach: new L.Icon({
