@@ -65,7 +65,8 @@ export function Trips() {
           <div className="col-12 100vh">
             <MapContainer
               center={[40.01224336270498, -97.76226241579424]}
-              zoom={4} 
+              zoom={4}
+              worldCopyJump={true}
             >
               <LayersControl position="topright">
                 {/* Base Layers */}
@@ -75,23 +76,21 @@ export function Trips() {
                     url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
                   />
                 </LayersControl.BaseLayer>
-
-                 {/* Satellite + Labels Base Layer */}
-              <LayersControl.BaseLayer name="Satellite + Labels">
-                <LayerGroup>
-                  {/* Satellite imagery */}
-                  <TileLayer
-                    url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-                    attribution="Tiles © Esri"
-                  />
-                  {/* Labels overlay on top */}
-                  <TileLayer
-                    url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
-                    attribution="Labels © Esri"
-                  />
-                </LayerGroup>
-              </LayersControl.BaseLayer>
-
+                {/* Satellite + Labels Base Layer */}
+                <LayersControl.BaseLayer name="Satellite + Labels">
+                  <LayerGroup>
+                    {/* Satellite imagery */}
+                    <TileLayer
+                      url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                      attribution="Tiles © Esri"
+                    />
+                    {/* Labels overlay on top */}
+                    <TileLayer
+                      url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+                      attribution="Labels © Esri"
+                    />
+                  </LayerGroup>
+                </LayersControl.BaseLayer>
                 {/* Dynamically create layers per category */}
                 {Object.keys(groupedMarkers).map((category) => (
                   <LayersControl.Overlay
