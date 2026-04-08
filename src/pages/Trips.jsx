@@ -14,7 +14,7 @@ import MarkerClusterGroup from "react-leaflet-cluster";
 import "react-leaflet-cluster/dist/assets/MarkerCluster.css";
 import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
 import skiIcon from "/images/nps.png";
-import npsIcon from "/images/nps.png";
+import npsIcon from "/images/ski.png";
 
 const iconMap = {
   skiing: new L.Icon({
