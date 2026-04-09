@@ -15,10 +15,10 @@ export function Photos() {
         <div className="row">
           <h2 className="mt-3">Summer Roadtrip &apos;21</h2>
           <p>
-            Not long long ago I built this page using the code I found <Link to="https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp" target='_blank'>
+            Not long long ago I built this page using the code I found <Link to="https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp" target='_blank' rel="noopener noreferrer">
               here
             </Link>{" "}
-            on the <Link to="https://www.w3schools.com/" target='_blank'>W3 School's</Link> website. This worked great on a static website, and was easy enough
+            on the <Link to="https://www.w3schools.com/" target='_blank' rel="noopener noreferrer">W3 School's</Link> website. This worked great on a static website, and was easy enough
             to implement. Now that the site has been rebuilt using React, I had
             to take a slightly different approach. Essentially, I wrote a
             function that created a 4 column layout, and then used the
