@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import dayjs from "dayjs";
 import ghlogo from "../assets/socialMedia/github-mark.png";
 import lilogo from "../assets/socialMedia/icon-logo-linkedin.png";
@@ -9,7 +8,7 @@ export function Footer() {
 
   return (
     <>
-      <footer className="mt-auto py-3 bg-light vw-100">
+      <footer className="mt-auto py-3 bg-light w-100">
         <div className="container-xxl ">
           <div className="row ">
             <div className="col-sm-8 text-center text-sm-start ">
@@ -22,7 +21,7 @@ export function Footer() {
             </div>
 
             <div className="col-sm-4 text-center text-sm-end mt-2 mt-sm-0">
-              <a href="https://www.instagram.com/steve_p.54/" target="blank">
+              <a href="https://www.instagram.com/steve_p.54/" target="_blank" rel="noopener noreferrer">
                 <img
                   className="mx-2 "
                   src={iglogo}
@@ -30,14 +29,14 @@ export function Footer() {
                 />
               </a>
 
-              <a href="https://github.com/spritchard54" target="blank">
+              <a href="https://github.com/spritchard54" target="_blank" rel="noopener noreferrer">
                 <img
                   className="mx-2 "
                   src={ghlogo}
                   alt="Github Logo"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/swpritchard/" target="blank">
+              <a href="https://www.linkedin.com/in/swpritchard/" target="_blank" rel="noopener noreferrer">
                 <img
                   className="mx-2 "
                   src={lilogo}

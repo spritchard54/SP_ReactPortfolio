@@ -45,6 +45,12 @@ export function Navbar() {
                   Trips
                 </Link>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/Contact">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

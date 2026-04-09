@@ -8,7 +8,9 @@ export function Layout() {
       <Header />
 
       <main>
+        <div className="page-content" >
         <Outlet />
+        </div>
       </main>
 
       <Footer />
