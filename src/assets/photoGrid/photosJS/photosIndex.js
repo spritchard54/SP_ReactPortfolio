@@ -105,11 +105,13 @@ const Images = [
     sizes: "(min-width: 1300px) 292px, (min-width: 1000px) calc(17.86vw + 63px), (min-width: 780px) 50vw, 100vw",
   },
   {
-    id: 14,
-    image: img("IMG_5382.jpeg"),
-    alt: buildSrcSet("IMG_5382.jpeg", [292, 707, 876, 1056, 1300, 1500]),
-    sizes: "(min-width: 1300px) 292px, (min-width: 1000px) calc(17.86vw + 63px), (min-width: 780px) 50vw, 100vw",
-  },
+  id: 14,
+  image: img("IMG_5382.jpeg"),
+  alt: "A rainbow shining through a rainstorm as the sun sets in the Colorado Grasslands.",
+  srcset: buildSrcSet("IMG_5382.jpeg", [292, 707, 876, 1056, 1300, 1500]),
+  sizes:
+    "(min-width: 1300px) 292px, (min-width: 1000px) calc(17.86vw + 63px), (min-width: 780px) 50vw, 100vw",
+},
   {
     id: 15,
     image: img("IMG_5582.jpeg"),
