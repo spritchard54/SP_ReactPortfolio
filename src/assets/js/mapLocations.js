@@ -96,7 +96,7 @@ const mapLocations = [
     summary: "Details are in the works...",
   },
   {
-    id: "roundtop",
+    id: "liberty",
     geocode: [39.76341233073685, -77.37482164310148],
     iconType: "skiing",
     tripName: "Liberty Mountain Resort",
