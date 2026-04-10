@@ -5,6 +5,7 @@ const mapLocations = [
     iconType: "skiing",
     tripName: "Shawnee Ski Resort",
     category: "Ski Slopes",
+    summary: "An early season trip to Shawnee in 2026.",
   },
   {
     id: "camelback",
