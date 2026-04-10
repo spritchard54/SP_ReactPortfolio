@@ -29,25 +29,25 @@ export function Navbar() {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/Portfolio">
+                <Link className="nav-link" aria-current="page" to="/portfolio">
                   Portfolio
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/Photos">
+                <Link className="nav-link" to="/photos">
                   Photos
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/Trips">
+                <Link className="nav-link" to="/trips">
                   Trips
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/Contact">
+                <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
               </li>

@@ -1,38 +1,42 @@
 const mapLocations = [
   {
-    id: "1",
+    id: "shawnee",
     geocode: [41.03875493733112, -75.08159465465165],
-    iconType: 'skiing' ,
-    popup: 'Shawnee Ski Resort',
-    category: 'Ski Slopes'
+    iconType: "skiing",
+    tripName: "Shawnee Ski Resort",
+    category: "Ski Slopes",
   },
   {
-    id: "2",
+    id: "camelback",
     geocode: [41.05162999763743, -75.35604835434484],
     iconType: "skiing",
-    popup: 'Camelback Ski Resort',
-    category: 'Ski Slopes'
+    tripName: "Camelback Ski Resort",
+    category: "Ski Slopes",
+    summary: "",
   },
   {
-    id: "3",
+    id: "montage",
     geocode: [41.35102796478296, -75.66220855992954],
     iconType: "skiing",
-    popup: 'Montage Ski Mountain Resort',
-    category: 'Ski Slopes'
+    tripName: "Montage Ski Mountain Resort",
+    category: "Ski Slopes",
+    summary: "",
   },
   {
-    id: "4",
+    id: "jackfrost",
     geocode: [41.35102796478296, -75.66220855992954],
     iconType: "skiing",
-    popup: 'Jack Frost Ski Resort',
-    category: 'Ski Slopes'
+    tripName: "Jack Frost Ski Resort",
+    category: "Ski Slopes",
+    summary: "",
   },
   {
-    id: "5",
+    id: "yosemite",
     geocode: [37.86, -119.53],
     iconType: "np",
-    popup: 'Yosemite National Park',
-    category: 'National Parks'
+    tripName: "Yosemite National Park",
+    category: "National Parks",
+    summary: "A four day backpacking trip and then some...",
   },
 ];
 

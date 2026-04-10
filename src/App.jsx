@@ -4,10 +4,11 @@ import "bootstrap/dist/js/bootstrap.min.js";
 // my code
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages/home";
-import { Portfolio } from "./pages/Portfolio";
-import { Photos } from "./pages/Photos";
-import { Trips } from "./pages/Trips";
-import { Contact } from "./pages/Contact";
+import { Portfolio } from "./pages/portfolio";
+import { Photos } from "./pages/photos";
+import { Trips } from "./pages/trips";
+import { Contact } from "./pages/contact";
+import { TripDetail } from "./pages/tripdetail";
 import { Layout } from "./components/Layout";
 
 // end my code
@@ -17,10 +18,11 @@ function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Photos" element={<Photos />} />
-        <Route path="/Trips" element={<Trips />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/photos" element={<Photos />} />
+        <Route path="/trips" element={<Trips />} />
+        <Route path="/trips/:tripId" element={<TripDetail />} />
+        <Route path="/contact" element={<Contact />} />
       </Route>
     </Routes>
   );

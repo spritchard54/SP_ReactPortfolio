@@ -108,7 +108,15 @@ export function Trips() {
                             position={marker.geocode}
                             icon={iconMap[marker.iconType] || iconMap.default}
                           >
-                            <Popup>{marker.popup}</Popup>
+                            <Popup>
+                              <div>
+                                <h5>{marker.tripName}</h5>
+                                <p>{marker.summary}</p>
+                                <Link to={`/trips/${marker.id}`}>
+                                  Open Trip
+                                </Link>
+                              </div>
+                            </Popup>
                           </Marker>
                         ))}
                       </MarkerClusterGroup>
