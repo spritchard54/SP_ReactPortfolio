@@ -48,3 +48,23 @@ a.navbar-brand::first-letter {
   font-weight: bold;
   color: #166f3c;
 }
+
+.trip-thumb {
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  border: 3px solid white;
+}
+
+.trip-thumb:hover {
+  opacity: 0.8;
+}
+
+.trip-thumb.active-thumb {
+  opacity: 1;
+  border: none;
+}
+
+.table thead th {
+  background-color: #e9ecef;
+}

@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 const mapLocations = [
   {
     id: "shawnee",
@@ -116,7 +118,7 @@ const mapLocations = [
         heading: "The Good",
         paragraphs: [
           `Let me start by saying that the phrase "Don't believe the hype" had been in my head long before arriving in the park. Turns out, the hype is real. Driving in from the west entrance and turning the corner to Tunnel View is incredible. If you live out west, you might be used to views like this, but not all views are equal, andthis one stands out among them all for me.`,
-          
+
           `Looking down into the Yosemite Valley from high above, protected on both sides with giant walls of granite that serve as a playground to the world's best outdoor rock climbers is truly one of those magical National Park experiences.`,
         ],
       },
@@ -132,11 +134,39 @@ const mapLocations = [
         heading: "The Ugly",
         paragraphs: [
           `I'm probably being a bit dramatic, and maybe it's simply because I need to fill white space, but I think the crowds and navigating the crowds fill the "ugly-bucket". You'll experience this to some degree in nearly all national parks. I knew this before entering the park, and everybody has a right to be there. Not just me. My preference will always be to try and find a place where I can isolate myself from the world around me. Not forever, but for a bit of time at least, and if you head into the backcountry you can still accomplish this.`,
-          `Even at the end of the busy season for Yosemite, I still encountered far more traffic than I would have liked to. Everywhere I looked there were large groups of people making it feel more like Disney than a remote natural area. I suppose it's always a delicate balance of protecting the park, making it accessible for everybody, and still keeping it wild.`, 
+          `Even at the end of the busy season for Yosemite, I still encountered far more traffic than I would have liked to. Everywhere I looked there were large groups of people making it feel more like Disney than a remote natural area. I suppose it's always a delicate balance of protecting the park, making it accessible for everybody, and still keeping it wild.`,
           `If you're a casual fan of the outdoors, or just trying something new then I wouldn't concern myself with the crowds too much when considering a trip of your own. If you're an avid backpacker, hiker, or spend a lot of time in nature then I'm sure I haven't shared anything with you that you didn't already know.`,
         ],
       },
     ],
+    images: [
+      {
+        src: `${base}/images/tripsGallery/IMG_6147.jpeg`,
+        alt: "El Capitan from a distance",
+      },
+      {
+        src: `${base}/images/tripsGallery/IMG_6149.jpeg`,
+        alt: "Mountain peaks shrouded in wildfire smoke.",
+      },
+      {
+        src: `${base}/images/tripsGallery/IMG_6154.jpeg`,
+        alt: "El Cap from the meadows.",
+      },
+      {
+        src: `${base}/images/tripsGallery/IMG_6196.jpeg`,
+        alt: "Open flats on the John Muir Trail",
+      },
+      {
+        src: `${base}/images/tripsGallery/IMG_6228.jpeg`,
+        alt: "Wildfire smoke blankets Yosemite.",
+      },
+      {
+        src: `${base}/images/tripsGallery/IMG_6240.jpeg`,
+        alt: "Yosemite looking like Mordor.",
+      },
+    ],
+    startDate:'October 1, 2021',
+    endDate: 'October 8, 2021'
   },
   {
     id: "shenandoah",
