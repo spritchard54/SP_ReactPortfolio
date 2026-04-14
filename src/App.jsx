@@ -8,7 +8,7 @@ import { Portfolio } from "./pages/portfolio";
 import { Photos } from "./pages/photos";
 import { Trips } from "./pages/trips";
 import { Contact } from "./pages/contact";
-import { TripDetail } from "./pages/tripdetail";
+import { TripDetail } from "./pages/TripDetail";
 import { Layout } from "./components/Layout";
 
 // end my code

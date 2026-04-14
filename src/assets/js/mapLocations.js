@@ -109,7 +109,34 @@ const mapLocations = [
     iconType: "np",
     tripName: "Yosemite National Park",
     category: "National Parks",
-    summary: "A four day backpacking trip and then some...",
+    summary:
+      "Considered by many to be the crown jewel of the U.S. National Park system, this park is many things. I spent about a week traveling around the park with no real plan other than to enjoy the park and not pressure myself to do and see everything. I'll break down my trip the Clint Eastwood way. The Good, The Bad, and the Ugly.",
+    sections: [
+      {
+        heading: "The Good",
+        paragraphs: [
+          `Let me start by saying that the phrase "Don't believe the hype" had been in my head long before arriving in the park. Turns out, the hype is real. Driving in from the west entrance and turning the corner to Tunnel View is incredible. If you live out west, you might be used to views like this, but not all views are equal, andthis one stands out among them all for me.`,
+          
+          `Looking down into the Yosemite Valley from high above, protected on both sides with giant walls of granite that serve as a playground to the world's best outdoor rock climbers is truly one of those magical National Park experiences.`,
+        ],
+      },
+      {
+        heading: "The Bad",
+        paragraphs: [
+          `I have a hard time saying anything bad about our National Parks. Well, at least not the parks themselves. California and the western side of the United States have had no shortages of wildfires in recent years.`,
+          `I was optimistic this would not be an issue since I would be entering the park in October, and thinking that the cooler the weather might bring rain and thus a smaller chance of encountering fire-related problems. I was partly right. Immediately upon entering the park, the smoke resembled a light fog that surrounded me and could be seen through the tops of the trees that towered to my right and left.`,
+          `The first two images seen in the slideshow to the right are a good indication of what the first few days looked like while I was there. The remainder of my time in the park was mostly a mix of sun and clouds with some pretty mild temperatures. Yes, I would say the residual smoke was "bad" but, it was temporary and certainly didn't ruin the experience.`,
+        ],
+      },
+      {
+        heading: "The Ugly",
+        paragraphs: [
+          `I'm probably being a bit dramatic, and maybe it's simply because I need to fill white space, but I think the crowds and navigating the crowds fill the "ugly-bucket". You'll experience this to some degree in nearly all national parks. I knew this before entering the park, and everybody has a right to be there. Not just me. My preference will always be to try and find a place where I can isolate myself from the world around me. Not forever, but for a bit of time at least, and if you head into the backcountry you can still accomplish this.`,
+          `Even at the end of the busy season for Yosemite, I still encountered far more traffic than I would have liked to. Everywhere I looked there were large groups of people making it feel more like Disney than a remote natural area. I suppose it's always a delicate balance of protecting the park, making it accessible for everybody, and still keeping it wild.`, 
+          `If you're a casual fan of the outdoors, or just trying something new then I wouldn't concern myself with the crowds too much when considering a trip of your own. If you're an avid backpacker, hiker, or spend a lot of time in nature then I'm sure I haven't shared anything with you that you didn't already know.`,
+        ],
+      },
+    ],
   },
   {
     id: "shenandoah",
@@ -247,7 +274,6 @@ const mapLocations = [
     category: "National Parks",
     summary: "Details are in the works...",
   },
-
 ];
 
 export default mapLocations;
