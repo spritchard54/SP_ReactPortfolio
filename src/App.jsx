@@ -7,7 +7,7 @@ import { Home } from "./pages/home";
 import { Portfolio } from "./pages/portfolio";
 import { Photos } from "./pages/photos";
 import { Trips } from "./pages/trips";
-import { Contact } from "./pages/contact";
+import { Contact } from "./pages/Contact";
 import { TripDetail } from "./pages/TripDetail";
 import { Layout } from "./components/Layout";
 

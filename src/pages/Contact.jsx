@@ -34,8 +34,13 @@ export function Contact() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-12 col-md-8 col-lg-6 mx-auto">
+        <div className="row my-5">
+          <div className="col-12 col-lg-6">
+            <h1>Contact Me</h1>
+            <p className="me-5">Have a question? Feel free to reach out. I'm always open to professional opportunities! </p>
+            <p>Question about where I've been? Happy to answer those too!</p>
+          </div>
+          <div className="col-12 col-lg-6">
             <form ref={form} onSubmit={sendEmail} className="contact-form">
               {/* To simplify the tutorial, the value is static. */}
               <input
