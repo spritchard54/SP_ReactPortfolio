@@ -106,6 +106,21 @@ const mapLocations = [
     summary: "Details are in the works...",
   },
   {
+    id: "olympic",
+    geocode: [47.79, -123.61],
+    iconType: "np",
+    tripName: "Olympic National Park",
+    category: "National Parks",
+    summary: "Details are in the works...",
+    images: [
+      {
+        publicId: "BEF6DE2E-85C0-4AD2-A05D-C36B36DF1CE1_1_105_c_v0mtcr.jpg",
+        version: "v1776808734",
+        alt: "Mystical lake in Olympic National Park",
+      },
+    ],
+  },
+  {
     id: "yosemite",
     geocode: [37.86, -119.53],
     iconType: "np",
@@ -141,32 +156,38 @@ const mapLocations = [
     ],
     images: [
       {
-        src: `${base}/images/tripsGallery/IMG_6147.jpeg`,
+        publicId: "IMG_6147_bwpyae.jpg",
+        version: "v1776812748",
         alt: "El Capitan from a distance",
       },
       {
-        src: `${base}/images/tripsGallery/IMG_6149.jpeg`,
+        publicId: "IMG_6149_a5y60g.jpg",
+        version: "v1776812741",
         alt: "Mountain peaks shrouded in wildfire smoke.",
       },
       {
-        src: `${base}/images/tripsGallery/IMG_6154.jpeg`,
+        publicId: "IMG_6154_ew3ikc.jpg",
+        version: "v1776812738",
         alt: "El Cap from the meadows.",
       },
       {
-        src: `${base}/images/tripsGallery/IMG_6196.jpeg`,
+        publicId: "IMG_6196_npvq9c.jpg",
+        version: "v1776812744",
         alt: "Open flats on the John Muir Trail",
       },
       {
-        src: `${base}/images/tripsGallery/IMG_6228.jpeg`,
+        publicId: "IMG_6228_kkxuwm.jpg",
+        version: "v1776812745",
         alt: "Wildfire smoke blankets Yosemite.",
       },
       {
-        src: `${base}/images/tripsGallery/IMG_6240.jpeg`,
+        publicId: "IMG_6240_q7vepk.jpg",
+        version: "v1776812749",
         alt: "Yosemite looking like Mordor.",
       },
     ],
-    startDate:'October 1, 2021',
-    endDate: 'October 8, 2021'
+    startDate: "October 1, 2021",
+    endDate: "October 8, 2021",
   },
   {
     id: "shenandoah",
