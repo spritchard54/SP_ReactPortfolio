@@ -7,7 +7,7 @@ export function Home() {
   return (
     <>
       <div className="container-fluid">
-        <h3 className="mt-2">Tech Enthusiast | Aspiring Web Developer</h3>
+        <h1 className="mt-3">Tech Enthusiast | Aspiring Web Developer</h1>
         <div>
           Former Organizational Change Management &#40;OCM&#41; Consultant, current
           Customer Success Manager, aspiring Web Developer, and Fullstack Web

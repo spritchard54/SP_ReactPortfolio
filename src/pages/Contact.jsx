@@ -34,7 +34,7 @@ export function Contact() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row my-5">
+        <div className="row mt-3">
           <div className="col-12 col-lg-6">
             <h1>Contact Me</h1>
             <p className="me-5">Have a question? Feel free to reach out. I'm always open to professional opportunities! </p>
