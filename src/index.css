@@ -68,3 +68,13 @@ a.navbar-brand::first-letter {
 .table thead th {
   background-color: #e9ecef;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  margin: 0;
+}
