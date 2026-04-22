@@ -1,4 +1,4 @@
-const base = import.meta.env.BASE_URL;
+// const base = import.meta.env.BASE_URL;
 
 const mapLocations = [
   {
@@ -114,7 +114,7 @@ const mapLocations = [
     summary: "Details are in the works...",
     images: [
       {
-        publicId: "BEF6DE2E-85C0-4AD2-A05D-C36B36DF1CE1_1_105_c_v0mtcr.jpg",
+        publicId: "BEF6DE2E-85C0-4AD2-A05D-C36B36DF1CE1_1_105_c_v0mtcr",
         version: "v1776808734",
         alt: "Mystical lake in Olympic National Park",
       },
@@ -156,32 +156,32 @@ const mapLocations = [
     ],
     images: [
       {
-        publicId: "IMG_6147_bwpyae.jpg",
+        publicId: "IMG_6147_bwpyae",
         version: "v1776812748",
         alt: "El Capitan from a distance",
       },
       {
-        publicId: "IMG_6149_a5y60g.jpg",
+        publicId: "IMG_6149_a5y60g",
         version: "v1776812741",
         alt: "Mountain peaks shrouded in wildfire smoke.",
       },
       {
-        publicId: "IMG_6154_ew3ikc.jpg",
+        publicId: "IMG_6154_ew3ikc",
         version: "v1776812738",
         alt: "El Cap from the meadows.",
       },
       {
-        publicId: "IMG_6196_npvq9c.jpg",
+        publicId: "IMG_6196_npvq9c",
         version: "v1776812744",
         alt: "Open flats on the John Muir Trail",
       },
       {
-        publicId: "IMG_6228_kkxuwm.jpg",
+        publicId: "IMG_6228_kkxuwm",
         version: "v1776812745",
         alt: "Wildfire smoke blankets Yosemite.",
       },
       {
-        publicId: "IMG_6240_q7vepk.jpg",
+        publicId: "IMG_6240_q7vepk",
         version: "v1776812749",
         alt: "Yosemite looking like Mordor.",
       },

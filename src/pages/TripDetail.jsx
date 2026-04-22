@@ -5,7 +5,17 @@ import mapLocations from "../assets/js/mapLocations";
 const CLOUD_NAME = "dpir0th3m";
 
 function getCloudinaryUrl(publicId, version, width) {
-  return `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_${width},f_auto,q_auto/${version}/${publicId}`;
+  return `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_limit,w_${width},f_auto,q_auto/${version}/${publicId}`;
+}
+
+function getCloudinarySrcSet(publicId, version) {
+  const widths = [320, 480, 640, 768, 960, 1200];
+  return widths
+    .map(
+      (w) =>
+        `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/f_auto,q_auto,c_limit,w_${w}/${version}/${publicId} ${w}w`,
+    )
+    .join(", ");
 }
 
 export function TripDetail() {
@@ -39,7 +49,7 @@ export function TripDetail() {
   }
 
   const currentImage = images.length ? images[slideIndex - 1] : null;
-  
+
   return (
     <div className="container-fluid py-4">
       <div className="row">
@@ -66,26 +76,27 @@ export function TripDetail() {
             <>
               <div className="position-relative text-center">
                 <img
-                  // src={currentImage.src}
-                  // alt={currentImage.alt}
-                  // className="img-fluid rounded shadow-sm"
                   src={getCloudinaryUrl(
                     currentImage.publicId,
                     currentImage.version,
-                    900,
+                    768,
                   )}
-                  srcSet={`
-    ${getCloudinaryUrl(currentImage.publicId, currentImage.version, 500)} 500w,
-    ${getCloudinaryUrl(currentImage.publicId, currentImage.version, 900)} 900w,
-    ${getCloudinaryUrl(currentImage.publicId, currentImage.version, 1400)} 1400w
-  `}
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  srcSet={getCloudinarySrcSet(
+                    currentImage.publicId,
+                    currentImage.version,
+                  )}
+                  sizes="(min-width: 1280px) 576px, (min-width: 780px) calc(43.75vw + 25px), calc(100vw - 24px)"
                   alt={currentImage.alt}
+                  fetchPriority="high"
+                  decoding="async"
+                  width="1400"
+                  height="1050"
                   className="img-fluid rounded shadow-sm"
                 />
 
                 <button
                   type="button"
+                  aria-label="Show previous image"
                   className="btn btn-dark position-absolute top-50 start-0 translate-middle-y ms-2"
                   onClick={() => plusSlides(-1)}
                 >
@@ -94,6 +105,7 @@ export function TripDetail() {
 
                 <button
                   type="button"
+                  aria-label="Show next image"
                   className="btn btn-dark position-absolute top-50 end-0 translate-middle-y me-2"
                   onClick={() => plusSlides(1)}
                 >
@@ -107,10 +119,15 @@ export function TripDetail() {
                 {images.map((image, index) => (
                   <div key={index} className="col-2">
                     <img
-                      // src={image.src}
-                      // alt={image.alt}
-                      src={getCloudinaryUrl(image.publicId, image.version, 200)}
+                      src={getCloudinaryUrl(image.publicId, image.version, 120)}
+                      srcSet={getCloudinarySrcSet(
+                        image.publicId,
+                        image.version,
+                      )}
+                      sizes="(min-width: 1280px) 93px, (min-width: 780px) 7.29vw, calc(16.52vw - 7px)"
                       alt={image.alt}
+                      loading="lazy"
+                      decoding="async"
                       className={`img-fluid rounded trip-thumb ${
                         slideIndex === index + 1 ? "active-thumb" : ""
                       }`}
