@@ -1,5 +1,6 @@
 import activate from "../assets/portfolioImages/actMe_1000w.png";
 import weather from "../assets/portfolioImages/weatherDash_1000w.png";
+import { FaGithub } from "react-icons/fa";
 
 export function Portfolio() {
   return (
@@ -37,7 +38,11 @@ export function Portfolio() {
         <div className="row">
           <div className="col-md-6">
             <div className="card mt-5">
-              <img src={activate} className="card-img-top" alt="..." />
+              <img
+                src={activate}
+                className="card-img-top shadow-sm rounded"
+                alt="..."
+              />
               <div className="card-body">
                 <h5 className="card-title">ActivateMe</h5>
                 <p className="card-text">
@@ -50,16 +55,26 @@ export function Portfolio() {
                 <a
                   href="https://activateme.onrender.com/#"
                   target="_blank"
-                  className="btn btn-primary"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary me-2"
                 >
                   View the App...
+                </a>
+                <a
+                  href="https://github.com/spritchard54/ActivateMe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary d-inline-flex align-items-center justify-content-center gap-2"
+                >
+                  <FaGithub size="20" />
+                  Github Repo...
                 </a>
               </div>
             </div>
           </div>
           <div className="col-md-6">
             <div className="card mt-5">
-              <img src={weather} className="card-img-top" alt="..." />
+              <img src={weather} className="card-img-top shadow-sm rounded" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">OpenWeather Forecast</h5>
                 <p className="card-text">
@@ -72,9 +87,19 @@ export function Portfolio() {
                 <a
                   href="https://spritchard54.github.io/weatherDashboard/"
                   target="_blank"
-                  className="btn btn-primary"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary me-2"
                 >
                   View the App...
+                </a>
+                <a
+                  href="https://github.com/spritchard54/weatherDashboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary d-inline-flex align-items-center justify-content-center gap-2"
+                >
+                  <FaGithub size="20" />
+                  Github Repo...
                 </a>
               </div>
             </div>

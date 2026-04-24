@@ -85,3 +85,8 @@ body h3 {
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.github-icon {
+  margin-right: 4px;   /* fine control over spacing */
+  vertical-align: middle;
+}
