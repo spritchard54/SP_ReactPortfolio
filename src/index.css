@@ -86,7 +86,25 @@ body h3 {
   object-fit: cover;
 }
 
+.trip-map {
+  height: 350px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .trip-map {
+    height: 475px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .trip-map {
+    height: 550px;
+  }
+}
+
 .github-icon {
-  margin-right: 4px;   /* fine control over spacing */
+  margin-right: 4px;
+  /* fine control over spacing */
   vertical-align: middle;
 }

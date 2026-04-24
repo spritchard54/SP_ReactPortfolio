@@ -70,9 +70,10 @@ export function Trips() {
             'Open Trip...'.
           </p>
         </div>
-        <div className="row">
-          <div className="col-12 100vh">
+        <div className="row mb-3">
+          <div className="col-12">
             <MapContainer
+            className="trip-map"
               center={[40.01224336270498, -97.76226241579424]}
               zoom={4}
               worldCopyJump={true}
