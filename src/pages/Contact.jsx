@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { AiTwotoneMail } from "react-icons/ai";
 
 export function Contact() {
   const form = useRef();
@@ -36,9 +37,14 @@ export function Contact() {
       <div className="container-fluid">
         <div className="row mt-3">
           <div className="col-12 col-lg-6">
-            <h1>Contact Me</h1>
-            <p className="me-5">Have a question? Feel free to reach out. I'm always open to professional opportunities! </p>
-            <p>Question about where I've been? Happy to answer those too!</p>
+            <h1 className="d-inline-flex align-items-center justify-content-center gap-3">
+              Contact Me <AiTwotoneMail />
+            </h1>
+            <p className="me-5">
+              Have a question? Feel free to reach out. I'm always open to
+              professional opportunities!{" "}
+            </p>
+            <p>Questions about where I've been? Happy to answer those too!</p>
           </div>
           <div className="col-12 col-lg-6">
             <form ref={form} onSubmit={sendEmail} className="contact-form">
