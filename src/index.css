@@ -39,12 +39,16 @@ main {
   margin: 0 auto;
 }
 
-a.navbar-brand::first-letter {
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+}
+
+.last-name {
   font-weight: bold;
   color: #3d3f54;
 }
 
-.second-letter {
+.logo-period {
   font-weight: bold;
   color: #166f3c;
 }

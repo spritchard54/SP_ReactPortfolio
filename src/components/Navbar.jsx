@@ -6,7 +6,8 @@ export function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light ">
         <div className="container-xxl ">
           <a className="navbar-brand" href="#">
-            S<span className="second-letter">.</span>Pritchard
+            Steve<span className="logo-period">.</span>
+            <span className="last-name">Pritchard</span>
           </a>
           <button
             className="navbar-toggler"
