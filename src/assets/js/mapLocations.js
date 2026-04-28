@@ -118,7 +118,34 @@ const mapLocations = [
         version: "v1776808734",
         alt: "Mystical lake in Olympic National Park",
       },
+      {
+        publicId: "C7C9E9EB-56A9-452E-9FBA-87BC9CBBA96A_1_105_c_lzva9g",
+        version: "v1776808772",
+        alt: "A view of the mystical island after the fog has cleared.",
+      },
+      {
+        publicId: "5AB50452-E5D6-453E-ACC2-EC3AE04BBE09_1_105_c_mjjvw5",
+        version: "v1776808780",
+        alt: "Olympic tree tops shrouded in fog.",
+      },
+      {
+        publicId: "DC16B7F5-2ACC-4CD0-AD38-76B637841E0B_1_105_c_zmyfwk",
+        version: "v1776808829",
+        alt: "Beach camping in Olympic national park.",
+      },
+      {
+        publicId: "3BC6A528-F494-448F-B1FB-9C6E5024EEC8_1_105_c_qyiqev",
+        version: "v1776808877",
+        alt: "Sunset over the Olympics seen from Deer Park Campground.",
+      },
+      {
+        publicId: "AE5A28D5-2D09-453E-8538-DEECFB84A844_1_105_c_tgeoiq",
+        version: "v1776808868",
+        alt: "A snowy ridgeline with snowy peaks in the distance at Hurricane Ridge in Olynpic National Park.",
+      },
     ],
+    startDate: "June, 7th 2021",
+    endDate: "June 23, 2021",
   },
   {
     id: "yosemite",
