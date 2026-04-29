@@ -75,7 +75,7 @@ export function Home() {
               <div className="card-body">
                 <h5 className="card-title">Photos</h5>
                 <p className="card-text">
-                  I count photography among my many &lpar; too many &rpar; hobbies. This is
+                  I count photography among my many (maybe too many) hobbies. This is
                   mostly a collection of photos from trips I've been on.
                 </p>
                 <Link to="Photos" className="btn btn-primary">
