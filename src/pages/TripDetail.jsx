@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import mapLocations from "../assets/js/mapLocations";
+import ContentBlock from "../components/ContentBlock";
 
 const CLOUD_NAME = "dpir0th3m";
 
 function getCloudinaryUrl(publicId, version, width) {
   return `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_limit,w_${width},f_auto,q_auto/${version}/${publicId}`;
 }
-
 function getCloudinarySrcSet(publicId, version) {
   const widths = [320, 480, 640, 768, 960, 1200];
   return widths
@@ -27,7 +27,6 @@ export function TripDetail() {
   }
 
   const images = trip.images || [];
-
   function plusSlides(n) {
     if (!images.length) return;
 
@@ -43,11 +42,9 @@ export function TripDetail() {
 
     setSlideIndex(newIndex);
   }
-
   function currentSlide(n) {
     setSlideIndex(n);
   }
-
   const currentImage = images.length ? images[slideIndex - 1] : null;
 
   return (
@@ -62,8 +59,14 @@ export function TripDetail() {
           {trip.sections?.map((section, index) => (
             <div key={index} className="mb-4">
               <h3>{section.heading}</h3>
+              <h5>{section.subHead}</h5>
+              {/* Initial Approach */}
               {section.paragraphs?.map((paragraph, i) => (
                 <p key={i}>{paragraph}</p>
+              ))}
+              {/* New Approach */}
+              {section.blocks?.map((block, i) => (
+                <ContentBlock key={i} block={block} />
               ))}
             </div>
           ))}
