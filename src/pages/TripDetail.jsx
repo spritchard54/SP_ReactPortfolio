@@ -2,6 +2,18 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import mapLocations from "../assets/js/mapLocations";
 import ContentBlock from "../components/ContentBlock";
+import "../../node_modules/leaflet/dist/leaflet.css";
+import L from "leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  LayersControl,
+  LayerGroup,
+} from "react-leaflet";
+
+import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
 
 const CLOUD_NAME = "dpir0th3m";
 
@@ -72,7 +84,7 @@ export function TripDetail() {
           ))}
         </div>
 
-        <div className="col-12 col-md-6 order-1 order-md-2">
+        <div className="col-12 col-md-6 order-1 order-md-2 mb-3">
           {!images.length ? (
             <p>No images available for this trip yet.</p>
           ) : (
@@ -156,6 +168,37 @@ export function TripDetail() {
               </tr>
             </tbody>
           </table>
+          <MapContainer
+            className="trip-map"
+            center={trip.geocode}
+            zoom={9}
+            worldCopyJump={true}
+          >
+            <LayersControl position="topright">
+              {/* Base Layers */}
+              <LayersControl.BaseLayer checked name="OpenStreetMap">
+                <TileLayer
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                  url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+              </LayersControl.BaseLayer>
+              {/* Satellite + Labels Base Layer */}
+              <LayersControl.BaseLayer name="Satellite + Labels">
+                <LayerGroup>
+                  {/* Satellite imagery */}
+                  <TileLayer
+                    url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                    attribution="Tiles © Esri"
+                  />
+                  {/* Labels overlay on top */}
+                  <TileLayer
+                    url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+                    attribution="Labels © Esri"
+                  />
+                </LayerGroup>
+              </LayersControl.BaseLayer>
+            </LayersControl>
+          </MapContainer>
         </div>
       </div>
     </div>
