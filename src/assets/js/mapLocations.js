@@ -111,6 +111,20 @@ const mapLocations = [
     iconType: "np",
     tripName: "Olympic National Park",
     category: "National Parks",
+    markers: [
+      {
+        poi: [48.03538, -123.4255],
+        description: "Heart O' The Hills Campground"
+      },
+      {
+        poi: [48.00860, -123.43311],
+        description: "Lake Angeles Campground"
+      },
+      {
+        poi: [48.01152, -123.45811],
+        description: "Heather Park Trail Backcountry Camping"
+      },
+    ],
     summary:
       "I spent two weeks exploring Olympic and the park did not disappoint! Easily some of my favorite camping and backpacking experiences to-date and somewhere I certainly hope to get back to someday.",
     sections: [
@@ -214,7 +228,6 @@ const mapLocations = [
         ],
       },
     ],
-    
 
     images: [
       {
