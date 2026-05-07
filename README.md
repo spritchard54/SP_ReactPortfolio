@@ -1,16 +1,31 @@
-# React + Vite
+# Steve Pritchard: Tech Enthusiast | Aspiring Web Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot of spritchard.com Homepage](./public/images/spritchardPSS.png)
 
-Currently, two official plugins are available:
+## Table of Contents
+[Description](#description)<br>
+[Objectives](#objectives)<br>
+[Technologies](#technologies)<br>
+[Contact Me](#contact-me)<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Description
+Going back to the days of Angelfire and Geocities (IYKYK) I've always had an interest in building websites. This site is the next evolution of what I started over 20 years ago. It also expands on what I learned while enrolled in the Penn LPS Coding Boot Camp associated with the Penn Arts and Sciences Professional and Organizational Development program.
 
-## React Compiler
+## Objectives
+• Build a fully responsive site with great content utilizing modern development best practices and tools<br>
+• Become less reliant on AI and Google Searches while developing<br>
+• Do it entirely for free<br>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
+• [React](https://react.dev/) / [Vite](https://vite.dev/): Front end development<br>
+• [Bootstrap CSS](https://getbootstrap.com/): Styling and page layout<br>
+• [Leaflet.js](https://leafletjs.com/): Map functionality<br>
+• [Cloudinary](https://cloudinary.com): Image serving<br>
+• [Github](https://github.com) / [MS Visual Studio](https://code.visualstudio.com/): Code Management, Version Control, and Collaboration<br>
+• [React Icons](https://react-icons.github.io/react-icons/): Iconography<br>
+• [EmailJS](https://emailjs.com): Contact form functionality
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contact Me
+• [By Email](mailto:swpritchard54@gmail.com)<br>
+• [Contact Form](https://stevepritchard.com/#/contact)<br>
+• [LinkedIn](https://www.linkedin.com/in/swpritchard/)
