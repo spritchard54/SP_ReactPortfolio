@@ -37,7 +37,7 @@ export function Trips() {
   // .reduce() moves through the mapLocations array accumulating objects into the various category "buckets" or arrays
   const groupedMarkers = mapLocations.reduce((acc, marker) => {
     const category = marker.category || "Other";
-    // if an array for the category does not exist, they create a new empy array for that caetgory
+    // if an array for the category does not exist, then create a new empty array for that category
     if (!acc[category]) acc[category] = [];
     acc[category].push(marker);
     return acc;

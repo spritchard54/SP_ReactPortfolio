@@ -14,6 +14,8 @@ import {
 } from "react-leaflet";
 
 import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
+import MarkerClusterGroup from "react-leaflet-cluster";
+
 
 const CLOUD_NAME = "dpir0th3m";
 
@@ -168,6 +170,7 @@ export function TripDetail() {
               </tr>
             </tbody>
           </table>
+
           <MapContainer
             className="trip-map"
             center={trip.geocode}
@@ -198,6 +201,17 @@ export function TripDetail() {
                 </LayerGroup>
               </LayersControl.BaseLayer>
             </LayersControl>
+            <MarkerClusterGroup chunkedLoading>
+            {trip.markers?.map((marker, index) => (
+              <Marker key={index} position={marker.poi}>
+                <Popup>
+                  <div>
+                    <h6>{marker.description}</h6>
+                  </div>
+                </Popup>
+              </Marker>
+            ))}
+            </MarkerClusterGroup>
           </MapContainer>
         </div>
       </div>
