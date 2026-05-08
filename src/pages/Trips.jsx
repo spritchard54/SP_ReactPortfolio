@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import "../../node_modules/leaflet/dist/leaflet.css";
 import L from "leaflet";
 import {
@@ -45,6 +46,21 @@ export function Trips() {
 
   return (
     <>
+      <Helmet>
+        <title>Steve Pritchard | Trips</title>
+
+        <meta
+          name="description"
+          content="Explore where Steve Pritchard has been using the Leaflet.js maps."
+        />
+
+        <meta property="og:title" content="Steven Pritchard | Trips" />
+
+        <meta
+          property="og:description"
+          content="Explore where Steve Pritchard has been using the Leaflet.js maps."
+        />
+      </Helmet>
       <div className="container-fluid">
         <div className="row mt-3">
           <h1>Where I've Been</h1>
@@ -55,25 +71,41 @@ export function Trips() {
             the site, it's still a work in progress.
           </p>
           <p>
-            The map and markers are enabled by <Link to='https://leafletjs.com/' target="_blank" rel="noopener noreferrer"> Leaflet </Link> which by their own
-            account "is the leading open-source JavaScript library for
-            mobile-friendly interactive maps." In order to have this work with React I also needed to install <Link to='https://react-leaflet.js.org/' target="_blank" rel="noopener noreferrer">React Leaflet</Link>.
+            The map and markers are enabled by{" "}
+            <Link
+              to="https://leafletjs.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Leaflet{" "}
+            </Link>{" "}
+            which by their own account "is the leading open-source JavaScript
+            library for mobile-friendly interactive maps." In order to have this
+            work with React I also needed to install{" "}
+            <Link
+              to="https://react-leaflet.js.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              React Leaflet
+            </Link>
+            .
           </p>
 
           <p>
-            At any rate; I like it. You can
-            hover over the icon in the top right corner of the map then toggle
-            between various layers, and which markers you want to display on the
-            map. I'm just getting started with this and don't have content for every
-            location yet, but over time I hope to get there. In the meantime,
-            see if you know where Yosemite National Park is and click on
-            'Open Trip...'.
+            At any rate; I like it. You can hover over the icon in the top right
+            corner of the map then toggle between various layers, and which
+            markers you want to display on the map. I'm just getting started
+            with this and don't have content for every location yet, but over
+            time I hope to get there. In the meantime, see if you know where
+            Yosemite National Park is and click on 'Open Trip...'.
           </p>
         </div>
         <div className="row mb-3">
           <div className="col-12">
             <MapContainer
-            className="trip-map"
+              className="trip-map"
               center={[40.01224336270498, -97.76226241579424]}
               zoom={4}
               worldCopyJump={true}

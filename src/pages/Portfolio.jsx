@@ -1,10 +1,29 @@
 import activate from "../assets/portfolioImages/actMe_1000w.png";
 import weather from "../assets/portfolioImages/weatherDash_1000w.png";
 import { FaGithub } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 export function Portfolio() {
   return (
     <>
+     <Helmet>
+            <title>Steve Pritchard | Portfolio</title>
+    
+            <meta
+              name="description"
+              content="Steve Pritchard professional work history, projects, and resume."
+            />
+    
+            <meta
+              property="og:title"
+              content="Steven Pritchard | Portfolio"
+            />
+    
+            <meta
+              property="og:description"
+              content="Steve Pritchard professional work history, projects, and resume."
+            />
+          </Helmet>
       <div className="container-fluid ">
         <div className="row mt-3">
           <h1>Profile</h1>

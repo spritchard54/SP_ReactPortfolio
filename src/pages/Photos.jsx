@@ -1,5 +1,6 @@
 import Images from "../assets/photoGrid/photosJS/photosIndex";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export function Photos() {
   const imagesData = Images;
@@ -11,6 +12,24 @@ export function Photos() {
 
   return (
     <>
+    <Helmet>
+        <title>Steve Pritchard | Photos</title>
+
+        <meta
+          name="description"
+          content="Images shot and produced by Steve Pritchard while traveling through numerous U.S. National Parks."
+        />
+
+        <meta
+          property="og:title"
+          content="Steven Pritchard | Photos"
+        />
+
+        <meta
+          property="og:description"
+          content="Images shot and produced by Steve Pritchard while traveling through numerous U.S. National Parks"
+        />
+      </Helmet>
       <div className="container-fluid">
         <div className="row">
           <h1 className="mt-3">Summer Roadtrip &apos;21</h1>

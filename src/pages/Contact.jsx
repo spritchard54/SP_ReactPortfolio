@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { AiTwotoneMail } from "react-icons/ai";
+import { Helmet } from "react-helmet-async";
 
 export function Contact() {
   const form = useRef();
@@ -34,6 +35,25 @@ export function Contact() {
 
   return (
     <>
+     <Helmet>
+        <title>Steve Pritchard | Contact</title>
+
+        <meta
+          name="description"
+          content="Reach Steve Pritchard using the contact page."
+        />
+
+        <meta
+          property="og:title"
+          content="Steven Pritchard | Contact"
+        />
+
+        <meta
+          property="og:description"
+          content="Reach Steve Pritchard using the contact page."
+        />
+      </Helmet>
+
       <div className="container-fluid">
         <div className="row mt-3">
           <div className="col-12 col-lg-6">

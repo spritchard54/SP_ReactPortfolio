@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { getCloudinaryUrl, getCloudinarySrcSet } from "../utils/cloudinary";
+import { Helmet } from "react-helmet-async";
 const images = [
   {
     publicId: "IMG_0456_x08fkt",
@@ -21,6 +22,22 @@ const images = [
 export function Home() {
   return (
     <>
+      <Helmet>
+        <title>Steven Pritchard | Home</title>
+
+        <meta
+          name="description"
+          content="Web developer portfolio featuring React projects, travel photography, and mapping applications."
+        />
+
+        <meta property="og:title" content="Steven Pritchard | Home" />
+
+        <meta
+          property="og:description"
+          content="React portfolio featuring projects and photography."
+        />
+      </Helmet>
+
       <div className="container-fluid">
         <h1 className="mt-3">Tech Enthusiast | Aspiring Web Developer</h1>
         <div>
@@ -41,7 +58,10 @@ export function Home() {
                 src={getCloudinaryUrl(images[0].publicId, images[0].version, {
                   width: 800,
                 })}
-                srcSet={getCloudinarySrcSet(images[0].publicId, images[0].version)}
+                srcSet={getCloudinarySrcSet(
+                  images[0].publicId,
+                  images[0].version,
+                )}
                 sizes="(max-width: 768px) 100vw, 800px"
                 className="card-img-top"
                 alt="..."
@@ -66,7 +86,10 @@ export function Home() {
                 src={getCloudinaryUrl(images[1].publicId, images[1].version, {
                   width: 800,
                 })}
-                srcSet={getCloudinarySrcSet(images[1].publicId, images[1].version)}
+                srcSet={getCloudinarySrcSet(
+                  images[1].publicId,
+                  images[1].version,
+                )}
                 sizes="(max-width: 768px) 100vw, 800px"
                 className="card-img-top"
                 alt="..."
@@ -75,8 +98,8 @@ export function Home() {
               <div className="card-body">
                 <h5 className="card-title">Photos</h5>
                 <p className="card-text">
-                  I count photography among my many (maybe too many) hobbies. This is
-                  mostly a collection of photos from trips I've been on.
+                  I count photography among my many (maybe too many) hobbies.
+                  This is mostly a collection of photos from trips I've been on.
                 </p>
                 <Link to="Photos" className="btn btn-primary">
                   Browse...
@@ -88,8 +111,13 @@ export function Home() {
           <div className="col-md-4">
             <div className="card mt-5">
               <img
-                src={getCloudinaryUrl(images[2].publicId, images[2].version, {width: 800})}
-                srcSet={getCloudinarySrcSet(images[2].publicId, images[2].version)}
+                src={getCloudinaryUrl(images[2].publicId, images[2].version, {
+                  width: 800,
+                })}
+                srcSet={getCloudinarySrcSet(
+                  images[2].publicId,
+                  images[2].version,
+                )}
                 sizes="(max-width: 768px) 100vw, 800px"
                 className="card-img-top"
                 alt="..."
