@@ -76,7 +76,7 @@ export function TripDetail() {
   return (
     <>
       <Helmet>
-        <title>{trip.tripName} | Steven Pritchard</title>
+        <title>{`Steven Pritchard | ${trip.tripName}`}</title>
 
         <meta name="description" content={trip.summary} />
 
