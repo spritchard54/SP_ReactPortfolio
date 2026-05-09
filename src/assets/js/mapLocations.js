@@ -126,7 +126,7 @@ const mapLocations = [
       },
     ],
     summary:
-      "I spent two weeks exploring Olympic and the park did not disappoint! Easily some of my favorite camping and backpacking experiences to-date and somewhere I certainly hope to get back to someday.",
+      "I spent two weeks exploring Olympic National Park and was not disappointed! Easily some of my favorite camping and backpacking experiences to-date and somewhere I certainly hope to get back to someday. Here are some of the highlights and details from the trip.",
     sections: [
       {
         heading: "The Setup",
