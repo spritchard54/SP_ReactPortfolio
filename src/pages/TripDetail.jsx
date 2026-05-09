@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
+import { MdOutlineDateRange } from "react-icons/md";
 import mapLocations from "../assets/js/mapLocations";
 import ContentBlock from "../components/ContentBlock";
 import "../../node_modules/leaflet/dist/leaflet.css";
@@ -26,7 +27,6 @@ L.Icon.Default.mergeOptions({
 
 import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
 import MarkerClusterGroup from "react-leaflet-cluster";
-
 
 const CLOUD_NAME = "dpir0th3m";
 
@@ -170,8 +170,17 @@ export function TripDetail() {
           <table className="table table-bordered mt-3">
             <thead>
               <tr>
-                <th>Start Date</th>
-                <th>End Date</th>
+                <th>
+                  <div className="d-flex justify-content-between align-items-center ">
+                    <span>Start Date </span>
+                    <MdOutlineDateRange size="20" />
+                  </div>
+                </th>
+                <th>
+                  <div className="d-flex justify-content-between align-items-center ">
+                    <span> End Date</span> <MdOutlineDateRange size="20" />
+                  </div>
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -213,15 +222,15 @@ export function TripDetail() {
               </LayersControl.BaseLayer>
             </LayersControl>
             <MarkerClusterGroup chunkedLoading>
-            {trip.markers?.map((marker, index) => (
-              <Marker key={index} position={marker.poi}>
-                <Popup>
-                  <div>
-                    <h6>{marker.description}</h6>
-                  </div>
-                </Popup>
-              </Marker>
-            ))}
+              {trip.markers?.map((marker, index) => (
+                <Marker key={index} position={marker.poi}>
+                  <Popup>
+                    <div>
+                      <h6>{marker.description}</h6>
+                    </div>
+                  </Popup>
+                </Marker>
+              ))}
             </MarkerClusterGroup>
           </MapContainer>
         </div>
