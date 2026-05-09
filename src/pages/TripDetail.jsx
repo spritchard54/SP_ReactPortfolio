@@ -173,12 +173,13 @@ export function TripDetail() {
                 <th>
                   <div className="d-flex justify-content-between align-items-center ">
                     <span>Start Date </span>
-                    <MdOutlineDateRange size="20" />
+                    <MdOutlineDateRange size="20" className="text-secondary" />
                   </div>
                 </th>
                 <th>
                   <div className="d-flex justify-content-between align-items-center ">
-                    <span> End Date</span> <MdOutlineDateRange size="20" />
+                    <span> End Date</span>
+                    <MdOutlineDateRange size="20" className="text-secondary" />
                   </div>
                 </th>
               </tr>
