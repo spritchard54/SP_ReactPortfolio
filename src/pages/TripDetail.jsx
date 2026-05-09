@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { MdOutlineDateRange } from "react-icons/md";
 import mapLocations from "../assets/js/mapLocations";
 import ContentBlock from "../components/ContentBlock";
@@ -73,169 +74,190 @@ export function TripDetail() {
   const currentImage = images.length ? images[slideIndex - 1] : null;
 
   return (
-    <div className="container-fluid py-4">
-      <div className="row">
-        <h1>{trip.tripName}</h1>
-        <p>{trip.summary}</p>
-      </div>
+    <>
+      <Helmet>
+        <title>{trip.tripName} | Steven Pritchard</title>
 
-      <div className="row">
-        <div className="col-12 col-md-6 order-2 order-md-1">
-          {trip.sections?.map((section, index) => (
-            <div key={index} className="mb-4">
-              <h3>{section.heading}</h3>
-              <h5>{section.subHead}</h5>
-              {/* Initial Approach */}
-              {section.paragraphs?.map((paragraph, i) => (
-                <p key={i}>{paragraph}</p>
-              ))}
-              {/* New Approach */}
-              {section.blocks?.map((block, i) => (
-                <ContentBlock key={i} block={block} />
-              ))}
-            </div>
-          ))}
+        <meta name="description" content={trip.summary} />
+
+        <meta property="og:title" content={trip.tripName} />
+
+        <meta property="og:description" content={trip.summary} />
+      </Helmet>
+      <div className="container-fluid py-4">
+        <div className="row">
+          <h1>{trip.tripName}</h1>
+          <p>{trip.summary}</p>
         </div>
 
-        <div className="col-12 col-md-6 order-1 order-md-2 mb-3">
-          {!images.length ? (
-            <p>No images available for this trip yet.</p>
-          ) : (
-            <>
-              <div className="position-relative text-center">
-                <img
-                  src={getCloudinaryUrl(
-                    currentImage.publicId,
-                    currentImage.version,
-                    768,
-                  )}
-                  srcSet={getCloudinarySrcSet(
-                    currentImage.publicId,
-                    currentImage.version,
-                  )}
-                  sizes="(min-width: 1280px) 576px, (min-width: 780px) calc(43.75vw + 25px), calc(100vw - 24px)"
-                  alt={currentImage.alt}
-                  fetchPriority="high"
-                  decoding="async"
-                  width="1400"
-                  height="1050"
-                  className="img-fluid rounded shadow-sm"
-                />
-
-                <button
-                  type="button"
-                  aria-label="Show previous image"
-                  className="btn btn-dark position-absolute top-50 start-0 translate-middle-y ms-2"
-                  onClick={() => plusSlides(-1)}
-                >
-                  ❮
-                </button>
-
-                <button
-                  type="button"
-                  aria-label="Show next image"
-                  className="btn btn-dark position-absolute top-50 end-0 translate-middle-y me-2"
-                  onClick={() => plusSlides(1)}
-                >
-                  ❯
-                </button>
-              </div>
-
-              <p className="my-2 text-center ">{currentImage.alt}</p>
-
-              <div className="row g-1">
-                {images.map((image, index) => (
-                  <div key={index} className="col-2">
-                    <img
-                      src={getCloudinaryUrl(image.publicId, image.version, 120)}
-                      srcSet={getCloudinarySrcSet(
-                        image.publicId,
-                        image.version,
-                      )}
-                      sizes="(min-width: 1280px) 93px, (min-width: 780px) 7.29vw, calc(16.52vw - 7px)"
-                      alt={image.alt}
-                      loading="lazy"
-                      decoding="async"
-                      className={`img-fluid rounded trip-thumb ${
-                        slideIndex === index + 1 ? "active-thumb" : ""
-                      }`}
-                      style={{ cursor: "pointer" }}
-                      onClick={() => currentSlide(index + 1)}
-                    />
-                  </div>
+        <div className="row">
+          <div className="col-12 col-md-6 order-2 order-md-1">
+            {trip.sections?.map((section, index) => (
+              <div key={index} className="mb-4">
+                <h3>{section.heading}</h3>
+                <h5>{section.subHead}</h5>
+                {/* Initial Approach */}
+                {section.paragraphs?.map((paragraph, i) => (
+                  <p key={i}>{paragraph}</p>
+                ))}
+                {/* New Approach */}
+                {section.blocks?.map((block, i) => (
+                  <ContentBlock key={i} block={block} />
                 ))}
               </div>
-            </>
-          )}
-          <table className="table table-bordered mt-3">
-            <thead>
-              <tr>
-                <th>
-                  <div className="d-flex justify-content-between align-items-center ">
-                    <span>Start Date </span>
-                    <MdOutlineDateRange size="20" className="text-secondary" />
-                  </div>
-                </th>
-                <th>
-                  <div className="d-flex justify-content-between align-items-center ">
-                    <span> End Date</span>
-                    <MdOutlineDateRange size="20" className="text-secondary" />
-                  </div>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>{trip.startDate}</td>
-                <td>{trip.endDate}</td>
-              </tr>
-            </tbody>
-          </table>
+            ))}
+          </div>
 
-          <MapContainer
-            className="trip-map"
-            center={trip.geocode}
-            zoom={9}
-            worldCopyJump={true}
-          >
-            <LayersControl position="topright">
-              {/* Base Layers */}
-              <LayersControl.BaseLayer checked name="OpenStreetMap">
-                <TileLayer
-                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                  url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-              </LayersControl.BaseLayer>
-              {/* Satellite + Labels Base Layer */}
-              <LayersControl.BaseLayer name="Satellite + Labels">
-                <LayerGroup>
-                  {/* Satellite imagery */}
-                  <TileLayer
-                    url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-                    attribution="Tiles © Esri"
+          <div className="col-12 col-md-6 order-1 order-md-2 mb-3">
+            {!images.length ? (
+              <p>No images available for this trip yet.</p>
+            ) : (
+              <>
+                <div className="position-relative text-center">
+                  <img
+                    src={getCloudinaryUrl(
+                      currentImage.publicId,
+                      currentImage.version,
+                      768,
+                    )}
+                    srcSet={getCloudinarySrcSet(
+                      currentImage.publicId,
+                      currentImage.version,
+                    )}
+                    sizes="(min-width: 1280px) 576px, (min-width: 780px) calc(43.75vw + 25px), calc(100vw - 24px)"
+                    alt={currentImage.alt}
+                    fetchPriority="high"
+                    decoding="async"
+                    width="1400"
+                    height="1050"
+                    className="img-fluid rounded shadow-sm"
                   />
-                  {/* Labels overlay on top */}
-                  <TileLayer
-                    url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
-                    attribution="Labels © Esri"
-                  />
-                </LayerGroup>
-              </LayersControl.BaseLayer>
-            </LayersControl>
-            <MarkerClusterGroup chunkedLoading>
-              {trip.markers?.map((marker, index) => (
-                <Marker key={index} position={marker.poi}>
-                  <Popup>
-                    <div>
-                      <h6>{marker.description}</h6>
+
+                  <button
+                    type="button"
+                    aria-label="Show previous image"
+                    className="btn btn-dark position-absolute top-50 start-0 translate-middle-y ms-2"
+                    onClick={() => plusSlides(-1)}
+                  >
+                    ❮
+                  </button>
+
+                  <button
+                    type="button"
+                    aria-label="Show next image"
+                    className="btn btn-dark position-absolute top-50 end-0 translate-middle-y me-2"
+                    onClick={() => plusSlides(1)}
+                  >
+                    ❯
+                  </button>
+                </div>
+
+                <p className="my-2 text-center ">{currentImage.alt}</p>
+
+                <div className="row g-1">
+                  {images.map((image, index) => (
+                    <div key={index} className="col-2">
+                      <img
+                        src={getCloudinaryUrl(
+                          image.publicId,
+                          image.version,
+                          120,
+                        )}
+                        srcSet={getCloudinarySrcSet(
+                          image.publicId,
+                          image.version,
+                        )}
+                        sizes="(min-width: 1280px) 93px, (min-width: 780px) 7.29vw, calc(16.52vw - 7px)"
+                        alt={image.alt}
+                        loading="lazy"
+                        decoding="async"
+                        className={`img-fluid rounded trip-thumb ${
+                          slideIndex === index + 1 ? "active-thumb" : ""
+                        }`}
+                        style={{ cursor: "pointer" }}
+                        onClick={() => currentSlide(index + 1)}
+                      />
                     </div>
-                  </Popup>
-                </Marker>
-              ))}
-            </MarkerClusterGroup>
-          </MapContainer>
+                  ))}
+                </div>
+              </>
+            )}
+            <table className="table table-bordered mt-3">
+              <thead>
+                <tr>
+                  <th>
+                    <div className="d-flex justify-content-between align-items-center ">
+                      <span>Start Date </span>
+                      <MdOutlineDateRange
+                        size="20"
+                        className="text-secondary"
+                      />
+                    </div>
+                  </th>
+                  <th>
+                    <div className="d-flex justify-content-between align-items-center ">
+                      <span> End Date</span>
+                      <MdOutlineDateRange
+                        size="20"
+                        className="text-secondary"
+                      />
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{trip.startDate}</td>
+                  <td>{trip.endDate}</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <MapContainer
+              className="trip-map"
+              center={trip.geocode}
+              zoom={9}
+              worldCopyJump={true}
+            >
+              <LayersControl position="topright">
+                {/* Base Layers */}
+                <LayersControl.BaseLayer checked name="OpenStreetMap">
+                  <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                    url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  />
+                </LayersControl.BaseLayer>
+                {/* Satellite + Labels Base Layer */}
+                <LayersControl.BaseLayer name="Satellite + Labels">
+                  <LayerGroup>
+                    {/* Satellite imagery */}
+                    <TileLayer
+                      url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                      attribution="Tiles © Esri"
+                    />
+                    {/* Labels overlay on top */}
+                    <TileLayer
+                      url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+                      attribution="Labels © Esri"
+                    />
+                  </LayerGroup>
+                </LayersControl.BaseLayer>
+              </LayersControl>
+              <MarkerClusterGroup chunkedLoading>
+                {trip.markers?.map((marker, index) => (
+                  <Marker key={index} position={marker.poi}>
+                    <Popup>
+                      <div>
+                        <h6>{marker.description}</h6>
+                      </div>
+                    </Popup>
+                  </Marker>
+                ))}
+              </MarkerClusterGroup>
+            </MapContainer>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
