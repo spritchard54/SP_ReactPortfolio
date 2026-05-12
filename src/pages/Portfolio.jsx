@@ -6,42 +6,51 @@ import { Helmet } from "react-helmet-async";
 export function Portfolio() {
   return (
     <>
-     <Helmet>
-            <title>Steve Pritchard | Portfolio</title>
-    
-            <meta
-              name="description"
-              content="Steve Pritchard professional work history, projects, and resume."
-            />
-    
-            <meta
-              property="og:title"
-              content="Steven Pritchard | Portfolio"
-            />
-    
-            <meta
-              property="og:description"
-              content="Steve Pritchard professional work history, projects, and resume."
-            />
-          </Helmet>
+      <Helmet>
+        <title>Steve Pritchard | Portfolio</title>
+
+        <meta
+          name="description"
+          content="Steve Pritchard professional work history, projects, and resume."
+        />
+
+        <meta property="og:title" content="Steven Pritchard | Portfolio" />
+
+        <meta
+          property="og:description"
+          content="Steve Pritchard professional work history, projects, and resume."
+        />
+      </Helmet>
       <div className="container-fluid ">
         <div className="row mt-3">
           <h1>Profile</h1>
           <p>
-            I started my career as a photojournalist working for WBRE-TV in
-            Wilkes-Barre, PA and WHP-TV in Harrisburg, PA - NBC and CBS networks
-            respectively. Where I currently am at is rather different. In my
-            role as a Customer Success Manager for a marketing technology
-            company &#40; SaaS &#41;, my primary objective is to develop and
-            strengthen the customer/vendor relationship. That is to say, make
-            sure the customer is extracting value from the platform &#40;their
-            investment&#41;, and informed on other company offerings enabling
-            growth on by sides of the partnership. Where I hope to be is still a
-            bit up in the air. This portfolio exists because I have always had
-            an interest in web development going back to the early days of the
-            internet. I'm a builder and creator at heart but also a strategist
-            and a planner. It may not be clear on where I&apos;ll be in the
-            months and years ahead, but I hope I'm still doing those things.
+            I began my career as a photojournalist, working for NBC affiliate
+            WBRE-TV in Wilkes-Barre, Pennsylvania, and CBS affiliate WHP-TV in
+            Harrisburg, Pennsylvania. Those early experiences helped shape my
+            ability to think critically, communicate effectively, and tell
+            compelling stories—skills that continue to influence my work today.
+          </p>
+          <p>
+            My career path has since evolved into the technology space. As a
+            Customer Success Manager for multiple marketing technology (SaaS) companies,
+            my primary focus has been building strong customer relationships and
+            ensuring clients realize measurable value from their investment in
+            the platform. This includes guiding strategic platform adoption,
+            identifying opportunities for growth, and helping customers stay
+            informed about solutions that support long-term success for both the
+            client and the business.
+          </p>
+          <p>
+            Where I see myself in the future is still evolving, but one thing
+            has remained constant: a deep interest in technology and web
+            development. This portfolio exists because building for the web has
+            fascinated me since the early days of the internet. I’m a builder
+            and creator at heart, but also a strategist and planner who enjoys
+            solving problems and bringing ideas to life. While the exact path
+            ahead may not be fully defined, I hope it continues to involve
+            creating, learning, and working at the intersection of technology
+            and innovation.
           </p>
         </div>
         <div className="row">
@@ -93,7 +102,11 @@ export function Portfolio() {
           </div>
           <div className="col-md-6">
             <div className="card mt-5">
-              <img src={weather} className="card-img-top shadow-sm rounded" alt="..." />
+              <img
+                src={weather}
+                className="card-img-top shadow-sm rounded"
+                alt="..."
+              />
               <div className="card-body">
                 <h5 className="card-title">OpenWeather Forecast</h5>
                 <p className="card-text">
