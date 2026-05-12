@@ -5,7 +5,7 @@ export function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light ">
         <div className="container-xxl ">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Steve<span className="logo-period">.</span>
             <span className="last-name">Pritchard</span>
           </a>
