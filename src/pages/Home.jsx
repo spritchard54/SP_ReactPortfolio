@@ -19,7 +19,7 @@ const images = [
   },
 ];
 
-export function Home() {
+export default function Home() {
   return (
     <>
       <Helmet>
@@ -140,3 +140,4 @@ export function Home() {
     </>
   );
 }
+

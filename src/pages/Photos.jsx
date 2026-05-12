@@ -2,7 +2,7 @@ import Images from "../assets/photoGrid/photosJS/photosIndex";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
-export function Photos() {
+export default function Photos() {
   const imagesData = Images;
 
   // Ensure we have a list of 4 arrays each containing up to 7 image URLs

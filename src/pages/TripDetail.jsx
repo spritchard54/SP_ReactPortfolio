@@ -44,7 +44,7 @@ function getCloudinarySrcSet(publicId, version) {
     .join(", ");
 }
 
-export function TripDetail() {
+export default function TripDetail() {
   const { tripId } = useParams();
   const trip = mapLocations.find((item) => item.id === tripId);
   const [slideIndex, setSlideIndex] = useState(1);

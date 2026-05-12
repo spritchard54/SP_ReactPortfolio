@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { AiTwotoneMail } from "react-icons/ai";
 import { Helmet } from "react-helmet-async";
 
-export function Contact() {
+export default function Contact() {
   const form = useRef();
   const [status, setStatus] = useState("");
   const [sending, setSending] = useState(false);

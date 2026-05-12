@@ -3,7 +3,7 @@ import weather from "../assets/portfolioImages/weatherDash_1000w.png";
 import { FaGithub } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
 
-export function Portfolio() {
+export default function Portfolio() {
   return (
     <>
       <Helmet>

@@ -33,7 +33,7 @@ const iconMap = {
   // }),
 };
 
-export function Trips() {
+export default function Trips() {
   // acc = accumulator
   // .reduce() moves through the mapLocations array accumulating objects into the various category "buckets" or arrays
   const groupedMarkers = mapLocations.reduce((acc, marker) => {
