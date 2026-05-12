@@ -17,13 +17,15 @@ Going back to the days of Angelfire and Geocities (IYKYK) I've always had an int
 • Do it entirely for free<br>
 
 ## Technologies
-• [React](https://react.dev/) / [Vite](https://vite.dev/): Front end development<br>
-• [Bootstrap CSS](https://getbootstrap.com/): Styling and page layout<br>
-• [Leaflet.js](https://leafletjs.com/): Map functionality<br>
-• [Cloudinary](https://cloudinary.com): Image serving<br>
-• [Github](https://github.com) / [MS Visual Studio](https://code.visualstudio.com/): Code Management, Version Control, and Collaboration<br>
+• [React](https://react.dev/) / [Vite](https://vite.dev/): Front-end development and build tooling<br>
+• [Bootstrap CSS](https://getbootstrap.com/): Styling and responsive page layout<br>
+• [Leaflet.js](https://leafletjs.com/): Interactive map functionality<br>
+• [Cloudinary](https://cloudinary.com): Image hosting, optimization, and delivery<br>
+• [GitHub](https://github.com): Version control and repository management<br>
+• [Visual Studio Code](https://code.visualstudio.com/): Code editor<br>
+• [Render](https://render.com): Static site hosting and automated deployments<br>
 • [React Icons](https://react-icons.github.io/react-icons/): Iconography<br>
-• [EmailJS](https://emailjs.com): Contact form functionality
+• [EmailJS](https://emailjs.com): Contact form functionality<br>
 
 ## Contact Me
 • [By Email](mailto:swpritchard54@gmail.com)<br>
