@@ -17,6 +17,11 @@ const images = [
     version: "v1776812749",
     alt: "Red mountains deep in the Yosemite Backcountry",
   },
+  {
+    publicId: "IMG_0690_sal2lc.jpg",
+    version: "v1779133087",
+    alt: "Steve sitting at desk working hard or hardly working...",
+  },
 ];
 
 export default function Home() {
@@ -39,21 +44,42 @@ export default function Home() {
       </Helmet>
 
       <div className="container-fluid">
-        <h1 className="mt-3">Tech Enthusiast | Aspiring Web Developer</h1>
-        <div>
-          Former Organizational Change Management &#40;OCM&#41; Consultant,
-          current Customer Success Manager, aspiring Web Developer, and
-          Fullstack Web Development Bootcamp graduate from the University of
-          Pennsylvania. Having worked in or adjacent to technology for over a
-          decade, I've seen a lot, done a lot, and learned a lot along the way.
-          This site is equal parts playground and, showcase for what I know and
-          what I've done. To learn more about my work history, check out my
-          resume. Thanks for stopping by!
+        <h1 className="my-4">Tech Enthusiast | Aspiring Web Developer</h1>
+        <div className="row">
+          {/* Intro Text */}
+          <div className="col-12 col-lg-7 home-paragraph">
+            <h3>A portfolio project...</h3>
+            Former Organizational Change Management &#40;OCM&#41; Consultant,
+            current Customer Success Manager, aspiring Web Developer, and
+            Fullstack Web Development Bootcamp graduate from the University of
+            Pennsylvania. Having worked in or adjacent to technology for over a
+            decade, I've seen a lot, done a lot, and learned a lot along the
+            way. This site is equal parts playground and, showcase for what I
+            know and what I've done. To learn more about my work history, check
+            out my resume. Thanks for stopping by!
+          </div>
+          {/* Intro Image */}
+          <div className="col-12 col-lg-5">
+            <img
+              src={getCloudinaryUrl(images[3].publicId, images[3].version, {
+                width: 500,
+              })}
+              srcSet={getCloudinarySrcSet(
+                images[3].publicId,
+                images[3].version,
+              )}
+              sizes="(max-width: 500px) 100vw, 500px"
+              className="rounded img-fluid"
+              alt="..."
+              loading="lazy"
+            />
+          </div>
         </div>
-
-        <div className="row justify-content-center mb-4">
+        {/* Cards Section */}
+        <div className="row justify-content-center mb-5">
+          <h3 className="my-4">What I've done and what I'm working on...</h3>
           <div className="col-md-4">
-            <div className="card mt-5">
+            <div className="card">
               <img
                 src={getCloudinaryUrl(images[0].publicId, images[0].version, {
                   width: 800,
@@ -81,7 +107,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card mt-5">
+            <div className="card">
               <img
                 src={getCloudinaryUrl(images[1].publicId, images[1].version, {
                   width: 800,
@@ -107,9 +133,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-
           <div className="col-md-4">
-            <div className="card mt-5">
+            <div className="card">
               <img
                 src={getCloudinaryUrl(images[2].publicId, images[2].version, {
                   width: 800,
@@ -140,4 +165,3 @@ export default function Home() {
     </>
   );
 }
-
