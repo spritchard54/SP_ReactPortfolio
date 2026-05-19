@@ -47,19 +47,20 @@ export default function Home() {
         <h1 className="my-4">Tech Enthusiast | Aspiring Web Developer</h1>
         <div className="row">
           {/* Intro Text */}
-          <div className="col-12 col-lg-7 home-paragraph">
+          <div className="col-12 col-lg-7 order-2 order-lg-1 home-paragraph">
             <h3>A portfolio project...</h3>
-            Former Organizational Change Management &#40;OCM&#41; Consultant,
-            current Customer Success Manager, aspiring Web Developer, and
-            Fullstack Web Development Bootcamp graduate from the University of
-            Pennsylvania. Having worked in or adjacent to technology for over a
-            decade, I've seen a lot, done a lot, and learned a lot along the
-            way. This site is equal parts playground and, showcase for what I
-            know and what I've done. To learn more about my work history, check
-            out my resume. Thanks for stopping by!
+             <p>
+              I bring over a decade of experience working in and alongside technology, with a background spanning customer success, consulting, and organizational change management. After beginning my career in broadcast journalism as a photojournalist, I transitioned into technology-focused roles supporting enterprise software implementations, stakeholder engagement, and customer success.
+            </p>
+            <p>
+              At Deloitte, I supported Oracle and SAP system implementations with a focus on change management, training, and stakeholder communication. Most recently, as a Customer Success Manager in the SaaS space, I help customers maximize value from technology investments through relationship management, platform adoption, and strategic partnership building.
+            </p>
+            <p>
+              Driven by a long-standing interest in web development and technology, I completed the University of Pennsylvania Full Stack Web Development Bootcamp and built a portfolio site showcasing full stack web develoment projects, photography, travel content, and interactive web experiences.
+            </p>
           </div>
           {/* Intro Image */}
-          <div className="col-12 col-lg-5">
+          <div className="col-12 col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
             <img
               src={getCloudinaryUrl(images[3].publicId, images[3].version, {
                 width: 500,
@@ -69,7 +70,7 @@ export default function Home() {
                 images[3].version,
               )}
               sizes="(max-width: 500px) 100vw, 500px"
-              className="rounded img-fluid"
+              className="rounded img-fluid shadow-sm"
               alt="..."
               loading="lazy"
             />
@@ -77,9 +78,9 @@ export default function Home() {
         </div>
         {/* Cards Section */}
         <div className="row justify-content-center mb-5">
-          <h3 className="my-4">What I've done and what I'm working on...</h3>
+          <h3 className="mb-4 mt-3">What I've done and what I'm working on...</h3>
           <div className="col-md-4">
-            <div className="card">
+            <div className="card mb-3">
               <img
                 src={getCloudinaryUrl(images[0].publicId, images[0].version, {
                   width: 800,
@@ -107,7 +108,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card">
+            <div className="card mb-3">
               <img
                 src={getCloudinaryUrl(images[1].publicId, images[1].version, {
                   width: 800,
@@ -134,7 +135,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card">
+            <div className="card mb-3">
               <img
                 src={getCloudinaryUrl(images[2].publicId, images[2].version, {
                   width: 800,
