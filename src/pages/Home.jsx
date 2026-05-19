@@ -44,7 +44,7 @@ export default function Home() {
       </Helmet>
 
       <div className="container-fluid">
-        <h1 className="my-4">Tech Enthusiast | Aspiring Web Developer</h1>
+        <h1 className="home-title my-4">Tech Enthusiast | Aspiring Web Developer</h1>
         <div className="row">
           {/* Intro Text */}
           <div className="col-12 col-lg-7 order-2 order-lg-1 home-paragraph">
