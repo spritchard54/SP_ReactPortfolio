@@ -55,6 +55,12 @@ export function Navbar() {
               </NavLink>
             </li>
 
+            {/* <li className="nav-item">
+              <NavLink className="nav-link" to="/vinyl" onClick={closeMenu}>
+                Vinyl
+              </NavLink>
+            </li> */}
+
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact" onClick={closeMenu}>
                 Contact
