@@ -1,0 +1,281 @@
+[
+  {
+    "_id": {
+      "$oid": "697e466cd290195c1e84714f"
+    },
+    "artist": "Glass Animals",
+    "albumName": "I love You So F***ing Much",
+    "releaseDate": {
+      "$date": "2024-07-19T00:00:00Z"
+    },
+    "genre": "Pop",
+    "style": "Indie Pop",
+    "aSide": [
+      "Show Pony",
+      "Whatthehellishappening?",
+      "Creatures In Heaven",
+      "Wonderful Nothing",
+      "A Tear in Space (Airlock)"
+    ],
+    "catalogNumber": "602465191974",
+    "label": "Polydor",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779838469/Screenshot_2026-05-26_at_7.34.09_PM_e0mfvm"
+  },
+  {
+    "_id": {
+      "$oid": "6980ea7059fd5bfa580f04fe"
+    },
+    "artist": "Fugees",
+    "albumName": "The Score",
+    "releaseDate": {
+      "$date": "1996-02-13T00:00:00Z"
+    },
+    "aSide": [
+      "Red Intro",
+      "How MANY Mics",
+      "Ready Or Not",
+      "Zealots",
+      "The Beast"
+    ],
+    "bSide": [
+      "Fu-Gee-La",
+      "Family Business",
+      "Killing Me Softly"
+    ],
+    "cSide": [
+      "The Score",
+      "The Mask",
+      "Cowboys"
+    ],
+    "dSide": [
+      "No Woman, No Cry",
+      "Manifest/Outro"
+    ],
+    "genre": "Hip-Hop",
+    "style": "Pop Rap, Concious",
+    "catalogNumber": "88765400911",
+    "label": "Ruffhouse Records",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779837844/Screenshot_2026-05-26_at_7.23.10_PM_cc4wgw"
+    
+  },
+  {
+    "_id": {
+      "$oid": "69810e4efa5e4b6ce22f3ba8"
+    },
+    "artist": "Danger Mouse & Black Thought",
+    "albumName": "Cheat Codes",
+    "releaseDate": {
+      "$date": "2022-08-12T00:00:00Z"
+    },
+    "aSide": [
+      "Sometimes",
+      "Cheat Codes",
+      "The Darkest Part",
+      "No Gold Teeth",
+      "Because",
+      "Belize"
+    ],
+    "bSide": [
+      "Aquamarine",
+      "Identical Deaths",
+      "Strangers",
+      "Close to Famous",
+      "Saltwater",
+      "Violas And Lupitas"
+    ],
+    "genre": "Hip-Hop",
+    "style": [
+      "Instrumental",
+      "Boom Bap"
+    ],
+    "catalogNumber": "4050538791655",
+    "label": "BMG",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779895879/Screenshot_2026-05-27_at_11.31.02_AM_uzmapa"
+  },
+  {
+    "_id": {
+      "$oid": "698253b41f30bf0b0f650053"
+    },
+    "artist": "Beck",
+    "albumName": "Mellow Gold",
+    "releaseDate": {
+      "$date": "1994-03-01T05:00:00Z"
+    },
+    "aSide": [
+      "Loser",
+      "Pay No Mind (Snoozer)",
+      "Fukin With My Head (Mountain Dew Rock)",
+      "Whiskeyclone, Hotel City 1997",
+      "Soul Suckin Jerk",
+      "Sweet Sunshine"
+    ],
+    "bSide": [
+      "Beercan",
+      "Steal My Body Home",
+      "Nitemare Hippy Girl",
+      "Mutherfuker",
+      "Blackhole"
+    ],
+    "genre": [
+      "Electronic",
+      "Rock"
+    ],
+    "style": [
+      "Leftfield",
+      "Lo-Fi"
+    ],
+    "catalogNumber": "602478459191",
+    "label": "Bongload Records",
+    "discogsLink": "https://www.discogs.com/release/34637878-Beck-Mellow-Gold",
+    "pricePaid": 33.99,
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779899846/beckMellowGold_eprxgf"
+  },
+  {
+    "_id": {
+      "$oid": "69825b041f30bf0b0f650054"
+    },
+    "artist": "The Black Keys",
+    "albumName": "The Big Come Up",
+    "releaseDate": {
+      "$date": "1970-01-01T00:00:00Z"
+    },
+    "aSide": [
+      "Busted",
+      "Do The Rump",
+      "I'll Be Your Man",
+      "Countdown",
+      "The Breaks",
+      "Run Me Down",
+      "She Said, She Said [Alternate Version]"
+    ],
+    "bSide": [
+      "Heavy Soul [Alternate Version]",
+      "Yearnin' [Alternate Version]",
+      "No Fun [Vinyl Only]",
+      "Them Eyes",
+      "Leavin' Trunk",
+      "Brooklyn Bound",
+      "240 Years Before Your Time"
+    ],
+    "genre": [
+      "Rock, Blues"
+    ],
+    "style": "Blues Rock",
+    "catalogNumber": "ALIVE 0044-1",
+    "label": "Alive Records",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779900021/bkBigComeUp_cip3ir"
+  },
+  {
+    "_id": {
+      "$oid": "6983858296ce60b10cc39461"
+    },
+    "artist": "Dr. Dre",
+    "albumName": "The Chronic",
+    "releaseDate": {
+      "$date": "1992-12-15T00:00:00Z"
+    },
+    "aSide": [
+      "The Chronic (Intro)",
+      "F_ _ _ Wit Dre Day (And Everybody's Celebratin')",
+      "Let Me Ride",
+      "The Day The Niggaz Took Over"
+    ],
+    "bSide": [
+      "Nuthin' But A 'G' Thang",
+      "Deeez Nuuuts",
+      "Lil' Ghetto Boy"
+    ],
+    "cSide": [
+      "A Nigga Witta Gun",
+      "Rat-Tat-Tat-Tat",
+      "The $20 Sack Pyramid",
+      "Lyrical Gangbang",
+      "High Powered"
+    ],
+    "dSide": [
+      "The Doctor's Office",
+      "Stranded On Death Row",
+      "The Roach (The Chronic Outro)",
+      "Bitches Ain't S _ _ _"
+    ],
+    "genre": "Hip Hop",
+    "style": [
+      "Gangsta",
+      "G-Funk"
+    ],
+    "catalogNumber": "DRR 63000-1",
+    "label": "Death Row Records",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779900172/ddthechronic_ev48gw"
+  },
+  {
+    "_id": {
+      "$oid": "6a16400388e362e8d497ea41"
+    },
+    "artist": "Alabama Shakes",
+    "albumName": "Sound & Color",
+    "releaseDate": {
+      "$date": "2015-04-17T04:00:00Z"
+    },
+    "aSide": [
+      "Sound & Color",
+      "Don't Wanna Fight",
+      "Dunes",
+      "Future People"
+    ],
+    "bSide": [
+      "Gimme All Your Love",
+      "This Feeling",
+      "Guess Who",
+      "The Greatest",
+      "Shoegaze"
+    ],
+    "cSide": [
+      "Miss You",
+      "Gemini",
+      "Over My Head",
+      "Drive By Baby",
+      "Joe"
+    ],
+    "dSide": [
+      "Someday",
+      "Don't Wanna Fight (Live From Capital Studio A)",
+      "Future People (Live From Capital Studio A)",
+      "Dunes (Live From Capital Studio A)",
+      "Over My Head (Live From Capital Studio A)"
+    ],
+    "genre": "Rock",
+    "style": "Alternative Rock",
+    "catalogNumber": "0882445713 / ATO0545",
+    "label": "ATO Records",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779898556/Screenshot_2026-05-27_at_12.15.45_PM_syjp7w"
+  },
+  {
+  "_id": {
+    "$oid": "6a172ea100454ba49851e3b7"
+  },
+  "artist": "Kids See Ghosts",
+  "albumName": "Kids See Ghosts",
+  "releaseDate": {
+    "$date": "2018-06-08T04:00:00.000Z"
+  },
+  "aSide": [
+    "Feel The Love",
+    "Fire",
+    "4th Dimension",
+    "Freeee (Ghost Town Pt. 2)"
+  ],
+  "bSide": [
+    "Reborn",
+    "Kids See Ghosts",
+    "Cudi Montage"
+  ],
+  "style": [
+    "Pop Rap",
+    "Experimental"
+  ],
+  "catalogNumber": "B0028760",
+  "label": "Def Jam Recordings",
+  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779904148/ksgksg_agddqu",
+  "genre": "Hip-Hop"
+}
+]
