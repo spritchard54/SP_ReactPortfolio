@@ -26,7 +26,6 @@ function Vinyl() {
 
   const filteredRecords = vinylRecords.filter((record) => {
     const artistMatch = !selectedArtist || record.artist === selectedArtist;
-
     const genreMatch =
       !selectedGenre ||
       (Array.isArray(record.genre)
@@ -40,23 +39,18 @@ function Vinyl() {
     // Bootstrap container adds responsive spacing and layout.
     // my-4 = margin-top and margin-bottom
     <div className="container my-4">
-      {/* Page heading */}
       <h1>Vinyl Collection</h1>
-      {/* Intro paragraph */}
       <p>A small selection of albums from my personal record collection.</p>
-      
       
       <div className="row mb-4">
         <div className="col-md-6">
           <label className="form-label">Filter by Artist</label>
-
           <select
             className="form-select"
             value={selectedArtist}
             onChange={(e) => setSelectedArtist(e.target.value)}
           >
             <option value="">All Artists</option>
-
             {artists.map((artist) => (
               <option key={artist} value={artist}>
                 {artist}
@@ -64,16 +58,15 @@ function Vinyl() {
             ))}
           </select>
         </div>
+
         <div className="col-md-6">
           <label className="form-label">Filter by Genre</label>
-
           <select
             className="form-select"
             value={selectedGenre}
             onChange={(e) => setSelectedGenre(e.target.value)}
           >
             <option value="">All Genres</option>
-
             {genres.map((genre) => (
               <option key={genre} value={genre}>
                 {genre}
@@ -95,9 +88,10 @@ function Vinyl() {
         {/* 
           Create a copy of the array before sorting.
           Why? .sort() mutates the original array.
-          Using [...vinylRecords] preserves the original data.
+          Using [...filteredRecords] preserves the original data.
         */}
         {[...filteredRecords]
+        
           // Sort albums alphabetically by artist name.
           // We remove "The" from artist names so
           // "The Black Keys" sorts under B instead of T.
