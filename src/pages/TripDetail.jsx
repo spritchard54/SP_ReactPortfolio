@@ -4,6 +4,8 @@ import { Helmet } from "react-helmet-async";
 import { MdOutlineDateRange } from "react-icons/md";
 import mapLocations from "../assets/js/mapLocations";
 import ContentBlock from "../components/ContentBlock";
+import TripReportCard from "../components/TripReportCard";
+import tripCardDetails from "../assets/js/tripCards";
 import "../../node_modules/leaflet/dist/leaflet.css";
 import L from "leaflet";
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
@@ -17,6 +19,9 @@ import {
   LayersControl,
   LayerGroup,
 } from "react-leaflet";
+import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
+import MarkerClusterGroup from "react-leaflet-cluster";
+
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -25,9 +30,6 @@ L.Icon.Default.mergeOptions({
   iconUrl: markerIcon,
   shadowUrl: markerShadow,
 });
-
-import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
-import MarkerClusterGroup from "react-leaflet-cluster";
 
 const CLOUD_NAME = "dpir0th3m";
 
@@ -48,6 +50,9 @@ export default function TripDetail() {
   const { tripId } = useParams();
   const trip = mapLocations.find((item) => item.id === tripId);
   const [slideIndex, setSlideIndex] = useState(1);
+
+const reportCards = tripCardDetails[tripId] || [];
+
   if (!trip) {
     return <h1>Trip not found</h1>;
   }
@@ -77,13 +82,11 @@ export default function TripDetail() {
     <>
       <Helmet>
         <title>{`Steven Pritchard | ${trip.tripName}`}</title>
-
         <meta name="description" content={trip.summary} />
-
         <meta property="og:title" content={trip.tripName} />
-
         <meta property="og:description" content={trip.summary} />
       </Helmet>
+
       <div className="container-fluid py-4">
         <div className="row">
           <h1>{trip.tripName}</h1>
@@ -91,24 +94,7 @@ export default function TripDetail() {
         </div>
 
         <div className="row">
-          <div className="col-12 col-md-6 order-2 order-md-1">
-            {trip.sections?.map((section, index) => (
-              <div key={index} className="mb-4">
-                <h3>{section.heading}</h3>
-                <h5>{section.subHead}</h5>
-                {/* Initial Approach */}
-                {section.paragraphs?.map((paragraph, i) => (
-                  <p key={i}>{paragraph}</p>
-                ))}
-                {/* New Approach */}
-                {section.blocks?.map((block, i) => (
-                  <ContentBlock key={i} block={block} />
-                ))}
-              </div>
-            ))}
-          </div>
-
-          <div className="col-12 col-md-6 order-1 order-md-2 mb-3">
+          <div className="col-6">
             {!images.length ? (
               <p>No images available for this trip yet.</p>
             ) : (
@@ -212,50 +198,56 @@ export default function TripDetail() {
                 </tr>
               </tbody>
             </table>
-
-            <MapContainer
-              className="trip-map"
-              center={trip.geocode}
-              zoom={9}
-              worldCopyJump={true}
-            >
-              <LayersControl position="topright">
-                {/* Base Layers */}
-                <LayersControl.BaseLayer checked name="OpenStreetMap">
-                  <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                    url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-                  />
-                </LayersControl.BaseLayer>
-                {/* Satellite + Labels Base Layer */}
-                <LayersControl.BaseLayer name="Satellite + Labels">
-                  <LayerGroup>
-                    {/* Satellite imagery */}
-                    <TileLayer
-                      url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-                      attribution="Tiles © Esri"
-                    />
-                    {/* Labels overlay on top */}
-                    <TileLayer
-                      url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
-                      attribution="Labels © Esri"
-                    />
-                  </LayerGroup>
-                </LayersControl.BaseLayer>
-              </LayersControl>
-              <MarkerClusterGroup chunkedLoading>
-                {trip.markers?.map((marker, index) => (
-                  <Marker key={index} position={marker.poi}>
-                    <Popup>
-                      <div>
-                        <h6>{marker.description}</h6>
-                      </div>
-                    </Popup>
-                  </Marker>
-                ))}
-              </MarkerClusterGroup>
-            </MapContainer>
           </div>
+          <div className="col-6">
+             <MapContainer
+            className="trip-map"
+            center={trip.geocode}
+            zoom={9}
+            worldCopyJump={true}
+          >
+            <LayersControl position="topright">
+              {/* Base Layers */}
+              <LayersControl.BaseLayer checked name="OpenStreetMap">
+                <TileLayer
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                  url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+              </LayersControl.BaseLayer>
+              {/* Satellite + Labels Base Layer */}
+              <LayersControl.BaseLayer name="Satellite + Labels">
+                <LayerGroup>
+                  {/* Satellite imagery */}
+                  <TileLayer
+                    url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                    attribution="Tiles © Esri"
+                  />
+                  {/* Labels overlay on top */}
+                  <TileLayer
+                    url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+                    attribution="Labels © Esri"
+                  />
+                </LayerGroup>
+              </LayersControl.BaseLayer>
+            </LayersControl>
+            <MarkerClusterGroup chunkedLoading>
+              {trip.markers?.map((marker, index) => (
+                <Marker key={index} position={marker.poi}>
+                  <Popup>
+                    <div>
+                      <h6>{marker.description}</h6>
+                    </div>
+                  </Popup>
+                </Marker>
+              ))}
+            </MarkerClusterGroup>
+          </MapContainer>
+          </div>
+        </div>
+        <div className="row">
+          {reportCards.map((reportCards) => (
+            <TripReportCard key={reportCards.id} trip={reportCards} />
+          ))}
         </div>
       </div>
     </>
