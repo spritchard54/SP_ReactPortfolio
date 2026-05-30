@@ -93,8 +93,8 @@ const reportCards = tripCardDetails[tripId] || [];
           <p>{trip.summary}</p>
         </div>
 
-        <div className="row">
-          <div className="col-6">
+        <div className="row mb-3 g-4">
+          <div className="col-12 col-md-6">
             {!images.length ? (
               <p>No images available for this trip yet.</p>
             ) : (
@@ -199,7 +199,7 @@ const reportCards = tripCardDetails[tripId] || [];
               </tbody>
             </table>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-md-6">
              <MapContainer
             className="trip-map"
             center={trip.geocode}
@@ -244,7 +244,7 @@ const reportCards = tripCardDetails[tripId] || [];
           </MapContainer>
           </div>
         </div>
-        <div className="row">
+        <div className="row g-4">
           {reportCards.map((reportCards) => (
             <TripReportCard key={reportCards.id} trip={reportCards} />
           ))}
