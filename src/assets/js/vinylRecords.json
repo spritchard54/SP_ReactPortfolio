@@ -277,5 +277,75 @@
   "label": "Def Jam Recordings",
   "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779904148/ksgksg_agddqu",
   "genre": "Hip-Hop"
+},
+{
+  "_id": {
+    "$oid": "6a1b525700454ba49851e3b8"
+  },
+  "artist": "Alabama Shakes",
+  "albumName": "Boys & Girls",
+  "releaseDate": {
+    "$date": "2012-04-10T04:00:00.000Z"
+  },
+  "aSide": [
+    "Hold On",
+    "I found You",
+    "Hang Loose",
+    "Rise To The Sun",
+    "You Ain't Alone"
+  ],
+  "bSide": [
+    "Goin' To The Party",
+    "Heartbreaker",
+    "Boys & Girls",
+    "Be Mine",
+    "I Ain't the Same",
+    "On Your Way"
+  ],
+  "style": "Alternative Rock",
+  "catalogNumber": "0882330613 / ATO0431",
+  "label": "ATO Records",
+  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780175423/AS_BoysAndGirls_pmwqp6",
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "6a1b591c00454ba49851e3b9"
+  },
+  "artist": "Dan Auerbach",
+  "albumName": "Keep It Hid",
+  "releaseDate": {
+    "$date": "2009-02-10T00:00:00.000Z"
+  },
+  "aSide": [
+    "Trouble Weighs A Ton",
+    "I Want Some More",
+    "Heartbroken, In Disrepair",
+    "Becuase I Should",
+    "Whispered Words (Pretty Lies)",
+    "Real Desire",
+    "When The Night Comes"
+  ],
+  "bSide": [
+    "Mean Monsoon",
+    "The Prowl",
+    "Keep It Hid",
+    "My Last Mistake",
+    "When I Left The Room",
+    "Street Walkn'",
+    "Goin' Home"
+  ],
+  "style": [
+    "Alternative Rock",
+    "Blue Rock",
+    "Garage Rock"
+  ],
+  "catalogNumber": "EES-01901",
+  "label": "Easy Eye Sound",
+  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780177045/DA-KeepItHid_qoxfma",
+  "genre": [
+    "Rock",
+    "Blues"
+  ]
 }
 ]

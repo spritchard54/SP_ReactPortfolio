@@ -143,7 +143,7 @@ function Vinyl() {
                   </h5>
 
                   <p className="card-text">
-                    <strong>Album Name:</strong> {record.albumName}
+                    <strong>Album:</strong> {record.albumName}
                   </p>
                   <p className="card-text">
                     <strong>Genre:</strong>{" "}
