@@ -347,5 +347,45 @@
     "Rock",
     "Blues"
   ]
+},
+{
+  "_id": {
+    "$oid": "6a1f49f600454ba49851e3ba"
+  },
+  "artist": "Beck",
+  "albumName": "Guero",
+  "releaseDate": {
+    "$date": "2005-03-29T00:00:00.000Z"
+  },
+  "aSide": [
+    "E-Pro",
+    "Que Onda Guero",
+    "Girl",
+    "Missing",
+    "Black Tambourine",
+    "Earthquake Weather"
+  ],
+  "bSide": [
+    "Hell Yes",
+    "Broken Drum",
+    "Scarecrow",
+    "Go It Alone",
+    "Farewell Ride",
+    "Rental Car",
+    "Emergency Exit"
+  ],
+  "style": [
+    "Indie Rock",
+    "Electro",
+    "Alternative Rock",
+    "Pop Rock"
+  ],
+  "catalogNumber": "B0025356-01",
+  "label": "Interscope Records",
+  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780435425/bk-guero_fjz02d",
+  "genre": [
+    "Alternative Rock",
+    "Pop Rock"
+  ]
 }
 ]
