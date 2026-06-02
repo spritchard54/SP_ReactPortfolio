@@ -45,9 +45,9 @@ export default function Home() {
 
       <div className="container-fluid">
         <h1 className="home-title my-4">Tech Enthusiast | Aspiring Web Developer</h1>
-        <div className="row">
+        <div className="row align-items-start">
           {/* Intro Text */}
-          <div className="col-12 col-lg-7 order-2 order-lg-1 home-paragraph">
+          <div className="col-12 col-md-7 order-2 order-md-1 home-paragraph">
             <h3>A portfolio project...</h3>
              <p>
               I bring over a decade of experience working in and alongside technology, with a background spanning customer success, consulting, and organizational change management. After beginning my career in broadcast journalism as a photojournalist, I transitioned into technology-focused roles supporting enterprise software implementations, stakeholder engagement, and customer success.
@@ -60,17 +60,17 @@ export default function Home() {
             </p>
           </div>
           {/* Intro Image */}
-          <div className="col-12 col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
+          <div className="col-12 col-md-5 order-1 order-md-2 mb-4 mb-md-0">
             <img
               src={getCloudinaryUrl(images[3].publicId, images[3].version, {
-                width: 500,
+                width: 900,
               })}
               srcSet={getCloudinarySrcSet(
                 images[3].publicId,
                 images[3].version,
               )}
-              sizes="(max-width: 500px) 100vw, 500px"
-              className="rounded img-fluid shadow-sm"
+              sizes="(max-width: 991px) 100vw, 500px"
+              className="home-image rounded img-fluid shadow-sm w-100"
               alt="..."
               loading="lazy"
             />
