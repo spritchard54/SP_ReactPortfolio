@@ -56,7 +56,6 @@
     "catalogNumber": "88765400911",
     "label": "Ruffhouse Records",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779837844/Screenshot_2026-05-26_at_7.23.10_PM_cc4wgw"
-    
   },
   {
     "_id": {
@@ -158,7 +157,8 @@
       "240 Years Before Your Time"
     ],
     "genre": [
-      "Rock", "Blues"
+      "Rock",
+      "Blues"
     ],
     "style": "Blues Rock",
     "catalogNumber": "ALIVE 0044-1",
@@ -250,182 +250,229 @@
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779898556/Screenshot_2026-05-27_at_12.15.45_PM_syjp7w"
   },
   {
-  "_id": {
-    "$oid": "6a172ea100454ba49851e3b7"
+    "_id": {
+      "$oid": "6a172ea100454ba49851e3b7"
+    },
+    "artist": "Kids See Ghosts",
+    "albumName": "Kids See Ghosts",
+    "releaseDate": {
+      "$date": "2018-06-08T04:00:00.000Z"
+    },
+    "aSide": [
+      "Feel The Love",
+      "Fire",
+      "4th Dimension",
+      "Freeee (Ghost Town Pt. 2)"
+    ],
+    "bSide": [
+      "Reborn",
+      "Kids See Ghosts",
+      "Cudi Montage"
+    ],
+    "style": [
+      "Pop Rap",
+      "Experimental"
+    ],
+    "catalogNumber": "B0028760",
+    "label": "Def Jam Recordings",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779904148/ksgksg_agddqu",
+    "genre": "Hip-Hop"
   },
-  "artist": "Kids See Ghosts",
-  "albumName": "Kids See Ghosts",
-  "releaseDate": {
-    "$date": "2018-06-08T04:00:00.000Z"
+  {
+    "_id": {
+      "$oid": "6a1b525700454ba49851e3b8"
+    },
+    "artist": "Alabama Shakes",
+    "albumName": "Boys & Girls",
+    "releaseDate": {
+      "$date": "2012-04-10T04:00:00.000Z"
+    },
+    "aSide": [
+      "Hold On",
+      "I found You",
+      "Hang Loose",
+      "Rise To The Sun",
+      "You Ain't Alone"
+    ],
+    "bSide": [
+      "Goin' To The Party",
+      "Heartbreaker",
+      "Boys & Girls",
+      "Be Mine",
+      "I Ain't the Same",
+      "On Your Way"
+    ],
+    "style": "Alternative Rock",
+    "catalogNumber": "0882330613 / ATO0431",
+    "label": "ATO Records",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780175423/AS_BoysAndGirls_pmwqp6",
+    "genre": "Rock"
   },
-  "aSide": [
-    "Feel The Love",
-    "Fire",
-    "4th Dimension",
-    "Freeee (Ghost Town Pt. 2)"
-  ],
-  "bSide": [
-    "Reborn",
-    "Kids See Ghosts",
-    "Cudi Montage"
-  ],
-  "style": [
-    "Pop Rap",
-    "Experimental"
-  ],
-  "catalogNumber": "B0028760",
-  "label": "Def Jam Recordings",
-  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779904148/ksgksg_agddqu",
-  "genre": "Hip-Hop"
-},
-{
-  "_id": {
-    "$oid": "6a1b525700454ba49851e3b8"
+  {
+    "_id": {
+      "$oid": "6a1b591c00454ba49851e3b9"
+    },
+    "artist": "Dan Auerbach",
+    "albumName": "Keep It Hid",
+    "releaseDate": {
+      "$date": "2009-02-10T00:00:00.000Z"
+    },
+    "aSide": [
+      "Trouble Weighs A Ton",
+      "I Want Some More",
+      "Heartbroken, In Disrepair",
+      "Becuase I Should",
+      "Whispered Words (Pretty Lies)",
+      "Real Desire",
+      "When The Night Comes"
+    ],
+    "bSide": [
+      "Mean Monsoon",
+      "The Prowl",
+      "Keep It Hid",
+      "My Last Mistake",
+      "When I Left The Room",
+      "Street Walkn'",
+      "Goin' Home"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Blue Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "EES-01901",
+    "label": "Easy Eye Sound",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780177045/DA-KeepItHid_qoxfma",
+    "genre": [
+      "Rock",
+      "Blues"
+    ]
   },
-  "artist": "Alabama Shakes",
-  "albumName": "Boys & Girls",
-  "releaseDate": {
-    "$date": "2012-04-10T04:00:00.000Z"
+  {
+    "_id": {
+      "$oid": "6a1f49f600454ba49851e3ba"
+    },
+    "artist": "Beck",
+    "albumName": "Guero",
+    "releaseDate": {
+      "$date": "2005-03-29T00:00:00.000Z"
+    },
+    "aSide": [
+      "E-Pro",
+      "Que Onda Guero",
+      "Girl",
+      "Missing",
+      "Black Tambourine",
+      "Earthquake Weather"
+    ],
+    "bSide": [
+      "Hell Yes",
+      "Broken Drum",
+      "Scarecrow",
+      "Go It Alone",
+      "Farewell Ride",
+      "Rental Car",
+      "Emergency Exit"
+    ],
+    "style": [
+      "Indie Rock",
+      "Electro",
+      "Alternative Rock",
+      "Pop Rock"
+    ],
+    "catalogNumber": "B0025356-01",
+    "label": "Interscope Records",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780435425/bk-guero_fjz02d",
+    "genre": [
+      "Alternative Rock",
+      "Pop Rock"
+    ]
   },
-  "aSide": [
-    "Hold On",
-    "I found You",
-    "Hang Loose",
-    "Rise To The Sun",
-    "You Ain't Alone"
-  ],
-  "bSide": [
-    "Goin' To The Party",
-    "Heartbreaker",
-    "Boys & Girls",
-    "Be Mine",
-    "I Ain't the Same",
-    "On Your Way"
-  ],
-  "style": "Alternative Rock",
-  "catalogNumber": "0882330613 / ATO0431",
-  "label": "ATO Records",
-  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780175423/AS_BoysAndGirls_pmwqp6",
-  "genre": "Rock"
-},
-{
-  "_id": {
-    "$oid": "6a1b591c00454ba49851e3b9"
+  {
+    "_id": {
+      "$oid": "6a20644e00454ba49851e3bb"
+    },
+    "artist": "Beck",
+    "albumName": "Odelay",
+    "releaseDate": {
+      "$date": "1996-06-18T00:00:00.000Z"
+    },
+    "aSide": [
+      "Devil's Haircut",
+      "Hotwax",
+      "Lord Only Knows",
+      "The New Pollution",
+      "Derelict",
+      "Novacane",
+      "Jack-Ass"
+    ],
+    "bSide": [
+      "Where It's At",
+      "Minus",
+      "Sissyneck",
+      "Readymade",
+      "High 5 (Rock The Catskills)",
+      "Ramshackle"
+    ],
+    "style": [
+      "Electro",
+      "Downtempo",
+      "Afrobeat",
+      "Abstract"
+    ],
+    "catalogNumber": "Boo25124-01",
+    "label": "DGC",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780507713/bk-Odelay_scigi5",
+    "genre": [
+      "Alternative Rock",
+      "Pop Rock"
+    ]
   },
-  "artist": "Dan Auerbach",
-  "albumName": "Keep It Hid",
-  "releaseDate": {
-    "$date": "2009-02-10T00:00:00.000Z"
-  },
-  "aSide": [
-    "Trouble Weighs A Ton",
-    "I Want Some More",
-    "Heartbroken, In Disrepair",
-    "Becuase I Should",
-    "Whispered Words (Pretty Lies)",
-    "Real Desire",
-    "When The Night Comes"
-  ],
-  "bSide": [
-    "Mean Monsoon",
-    "The Prowl",
-    "Keep It Hid",
-    "My Last Mistake",
-    "When I Left The Room",
-    "Street Walkn'",
-    "Goin' Home"
-  ],
-  "style": [
-    "Alternative Rock",
-    "Blue Rock",
-    "Garage Rock"
-  ],
-  "catalogNumber": "EES-01901",
-  "label": "Easy Eye Sound",
-  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780177045/DA-KeepItHid_qoxfma",
-  "genre": [
-    "Rock",
-    "Blues"
-  ]
-},
-{
-  "_id": {
-    "$oid": "6a1f49f600454ba49851e3ba"
-  },
-  "artist": "Beck",
-  "albumName": "Guero",
-  "releaseDate": {
-    "$date": "2005-03-29T00:00:00.000Z"
-  },
-  "aSide": [
-    "E-Pro",
-    "Que Onda Guero",
-    "Girl",
-    "Missing",
-    "Black Tambourine",
-    "Earthquake Weather"
-  ],
-  "bSide": [
-    "Hell Yes",
-    "Broken Drum",
-    "Scarecrow",
-    "Go It Alone",
-    "Farewell Ride",
-    "Rental Car",
-    "Emergency Exit"
-  ],
-  "style": [
-    "Indie Rock",
-    "Electro",
-    "Alternative Rock",
-    "Pop Rock"
-  ],
-  "catalogNumber": "B0025356-01",
-  "label": "Interscope Records",
-  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780435425/bk-guero_fjz02d",
-  "genre": [
-    "Alternative Rock",
-    "Pop Rock"
-  ]
-},
-{
-  "_id": {
-    "$oid": "6a20644e00454ba49851e3bb"
-  },
-  "artist": "Beck",
-  "albumName": "Odelay",
-  "releaseDate": {
-    "$date": "1996-06-18T00:00:00.000Z"
-  },
-  "aSide": [
-    "Devil's Haircut",
-    "Hotwax",
-    "Lord Only Knows",
-    "The New Pollution",
-    "Derelict",
-    "Novacane",
-    "Jack-Ass"
-  ],
-  "bSide": [
-    "Where It's At",
-    "Minus",
-    "Sissyneck",
-    "Readymade",
-    "High 5 (Rock The Catskills)",
-    "Ramshackle"
-  ],
-  "style": [
-    "Electro",
-    "Downtempo",
-    "Afrobeat",
-    "Abstract"
-  ],
-  "catalogNumber": "Boo25124-01",
-  "label": "DGC",
-  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780507713/bk-Odelay_scigi5",
-  "genre": [
-    "Alternative Rock",
-    "Pop Rock"
-  ]
-}
+  {
+    "_id": {
+      "$oid": "6a20a3e800454ba49851e3bc"
+    },
+    "artist": "Beastie Boys",
+    "albumName": "Hot Sauce Committee Part Two",
+    "releaseDate": {
+      "$date": "2011-05-03T00:00:00.000Z"
+    },
+    "aSide": [
+      "Make Some Noise",
+      "Nonstop Disco Powerpack",
+      "Ok"
+    ],
+    "bSide": [
+      "Too Many Rappers (New Reactionaries Version)",
+      "Say It",
+      "The Bill Harper Collection",
+      "Don't Play No Game That I Can't Win"
+    ],
+    "cSide": [
+      "Long Burn The Fire",
+      "Funky Donkey",
+      "The Larry Routine",
+      "Tadlock's Glasses",
+      "Lee Majors Come Again"
+    ],
+    "dSide": [
+      "Multilateral Nuclear Disarmament",
+      "Here's A Little Something For Ya",
+      "Crazy A** S**T",
+      "The Lisa Lisa/Full Force Routine"
+    ],
+    "style": [
+      ""
+    ],
+    "catalogNumber": "B0026990-01",
+    "label": "Capitol Records",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780523992/bb-HotSauceCommittee_jssb0t",
+    "genre": [
+      "Hip-Hop"
+    ],
+    "upc": {
+      "$numberLong": "602557727890"
+    },
+    "discogsLink": "https://www.discogs.com/release/11247961-Beastie-Boys-Hot-Sauce-Committee-Part-Two"
+  }
 ]
