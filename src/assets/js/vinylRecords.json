@@ -387,5 +387,45 @@
     "Alternative Rock",
     "Pop Rock"
   ]
+},
+{
+  "_id": {
+    "$oid": "6a20644e00454ba49851e3bb"
+  },
+  "artist": "Beck",
+  "albumName": "Odelay",
+  "releaseDate": {
+    "$date": "1996-06-18T00:00:00.000Z"
+  },
+  "aSide": [
+    "Devil's Haircut",
+    "Hotwax",
+    "Lord Only Knows",
+    "The New Pollution",
+    "Derelict",
+    "Novacane",
+    "Jack-Ass"
+  ],
+  "bSide": [
+    "Where It's At",
+    "Minus",
+    "Sissyneck",
+    "Readymade",
+    "High 5 (Rock The Catskills)",
+    "Ramshackle"
+  ],
+  "style": [
+    "Electro",
+    "Downtempo",
+    "Afrobeat",
+    "Abstract"
+  ],
+  "catalogNumber": "Boo25124-01",
+  "label": "DGC",
+  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780507713/bk-Odelay_scigi5",
+  "genre": [
+    "Alternative Rock",
+    "Pop Rock"
+  ]
 }
 ]
