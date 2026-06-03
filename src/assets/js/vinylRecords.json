@@ -427,5 +427,52 @@
     "Alternative Rock",
     "Pop Rock"
   ]
+},
+{
+  "_id": {
+    "$oid": "6a20a3e800454ba49851e3bc"
+  },
+  "artist": "Beastie Boys",
+  "albumName": "Hot Sauce Committee Part Two",
+  "releaseDate": {
+    "$date": "2011-05-03T00:00:00.000Z"
+  },
+  "aSide": [
+    "Make Some Noise",
+    "Nonstop Disco Powerpack",
+    "Ok"
+  ],
+  "bSide": [
+    "Too Many Rappers (New Reactionaries Version)",
+    "Say It",
+    "The Bill Harper Collection",
+    "Don't Play No Game That I Can't Win"
+  ],
+  "cSide": [
+    "Long Burn The Fire",
+    "Funky Donkey",
+    "The Larry Routine",
+    "Tadlock's Glasses",
+    "Lee Majors Come Again"
+  ],
+  "dSide": [
+    "Multilateral Nuclear Disarmament",
+    "Here's A Little Something For Ya",
+    "Crazy A** S**T",
+    "The Lisa Lisa/Full Force Routine"
+  ],
+  "style": [
+    ""
+  ],
+  "catalogNumber": "B0026990-01",
+  "label": "Capitol Records",
+  "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780523992/bb-HotSauceCommittee_jssb0t",
+  "genre": [
+    "Hip-Hop"
+  ],
+  "upc": {
+    "$numberLong": "602557727890"
+  },
+  "discogsLink": "https://www.discogs.com/release/11247961-Beastie-Boys-Hot-Sauce-Committee-Part-Two"
 }
 ]
