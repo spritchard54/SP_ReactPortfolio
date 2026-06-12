@@ -1,6 +1,6 @@
 # Steve Pritchard: Tech Enthusiast | Aspiring Web Developer
 
-![Screenshot of spritchard.com Homepage](./public/images/spritchardPSS.png)
+![Screenshot of spritchard.com Homepage](./public/images/RM_Homepage.png)
 
 ## Table of Contents
 [Description](#description)<br>
