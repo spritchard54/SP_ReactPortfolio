@@ -474,5 +474,45 @@
       "$numberLong": "602557727890"
     },
     "discogsLink": "https://www.discogs.com/release/11247961-Beastie-Boys-Hot-Sauce-Committee-Part-Two"
+  },
+  {
+    "_id": {
+      "$oid": "6a2c736f00454ba49851e3bd"
+    },
+    "artist": "Beastie Boys",
+    "albumName": "License To Ill",
+    "releaseDate": {
+      "$date": "1986-11-15T00:00:00.000Z"
+    },
+    "aSide": [
+      "Rhymin & Stealin",
+      "The New Style",
+      "She's Crafty",
+      "Posse In Effect",
+      "Slow Ride",
+      "Girls",
+      "Fight For Your Right"
+    ],
+    "bSide": [
+      "No Sleep Till Brooklyn",
+      "Paul Revere",
+      "Hold It Now, Hit It",
+      "Brass Monkey",
+      "Slow And Low",
+      "Time To Get Ill"
+    ],
+    "style": [
+      ""
+    ],
+    "catalogNumber": "06025478207-5(4)",
+    "label": "Def Jam",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1781297999/bb-lti_khmck7",
+    "genre": [
+      "Hip-Hop"
+    ],
+    "upc": {
+      "$numberLong": "602547820754"
+    },
+    "discogsLink": "https://www.discogs.com/release/33128076-Beastie-Boys-Licensed-To-Ill"
   }
 ]
