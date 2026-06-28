@@ -786,5 +786,274 @@
         "sideB": "MRP0014-B / FR-80379-1-B / B13 / CSH / Welcome to 1979"
       }
     }
+  },
+  {
+    "_id": {
+      "$oid": "6a4191c0dc449837113fe2d7"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Dropout Boogie",
+    "originalReleaseDate": {
+      "$date": "2022-05-13T00:00:00.000Z"
+    },
+    "aSide": [
+      "Wild Child",
+      "It Ain't Over",
+      "For The Love Of Money",
+      "Your Team Is Looking Good",
+      "Good Love"
+    ],
+    "bSide": [
+      "How Long",
+      "Burn The Damn Thing Down",
+      "Happiness",
+      "Baby I'm Coming Home",
+      "Didn't I Love You"
+    ],
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "075597913576",
+    "label": [
+      "Nonesuch",
+      "Easy Eye Sound"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782682290/bk-dropoutboogie_ssxpdd",
+    "upc": "075597913576",
+    "discogsReleaseId": 23188091,
+    "discogsLink": "https://www.discogs.com/release/23188091-The-Black-Keys-Dropout-Boogie",
+    "pressing": {
+      "country": "Worldwide",
+      "manufacturedIn": "Netherlands",
+      "pressedAt": "Record Industry",
+      "masteredAt": "Sterling Sound",
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "matrix": {
+        "sideA": {
+          "stamped": [
+            "34433 2A 075597913576"
+          ],
+          "etched": [
+            "1-667107-A"
+          ],
+          "marks": [
+            "STERLING"
+          ]
+        },
+        "sideB": {
+          "stamped": [
+            "34433 2B 075597913576"
+          ],
+          "etched": [
+            "1-667107-B"
+          ],
+          "marks": [
+            "STERLING",
+            "P.USA"
+          ]
+        }
+      },
+      "notes": [
+        "Made in the Netherlands.",
+        "Pressed at Record Industry.",
+        "Mastered at Sterling Sound.",
+        "Nonesuch / Easy Eye Sound labels."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a4199dedc449837113fe2d9"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Delta Kream",
+    "originalReleaseDate": {
+      "$date": "2021-05-14T00:00:00.000Z"
+    },
+    "aSide": [
+      "Crawling Kingsnake",
+      "Louise",
+      "Poor Boy A Long Way From Home"
+    ],
+    "bSide": [
+      "Stay All Night",
+      "Going Down South",
+      "Coal Black Mattie"
+    ],
+    "cSide": [
+      "Do The Romp",
+      "Sad Days, Lonely Nights",
+      "Walk With Me"
+    ],
+    "dSide": [
+      "Mellow Peaches",
+      "Come On And Go With Me",
+      "Honey Hair"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Delta Blues"
+    ],
+    "catalogNumber": "075597916881",
+    "label": [
+      "Nonesuch",
+      "Easy Eye Sound"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782684238/bk-deltakream_u7makq",
+    "upc": "075597916881",
+    "discogsReleaseId": 18715498,
+    "discogsLink": "https://www.discogs.com/release/18715498-The-Black-Keys-Delta-Kream",
+    "pressing": {
+      "country": "Europe",
+      "manufacturedIn": "Germany",
+      "pressedAt": "Optimal Media GmbH",
+      "masteredAt": "",
+      "format": "2 x LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "matrix": {
+        "sideA": {
+          "etched": [
+            "-1653739-A"
+          ]
+        },
+        "sideB": {
+          "etched": [
+            "-1653739-B"
+          ]
+        },
+        "sideC": {
+          "etched": [
+            "-1653739-C"
+          ]
+        },
+        "sideD": {
+          "etched": [
+            "-1653739-D"
+          ]
+        }
+      },
+      "notes": [
+        "Made in Germany.",
+        "European pressing.",
+        "Nonesuch / Easy Eye Sound release.",
+        "Gatefold jacket.",
+        "Runout inscriptions verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a419d76dc449837113fe2da"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Magic Potion",
+    "originalReleaseDate": {
+      "$date": "2006-09-12T00:00:00.000Z"
+    },
+    "aSide": [
+      "Just Got To Be",
+      "Your Touch",
+      "You're The One",
+      "Just A Little Heat",
+      "Give Your Heart Away",
+      "Strange Desire"
+    ],
+    "bSide": [
+      "Modern Times",
+      "The Flame",
+      "Goodbye Babylon",
+      "Black Door",
+      "Elevator"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "79967-1",
+    "label": [
+      "Nonesuch"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782685212/bk-magicpotion_wefois",
+    "upc": "075597996715",
+    "discogsLink": "https://www.discogs.com/release/...",
+    "pressing": {
+      "country": "US",
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "matrix": {
+        "sideA": {
+          "etched": [
+            "1-79967-A"
+          ]
+        },
+        "sideB": {
+          "etched": [
+            "SE603-B",
+            "REM-RUE"
+          ]
+        },
+        "sideC": {
+          "etched": [
+            "SE603-C",
+            "REM-RUE"
+          ]
+        },
+        "sideD": {
+          "etched": [
+            "172284"
+          ]
+        }
+      },
+      "notes": [
+        "US Nonesuch pressing.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
   }
 ]
