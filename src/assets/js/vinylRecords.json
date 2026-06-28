@@ -621,5 +621,170 @@
     ],
     "upc": "5099969423918",
     "discogsLink": "https://www.discogs.com/release/2072731-Beastie-Boys-Hello-Nasty"
+  },
+  {
+    "_id": {
+      "$oid": "6a40434adc449837113fe2d0"
+    },
+    "artist": "Beastie Boys",
+    "albumName": "Check Your Head",
+    "releaseDate": {
+      "$date": "1992-04-21T00:00:00.000Z"
+    },
+    "aSide": [
+      "Jimmy James",
+      "Funky Boss",
+      "Pass The Mic",
+      "Gratitude",
+      "Lighten Up"
+    ],
+    "bSide": [
+      "Finger Lickin' Good",
+      "So What'cha Want",
+      "The Biz Vs. The Nuge",
+      "Time For Livin'",
+      "Something's Got To Give"
+    ],
+    "cSide": [
+      "The Blue Nun",
+      "Stand Together",
+      "Pow",
+      "The Maestro",
+      "Groove Holmes"
+    ],
+    "dSide": [
+      "Live At P.J.'s",
+      "Mark On The Bus",
+      "Professor Booty",
+      "In 3's",
+      "Namaste"
+    ],
+    "style": [
+      "Cut-up/DJ",
+      "Fusion"
+    ],
+    "catalogNumber": "C1-94225",
+    "label": [
+      "Grand Royal",
+      "Capitol Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782596383/bb-checkyourhead_auguyn",
+    "genre": [
+      "Hip-Hop",
+      "Jazz",
+      "Rock"
+    ],
+    "upc": "",
+    "discogsLink": "https://www.discogs.com/release/3950974-Beastie-Boys-Check-Your-Head"
+  },
+  {
+    "_id": {
+      "$oid": "6a40434adc449837113fe2d2"
+    },
+    "artist": "Beastie Boys",
+    "albumName": "Ill Communication",
+    "releaseDate": {
+      "$date": "1994-05-31T00:00:00.000Z"
+    },
+    "aSide": [
+      "Sure Shot",
+      "Tough Guy",
+      "B-Boys Makin' With The Freak Freak",
+      "Bobo On The Corner",
+      "Root Down"
+    ],
+    "bSide": [
+      "Sabotage",
+      "Get It Together",
+      "Sabrosa",
+      "The Update"
+    ],
+    "cSide": [
+      "Futterman's Rule",
+      "Alright Hear This",
+      "Eugene's Lament",
+      "Flute Loop",
+      "Do It"
+    ],
+    "dSide": [
+      "Ricky's Theme",
+      "Heart Attack Man",
+      "The Scoop",
+      "Shambala",
+      "Bodhisattva Vow",
+      "Transitions"
+    ],
+    "style": [
+      "Alternative Hip-Hop",
+      "Jazz-Funk",
+      "Hardcore"
+    ],
+    "catalogNumber": "509996 94232 15",
+    "label": [
+      "Grand Royal",
+      "Capitol Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782671061/bb-illcomm_sadnv9",
+    "genre": [
+      "Hip-Hop",
+      "Jazz",
+      "Rock"
+    ],
+    "upc": "5099969423215",
+    "discogsLink": "https://www.discogs.com/release/4191561-Beastie-Boys-Ill-Communication"
+  },
+  {
+    "_id": {
+      "$oid": "6a417be9dc449837113fe2d4"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Rubber Factory",
+    "releaseDate": {
+      "$date": "2004-09-07T00:00:00.000Z"
+    },
+    "aSide": [
+      "When The Lights Go Out",
+      "10 A.M. Automatic",
+      "Just Couldn't Tie Me Down",
+      "All Hands Against His Own",
+      "The Desperate Man",
+      "Girl Is On My Mind"
+    ],
+    "bSide": [
+      "The Lengths",
+      "Grown So Ugly",
+      "Stack Shot Billy",
+      "Act Nice And Gentle",
+      "Aeroplane Blues",
+      "Keep Me",
+      "Till I Get My Way"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "FP8037-1",
+    "label": [
+      "Fat Possum Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782677006/bk-rubberfactory_wu10od",
+    "genre": [
+      "Blues",
+      "Rock"
+    ],
+    "upc": "045778037919",
+    "discogsLink": "https://www.discogs.com/release/15452546-The-Black-Keys-Rubber-Factory",
+    "pressing": {
+      "releaseYear": null,
+      "country": "US",
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "pressingPlant": "Memphis Record Pressing",
+      "mastering": "Welcome to 1979",
+      "matrixRunout": {
+        "sideA": "MRP0014-A / FR-80379-1-A / #26 / CSH / Welcome to 1979",
+        "sideB": "MRP0014-B / FR-80379-1-B / B13 / CSH / Welcome to 1979"
+      }
+    }
   }
 ]
