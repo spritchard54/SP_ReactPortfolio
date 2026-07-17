@@ -1055,5 +1055,541 @@
       "price": null
     },
     "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a4fdac2de804281747beb98"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Attack & Release",
+    "originalReleaseDate": {
+      "$date": "2008-04-01T00:00:00.000Z"
+    },
+    "aSide": [
+      "All You Ever Wanted",
+      "I Got Mine",
+      "Strange Times",
+      "Psychotic Girl",
+      "Lies",
+      "Remember When (Side A)"
+    ],
+    "bSide": [
+      "Remember When (Side B)",
+      "Same Old Thing",
+      "So He Won't Break",
+      "Oceans And Streams",
+      "Things Ain't Like They Used To Be"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "292476-1",
+    "label": [
+      "Nonesuch"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1783715634/bk_attackandrelease_dnqyjm",
+    "upc": "075597994087",
+    "discogsLink": "https://www.discogs.com/release/4802425-The-Black-Keys-Attack-Release",
+    "pressing": {
+      "country": "US",
+      "released": 2008,
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "",
+          "catalogNumber": "",
+          "masteringEngineer": "",
+          "pressingPlant": "",
+          "additionalEtchings": [],
+          "verified": false
+        },
+        "sideB": {
+          "runout": "1-79940-B 1-292476 B 17241.1 Ⓔ WAS 3 X XXX",
+          "catalogNumber": "1-79940-B",
+          "masteringEngineer": "",
+          "pressingPlant": "",
+          "additionalEtchings": [
+            "1-292476 B",
+            "17241.1 Ⓔ",
+            "WAS 3",
+            "X XXX"
+          ],
+          "verified": true
+        }
+      },
+      "notes": [
+        "US Nonesuch pressing.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a51595e49f8a02480062b9f"
+    },
+    "artist": "The Black Keys",
+    "albumName": "El Camino (Deluxe Edition)",
+    "originalReleaseDate": {
+      "$date": "2011-12-06T00:00:00.000Z"
+    },
+    "aSide": [
+      "Lonely Boy",
+      "Dead And Gone",
+      "Gold On The Ceiling",
+      "Little Black Submarines",
+      "Money Maker"
+    ],
+    "bSide": [
+      "Run Right Back",
+      "Sister",
+      "Hell Of A Season",
+      "Stop Stop",
+      "Nova Baby",
+      "Mind Eraser"
+    ],
+    "cSide": [
+      "Dead And Gone (Live In Portland, ME)",
+      "Next Girl (Live In Portland, ME)",
+      "Run Right Back (Live In Portland, ME)",
+      "Same Old Thing (Live In Portland, ME)",
+      "Gold On The Ceiling (Live In Portland, ME)"
+    ],
+    "dSide": [
+      "Thickfreakness (Live In Portland, ME)",
+      "Girl Is On My Mind (Live In Portland, ME)",
+      "I'll Be Your Man (Live In Portland, ME)",
+      "Your Touch (Live In Portland, ME)",
+      "Little Black Submarines (Live In Portland, ME)"
+    ],
+    "eSide": [
+      "Money Maker (Live In Portland, ME)",
+      "I'm Not The One (Live In Portland, ME)",
+      "Unknown Brother (Live In Portland, ME)",
+      "Never Gonna Give You Up (Live In Portland, ME)",
+      "These Days"
+    ],
+    "fSide": [
+      "Tighten Up (Live In Portland, ME)",
+      "Lonely Boy (Live In Portland, ME)",
+      "Everlasting Light (Live In Portland, ME)",
+      "She's Long Gone (Live In Portland, ME)",
+      "I Got Mine (Live In Portland, ME)"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "659140-1",
+    "label": [
+      "Nonesuch"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1783716526/bk_elcamino_liyp0g",
+    "upc": "075597914382",
+    "discogsLink": "https://www.discogs.com/release/20859553-The-Black-Keys-El-Camino",
+    "pressing": {
+      "country": "Netherlands",
+      "released": 2021,
+      "format": "3 × LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Sterling Sound",
+      "masteringEngineer": "Ryan K. Smith",
+      "pressingPlant": "Record Industry",
+      "matrix": {
+        "sideA": {
+          "runout": "1-659140-A 33663 1A 075597914382 RKS STERLING",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "1-659140-B 33663 1B 075597914382 RKS STERLING",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "1-659140-C 33663 1C 075597914382 RKS STERLING",
+          "verified": true
+        },
+        "sideD": {
+          "runout": "1-659140-D 33663 1D 075597914382 RKS STERLING",
+          "verified": true
+        },
+        "sideE": {
+          "runout": "1-659140-E 33663 1E 075597914382 RKS STERLING",
+          "verified": true
+        },
+        "sideF": {
+          "runout": "1-659140-F 33663 1F 075597914382 RKS STERLING",
+          "verified": true
+        }
+      },
+      "notes": [
+        "2021 Record Store Day Black Friday Deluxe Edition.",
+        "Manufactured in the Netherlands.",
+        "Pressed by Record Industry.",
+        "Mastered by Ryan K. Smith at Sterling Sound.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5161e049f8a02480062ba1"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Chulahoma",
+    "originalReleaseDate": {
+      "$date": "2006-05-02T00:00:00.000Z"
+    },
+    "aSide": [
+      "Keep Your Hands Off Her",
+      "Have Mercy On Me",
+      "Work Me"
+    ],
+    "bSide": [
+      "Meet Me In The City",
+      "Nobody But You",
+      "My Mind Is Ramblin'"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Electric Blues"
+    ],
+    "catalogNumber": "FP1032-1",
+    "label": [
+      "Fat Possum Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1783718493/bk_chulahoma_tbbdge",
+    "upc": "767981103211",
+    "discogsLink": "https://www.discogs.com/release/10177298-The-Black-Keys-Chulahoma",
+    "pressing": {
+      "country": "US",
+      "released": 2017,
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "Memphis Record Pressing",
+      "matrix": {
+        "sideA": {
+          "runout": "FP1032-1-A SH Welcome to 1979",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "MRP0047-B SH Welcome to 1979",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Fat Possum Records repress.",
+        "Pressed by Memphis Record Pressing.",
+        "Lacquer cut at Welcome to 1979.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5a52f934eb874a5a46f261"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Brothers",
+    "originalReleaseDate": {
+      "$date": "2010-05-18T00:00:00.000Z"
+    },
+    "aSide": [
+      "Everlasting Light",
+      "Next Girl",
+      "Tighten Up"
+    ],
+    "bSide": [
+      "Howlin' For You",
+      "She's Long Gone",
+      "Black Mud"
+    ],
+    "cSide": [
+      "The Only One",
+      "Too Afraid To Love You",
+      "Ten Cent Pistol",
+      "Sinister Kid"
+    ],
+    "dSide": [
+      "The Go Getter",
+      "I'm Not The One",
+      "Unknown Brother",
+      "Never Gonna Give You Up",
+      "These Days"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "520266-1",
+    "label": [
+      "Nonesuch"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784305676/bk_brothers_rwum7p",
+    "upc": "075597979381",
+    "discogsLink": "https://www.discogs.com/release/2276858-The-Black-Keys-Brothers",
+    "pressing": {
+      "country": "US",
+      "released": 2010,
+      "format": "2 × LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Bernie Grundman Mastering",
+      "masteringEngineer": "Chris Bellman",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "-20649- 1-520266-A C CB",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "-20649- 1-520266-B CB",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "-20650- 1-520266-C CB",
+          "verified": true
+        },
+        "sideD": {
+          "runout": "-20650- 1-520266-D CB",
+          "verified": true
+        }
+      },
+      "notes": [
+        "US black vinyl pressing.",
+        "Mastered by Chris Bellman at Bernie Grundman Mastering.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5a5c1a34eb874a5a46f263"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Thickfreakness",
+    "originalReleaseDate": {
+      "$date": "2003-04-08T00:00:00.000Z"
+    },
+    "aSide": [
+      "Thickfreakness",
+      "Hard Row",
+      "Set You Free",
+      "Midnight In Her Eyes",
+      "Have Love Will Travel"
+    ],
+    "bSide": [
+      "Hurt Like Mine",
+      "Everywhere I Go",
+      "No Trust",
+      "If You See Me",
+      "Hold Me In Your Arms",
+      "I Cry Alone"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "FP80371-1",
+    "label": [
+      "Fat Possum Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784306905/bk_thickfreakness_m1kayq",
+    "upc": "045778037117",
+    "discogsLink": "https://www.discogs.com/release/13622672-The-Black-Keys-Thickfreakness",
+    "pressing": {
+      "country": "US",
+      "released": 2019,
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "John Powell",
+      "pressingPlant": "Memphis Record Pressing",
+      "matrix": {
+        "sideA": {
+          "runout": "FP80371-1 SIDE A MRP0025 J. POWELL #E2",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "FP80371-1 SIDE B MRP0025 J. POWELL #E2",
+          "verified": true
+        }
+      },
+      "notes": [
+        "US black vinyl repress.",
+        "Pressed by Memphis Record Pressing.",
+        "Mastered by John Powell.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5a62a234eb874a5a46f264"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Ohio Players",
+    "originalReleaseDate": {
+      "$date": "2024-04-05T00:00:00.000Z"
+    },
+    "aSide": [
+      "This Is Nowhere",
+      "Don't Let Me Go",
+      "Beautiful People (Stay High)",
+      "On The Game",
+      "Only Love Matters"
+    ],
+    "bSide": [
+      "Candy And Her Friends",
+      "I Forgot To Be Your Lover",
+      "Please Me (Till I'm Satisfied)",
+      "You'll Pay",
+      "Paper Crown"
+    ],
+    "cSide": [
+      "Live Till I Die",
+      "Read Em And Weep",
+      "Fever Tree",
+      "Every Time You Leave"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Alternative Rock"
+    ],
+    "catalogNumber": "075597906196",
+    "label": [
+      "Nonesuch",
+      "Easy Eye Sound"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784308342/bk_ohioplayersclub_p35gp9",
+    "upc": "075597906196",
+    "discogsLink": "https://www.discogs.com/release/30341743-The-Black-Keys-Ohio-Players",
+    "pressing": {
+      "country": "US",
+      "released": 2024,
+      "format": "2 × LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Apple Red",
+      "masteringStudio": "Sterling Sound",
+      "masteringEngineer": "Ryan K. Smith",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "STERLING RKS 275656E1 1832743 (1) 0075597906196-A 1-712503-A",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "STERLING RKS 275656E2 1806016 (1) 0075597906196-B 1-712503-B",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "",
+          "verified": false
+        },
+        "sideD": {
+          "runout": "",
+          "verified": false
+        }
+      },
+      "notes": [
+        "Apple Red vinyl edition.",
+        "Mastered by Ryan K. Smith at Sterling Sound.",
+        "Runouts verified from owner's copy for Sides A and B.",
+        "Sides C and D have not yet been verified."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
   }
 ]
