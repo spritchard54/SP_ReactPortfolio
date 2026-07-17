@@ -1334,5 +1334,262 @@
       "price": null
     },
     "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5a52f934eb874a5a46f261"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Brothers",
+    "originalReleaseDate": {
+      "$date": "2010-05-18T00:00:00.000Z"
+    },
+    "aSide": [
+      "Everlasting Light",
+      "Next Girl",
+      "Tighten Up"
+    ],
+    "bSide": [
+      "Howlin' For You",
+      "She's Long Gone",
+      "Black Mud"
+    ],
+    "cSide": [
+      "The Only One",
+      "Too Afraid To Love You",
+      "Ten Cent Pistol",
+      "Sinister Kid"
+    ],
+    "dSide": [
+      "The Go Getter",
+      "I'm Not The One",
+      "Unknown Brother",
+      "Never Gonna Give You Up",
+      "These Days"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "520266-1",
+    "label": [
+      "Nonesuch"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784305676/bk_brothers_rwum7p",
+    "upc": "075597979381",
+    "discogsLink": "https://www.discogs.com/release/2276858-The-Black-Keys-Brothers",
+    "pressing": {
+      "country": "US",
+      "released": 2010,
+      "format": "2 × LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Bernie Grundman Mastering",
+      "masteringEngineer": "Chris Bellman",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "-20649- 1-520266-A C CB",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "-20649- 1-520266-B CB",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "-20650- 1-520266-C CB",
+          "verified": true
+        },
+        "sideD": {
+          "runout": "-20650- 1-520266-D CB",
+          "verified": true
+        }
+      },
+      "notes": [
+        "US black vinyl pressing.",
+        "Mastered by Chris Bellman at Bernie Grundman Mastering.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5a5c1a34eb874a5a46f263"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Thickfreakness",
+    "originalReleaseDate": {
+      "$date": "2003-04-08T00:00:00.000Z"
+    },
+    "aSide": [
+      "Thickfreakness",
+      "Hard Row",
+      "Set You Free",
+      "Midnight In Her Eyes",
+      "Have Love Will Travel"
+    ],
+    "bSide": [
+      "Hurt Like Mine",
+      "Everywhere I Go",
+      "No Trust",
+      "If You See Me",
+      "Hold Me In Your Arms",
+      "I Cry Alone"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Garage Rock"
+    ],
+    "catalogNumber": "FP80371-1",
+    "label": [
+      "Fat Possum Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784306905/bk_thickfreakness_m1kayq",
+    "upc": "045778037117",
+    "discogsLink": "https://www.discogs.com/release/13622672-The-Black-Keys-Thickfreakness",
+    "pressing": {
+      "country": "US",
+      "released": 2019,
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "John Powell",
+      "pressingPlant": "Memphis Record Pressing",
+      "matrix": {
+        "sideA": {
+          "runout": "FP80371-1 SIDE A MRP0025 J. POWELL #E2",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "FP80371-1 SIDE B MRP0025 J. POWELL #E2",
+          "verified": true
+        }
+      },
+      "notes": [
+        "US black vinyl repress.",
+        "Pressed by Memphis Record Pressing.",
+        "Mastered by John Powell.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5a62a234eb874a5a46f264"
+    },
+    "artist": "The Black Keys",
+    "albumName": "Ohio Players",
+    "originalReleaseDate": {
+      "$date": "2024-04-05T00:00:00.000Z"
+    },
+    "aSide": [
+      "This Is Nowhere",
+      "Don't Let Me Go",
+      "Beautiful People (Stay High)",
+      "On The Game",
+      "Only Love Matters"
+    ],
+    "bSide": [
+      "Candy And Her Friends",
+      "I Forgot To Be Your Lover",
+      "Please Me (Till I'm Satisfied)",
+      "You'll Pay",
+      "Paper Crown"
+    ],
+    "cSide": [
+      "Live Till I Die",
+      "Read Em And Weep",
+      "Fever Tree",
+      "Every Time You Leave"
+    ],
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Alternative Rock"
+    ],
+    "catalogNumber": "075597906196",
+    "label": [
+      "Nonesuch",
+      "Easy Eye Sound"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784308342/bk_ohioplayersclub_p35gp9",
+    "upc": "075597906196",
+    "discogsLink": "https://www.discogs.com/release/30341743-The-Black-Keys-Ohio-Players",
+    "pressing": {
+      "country": "US",
+      "released": 2024,
+      "format": "2 × LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Apple Red",
+      "masteringStudio": "Sterling Sound",
+      "masteringEngineer": "Ryan K. Smith",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "STERLING RKS 275656E1 1832743 (1) 0075597906196-A 1-712503-A",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "STERLING RKS 275656E2 1806016 (1) 0075597906196-B 1-712503-B",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "",
+          "verified": false
+        },
+        "sideD": {
+          "runout": "",
+          "verified": false
+        }
+      },
+      "notes": [
+        "Apple Red vinyl edition.",
+        "Mastered by Ryan K. Smith at Sterling Sound.",
+        "Runouts verified from owner's copy for Sides A and B.",
+        "Sides C and D have not yet been verified."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
   }
 ]
