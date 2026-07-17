@@ -41,7 +41,7 @@ function Vinyl() {
     <div className="container my-4">
       <h1>Vinyl Collection</h1>
       <p>A small selection of albums from my personal record collection.</p>
-      
+
       <div className="row mb-4">
         <div className="col-md-6">
           <label className="form-label">Filter by Artist</label>
@@ -91,7 +91,7 @@ function Vinyl() {
           Using [...filteredRecords] preserves the original data.
         */}
         {[...filteredRecords]
-        
+
           // Sort albums alphabetically by artist name.
           // We remove "The" from artist names so
           // "The Black Keys" sorts under B instead of T.
@@ -181,7 +181,10 @@ function Vinyl() {
                     )}
                   </p>
                   <p className="card-text">
-                    <strong>Label:</strong> {record.label}
+                    <strong>Label:</strong>{" "}
+                    {Array.isArray(record.label)
+                      ? record.label.join(", ")
+                      : record.label}
                   </p>
                 </div>
               </div>
