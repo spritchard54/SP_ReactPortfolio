@@ -1504,7 +1504,7 @@
   },
   {
     "_id": {
-      "$oid": "6a5a62a234eb874a5a46f264"
+      "$oid": "6a5d317534eb874a5a46f265"
     },
     "artist": "The Black Keys",
     "albumName": "Ohio Players",
@@ -1516,16 +1516,14 @@
       "Don't Let Me Go",
       "Beautiful People (Stay High)",
       "On The Game",
-      "Only Love Matters"
+      "Only Love Matters",
+      "Candy And Her Friends",
+      "I Forgot To Be Your Lover"
     ],
     "bSide": [
-      "Candy And Her Friends",
-      "I Forgot To Be Your Lover",
       "Please Me (Till I'm Satisfied)",
       "You'll Pay",
-      "Paper Crown"
-    ],
-    "cSide": [
+      "Paper Crown",
       "Live Till I Die",
       "Read Em And Weep",
       "Fever Tree",
@@ -1539,7 +1537,7 @@
       "Blues Rock",
       "Alternative Rock"
     ],
-    "catalogNumber": "075597906196",
+    "catalogNumber": "1-712503",
     "label": [
       "Nonesuch",
       "Easy Eye Sound"
@@ -1550,7 +1548,7 @@
     "pressing": {
       "country": "US",
       "released": 2024,
-      "format": "2 × LP",
+      "format": "LP",
       "speed": "33⅓ RPM",
       "vinylColor": "Apple Red",
       "masteringStudio": "Sterling Sound",
@@ -1564,21 +1562,245 @@
         "sideB": {
           "runout": "STERLING RKS 275656E2 1806016 (1) 0075597906196-B 1-712503-B",
           "verified": true
-        },
-        "sideC": {
-          "runout": "",
-          "verified": false
-        },
-        "sideD": {
-          "runout": "",
-          "verified": false
         }
       },
       "notes": [
         "Apple Red vinyl edition.",
         "Mastered by Ryan K. Smith at Sterling Sound.",
-        "Runouts verified from owner's copy for Sides A and B.",
-        "Sides C and D have not yet been verified."
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5d321934eb874a5a46f266"
+    },
+    "artist": "Ice Cube",
+    "albumName": "Kill At Will",
+    "originalReleaseDate": {
+      "$date": "1990-12-18T00:00:00.000Z"
+    },
+    "aSide": [
+      "Endangered Species (Tales From The Darkside) (Remix)",
+      "Jackin' For Beats",
+      "Get Off My Dick And Tell Yo Bitch To Come Here (Remix)"
+    ],
+    "bSide": [
+      "The Product",
+      "Dead Homiez",
+      "JD's Gaffilin' (Part 2)",
+      "I Gotta Say What Up!!!"
+    ],
+    "genre": [
+      "Hip-Hop"
+    ],
+    "style": [
+      "Gangsta",
+      "Hardcore Hip-Hop",
+      "West Coast Hip-Hop"
+    ],
+    "catalogNumber": "EVL 7230",
+    "label": [
+      "Priority Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784492766/ic_KillAtWill_zapm36",
+    "upc": "049925723014",
+    "discogsLink": "https://www.discogs.com/release/229928-Ice-Cube-Kill-At-Will",
+    "pressing": {
+      "country": "US",
+      "released": 1990,
+      "format": "12-inch EP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "Specialty Records Corporation",
+      "matrix": {
+        "sideA": {
+          "runout": "EVL-A-7230-Z1 (EXPLICIT) 1-1 SRC",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "EVL-B-7230-Z1 (EXPLICIT) 1-1 SRC",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Original 1990 U.S. explicit pressing.",
+        "SRC logo stamped in the runouts identifies Specialty Records Corporation.",
+        "All other runout information is etched.",
+        "Runouts verified from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": {
+        "$date": "2026-07-19T00:00:00.000Z"
+      },
+      "store": "The Rock Shop, Plymouth Meeting, PA",
+      "price": 18
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5d46a734eb874a5a46f267"
+    },
+    "artist": "Cypress Hill",
+    "albumName": "Live At Rock Im Park 1999",
+    "originalReleaseDate": {
+      "$date": "2024-11-29T00:00:00.000Z"
+    },
+    "aSide": [
+      "Hand On The Glock",
+      "Break 'Em Off Some",
+      "Dr. Greenthumb",
+      "Lightning Strikes"
+    ],
+    "bSide": [
+      "Illusions",
+      "Insane In The Brain",
+      "When The Shit Goes Down",
+      "I Wanna Get High",
+      "Stoned Is The Way Of The Walk",
+      "Hits From The Bong",
+      "Riot Starter"
+    ],
+    "genre": [
+      "Hip-Hop"
+    ],
+    "style": [
+      "Conscious",
+      "Hardcore Hip-Hop",
+      "Live"
+    ],
+    "catalogNumber": "783792",
+    "label": [
+      "Culture Factory",
+      "Charly Acquisitions Ltd."
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784498068/ch_LiveAtRockIM_u1cwy2",
+    "upc": "3700477837921",
+    "discogsLink": "https://www.discogs.com/release/32442048-Cypress-Hill-Live-At-Rock-Im-Park-1999",
+    "pressing": {
+      "country": "France",
+      "released": 2024,
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Blue & White Smoke",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "V56989 A1",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "V56989 B1",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Limited edition Black Friday 2024 release.",
+        "Released by Culture Factory (France).",
+        "Licensed from Licensemusic.com ApS.",
+        "Printed in the E.U.",
+        "Artwork & Art Direction: La Sarfat'.",
+        "Illustration: Mid Journey.",
+        "Additional etched characters beyond the primary matrix were not fully legible and have been omitted."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": {
+        "$date": "2026-07-19T00:00:00.000Z"
+      },
+      "store": "The Rock Shop, Plymouth Meeting, PA",
+      "price": 18
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5d4c9234eb874a5a46f268"
+    },
+    "artist": "The Budos Band",
+    "albumName": "Burnt Offering",
+    "originalReleaseDate": {
+      "$date": "2014-10-21T00:00:00.000Z"
+    },
+    "aSide": [
+      "Into The Fog",
+      "The Sticks",
+      "Burnt Offering",
+      "Trail Of Tears",
+      "Magus Mountain"
+    ],
+    "bSide": [
+      "Black Venom",
+      "Tomahawk",
+      "The Enchanter",
+      "Snake Hawk",
+      "Shattered Winds"
+    ],
+    "genre": [
+      "Funk",
+      "Jazz"
+    ],
+    "style": [
+      "Afrobeat",
+      "Psychedelic",
+      "Soul-Jazz",
+      "Instrumental"
+    ],
+    "catalogNumber": "DAP-034",
+    "label": [
+      "Daptone Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784499491/bb_burntOffering_e2jd49",
+    "upc": "",
+    "discogsLink": "https://www.discogs.com/release/6184883-The-Budos-Band-Burnt-Offering",
+    "pressing": {
+      "country": "US",
+      "released": 2014,
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Golden Mastering",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "DAP-034 A 5-92039 GOLDEN",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "5-92040 DAP-034 B",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Original 2014 U.S. pressing.",
+        "No barcode printed on jacket.",
+        "Mastered at Golden Mastering.",
+        "Additional hand-etched symbol present in the runout but not positively identifiable."
       ]
     },
     "condition": {
