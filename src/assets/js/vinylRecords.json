@@ -1813,5 +1813,412 @@
       "price": null
     },
     "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5e239034eb874a5a46f269"
+    },
+    "artist": "The Budos Band",
+    "albumName": "Long In The Tooth",
+    "originalReleaseDate": {
+      "$date": "2020-10-09T00:00:00.000Z"
+    },
+    "aSide": [
+      "Long In The Tooth",
+      "Sixth Hammer",
+      "Snake Hawk",
+      "Dusterado",
+      "Silver Stallion",
+      "Haunted Sea"
+    ],
+    "bSide": [
+      "The Wrangler",
+      "Gun Metal Grey",
+      "Mierda De Toro",
+      "Budonian Knight",
+      "Renegade"
+    ],
+    "genre": [
+      "Rock",
+      "Funk / Soul"
+    ],
+    "style": [
+      "Afrobeat",
+      "Funk",
+      "Psychedelic",
+      "Instrumental"
+    ],
+    "catalogNumber": "DAP-065",
+    "label": [
+      "Daptone Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784554750/bb_longinthetooth_ottfsw",
+    "upc": "823134096516",
+    "discogsLink": "https://www.discogs.com/release/16020548-The-Budos-Band-Long-In-The-Tooth",
+    "pressing": {
+      "country": "US",
+      "released": 2020,
+      "format": "LP",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Golden Mastering",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "1589E2/A GOLDEN CC(?) DAP-065 A",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "1589E1/A1 GOLDEN CC(?) DAP-065 B",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Housed in a black die-cut outer sleeve with an off-white embossed inner jacket.",
+        "Mastered at Golden Mastering.",
+        "Possible CC initials appear in both runouts but could not be positively identified.",
+        "Runouts transcribed from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "Long In The Tooth Records",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5e530634eb874a5a46f26a"
+    },
+    "artist": "De La Soul",
+    "albumName": "3 Feet High And Rising",
+    "originalReleaseDate": {
+      "$date": "1989-03-03T00:00:00.000Z"
+    },
+    "aSide": [
+      "Intro",
+      "The Magic Number",
+      "Change In Speak",
+      "Cool Breeze On The Rocks (The Melted Version)",
+      "Can U Keep A Secret",
+      "Jenifa Taught Me (Derwin's Revenge)",
+      "Ghetto Thang"
+    ],
+    "bSide": [
+      "Transmitting Live From Mars",
+      "Eye Know",
+      "Take It Off",
+      "A Little Bit Of Soap",
+      "Tread Water",
+      "Potholes In My Lawn"
+    ],
+    "cSide": [
+      "Say No Go",
+      "Do As De La Does",
+      "Plug Tunin' (Last Chance To Comprehend)",
+      "De La Orgee",
+      "Buddy"
+    ],
+    "dSide": [
+      "Description",
+      "Me Myself And I",
+      "This Is A Recording 4 Living In A Full Time Era (L.I.F.E.)",
+      "I Can Do Anything (Delacratic)",
+      "D.A.I.S.Y. Age"
+    ],
+    "genre": [
+      "Hip-Hop"
+    ],
+    "style": [
+      "Conscious"
+    ],
+    "catalogNumber": "RMM-045-1",
+    "label": [
+      "A.O.I. Records",
+      "Chrysalis Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784566530/dls_3fthighandrising_yxitbr",
+    "upc": "810098502580",
+    "discogsLink": "https://www.discogs.com/release/26616449-De-La-Soul-3-Feet-High-And-Rising",
+    "pressing": {
+      "country": "US",
+      "released": 2023,
+      "format": "2 x LP, Album, Reissue, 180g",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Opaque Yellow",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "RMM-045-1 A 254225E1 1528622",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "RMM-045-1 A 1529632 254225E2",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "254225E3 1529625 RMM-045-1 C",
+          "verified": true
+        },
+        "sideD": {
+          "runout": "1515834 254225E4 RMM-045-1 D",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Includes a double-sided comic insert.",
+        "Hype sticker identifies the release as two 180-gram opaque yellow LPs.",
+        "Manufactured in Canada.",
+        "Runouts transcribed from owner's copy.",
+        "The Side B catalog inscription was transcribed as RMM-045-1 A and has not been corrected without physical verification."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5e571934eb874a5a46f26b"
+    },
+    "artist": "Depeche Mode",
+    "albumName": "Violator",
+    "originalReleaseDate": {
+      "$date": "1990-03-19T00:00:00.000Z"
+    },
+    "aSide": [
+      "World In My Eyes",
+      "Sweetest Perfection",
+      "Personal Jesus",
+      "Halo",
+      "Waiting For The Night"
+    ],
+    "bSide": [
+      "Enjoy The Silence",
+      "Policy Of Truth",
+      "Blue Dress",
+      "Clean"
+    ],
+    "genre": [
+      "Electronic"
+    ],
+    "style": [
+      "Synth-pop"
+    ],
+    "catalogNumber": "WBA1-233980",
+    "label": [
+      "Mute",
+      "Sire",
+      "Reprise Records",
+      "Rhino Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784567548/depeche_mode_violator_w8oij9",
+    "upc": "081227960803",
+    "discogsLink": "https://www.discogs.com/release/5804484-Depeche-Mode-Violator",
+    "pressing": {
+      "country": "US",
+      "released": 2014,
+      "format": "LP, Album, Reissue, 180g, Gatefold",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "17296 3A 889853367511",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "17296 3B 889853367511",
+          "verified": true
+        }
+      },
+      "notes": [
+        "180-gram gatefold reissue.",
+        "Runouts transcribed from owner's copy.",
+        "Reissue of the original 1990 release."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "Repo Records",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5e751f34eb874a5a46f26c"
+    },
+    "artist": "Dirty Heads",
+    "albumName": "SWIMTEAM",
+    "originalReleaseDate": {
+      "$date": "2017-10-13T00:00:00.000Z"
+    },
+    "aSide": [
+      "Vacation",
+      "Celebrate",
+      "West Coast",
+      "So Glad You Made It",
+      "Moon Tower"
+    ],
+    "bSide": [
+      "Lift Me Up",
+      "Cabin By The Sea (feat. Del the Funky Homosapien)",
+      "Fire In The Sky",
+      "Day By Day",
+      "Smoke Rings"
+    ],
+    "genre": [
+      "Rock",
+      "Reggae"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Reggae Rock"
+    ],
+    "catalogNumber": "FSM-252-5",
+    "label": [
+      "Five Seven Music",
+      "Executive Music Group"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784575246/dirtyheads_swimteam_t8dg2d",
+    "upc": "849320025252",
+    "discogsLink": "https://www.discogs.com/release/27808854-Dirty-Heads-Swimteam",
+    "pressing": {
+      "country": "US",
+      "released": 2023,
+      "format": "LP, Album, Reissue",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "FSM-252-5A RFM",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "FSM-252-5B RFM",
+          "verified": true
+        }
+      },
+      "notes": [
+        "2023 reissue.",
+        "Runouts transcribed from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": {
+        "$date": "2023-07-14T00:00:00.000Z"
+      },
+      "store": "Amazon",
+      "price": 22.99
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a5e786334eb874a5a46f26d"
+    },
+    "artist": "Dirty Heads",
+    "albumName": "Midnight Control",
+    "originalReleaseDate": {
+      "$date": "2022-08-26T00:00:00.000Z"
+    },
+    "aSide": [
+      "Island Glow",
+      "Heavy Water",
+      "Life's Been Good",
+      "Make Me",
+      "Rescue Me",
+      "High Tea"
+    ],
+    "bSide": [
+      "Midnight Control",
+      "Little Things",
+      "Indigo",
+      "El Dorado",
+      "Shade",
+      "Live Your Life"
+    ],
+    "genre": [
+      "Rock",
+      "Reggae"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Reggae Rock"
+    ],
+    "catalogNumber": "BNM-283-1",
+    "label": [
+      "Better Noise Music"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784576341/dirtyhead_MidnightControl_vyomi8",
+    "upc": "846070028311",
+    "discogsLink": "https://www.discogs.com/release/27375276-Dirty-Heads-Midnight-Control",
+    "pressing": {
+      "country": "US",
+      "released": 2023,
+      "format": "LP, Album, Colored Vinyl",
+      "speed": "33⅓ RPM",
+      "vinylColor": "New Twighlight",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "Memphis Record Pressing (MRP)",
+      "matrix": {
+        "sideA": {
+          "runout": "258362E1/A #1 MRP 4614 BNM-283-1 A",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "BNM-283-1 B #1 MRP 4614",
+          "verified": true
+        }
+      },
+      "notes": [
+        "2023 vinyl release of the 2022 album.",
+        "Pressed at Memphis Record Pressing (MRP).",
+        "New Twighlight colored vinyl.",
+        "Runouts transcribed from owner's copy."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": {
+        "$date": "2023-07-14T00:00:00.000Z"
+      },
+      "store": "Amazon",
+      "price": 27.69
+    },
+    "userNotes": ""
   }
 ]
