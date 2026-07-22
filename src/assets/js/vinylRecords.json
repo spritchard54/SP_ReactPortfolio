@@ -2220,5 +2220,391 @@
       "price": 27.69
     },
     "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a60fa3934eb874a5a46f26e"
+    },
+    "artist": "Glass Animals",
+    "albumName": "ZABA",
+    "originalReleaseDate": {
+      "$date": "2014-06-09T00:00:00.000Z"
+    },
+    "aSide": [
+      "Flip",
+      "Black Mambo",
+      "Pools",
+      "Gooey",
+      "Wyrd"
+    ],
+    "bSide": [
+      "Hazey",
+      "Intruxx",
+      "Toes"
+    ],
+    "cSide": [
+      "Walla Walla",
+      "Youth"
+    ],
+    "dSide": [
+      "Cocoa Hooves",
+      "JDNT"
+    ],
+    "genre": [
+      "Electronic",
+      "Rock"
+    ],
+    "style": [
+      "Indie Rock",
+      "Psychedelic",
+      "Experimental"
+    ],
+    "catalogNumber": "2537776955",
+    "label": [
+      "Harvest"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784740620/GlassAnimals_Zaba_wqstpr",
+    "upc": "602537776955",
+    "discogsLink": "https://www.discogs.com/release/5845780-Glass-Animals-Zaba",
+    "pressing": {
+      "country": "US",
+      "released": 2014,
+      "format": "2 x LP, Album, Gatefold",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Capitol Mastering",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "1299365 203814E1/A1 2537776955LP01-A G1 5-94934",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "1299343 203814E2/AA1 5-94935 2537776955LP01-B G1 #17 MASTERED BY CAPITOL",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "2537776955LP02-C G1 5-94936 MASTERED BY CAPITOL 203814E3/A #14",
+          "verified": true
+        },
+        "sideD": {
+          "runout": "2537776955LP02-D 5-94937 G1 203814E4 #24 1307654",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Original 2014 US Harvest pressing.",
+        "Gatefold jacket.",
+        "Mastered at Capitol Mastering.",
+        "Runouts transcribed from owner's copy."
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2014,
+      "vinylReleaseYear": 2014,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "Long In The Tooth Records",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a610de934eb874a5a46f26f"
+    },
+    "artist": "Glass Animals",
+    "albumName": "How To Be A Human Being",
+    "originalReleaseDate": {
+      "$date": "2016-08-26T00:00:00.000Z"
+    },
+    "aSide": [
+      "Life Itself",
+      "Youth",
+      "Season 2 Episode 3",
+      "Pork Soda",
+      "Mama's Gun"
+    ],
+    "bSide": [
+      "Cane Shuga",
+      "Premade Sandwiches",
+      "The Other Side Of Paradise",
+      "Take A Slice",
+      "Poplar St",
+      "Agnes"
+    ],
+    "genre": [
+      "Electronic",
+      "Rock"
+    ],
+    "style": [
+      "Indie Rock",
+      "Psychedelic",
+      "Alternative"
+    ],
+    "catalogNumber": "2557001877",
+    "label": [
+      "Wolf Tone",
+      "Harvest"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784745562/glassanimals_howtobeahumanbeing_zf8lhk",
+    "upc": "602557001877",
+    "discogsLink": "https://www.discogs.com/release/9023753-Glass-Animals-How-To-Be-A-Human-Being",
+    "pressing": {
+      "country": "US",
+      "released": 2016,
+      "format": "LP, Album",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "10-96853 / 2557001877-A 249827E1/A",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "10-96853 / 2557001877-B 249827E2/A",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Original 2016 US pressing.",
+        "Runouts transcribed from owner's copy."
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2016,
+      "vinylReleaseYear": 2016,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a6115f334eb874a5a46f270"
+    },
+    "artist": "Glass Animals",
+    "albumName": "Dreamland",
+    "originalReleaseDate": {
+      "$date": "2020-08-07T00:00:00.000Z"
+    },
+    "aSide": [
+      "Dreamland",
+      "Tangerine",
+      "((home movie: 1994))",
+      "Hot Sugar",
+      "((home movie: btx))",
+      "Space Ghost Coast To Coast",
+      "Tokyo Drifting",
+      "Melon And The Coconut",
+      "Your Love (Déjà Vu)"
+    ],
+    "bSide": [
+      "Waterfalls Coming Out Your Mouth",
+      "It's All So Incredibly Loud",
+      "((home movie: rockets))",
+      "Domestic Bliss",
+      "Heat Waves",
+      "((home movie: shoes on))",
+      "Helium"
+    ],
+    "genre": [
+      "Electronic",
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Indie Pop",
+      "Alternative Rock",
+      "Psychedelic Pop"
+    ],
+    "catalogNumber": "B0032101-01",
+    "label": [
+      "Wolf Tone",
+      "Polydor",
+      "Republic Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784747442/glassanimals_dreamland_xnkp8k",
+    "upc": "602508833625",
+    "discogsLink": "https://www.discogs.com/release/15734772-Glass-Animals-Dreamland",
+    "pressing": {
+      "country": "US",
+      "released": 2020,
+      "format": "LP, Album, 180g",
+      "speed": "33⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Sterling Sound",
+      "masteringEngineer": "Joe Nino-Hernes",
+      "pressingPlant": "GZ Media",
+      "matrix": {
+        "sideA": {
+          "runout": "0883362-B RE1 205769E2/A1 #27 JN-H STERLING",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "0883362-A 205769E1/A 02A JN-H STERLING",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Original 2020 US pressing.",
+        "Mastered at Sterling Sound by Joe Nino-Hernes.",
+        "GZ Media manufacturing numbers appear in the runouts.",
+        "Side A contains the 0883362-B and 205769E2 inscriptions, while Side B contains 0883362-A and 205769E1.",
+        "RE1 and 02A are based on the owner's best reading of uncertain inscriptions.",
+        "Runouts transcribed from owner's copy."
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2020,
+      "vinylReleaseYear": 2020,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a612bf134eb874a5a46f271"
+    },
+    "artist": "House of Pain",
+    "albumName": "House of Pain (Fine Malt Lyrics)",
+    "originalReleaseDate": {
+      "$date": "1992-07-21T00:00:00.000Z"
+    },
+    "aSide": [
+      "Salutations",
+      "Jump Around",
+      "Put Your Head Out",
+      "Top O' The Morning",
+      "Commercial 1"
+    ],
+    "bSide": [
+      "House And The Rising Sun",
+      "Shamrocks And Shenanigans (Boom Shalock Lock Boom)",
+      "House Of Pain Anthem",
+      "Danny Boy, Danny Boy",
+      "Guess Who's Back",
+      "Commercial 2"
+    ],
+    "cSide": [
+      "Put On Your Shit Kickers",
+      "Come And Get Some Of This",
+      "Life Goes On",
+      "One For The Road",
+      "Feel It"
+    ],
+    "dSide": [
+      "All My Love",
+      "Jump Around (Pete Rock Remix)",
+      "Shamrocks And Shenanigans (Butch Vig Remix)",
+      "Jump Around (Mastertape Remix)"
+    ],
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Hip Hop"
+    ],
+    "catalogNumber": "TB-5184-1",
+    "label": [
+      "Tommy Boy",
+      "Tommy Boy Music"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784753103/house-of-pain-house-of-pain-fine-malt-lyrics_alp7rh",
+    "upc": "016998518410",
+    "discogsLink": "https://www.discogs.com/release/24849680-House-Of-Pain-House-Of-Pain-Fine-Malt-Lyrics",
+    "pressing": {
+      "country": "US",
+      "released": 2022,
+      "format": "2 × LP, Album, Limited Edition, Numbered, Orange & White Vinyl",
+      "speed": "33 ⅓ RPM",
+      "vinylColor": "Orange / White",
+      "masteringStudio": "Sterling Sound",
+      "masteringEngineer": "Joe Nino-Hernes",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "TB-5184-2-A (1) JN-H STERLING",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "TB-5184-2-B (1) JN-H STERLING",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "TB-5184-2-C (1) JN-H STERLING",
+          "verified": true
+        },
+        "sideD": {
+          "runout": "TB-5184-2-D (1) JN-H STERLING",
+          "verified": true
+        }
+      },
+      "notes": [
+        "30th Anniversary Deluxe Edition",
+        "Limited to 6,500 numbered copies",
+        "Orange vinyl (Disc 1)",
+        "White vinyl (Disc 2)",
+        "This copy is numbered 2563/6500"
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1992,
+      "vinylReleaseYear": 2022,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
   }
 ]
