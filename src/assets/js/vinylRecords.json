@@ -51,7 +51,7 @@
       "No Woman, No Cry",
       "Manifest/Outro"
     ],
-    "genre": "Hip-Hop",
+    "genre": "Hip Hop",
     "style": "Pop Rap, Concious",
     "catalogNumber": "88765400911",
     "label": "Ruffhouse Records",
@@ -82,7 +82,7 @@
       "Saltwater",
       "Violas And Lupitas"
     ],
-    "genre": "Hip-Hop",
+    "genre": "Hip Hop",
     "style": [
       "Instrumental",
       "Boom Bap"
@@ -198,7 +198,7 @@
       "The Roach (The Chronic Outro)",
       "Bitches Ain't S _ _ _"
     ],
-    "genre": "Hip-Hop",
+    "genre": "Hip Hop",
     "style": [
       "Gangsta",
       "G-Funk"
@@ -276,7 +276,7 @@
     "catalogNumber": "B0028760",
     "label": "Def Jam Recordings",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779904148/ksgksg_agddqu",
-    "genre": "Hip-Hop"
+    "genre": "Hip Hop"
   },
   {
     "_id": {
@@ -468,7 +468,7 @@
     "label": "Capitol Records",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780523992/bb-HotSauceCommittee_jssb0t",
     "genre": [
-      "Hip-Hop"
+      "Hip Hop"
     ],
     "upc": {
       "$numberLong": "602557727890"
@@ -508,7 +508,7 @@
     "label": "Def Jam",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1781297999/bb-lti_khmck7",
     "genre": [
-      "Hip-Hop"
+      "Hip Hop"
     ],
     "upc": {
       "$numberLong": "602547820754"
@@ -564,7 +564,7 @@
     "label": "Capitol Records",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782583708/bb-paulsboutique_uekrqx",
     "genre": [
-      "Hip-Hop",
+      "Hip Hop",
       "Electronic"
     ],
     "upc": "",
@@ -616,7 +616,7 @@
     "label": "Capitol Records",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782586849/bb-hellonasty_uvizbn",
     "genre": [
-      "Hip-Hop",
+      "Hip Hop",
       "Electronic"
     ],
     "upc": "5099969423918",
@@ -670,7 +670,7 @@
     ],
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782596383/bb-checkyourhead_auguyn",
     "genre": [
-      "Hip-Hop",
+      "Hip Hop",
       "Jazz",
       "Rock"
     ],
@@ -715,7 +715,7 @@
       "Transitions"
     ],
     "style": [
-      "Alternative Hip-Hop",
+      "Alternative Hip Hop",
       "Jazz-Funk",
       "Hardcore"
     ],
@@ -726,7 +726,7 @@
     ],
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782671061/bb-illcomm_sadnv9",
     "genre": [
-      "Hip-Hop",
+      "Hip Hop",
       "Jazz",
       "Rock"
     ],
@@ -1602,12 +1602,12 @@
       "I Gotta Say What Up!!!"
     ],
     "genre": [
-      "Hip-Hop"
+      "Hip Hop"
     ],
     "style": [
       "Gangsta",
-      "Hardcore Hip-Hop",
-      "West Coast Hip-Hop"
+      "Hardcore Hip Hop",
+      "West Coast Hip Hop"
     ],
     "catalogNumber": "EVL 7230",
     "label": [
@@ -1680,11 +1680,11 @@
       "Riot Starter"
     ],
     "genre": [
-      "Hip-Hop"
+      "Hip Hop"
     ],
     "style": [
       "Conscious",
-      "Hardcore Hip-Hop",
+      "Hardcore Hip Hop",
       "Live"
     ],
     "catalogNumber": "783792",
@@ -1933,7 +1933,7 @@
       "D.A.I.S.Y. Age"
     ],
     "genre": [
-      "Hip-Hop"
+      "Hip Hop"
     ],
     "style": [
       "Conscious"
@@ -2606,5 +2606,181 @@
       "price": null
     },
     "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a62653acc6016e8c3248cc2"
+    },
+    "artist": "Ice Cube",
+    "albumName": "The Predator",
+    "originalReleaseDate": {
+      "$date": "1992-11-17T00:00:00.000Z"
+    },
+    "aSide": [
+      "The First Day Of School (Intro)",
+      "When Will They Shoot?",
+      "I'm Scared (Insert)",
+      "Wicked",
+      "Now I Gotta Wet 'Cha",
+      "The Predator",
+      "It Was A Good Day",
+      "We Had To Tear This Mothafucka Up"
+    ],
+    "bSide": [
+      "Fuck 'Em (Insert)",
+      "Dirty Mack",
+      "Don't Trust 'Em",
+      "Gangsta's Fairytale 2",
+      "Check Yo Self",
+      "Who Got The Camera?",
+      "Integration (Insert)",
+      "Say Hi To The Bad Guy"
+    ],
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Gangsta",
+      "West Coast Hip Hop",
+      "Conscious"
+    ],
+    "catalogNumber": "B0024829-01",
+    "label": [
+      "Priority Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784833554/icecube_thepredator_tkqc2k",
+    "upc": "602547851680",
+    "discogsLink": "https://www.discogs.com/release/26976557-Ice-Cube-The-Predator",
+    "pressing": {
+      "country": "US",
+      "released": 2023,
+      "format": "LP, Album, Reissue, 180 Gram",
+      "speed": "33 ⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "39278 1A 0602547851680",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "39278 1B 0602547851680",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Respect The Classics series",
+        "180 gram vinyl",
+        "Original hype sticker retained"
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1992,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "Long In The Tooth Records",
+      "price": 41.99
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a6279accc6016e8c3248cc3"
+    },
+    "artist": "INXS",
+    "albumName": "Kick",
+    "originalReleaseDate": {
+      "$date": "1987-10-12T00:00:00.000Z"
+    },
+    "aSide": [
+      "Guns In The Sky",
+      "New Sensation",
+      "Devil Inside",
+      "Need You Tonight",
+      "Mediate",
+      "The Loved One"
+    ],
+    "bSide": [
+      "Wild Life",
+      "Never Tear Us Apart",
+      "Mystify",
+      "Kick",
+      "Calling All Nations",
+      "Tiny Daggers"
+    ],
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Pop Rock",
+      "New Wave",
+      "Funk Rock"
+    ],
+    "catalogNumber": "R1 81796",
+    "label": [
+      "Atlantic",
+      "Rhino Records"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784838546/inxs_kick_ji8ck9",
+    "upc": "603497846122",
+    "discogsLink": "https://www.discogs.com/release/16172652-INXS-Kick",
+    "pressing": {
+      "country": "US",
+      "released": 2020,
+      "format": "LP, Album, Reissue, Remastered, 180 Gram",
+      "speed": "33 ⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Abbey Road Studios, Room 30",
+      "masteringEngineer": "Miles Showell",
+      "pressingPlant": "GZ Media",
+      "matrix": {
+        "sideA": {
+          "runout": "228986E1 999410 5382339-A",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "5382339-B 999408 228986E2 MILES. ABBEY ROAD. ROOM 30",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Made in Czech Republic sticker on back cover",
+        "Cut by Miles Showell at Abbey Road Studios, Room 30",
+        "GZ Media pressing identified by 228986E1/E2 matrix numbers"
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1987,
+      "vinylReleaseYear": 2020,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "Repo Records",
+      "price": null
+    },
+    "userNotes": "Purchase store is based on recollection and has not been confirmed."
   }
 ]
