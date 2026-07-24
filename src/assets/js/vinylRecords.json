@@ -2782,5 +2782,193 @@
       "price": null
     },
     "userNotes": "Purchase store is based on recollection and has not been confirmed."
+  },
+  {
+    "_id": {
+      "$oid": "6a636711cc6016e8c3248cc4"
+    },
+    "artist": "Kid Cudi",
+    "albumName": "Man on the Moon: The End of Day",
+    "originalReleaseDate": {
+      "$date": "2009-09-15T00:00:00.000Z"
+    },
+    "aSide": [
+      "In My Dreams (Cudder Anthem)",
+      "Soundtrack 2 My Life",
+      "Simple As...",
+      "Solo Dolo (Nightmare)"
+    ],
+    "bSide": [
+      "Heart Of A Lion (Kid Cudi Theme Music)",
+      "My World",
+      "Day 'N' Nite (Nightmare)",
+      "Sky Might Fall"
+    ],
+    "cSide": [
+      "Enter Galactic (Love Connection Part I)",
+      "Alive (Nightmare)",
+      "Cudi Zone",
+      "Make Her Say"
+    ],
+    "dSide": [
+      "Pursuit Of Happiness (Nightmare)",
+      "Hyyerr",
+      "Up Up & Away"
+    ],
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Conscious Hip Hop",
+      "Pop Rap",
+      "Psychedelic Hip Hop"
+    ],
+    "catalogNumber": "B0013321-01",
+    "label": [
+      "Universal Motown",
+      "GOOD Music"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784899490/kidcudi-manonthemoon_llk7il",
+    "upc": "602527154893",
+    "discogsLink": "https://www.discogs.com/release/26138939-Kid-Cudi-Man-On-The-Moon-The-End-Of-Day",
+    "pressing": {
+      "country": "US",
+      "released": 2022,
+      "format": "2 × LP, Album, Reissue, Gatefold",
+      "speed": "33 ⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "pressingPlant": "",
+      "matrix": {
+        "sideA": {
+          "runout": "B0013322-01 LP1A 1202476 01020603 EC 1M",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "B0013321-01 LP1B 1202477 01020423 EC",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "B0013321-01 LP2A 1202478 01010526 EC",
+          "verified": true
+        },
+        "sideD": {
+          "runout": "B0013321-01 LP2B 1202479 01010214",
+          "verified": true
+        }
+      },
+      "notes": [
+        "Gatefold sleeve",
+        "2022 repress identified by 1202476-1202479 matrix sequence",
+        "Side A catalog inscription should be rechecked to confirm whether it reads B0013321-01 or B0013322-02"
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2009,
+      "vinylReleaseYear": 2022,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a639002cc6016e8c3248cc5"
+    },
+    "artist": "Nirvana",
+    "albumName": "In Utero",
+    "originalReleaseDate": {
+      "$date": "1993-09-21T00:00:00.000Z"
+    },
+    "aSide": [
+      "Serve The Servants",
+      "Scentless Apprentice",
+      "Heart-Shaped Box",
+      "Rape Me",
+      "Frances Farmer Will Have Her Revenge On Seattle",
+      "Dumb"
+    ],
+    "bSide": [
+      "Very Ape",
+      "Milk It",
+      "Pennyroyal Tea",
+      "Radio Friendly Unit Shifter",
+      "Tourette's",
+      "All Apologies"
+    ],
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Grunge",
+      "Alternative Rock"
+    ],
+    "catalogNumber": "0720642453612",
+    "label": [
+      "Geffen Records",
+      "DGC"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1784909997/nirvana_inutero_juhboy",
+    "upc": "720642453612",
+    "discogsLink": "https://www.discogs.com/release/7784716-Nirvana-In-Utero",
+    "pressing": {
+      "country": "Europe",
+      "released": 2015,
+      "format": "LP, Album, Reissue, 180 Gram",
+      "speed": "33 ⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Gateway Mastering",
+      "masteringEngineer": "Bob Ludwig",
+      "pressingPlant": "Schallplattenfabrik Pallas GmbH",
+      "matrix": {
+        "sideA": {
+          "runout": "00720642453612-A2 -698- II",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "00720642453612-B2 -698- II",
+          "verified": true
+        }
+      },
+      "notes": [
+        "180 gram vinyl",
+        "Back To Black reissue",
+        "Manufactured in Germany by Schallplattenfabrik Pallas GmbH",
+        "Features the original Steve Albini mixes of 'Heart-Shaped Box' and 'All Apologies'",
+        "Roman numeral 'II' identifies the stamper variant"
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1993,
+      "vinylReleaseYear": 2015,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "Very High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": ""
   }
 ]
