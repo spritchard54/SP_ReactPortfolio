@@ -2970,5 +2970,380 @@
       "price": null
     },
     "userNotes": ""
+  },
+  {
+    "_id": {
+      "$oid": "6a68cf0dfcd23619ed0640df"
+    },
+    "artist": "Oasis",
+    "albumName": "(What's the Story) Morning Glory?",
+    "originalReleaseDate": {
+      "$date": "1995-10-02T00:00:00.000Z"
+    },
+    "aSide": [
+      "Hello",
+      "Roll With It",
+      "Wonderwall"
+    ],
+    "bSide": [
+      "Don't Look Back in Anger",
+      "Hey Now!",
+      "[Untitled]",
+      "Bonehead's Bank Holiday"
+    ],
+    "cSide": [
+      "Some Might Say",
+      "Cast No Shadow",
+      "She's Electric"
+    ],
+    "dSide": [
+      "Morning Glory",
+      "[Untitled]",
+      "Champagne Supernova"
+    ],
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Britpop",
+      "Alternative Rock"
+    ],
+    "catalogNumber": "RKIDLP73",
+    "label": [
+      "Big Brother Recordings"
+    ],
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785254003/oasis_whatsthestory_jitli3",
+    "upc": "5051961073010",
+    "discogsLink": "https://www.discogs.com/release/19359337-Oasis-Whats-The-Story-Morning-Glory",
+    "pressing": {
+      "country": "US",
+      "released": 2020,
+      "format": "2 × LP, Album, Reissue, Remastered, Stereo, Gatefold",
+      "speed": "33 ⅓ RPM",
+      "vinylColor": "Black",
+      "masteringStudio": "Metropolis Studios",
+      "masteringEngineer": "Ian Cooper",
+      "pressingPlant": "GZ Media",
+      "matrix": {
+        "sideA": {
+          "runout": "MRP2835 / RKIDLP73/AB-A #14 213462E1/A",
+          "verified": true
+        },
+        "sideB": {
+          "runout": "MRP2835 / RKIDLP73/AB-B #14 213462E2/A",
+          "verified": true
+        },
+        "sideC": {
+          "runout": "MRP2835 / RKIDLP73/CD-A 213462E3/A #5",
+          "verified": true
+        },
+        "sideD": {
+          "runout": "MRP2835 / RKIDLP73/CD-B 213462E4/A #15",
+          "verified": true
+        }
+      },
+      "notes": [
+        "2020 US repress using the 2014 remaster.",
+        "Remastered from the original tapes by Ian Cooper at Metropolis Studios under the supervision of original producer Owen Morris.",
+        "GZ Media manufacturing sequence 213462E1 through 213462E4.",
+        "MRP2835 is the manufacturing job number."
+      ]
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1995,
+      "vinylReleaseYear": 2020,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": null,
+      "store": "",
+      "price": null
+    },
+    "userNotes": "Visible residue is present in the deadwax area. No unidentified etched symbols were observed."
+  },
+  {
+    "_id": {
+      "$oid": "6a68e18ffcd23619ed0640e0"
+    },
+    "artist": "OutKast",
+    "albumName": "ATLiens",
+    "originalReleaseDate": "1996-08-27",
+    "aSide": [
+      "You May Die (Intro)",
+      "Two Dope Boyz (In A Cadillac)",
+      "ATLiens",
+      "Wheelz Of Steel"
+    ],
+    "bSide": [
+      "Jazzy Belle",
+      "Elevators (Me & You)",
+      "Ova Da Wudz"
+    ],
+    "cSide": [
+      "Babylon",
+      "Wailin'",
+      "Mainstream"
+    ],
+    "dSide": [
+      "Decatur Psalm",
+      "Millennium",
+      "E.T. (Extraterrestrial)",
+      "13th Floor / Growing Old",
+      "Elevators (ONP 86 Mix)"
+    ],
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Conscious",
+      "Southern Hip Hop"
+    ],
+    "label": [
+      "LaFace Records",
+      "Arista Records"
+    ],
+    "catalogNumber": "73008-26029-1",
+    "upc": "7730082602914",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785258354/Outkast-Atliens_wxohq4",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1996,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "Medium-High"
+    },
+    "pressing": {
+      "country": "Mexico",
+      "released": null,
+      "format": "2 x LP, 33 1/3 RPM",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Standard single-pocket jacket (non-gatefold)",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "73008260291 A (1206986) 03010110",
+          "additionalMarks": []
+        },
+        "sideB": {
+          "runout": "73008260291 B (1206987) 01010209",
+          "additionalMarks": [
+            "EC",
+            "1M"
+          ]
+        },
+        "sideC": {
+          "runout": "73008260291 C (1206988) 01010108",
+          "additionalMarks": [
+            "EC",
+            "1M"
+          ]
+        },
+        "sideD": {
+          "runout": "73008260291 D (1206989) 01010210",
+          "additionalMarks": [
+            "EC"
+          ]
+        }
+      },
+      "notes": [
+        "Official Mexican pressing.",
+        "Back cover states 'Made in Mexico'.",
+        "Machine-stamped matrix numbers throughout.",
+        "Additional 'EC' and '1M' stamps appear to be manufacturing or plating marks rather than verified mastering engineer initials.",
+        "No verified pressing plant or mastering engineer could be identified from the available evidence."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Includes original comic-book style cover artwork.",
+      "This pressing differs from the commonly documented U.S. United Record Pressing reissue by its Mexican manufacture and unique matrix inscriptions."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a68f4a7fcd23619ed0640e1"
+    },
+    "artist": "Portugal. The Man",
+    "albumName": "Evil Friends",
+    "originalReleaseDate": "2013-06-04",
+    "aSide": [
+      "Plastic Soldiers",
+      "Creep in a T-Shirt",
+      "Modern Jesus",
+      "Hip Hop Kids",
+      "Atomic Man",
+      "Sea of Air"
+    ],
+    "bSide": [
+      "Holy Roller (Hallelujah)",
+      "Evil Friends",
+      "Easy Tiger",
+      "Smile",
+      "Purple Yellow Red and Blue",
+      "Floating (Time Isn't Working My Side)"
+    ],
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Indie Rock",
+      "Psychedelic Rock"
+    ],
+    "label": [
+      "Atlantic"
+    ],
+    "catalogNumber": "075678635069",
+    "upc": "075678635069",
+    "discogsLink": "https://www.discogs.com/release/27540864-Portugal-The-Man-Evil-Friends",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785263512/portugaltheman_evilfriends_hxpmgo",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2013,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2023-06-30",
+      "format": "LP, Limited Edition, Metallic Gold Vinyl, 33 1/3 RPM",
+      "color": "Metallic Gold",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "Memphis Record Pressing (MRP)",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "MRP4285 / 075678635076-A 260994E1/A #1"
+        },
+        "sideB": {
+          "runout": "MRP4285 / 075678635076-B 260994E2/A #8"
+        }
+      },
+      "notes": [
+        "Limited edition metallic gold vinyl.",
+        "Pressed by Memphis Record Pressing (MRP).",
+        "Metalwork supplied by GZ Media, indicated by the 260994E1/A and 260994E2/A matrix format."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Produced by Danger Mouse."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a69139efcd23619ed0640e2"
+    },
+    "artist": "Portugal. The Man",
+    "albumName": "Woodstock",
+    "originalReleaseDate": "2017-06-16",
+    "aSide": [
+      "Number One (feat. Richie Havens & Son Little)",
+      "Easy Tiger",
+      "Live in the Moment",
+      "Feel It Still",
+      "Rich Friends"
+    ],
+    "bSide": [
+      "Keep On",
+      "So Young",
+      "Mr. Lonely (feat. Fat Lip)",
+      "Tidal Wave",
+      "Noise Pollution (Version A, Vocal Up Mix 1.3) (feat. Mary Elizabeth Winstead)"
+    ],
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Indie Rock",
+      "Psychedelic Rock"
+    ],
+    "label": [
+      "Atlantic"
+    ],
+    "catalogNumber": "7567-86608-2",
+    "upc": "075678660825",
+    "discogsLink": "https://www.discogs.com/release/28645273-Portugal-The-Man-Woodstock",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785270513/portugaltheman_woodstock_y5wufm",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2017,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "Europe",
+      "released": "2023",
+      "format": "LP, Album, Reissue, Crystal Clear Vinyl, 33 ⅓ RPM",
+      "color": "Crystal Clear",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "MPO (France)",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "MPO 23 309866 A2"
+        },
+        "sideB": {
+          "runout": "MPO 23 309906 RE1 1561633 B2 LR"
+        }
+      },
+      "notes": [
+        "Crystal clear vinyl.",
+        "Manufactured in the European Union.",
+        "Pressed by MPO, France.",
+        "Atlantic 75 / Rocktober-era reissue using original 2017 artwork and catalog number."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": []
   }
 ]
