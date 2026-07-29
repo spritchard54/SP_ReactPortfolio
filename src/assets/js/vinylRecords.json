@@ -3345,5 +3345,280 @@
       "location": ""
     },
     "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a6a7bd9fcd23619ed0640e3"
+    },
+    "artist": "Portugal. The Man",
+    "albumName": "Chris Black Changed My Life",
+    "originalReleaseDate": "2023-06-23",
+    "aSide": [
+      "Heavy Games II (feat. Jeff Bhasker)",
+      "Grim Generation",
+      "Thunderdome [W.T.A.]",
+      "Dummy",
+      "Summer of Luv",
+      "Ghost Town"
+    ],
+    "bSide": [
+      "Time’s a Fantasy",
+      "Doubt",
+      "Plastic Island",
+      "Champ",
+      "Anxiety:Clarity"
+    ],
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Indie Rock",
+      "Psychedelic Rock"
+    ],
+    "label": [
+      "Atlantic"
+    ],
+    "catalogNumber": "075678638350",
+    "upc": "075678635212",
+    "discogsLink": "https://www.discogs.com/release/27673662-Portugal-The-Man-Chris-Black-Changed-My-Life",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785363407/portugaltheman_chrisblackchangedmylife_jciwem",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2023,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2023-06-23",
+      "format": "LP, Album, Limited Edition, Picture Disc, Stereo, 33 1/3 RPM",
+      "color": "Picture Disc",
+      "weight": "",
+      "jacket": "Clear vinyl sheeting with 24-page illustrated booklet",
+      "pressingPlant": "Memphis Record Pressing (MRP)",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "MRP4366 / 075678638343-A #8 258492E1/B"
+        },
+        "sideB": {
+          "runout": "MRP4366 / 075678638343-B #8 258492E2/B"
+        }
+      },
+      "notes": [
+        "Official limited-edition picture-disc pressing.",
+        "One-time pressing limited to 3,000 copies.",
+        "Originally sold through the Portugal. The Man webstore.",
+        "Includes a 24-page booklet featuring exclusive artwork, song-specific collages, illustrations and photographs.",
+        "Packaged in clear vinyl sheeting rather than a conventional printed cardboard jacket.",
+        "Pressed by Memphis Record Pressing, identified by the MRP4366 matrix number.",
+        "GZ Media supplied the metalwork, indicated by the 258492E1/B and 258492E2/B matrix numbers.",
+        "Made in the USA."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Hype sticker reads: Limited Edition Picture Disc."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a6a85b9fcd23619ed0640e4"
+    },
+    "artist": "Portugal. The Man",
+    "albumName": "SHISH",
+    "originalReleaseDate": "2025-11-07",
+    "aSide": [
+      "Denali",
+      "Pittman Ralliers",
+      "Angoon",
+      "Knik",
+      "Shish"
+    ],
+    "bSide": [
+      "Mush",
+      "Tyonek",
+      "Kokhanockers",
+      "Tanana",
+      "Father Gun"
+    ],
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Indie Rock",
+      "Psychedelic Rock"
+    ],
+    "label": [
+      "KNIK",
+      "Thirty Tigers"
+    ],
+    "catalogNumber": "KNIK009LP",
+    "upc": "732388014385",
+    "discogsLink": "https://www.discogs.com/release/35801005-Portugal-The-Man-Shish",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785365341/portugaltheman_shish_ihmkyy",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2025,
+      "vinylReleaseYear": 2025,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2025-11-07",
+      "format": "LP, Album, Special Edition, Stereo",
+      "color": "Blood on the Snow",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "Memphis Record Pressing",
+      "masteringStudio": "Sterling Sound",
+      "masteringEngineer": "Joe Nino-Hernes",
+      "matrix": {
+        "sideA": {
+          "runout": "KNIK009LP-A (1), JN-H STERLING, 2366445, 02367224, 306628E1, Oppose Imperialism Worldwide. Global Ceasefire Now. PTM Are Not Pacifists Prepared for Peace Ready for War"
+        },
+        "sideB": {
+          "runout": "306628E2, 02362542, 2335904, MRP7285/KNIK009LP-B, JN-H STERLING, Alaskan Born and Raised Support your local crews and workers, Support family, Support your local fishing communities, support your local hunting communities"
+        }
+      },
+      "notes": [
+        "Special-edition Blood on the Snow vinyl.",
+        "Original 2025 vinyl edition, not a reissue.",
+        "Released by the band's KNIK imprint and marketed and distributed by Thirty Tigers.",
+        "Pressed by Memphis Record Pressing, identified by MRP7285.",
+        "Lacquer cut at Sterling Sound by Joe Nino-Hernes, identified by JN-H STERLING.",
+        "GZ Media production numbers 306628E1 and 306628E2 appear in the runouts.",
+        "Side A contains political inscriptions supporting a global ceasefire and opposing imperialism.",
+        "Side B contains inscriptions honoring the band's Alaskan roots and supporting local workers, families, fishing communities and hunting communities.",
+        "The center label promotes Frances Changed My Life, support for Indigenous peoples and support for children with rare diseases.",
+        "The album title refers to Shishmaref, Alaska.",
+        "The Blood on the Snow color complements the album artwork depicting subsistence hunting in a snowy Alaskan landscape."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Hype sticker reads: Special Edition Pressed on \"Blood on the Snow\" Vinyl.",
+      "Side B center label features a photograph of Frances with googly eyes."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a6a8e12fcd23619ed0640e5"
+    },
+    "artist": "Run the Jewels",
+    "albumName": "Run the Jewels 2 (10th Anniversary Edition)",
+    "originalReleaseDate": "2014-10-24",
+    "aSide": [
+      "Jeopardy",
+      "Oh My Darling Don't Cry",
+      "Blockbuster Night Part 1",
+      "Close Your Eyes (And Count to Fuck)"
+    ],
+    "bSide": [
+      "All My Life",
+      "Lie, Cheat, Steal",
+      "Early",
+      "All Due Respect"
+    ],
+    "cSide": [
+      "Love Again (Akinyele Back)",
+      "Crown",
+      "Angel Duster",
+      "Blockbuster Night Part 2"
+    ],
+    "dSide": [
+      "Bonus Etching"
+    ],
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Hardcore Hip Hop",
+      "Conscious Hip Hop"
+    ],
+    "label": [
+      "Seeker Music"
+    ],
+    "catalogNumber": "SEEKR002V",
+    "upc": "8721093624622",
+    "discogsLink": "https://www.discogs.com/release/32483408-Run-The-Jewels-Run-The-Jewels-2",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785368043/RunTheJewels_RTJ2_cwgqlr",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2014,
+      "vinylReleaseYear": 2024,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2024-12-06",
+      "format": "2 × LP, Album, Reissue, 180 Gram, Stereo",
+      "color": "Black",
+      "weight": "180g",
+      "jacket": "Gatefold with interchangeable cover artwork",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "10-107922 / SEEKR002V-A 289596E1/B"
+        },
+        "sideB": {
+          "runout": "10-107922 / SEEKR002V-B 289596E2/C"
+        },
+        "sideC": {
+          "runout": "10-107922 / SEEKR002V-C 289596E3/A"
+        },
+        "sideD": {
+          "runout": "10-107922 / SEEKR002V-D 289596E4/A"
+        }
+      },
+      "notes": [
+        "2024 10th Anniversary Edition.",
+        "Standard black vinyl.",
+        "Expanded edition includes 'Blockbuster Night Part 2' on vinyl.",
+        "Features interchangeable cover artwork inspired by the original release.",
+        "Manufactured using GZ Media metalwork, identified by the 289596E matrix numbers.",
+        "Released after Seeker Music acquired the Run the Jewels catalog."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": []
   }
 ]
