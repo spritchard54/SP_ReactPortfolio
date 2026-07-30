@@ -2,8 +2,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
-import { Routes, Route } from "react-router-dom";
-import { lazy, Suspense } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { lazy, Suspense, useEffect } from "react";
+
+import { trackPageView } from "./utils/analytics";
 
 const Home = lazy(() => import("./pages/Home"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
@@ -15,6 +17,12 @@ const Vinyl = lazy(() => import("./pages/Vinyl"));
 import Layout from "./components/Layout";
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+  trackPageView(location);
+}, [location]);
+
   return (
     <Suspense fallback={<p>Loading...</p>}>
       <Routes>
@@ -26,7 +34,6 @@ function App() {
           <Route path="/vinyl" element={<Vinyl />} />
           <Route path="/trips/:tripId" element={<TripDetail />} />
           <Route path="/contact" element={<Contact />} />
-          
         </Route>
       </Routes>
     </Suspense>

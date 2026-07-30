@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import { initializeAnalytics } from "./utils/analytics";
+
+initializeAnalytics();
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
