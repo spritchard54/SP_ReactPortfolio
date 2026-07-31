@@ -3719,5 +3719,282 @@
       "location": ""
     },
     "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a6ceaf4fcd23619ed0640e7"
+    },
+    "artist": "Run the Jewels",
+    "albumName": "RTJ4",
+    "originalReleaseDate": "2020-06-03",
+    "aSide": [
+      "Yankee and the Brave (Ep. 4)",
+      "Ooh La La",
+      "Out of Sight",
+      "Holy Calamafuck"
+    ],
+    "bSide": [
+      "Goonies vs. E.T.",
+      "Walking in the Snow",
+      "JU$T",
+      "Never Look Back"
+    ],
+    "cSide": [
+      "The Ground Below",
+      "Pulling the Pin",
+      "A Few Words for the Firing Squad (Radiation)"
+    ],
+    "dSide": [],
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Hardcore Hip Hop",
+      "Conscious Hip Hop",
+      "Political Hip Hop"
+    ],
+    "label": [
+      "BMG"
+    ],
+    "catalogNumber": "538617320",
+    "upc": "4050538617320",
+    "discogsLink": "https://www.discogs.com/release/15924869-Run-The-Jewels-RTJ4",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785523153/runthejewels_rtj4_tiegyi",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2020,
+      "vinylReleaseYear": 2020,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "Europe",
+      "released": "2020-09-18",
+      "format": "2 × LP, Album, Stereo",
+      "color": "Magenta",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "Sterling Sound",
+      "masteringEngineer": "Joe Nino-Hernes",
+      "matrix": {
+        "sideA": {
+          "runout": "538617320-A 1334510 207542E1 JN-H STERLING 538617320-A"
+        },
+        "sideB": {
+          "runout": "538617320-B 207542E2-A2 JN-H STERLING 538617320-B"
+        },
+        "sideC": {
+          "runout": "538617320-C RE-1 207542E3-A4 JN-H STERLING 538617320-C"
+        },
+        "sideD": {
+          "runout": "538617320-D 207542E4 JN-H STERLING 1332736 538617320-D"
+        }
+      },
+      "notes": [
+        "Original 2020 magenta vinyl pressing.",
+        "Mastered at Sterling Sound and lacquer cut by Joe Nino-Hernes.",
+        "Features guest appearances by Zack de la Rocha, Pharrell Williams, Mavis Staples, Josh Homme, 2 Chainz, Greg Nice and DJ Premier.",
+        "Released digitally on June 3, 2020, ahead of schedule in response to the social climate following the murder of George Floyd.",
+        "Physical vinyl edition released September 18, 2020.",
+        "Side C includes a RE-1 recut designation."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 36.99,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a6cf134fcd23619ed0640e8"
+    },
+    "artist": "Run the Jewels",
+    "albumName": "RTJ Cu4tro",
+    "originalReleaseDate": "2022-11-11",
+    "aSide": [
+      "Yankee y El Valiente",
+      "Ooh La La (Mex Institute of Sound Remix)",
+      "Fuera de Vista",
+      "Santo Calamafuck"
+    ],
+    "bSide": [
+      "Goonies vs. E.T.",
+      "Caminando en la Nieve",
+      "JU$T",
+      "Nunca Mirar Atrás"
+    ],
+    "cSide": [
+      "El Suelo Debajo",
+      "Sacando el Pasador",
+      "Unas Palabras para el Pelotón de Fusilamiento"
+    ],
+    "dSide": [],
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Alternative Hip Hop",
+      "Conscious Hip Hop",
+      "Latin Hip Hop"
+    ],
+    "label": [
+      "BMG",
+      "Jewel Runners"
+    ],
+    "catalogNumber": "538878181",
+    "upc": "4050538878189",
+    "discogsLink": "https://www.discogs.com/release/26768663-Run-The-Jewels-RTJ-Cu4tro",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785524795/runthejewels_cuatro_ixeesj",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2022,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2023-04-21",
+      "format": "2 × LP, Album, Stereo, Indie Exclusive",
+      "color": "Translucent Yellow",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "10-96274 / RTJCUATRO-A 246898E1/A"
+        },
+        "sideB": {
+          "runout": "10-96274 / RTJCUATRO-B 246898E2/A"
+        },
+        "sideC": {
+          "runout": "10-96274 / RTJCUATRO-C 246898E3/A"
+        },
+        "sideD": {
+          "runout": "10-96274 / RTJCUATRO-D 246898E4/B"
+        }
+      },
+      "notes": [
+        "Original first vinyl pressing.",
+        "Indie Exclusive translucent yellow vinyl.",
+        "Latin American reinterpretation of RTJ4 featuring artists from more than ten Latin American countries.",
+        "Produced in collaboration with Nick Hook.",
+        "Includes bilingual liner notes and foldout poster.",
+        "Manufactured using GZ Media metalwork identified by the 246898E matrix numbers."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 37.99,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a6d02a4fcd23619ed0640e9"
+    },
+    "artist": "Rage Against the Machine",
+    "albumName": "Rage Against the Machine",
+    "originalReleaseDate": "1992-11-03",
+    "aSide": [
+      "Bombtrack",
+      "Killing in the Name",
+      "Take the Power Back",
+      "Settle for Nothing",
+      "Bullet in the Head"
+    ],
+    "bSide": [
+      "Know Your Enemy",
+      "Wake Up",
+      "Fistful of Steel",
+      "Township Rebellion",
+      "Freedom"
+    ],
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Metal",
+      "Rap Metal",
+      "Rap Rock",
+      "Funk Metal"
+    ],
+    "label": [
+      "Epic Associated",
+      "Legacy"
+    ],
+    "catalogNumber": "88725470451",
+    "upc": "887254704515",
+    "discogsLink": "https://www.discogs.com/release/3977737-Rage-Against-The-Machine-Rage-Against-The-Machine",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785529262/rageagainstthemachine_selftitled_qbxm2g",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1992,
+      "vinylReleaseYear": 2012,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2012",
+      "format": "LP, Album, Reissue, 180 Gram, Stereo",
+      "color": "Black",
+      "weight": "180g",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "United Record Pressing",
+      "masteringStudio": "Masterdisk, New York",
+      "masteringEngineer": "Vlado Meller",
+      "cuttingEngineer": "Mark Santangelo",
+      "matrix": {
+        "sideA": {
+          "runout": "13546-5A 80875 00075111751"
+        },
+        "sideB": {
+          "runout": "13546-5B 00075111751"
+        }
+      },
+      "notes": [
+        "2012 Legacy Recordings reissue.",
+        "Black 180-gram vinyl.",
+        "Single-pocket jacket.",
+        "Remastered by Vlado Meller at Masterdisk, New York.",
+        "Lacquer cut by Mark Santangelo.",
+        "Produced by Garth Richardson.",
+        "Recorded at Sound City Studios in Van Nuys, California.",
+        "Features the iconic cover photograph of Thích Quảng Đức by Malcolm Browne, winner of the 1963 World Press Photo of the Year.",
+        "The music video for 'Freedom' highlights the imprisonment of Native American activist Leonard Peltier.",
+        "Tom Morello's innovative guitar techniques on this album influenced generations of rock and metal guitarists."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": []
   }
 ]
