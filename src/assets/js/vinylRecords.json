@@ -3620,5 +3620,104 @@
       "location": ""
     },
     "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a6bf11bfcd23619ed0640e6"
+    },
+    "artist": "Run the Jewels",
+    "albumName": "Run the Jewels 3",
+    "originalReleaseDate": "2016-12-25",
+    "aSide": [
+      "Down",
+      "Talk to Me",
+      "Legend Has It",
+      "Call Ticketron"
+    ],
+    "bSide": [
+      "Hey Kids (Bumaye)",
+      "Stay Gold",
+      "Don't Get Captured",
+      "Thieves! (Screamed the Ghost)"
+    ],
+    "cSide": [
+      "2100",
+      "Panther Like a Panther (Miracle Mix)",
+      "Everybody Stay Calm",
+      "Oh Mama"
+    ],
+    "dSide": [
+      "Thursday in the Danger Room",
+      "A Report to the Shareholders / Kill Your Masters"
+    ],
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Hardcore Hip Hop",
+      "Conscious Hip Hop",
+      "Political Hip Hop"
+    ],
+    "label": [
+      "Seeker Music"
+    ],
+    "catalogNumber": "SEEKR003",
+    "upc": "8720623489106",
+    "discogsLink": "https://www.discogs.com/release/22637945-Run-The-Jewels-Run-The-Jewels-3",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1785459111/runthejewels_rtj3_bzxxfl",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2016,
+      "vinylReleaseYear": 2022,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "Canada",
+      "released": "2022-03-25",
+      "format": "2 × LP, Album, Reissue, Stereo",
+      "color": "Opaque Gold",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "Precision Record Pressing",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "10-93845 / SEEKR003-A 236898E1/A"
+        },
+        "sideB": {
+          "runout": "10-93845 / SEEKR003-B 236898E2/A"
+        },
+        "sideC": {
+          "runout": "10-93845 / SEEKR003-C 236898E3/A"
+        },
+        "sideD": {
+          "runout": "10-93845 / SEEKR003-D 236898E4/A"
+        }
+      },
+      "notes": [
+        "2022 Seeker Music reissue on opaque gold vinyl.",
+        "Pressed by Precision Record Pressing in Canada.",
+        "GZ Media metalwork identified by the 236898E matrix numbers.",
+        "Includes gatefold jacket, lyric insert and folded poster.",
+        "Originally surprise-released digitally on December 25, 2016, nearly three weeks before its scheduled release date.",
+        "Features guest appearances by Danny Brown, Kamasi Washington, Trina, BOOTS and TV on the Radio's Tunde Adebimpe.",
+        "Contains 'Legend Has It,' featured prominently in the marketing campaign for Marvel's Black Panther.",
+        "The closing track, 'A Report to the Shareholders / Kill Your Masters,' is widely regarded as one of the duo's signature political songs."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": []
   }
 ]
