@@ -14,6 +14,7 @@ const Trips = lazy(() => import("./pages/Trips"));
 const Contact = lazy(() => import("./pages/Contact"));
 const TripDetail = lazy(() => import("./pages/TripDetail"));
 const Vinyl = lazy(() => import("./pages/Vinyl"));
+const NotFound = lazy(() => import("./pages/NotFound"));  
 import Layout from "./components/Layout";
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
           <Route path="/vinyl" element={<Vinyl />} />
           <Route path="/trips/:tripId" element={<TripDetail />} />
           <Route path="/contact" element={<Contact />} />
+
+          <Route path="*" element={<NotFound />} />
+          
         </Route>
       </Routes>
     </Suspense>
