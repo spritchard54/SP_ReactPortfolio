@@ -156,3 +156,8 @@ body h5 {
     max-height: 110vh;
   }
 }
+
+.album-artwork {
+  width: 300px;
+  height: auto;
+}

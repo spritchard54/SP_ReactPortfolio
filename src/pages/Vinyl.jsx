@@ -2,6 +2,8 @@
 // Because this is a JSON file, it is imported as a default export.
 import vinylRecords from "../assets/js/vinylRecords.json";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 // Functional React component.
 // This component renders the Vinyl Collection page.
@@ -34,6 +36,9 @@ function Vinyl() {
 
     return artistMatch && genreMatch;
   });
+
+   
+
 
   return (
     // Bootstrap container adds responsive spacing and layout.
@@ -185,6 +190,11 @@ function Vinyl() {
                     {Array.isArray(record.label)
                       ? record.label.join(", ")
                       : record.label}
+                  </p>
+                  <p className="card-text">
+                    <Link to={`/vinyl/${record.slug}`}>
+                    more...
+                    </Link>
                   </p>
                 </div>
               </div>

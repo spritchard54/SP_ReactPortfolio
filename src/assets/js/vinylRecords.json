@@ -5,20 +5,30 @@
     },
     "artist": "Glass Animals",
     "albumName": "I love You So F***ing Much",
-    "releaseDate": {
-      "$date": "2024-07-19T00:00:00Z"
-    },
     "genre": "Pop",
     "style": "Indie Pop",
-    "aSide": [
-      "Show Pony",
-      "Whatthehellishappening?",
-      "Creatures In Heaven",
-      "Wonderful Nothing",
-      "A Tear in Space (Airlock)"
-    ],
     "catalogNumber": "602465191974",
     "label": "Polydor",
+    "originalReleaseDate": {
+      "$date": "2024-07-19T00:00:00.000Z"
+    },
+    "purchase": {
+      "date": {
+        "$date": "2024-07-19T04:00:00.000Z"
+      },
+      "store": "Latchkey Records",
+      "price": 38.99
+    },
+    "slug": "glass-animals-i-love-you-so-f-ing-much",
+    "sides": {
+      "a": [
+        "Show Pony",
+        "Whatthehellishappening?",
+        "Creatures In Heaven",
+        "Wonderful Nothing",
+        "A Tear in Space (Airlock)"
+      ]
+    },
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779838469/Screenshot_2026-05-26_at_7.34.09_PM_e0mfvm"
   },
   {
@@ -27,35 +37,38 @@
     },
     "artist": "Fugees",
     "albumName": "The Score",
-    "releaseDate": {
-      "$date": "1996-02-13T00:00:00Z"
-    },
-    "aSide": [
-      "Red Intro",
-      "How MANY Mics",
-      "Ready Or Not",
-      "Zealots",
-      "The Beast"
-    ],
-    "bSide": [
-      "Fu-Gee-La",
-      "Family Business",
-      "Killing Me Softly"
-    ],
-    "cSide": [
-      "The Score",
-      "The Mask",
-      "Cowboys"
-    ],
-    "dSide": [
-      "No Woman, No Cry",
-      "Manifest/Outro"
-    ],
-    "genre": "Hip Hop",
+    "genre": "Hip-Hop",
     "style": "Pop Rap, Concious",
     "catalogNumber": "88765400911",
     "label": "Ruffhouse Records",
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779837844/Screenshot_2026-05-26_at_7.23.10_PM_cc4wgw"
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779895879/Screenshot_2026-05-27_at_11.31.02_AM_uzmapa",
+    "originalReleaseDate": {
+      "$date": "1996-02-13T00:00:00.000Z"
+    },
+    "slug": "fugees-the-score",
+    "sides": {
+      "a": [
+        "Red Intro",
+        "How MANY Mics",
+        "Ready Or Not",
+        "Zealots",
+        "The Beast"
+      ],
+      "b": [
+        "Fu-Gee-La",
+        "Family Business",
+        "Killing Me Softly"
+      ],
+      "c": [
+        "The Score",
+        "The Mask",
+        "Cowboys"
+      ],
+      "d": [
+        "No Woman, No Cry",
+        "Manifest/Outro"
+      ]
+    }
   },
   {
     "_id": {
@@ -63,33 +76,36 @@
     },
     "artist": "Danger Mouse & Black Thought",
     "albumName": "Cheat Codes",
-    "releaseDate": {
-      "$date": "2022-08-12T00:00:00Z"
-    },
-    "aSide": [
-      "Sometimes",
-      "Cheat Codes",
-      "The Darkest Part",
-      "No Gold Teeth",
-      "Because",
-      "Belize"
-    ],
-    "bSide": [
-      "Aquamarine",
-      "Identical Deaths",
-      "Strangers",
-      "Close to Famous",
-      "Saltwater",
-      "Violas And Lupitas"
-    ],
-    "genre": "Hip Hop",
+    "genre": "Hip-Hop",
     "style": [
       "Instrumental",
       "Boom Bap"
     ],
     "catalogNumber": "4050538791655",
     "label": "BMG",
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779895879/Screenshot_2026-05-27_at_11.31.02_AM_uzmapa"
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779895879/Screenshot_2026-05-27_at_11.31.02_AM_uzmapa",
+    "originalReleaseDate": {
+      "$date": "2022-08-12T00:00:00.000Z"
+    },
+    "slug": "danger-mouse-and-black-thought-cheat-codes",
+    "sides": {
+      "a": [
+        "Sometimes",
+        "Cheat Codes",
+        "The Darkest Part",
+        "No Gold Teeth",
+        "Because",
+        "Belize"
+      ],
+      "b": [
+        "Aquamarine",
+        "Identical Deaths",
+        "Strangers",
+        "Close to Famous",
+        "Saltwater",
+        "Violas And Lupitas"
+      ]
+    }
   },
   {
     "_id": {
@@ -97,24 +113,6 @@
     },
     "artist": "Beck",
     "albumName": "Mellow Gold",
-    "releaseDate": {
-      "$date": "1994-03-01T05:00:00Z"
-    },
-    "aSide": [
-      "Loser",
-      "Pay No Mind (Snoozer)",
-      "Fukin With My Head (Mountain Dew Rock)",
-      "Whiskeyclone, Hotel City 1997",
-      "Soul Suckin Jerk",
-      "Sweet Sunshine"
-    ],
-    "bSide": [
-      "Beercan",
-      "Steal My Body Home",
-      "Nitemare Hippy Girl",
-      "Mutherfuker",
-      "Blackhole"
-    ],
     "genre": [
       "Electronic",
       "Rock"
@@ -127,7 +125,28 @@
     "label": "Bongload Records",
     "discogsLink": "https://www.discogs.com/release/34637878-Beck-Mellow-Gold",
     "pricePaid": 33.99,
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779899846/beckMellowGold_eprxgf"
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779899846/beckMellowGold_eprxgf",
+    "originalReleaseDate": {
+      "$date": "1994-03-01T05:00:00.000Z"
+    },
+    "slug": "beck-mellow-gold",
+    "sides": {
+      "a": [
+        "Loser",
+        "Pay No Mind (Snoozer)",
+        "Fukin With My Head (Mountain Dew Rock)",
+        "Whiskeyclone, Hotel City 1997",
+        "Soul Suckin Jerk",
+        "Sweet Sunshine"
+      ],
+      "b": [
+        "Beercan",
+        "Steal My Body Home",
+        "Nitemare Hippy Girl",
+        "Mutherfuker",
+        "Blackhole"
+      ]
+    }
   },
   {
     "_id": {
@@ -135,34 +154,36 @@
     },
     "artist": "The Black Keys",
     "albumName": "The Big Come Up",
-    "releaseDate": {
-      "$date": "1970-01-01T00:00:00Z"
-    },
-    "aSide": [
-      "Busted",
-      "Do The Rump",
-      "I'll Be Your Man",
-      "Countdown",
-      "The Breaks",
-      "Run Me Down",
-      "She Said, She Said [Alternate Version]"
-    ],
-    "bSide": [
-      "Heavy Soul [Alternate Version]",
-      "Yearnin' [Alternate Version]",
-      "No Fun [Vinyl Only]",
-      "Them Eyes",
-      "Leavin' Trunk",
-      "Brooklyn Bound",
-      "240 Years Before Your Time"
-    ],
     "genre": [
-      "Rock",
-      "Blues"
+      "Rock, Blues"
     ],
     "style": "Blues Rock",
     "catalogNumber": "ALIVE 0044-1",
     "label": "Alive Records",
+    "originalReleaseDate": {
+      "$date": "1970-01-01T00:00:00.000Z"
+    },
+    "slug": "the-black-keys-the-big-come-up",
+    "sides": {
+      "a": [
+        "Busted",
+        "Do The Rump",
+        "I'll Be Your Man",
+        "Countdown",
+        "The Breaks",
+        "Run Me Down",
+        "She Said, She Said [Alternate Version]"
+      ],
+      "b": [
+        "Heavy Soul [Alternate Version]",
+        "Yearnin' [Alternate Version]",
+        "No Fun [Vinyl Only]",
+        "Them Eyes",
+        "Leavin' Trunk",
+        "Brooklyn Bound",
+        "240 Years Before Your Time"
+      ]
+    },
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779900021/bkBigComeUp_cip3ir"
   },
   {
@@ -171,41 +192,44 @@
     },
     "artist": "Dr. Dre",
     "albumName": "The Chronic",
-    "releaseDate": {
-      "$date": "1992-12-15T00:00:00Z"
-    },
-    "aSide": [
-      "The Chronic (Intro)",
-      "F_ _ _ Wit Dre Day (And Everybody's Celebratin')",
-      "Let Me Ride",
-      "The Day The Niggaz Took Over"
-    ],
-    "bSide": [
-      "Nuthin' But A 'G' Thang",
-      "Deeez Nuuuts",
-      "Lil' Ghetto Boy"
-    ],
-    "cSide": [
-      "A Nigga Witta Gun",
-      "Rat-Tat-Tat-Tat",
-      "The $20 Sack Pyramid",
-      "Lyrical Gangbang",
-      "High Powered"
-    ],
-    "dSide": [
-      "The Doctor's Office",
-      "Stranded On Death Row",
-      "The Roach (The Chronic Outro)",
-      "Bitches Ain't S _ _ _"
-    ],
-    "genre": "Hip Hop",
     "style": [
       "Gangsta",
       "G-Funk"
     ],
     "catalogNumber": "DRR 63000-1",
     "label": "Death Row Records",
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779900172/ddthechronic_ev48gw"
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779900172/ddthechronic_ev48gw",
+    "genre": "Hip-Hop",
+    "originalReleaseDate": {
+      "$date": "1992-12-15T00:00:00.000Z"
+    },
+    "slug": "dr-dre-the-chronic",
+    "sides": {
+      "a": [
+        "The Chronic (Intro)",
+        "F_ _ _ Wit Dre Day (And Everybody's Celebratin')",
+        "Let Me Ride",
+        "The Day The Niggaz Took Over"
+      ],
+      "b": [
+        "Nuthin' But A 'G' Thang",
+        "Deeez Nuuuts",
+        "Lil' Ghetto Boy"
+      ],
+      "c": [
+        "A Nigga Witta Gun",
+        "Rat-Tat-Tat-Tat",
+        "The $20 Sack Pyramid",
+        "Lyrical Gangbang",
+        "High Powered"
+      ],
+      "d": [
+        "The Doctor's Office",
+        "Stranded On Death Row",
+        "The Roach (The Chronic Outro)",
+        "Bitches Ain't S _ _ _"
+      ]
+    }
   },
   {
     "_id": {
@@ -213,41 +237,44 @@
     },
     "artist": "Alabama Shakes",
     "albumName": "Sound & Color",
-    "releaseDate": {
-      "$date": "2015-04-17T04:00:00Z"
-    },
-    "aSide": [
-      "Sound & Color",
-      "Don't Wanna Fight",
-      "Dunes",
-      "Future People"
-    ],
-    "bSide": [
-      "Gimme All Your Love",
-      "This Feeling",
-      "Guess Who",
-      "The Greatest",
-      "Shoegaze"
-    ],
-    "cSide": [
-      "Miss You",
-      "Gemini",
-      "Over My Head",
-      "Drive By Baby",
-      "Joe"
-    ],
-    "dSide": [
-      "Someday",
-      "Don't Wanna Fight (Live From Capital Studio A)",
-      "Future People (Live From Capital Studio A)",
-      "Dunes (Live From Capital Studio A)",
-      "Over My Head (Live From Capital Studio A)"
-    ],
-    "genre": "Rock",
     "style": "Alternative Rock",
     "catalogNumber": "0882445713 / ATO0545",
     "label": "ATO Records",
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779898556/Screenshot_2026-05-27_at_12.15.45_PM_syjp7w"
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779898556/Screenshot_2026-05-27_at_12.15.45_PM_syjp7w",
+    "genre": "Rock",
+    "originalReleaseDate": {
+      "$date": "2015-04-17T04:00:00.000Z"
+    },
+    "slug": "alabama-shakes-sound-and-color",
+    "sides": {
+      "a": [
+        "Sound & Color",
+        "Don't Wanna Fight",
+        "Dunes",
+        "Future People"
+      ],
+      "b": [
+        "Gimme All Your Love",
+        "This Feeling",
+        "Guess Who",
+        "The Greatest",
+        "Shoegaze"
+      ],
+      "c": [
+        "Miss You",
+        "Gemini",
+        "Over My Head",
+        "Drive By Baby",
+        "Joe"
+      ],
+      "d": [
+        "Someday",
+        "Don't Wanna Fight (Live From Capital Studio A)",
+        "Future People (Live From Capital Studio A)",
+        "Dunes (Live From Capital Studio A)",
+        "Over My Head (Live From Capital Studio A)"
+      ]
+    }
   },
   {
     "_id": {
@@ -255,20 +282,6 @@
     },
     "artist": "Kids See Ghosts",
     "albumName": "Kids See Ghosts",
-    "releaseDate": {
-      "$date": "2018-06-08T04:00:00.000Z"
-    },
-    "aSide": [
-      "Feel The Love",
-      "Fire",
-      "4th Dimension",
-      "Freeee (Ghost Town Pt. 2)"
-    ],
-    "bSide": [
-      "Reborn",
-      "Kids See Ghosts",
-      "Cudi Montage"
-    ],
     "style": [
       "Pop Rap",
       "Experimental"
@@ -276,7 +289,24 @@
     "catalogNumber": "B0028760",
     "label": "Def Jam Recordings",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779904148/ksgksg_agddqu",
-    "genre": "Hip Hop"
+    "genre": "Hip-Hop",
+    "originalReleaseDate": {
+      "$date": "2018-06-08T04:00:00.000Z"
+    },
+    "slug": "kids-see-ghosts-kids-see-ghosts",
+    "sides": {
+      "a": [
+        "Feel The Love",
+        "Fire",
+        "4th Dimension",
+        "Freeee (Ghost Town Pt. 2)"
+      ],
+      "b": [
+        "Reborn",
+        "Kids See Ghosts",
+        "Cudi Montage"
+      ]
+    }
   },
   {
     "_id": {
@@ -284,29 +314,32 @@
     },
     "artist": "Alabama Shakes",
     "albumName": "Boys & Girls",
-    "releaseDate": {
-      "$date": "2012-04-10T04:00:00.000Z"
-    },
-    "aSide": [
-      "Hold On",
-      "I found You",
-      "Hang Loose",
-      "Rise To The Sun",
-      "You Ain't Alone"
-    ],
-    "bSide": [
-      "Goin' To The Party",
-      "Heartbreaker",
-      "Boys & Girls",
-      "Be Mine",
-      "I Ain't the Same",
-      "On Your Way"
-    ],
     "style": "Alternative Rock",
     "catalogNumber": "0882330613 / ATO0431",
     "label": "ATO Records",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780175423/AS_BoysAndGirls_pmwqp6",
-    "genre": "Rock"
+    "genre": "Rock",
+    "originalReleaseDate": {
+      "$date": "2012-04-10T04:00:00.000Z"
+    },
+    "slug": "alabama-shakes-boys-and-girls",
+    "sides": {
+      "a": [
+        "Hold On",
+        "I found You",
+        "Hang Loose",
+        "Rise To The Sun",
+        "You Ain't Alone"
+      ],
+      "b": [
+        "Goin' To The Party",
+        "Heartbreaker",
+        "Boys & Girls",
+        "Be Mine",
+        "I Ain't the Same",
+        "On Your Way"
+      ]
+    }
   },
   {
     "_id": {
@@ -314,27 +347,6 @@
     },
     "artist": "Dan Auerbach",
     "albumName": "Keep It Hid",
-    "releaseDate": {
-      "$date": "2009-02-10T00:00:00.000Z"
-    },
-    "aSide": [
-      "Trouble Weighs A Ton",
-      "I Want Some More",
-      "Heartbroken, In Disrepair",
-      "Becuase I Should",
-      "Whispered Words (Pretty Lies)",
-      "Real Desire",
-      "When The Night Comes"
-    ],
-    "bSide": [
-      "Mean Monsoon",
-      "The Prowl",
-      "Keep It Hid",
-      "My Last Mistake",
-      "When I Left The Room",
-      "Street Walkn'",
-      "Goin' Home"
-    ],
     "style": [
       "Alternative Rock",
       "Blue Rock",
@@ -346,7 +358,31 @@
     "genre": [
       "Rock",
       "Blues"
-    ]
+    ],
+    "originalReleaseDate": {
+      "$date": "2009-02-10T00:00:00.000Z"
+    },
+    "slug": "dan-auerbach-keep-it-hid",
+    "sides": {
+      "a": [
+        "Trouble Weighs A Ton",
+        "I Want Some More",
+        "Heartbroken, In Disrepair",
+        "Becuase I Should",
+        "Whispered Words (Pretty Lies)",
+        "Real Desire",
+        "When The Night Comes"
+      ],
+      "b": [
+        "Mean Monsoon",
+        "The Prowl",
+        "Keep It Hid",
+        "My Last Mistake",
+        "When I Left The Room",
+        "Street Walkn'",
+        "Goin' Home"
+      ]
+    }
   },
   {
     "_id": {
@@ -354,26 +390,6 @@
     },
     "artist": "Beck",
     "albumName": "Guero",
-    "releaseDate": {
-      "$date": "2005-03-29T00:00:00.000Z"
-    },
-    "aSide": [
-      "E-Pro",
-      "Que Onda Guero",
-      "Girl",
-      "Missing",
-      "Black Tambourine",
-      "Earthquake Weather"
-    ],
-    "bSide": [
-      "Hell Yes",
-      "Broken Drum",
-      "Scarecrow",
-      "Go It Alone",
-      "Farewell Ride",
-      "Rental Car",
-      "Emergency Exit"
-    ],
     "style": [
       "Indie Rock",
       "Electro",
@@ -386,7 +402,30 @@
     "genre": [
       "Alternative Rock",
       "Pop Rock"
-    ]
+    ],
+    "originalReleaseDate": {
+      "$date": "2005-03-29T00:00:00.000Z"
+    },
+    "slug": "beck-guero",
+    "sides": {
+      "a": [
+        "E-Pro",
+        "Que Onda Guero",
+        "Girl",
+        "Missing",
+        "Black Tambourine",
+        "Earthquake Weather"
+      ],
+      "b": [
+        "Hell Yes",
+        "Broken Drum",
+        "Scarecrow",
+        "Go It Alone",
+        "Farewell Ride",
+        "Rental Car",
+        "Emergency Exit"
+      ]
+    }
   },
   {
     "_id": {
@@ -394,26 +433,6 @@
     },
     "artist": "Beck",
     "albumName": "Odelay",
-    "releaseDate": {
-      "$date": "1996-06-18T00:00:00.000Z"
-    },
-    "aSide": [
-      "Devil's Haircut",
-      "Hotwax",
-      "Lord Only Knows",
-      "The New Pollution",
-      "Derelict",
-      "Novacane",
-      "Jack-Ass"
-    ],
-    "bSide": [
-      "Where It's At",
-      "Minus",
-      "Sissyneck",
-      "Readymade",
-      "High 5 (Rock The Catskills)",
-      "Ramshackle"
-    ],
     "style": [
       "Electro",
       "Downtempo",
@@ -426,7 +445,30 @@
     "genre": [
       "Alternative Rock",
       "Pop Rock"
-    ]
+    ],
+    "originalReleaseDate": {
+      "$date": "1996-06-18T00:00:00.000Z"
+    },
+    "slug": "beck-odelay",
+    "sides": {
+      "a": [
+        "Devil's Haircut",
+        "Hotwax",
+        "Lord Only Knows",
+        "The New Pollution",
+        "Derelict",
+        "Novacane",
+        "Jack-Ass"
+      ],
+      "b": [
+        "Where It's At",
+        "Minus",
+        "Sissyneck",
+        "Readymade",
+        "High 5 (Rock The Catskills)",
+        "Ramshackle"
+      ]
+    }
   },
   {
     "_id": {
@@ -434,33 +476,6 @@
     },
     "artist": "Beastie Boys",
     "albumName": "Hot Sauce Committee Part Two",
-    "releaseDate": {
-      "$date": "2011-05-03T00:00:00.000Z"
-    },
-    "aSide": [
-      "Make Some Noise",
-      "Nonstop Disco Powerpack",
-      "Ok"
-    ],
-    "bSide": [
-      "Too Many Rappers (New Reactionaries Version)",
-      "Say It",
-      "The Bill Harper Collection",
-      "Don't Play No Game That I Can't Win"
-    ],
-    "cSide": [
-      "Long Burn The Fire",
-      "Funky Donkey",
-      "The Larry Routine",
-      "Tadlock's Glasses",
-      "Lee Majors Come Again"
-    ],
-    "dSide": [
-      "Multilateral Nuclear Disarmament",
-      "Here's A Little Something For Ya",
-      "Crazy A** S**T",
-      "The Lisa Lisa/Full Force Routine"
-    ],
     "style": [
       ""
     ],
@@ -468,12 +483,42 @@
     "label": "Capitol Records",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1780523992/bb-HotSauceCommittee_jssb0t",
     "genre": [
-      "Hip Hop"
+      "Hip-Hop"
     ],
     "upc": {
       "$numberLong": "602557727890"
     },
-    "discogsLink": "https://www.discogs.com/release/11247961-Beastie-Boys-Hot-Sauce-Committee-Part-Two"
+    "discogsLink": "https://www.discogs.com/release/11247961-Beastie-Boys-Hot-Sauce-Committee-Part-Two",
+    "originalReleaseDate": {
+      "$date": "2011-05-03T00:00:00.000Z"
+    },
+    "slug": "beastie-boys-hot-sauce-committee-part-two",
+    "sides": {
+      "a": [
+        "Make Some Noise",
+        "Nonstop Disco Powerpack",
+        "Ok"
+      ],
+      "b": [
+        "Too Many Rappers (New Reactionaries Version)",
+        "Say It",
+        "The Bill Harper Collection",
+        "Don't Play No Game That I Can't Win"
+      ],
+      "c": [
+        "Long Burn The Fire",
+        "Funky Donkey",
+        "The Larry Routine",
+        "Tadlock's Glasses",
+        "Lee Majors Come Again"
+      ],
+      "d": [
+        "Multilateral Nuclear Disarmament",
+        "Here's A Little Something For Ya",
+        "Crazy A** S**T",
+        "The Lisa Lisa/Full Force Routine"
+      ]
+    }
   },
   {
     "_id": {
@@ -481,26 +526,6 @@
     },
     "artist": "Beastie Boys",
     "albumName": "License To Ill",
-    "releaseDate": {
-      "$date": "1986-11-15T00:00:00.000Z"
-    },
-    "aSide": [
-      "Rhymin & Stealin",
-      "The New Style",
-      "She's Crafty",
-      "Posse In Effect",
-      "Slow Ride",
-      "Girls",
-      "Fight For Your Right"
-    ],
-    "bSide": [
-      "No Sleep Till Brooklyn",
-      "Paul Revere",
-      "Hold It Now, Hit It",
-      "Brass Monkey",
-      "Slow And Low",
-      "Time To Get Ill"
-    ],
     "style": [
       ""
     ],
@@ -508,12 +533,35 @@
     "label": "Def Jam",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1781297999/bb-lti_khmck7",
     "genre": [
-      "Hip Hop"
+      "Hip-Hop"
     ],
     "upc": {
       "$numberLong": "602547820754"
     },
-    "discogsLink": "https://www.discogs.com/release/33128076-Beastie-Boys-Licensed-To-Ill"
+    "discogsLink": "https://www.discogs.com/release/33128076-Beastie-Boys-Licensed-To-Ill",
+    "originalReleaseDate": {
+      "$date": "1986-11-15T00:00:00.000Z"
+    },
+    "slug": "beastie-boys-license-to-ill",
+    "sides": {
+      "a": [
+        "Rhymin & Stealin",
+        "The New Style",
+        "She's Crafty",
+        "Posse In Effect",
+        "Slow Ride",
+        "Girls",
+        "Fight For Your Right"
+      ],
+      "b": [
+        "No Sleep Till Brooklyn",
+        "Paul Revere",
+        "Hold It Now, Hit It",
+        "Brass Monkey",
+        "Slow And Low",
+        "Time To Get Ill"
+      ]
+    }
   },
   {
     "_id": {
@@ -521,41 +569,6 @@
     },
     "artist": "Beastie Boys",
     "albumName": "Paul's Boutique",
-    "releaseDate": {
-      "$date": "1989-07-25T00:00:00.000Z"
-    },
-    "aSide": [
-      "To All The Girls",
-      "Shake Your Rump",
-      "Johny Ryall",
-      "Egg Man",
-      "High Plains Drifter",
-      "The Sounds of Silence",
-      "3-Minute Rule",
-      "Hey Ladies"
-    ],
-    "bSide": [
-      "5-Piece Chicken Dinner",
-      "Looking Down The Barrel Of A Gun",
-      "Car Theif",
-      "What Comes Around",
-      "Shadrach",
-      "Ask For Janice",
-      [
-        "B-Boy Bouillabaisse",
-        [
-          "59 Chrystie Street",
-          "Get On The Mic",
-          "Stop That Train",
-          "A Year And A Day",
-          "Hello Brooklyn",
-          "Dropping Names",
-          "Lay It On Me",
-          "Mike On The Mike",
-          "A.W.O.L."
-        ]
-      ]
-    ],
     "style": [
       "Cut-up/DJ",
       "Hop-Hop"
@@ -564,11 +577,49 @@
     "label": "Capitol Records",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782583708/bb-paulsboutique_uekrqx",
     "genre": [
-      "Hip Hop",
+      "Hip-Hop",
       "Electronic"
     ],
     "upc": "",
-    "discogsLink": "https://www.discogs.com/release/10859686-Beastie-Boys-Pauls-Boutique"
+    "discogsLink": "https://www.discogs.com/release/10859686-Beastie-Boys-Pauls-Boutique",
+    "originalReleaseDate": {
+      "$date": "1989-07-25T00:00:00.000Z"
+    },
+    "slug": "beastie-boys-pauls-boutique",
+    "sides": {
+      "a": [
+        "To All The Girls",
+        "Shake Your Rump",
+        "Johny Ryall",
+        "Egg Man",
+        "High Plains Drifter",
+        "The Sounds of Silence",
+        "3-Minute Rule",
+        "Hey Ladies"
+      ],
+      "b": [
+        "5-Piece Chicken Dinner",
+        "Looking Down The Barrel Of A Gun",
+        "Car Theif",
+        "What Comes Around",
+        "Shadrach",
+        "Ask For Janice",
+        [
+          "B-Boy Bouillabaisse",
+          [
+            "59 Chrystie Street",
+            "Get On The Mic",
+            "Stop That Train",
+            "A Year And A Day",
+            "Hello Brooklyn",
+            "Dropping Names",
+            "Lay It On Me",
+            "Mike On The Mike",
+            "A.W.O.L."
+          ]
+        ]
+      ]
+    }
   },
   {
     "_id": {
@@ -576,39 +627,6 @@
     },
     "artist": "Beastie Boys",
     "albumName": "Hello Nasty",
-    "releaseDate": {
-      "$date": "1998-07-14T00:00:00.000Z"
-    },
-    "aSide": [
-      "Super Disco Breakin'",
-      "The Move",
-      "Remote Control",
-      "Song For The Man",
-      "Just A Test",
-      "Body Movin'"
-    ],
-    "bSide": [
-      "Intergalactic",
-      "Sneakin' Out The Hospital",
-      "Putting Shame In Your Game",
-      "Flowin' Prose",
-      "And Me",
-      "Three MC's And One DJ"
-    ],
-    "cSide": [
-      "The Grasshopper Unit (Keep Movin')",
-      "Song For Junior",
-      "I Don't Know",
-      "The Negotiation Limerick File",
-      "Electrify"
-    ],
-    "dSide": [
-      "Picture This",
-      "Unite",
-      "Dedication",
-      "Dr. Lee, PhD",
-      "Instant Death"
-    ],
     "style": [
       "Hop-Hop"
     ],
@@ -616,11 +634,47 @@
     "label": "Capitol Records",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782586849/bb-hellonasty_uvizbn",
     "genre": [
-      "Hip Hop",
+      "Hip-Hop",
       "Electronic"
     ],
     "upc": "5099969423918",
-    "discogsLink": "https://www.discogs.com/release/2072731-Beastie-Boys-Hello-Nasty"
+    "discogsLink": "https://www.discogs.com/release/2072731-Beastie-Boys-Hello-Nasty",
+    "originalReleaseDate": {
+      "$date": "1998-07-14T00:00:00.000Z"
+    },
+    "slug": "beastie-boys-hello-nasty",
+    "sides": {
+      "a": [
+        "Super Disco Breakin'",
+        "The Move",
+        "Remote Control",
+        "Song For The Man",
+        "Just A Test",
+        "Body Movin'"
+      ],
+      "b": [
+        "Intergalactic",
+        "Sneakin' Out The Hospital",
+        "Putting Shame In Your Game",
+        "Flowin' Prose",
+        "And Me",
+        "Three MC's And One DJ"
+      ],
+      "c": [
+        "The Grasshopper Unit (Keep Movin')",
+        "Song For Junior",
+        "I Don't Know",
+        "The Negotiation Limerick File",
+        "Electrify"
+      ],
+      "d": [
+        "Picture This",
+        "Unite",
+        "Dedication",
+        "Dr. Lee, PhD",
+        "Instant Death"
+      ]
+    }
   },
   {
     "_id": {
@@ -628,37 +682,6 @@
     },
     "artist": "Beastie Boys",
     "albumName": "Check Your Head",
-    "releaseDate": {
-      "$date": "1992-04-21T00:00:00.000Z"
-    },
-    "aSide": [
-      "Jimmy James",
-      "Funky Boss",
-      "Pass The Mic",
-      "Gratitude",
-      "Lighten Up"
-    ],
-    "bSide": [
-      "Finger Lickin' Good",
-      "So What'cha Want",
-      "The Biz Vs. The Nuge",
-      "Time For Livin'",
-      "Something's Got To Give"
-    ],
-    "cSide": [
-      "The Blue Nun",
-      "Stand Together",
-      "Pow",
-      "The Maestro",
-      "Groove Holmes"
-    ],
-    "dSide": [
-      "Live At P.J.'s",
-      "Mark On The Bus",
-      "Professor Booty",
-      "In 3's",
-      "Namaste"
-    ],
     "style": [
       "Cut-up/DJ",
       "Fusion"
@@ -670,12 +693,46 @@
     ],
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782596383/bb-checkyourhead_auguyn",
     "genre": [
-      "Hip Hop",
+      "Hip-Hop",
       "Jazz",
       "Rock"
     ],
     "upc": "",
-    "discogsLink": "https://www.discogs.com/release/3950974-Beastie-Boys-Check-Your-Head"
+    "discogsLink": "https://www.discogs.com/release/3950974-Beastie-Boys-Check-Your-Head",
+    "originalReleaseDate": {
+      "$date": "1992-04-21T00:00:00.000Z"
+    },
+    "slug": "beastie-boys-check-your-head",
+    "sides": {
+      "a": [
+        "Jimmy James",
+        "Funky Boss",
+        "Pass The Mic",
+        "Gratitude",
+        "Lighten Up"
+      ],
+      "b": [
+        "Finger Lickin' Good",
+        "So What'cha Want",
+        "The Biz Vs. The Nuge",
+        "Time For Livin'",
+        "Something's Got To Give"
+      ],
+      "c": [
+        "The Blue Nun",
+        "Stand Together",
+        "Pow",
+        "The Maestro",
+        "Groove Holmes"
+      ],
+      "d": [
+        "Live At P.J.'s",
+        "Mark On The Bus",
+        "Professor Booty",
+        "In 3's",
+        "Namaste"
+      ]
+    }
   },
   {
     "_id": {
@@ -683,39 +740,8 @@
     },
     "artist": "Beastie Boys",
     "albumName": "Ill Communication",
-    "releaseDate": {
-      "$date": "1994-05-31T00:00:00.000Z"
-    },
-    "aSide": [
-      "Sure Shot",
-      "Tough Guy",
-      "B-Boys Makin' With The Freak Freak",
-      "Bobo On The Corner",
-      "Root Down"
-    ],
-    "bSide": [
-      "Sabotage",
-      "Get It Together",
-      "Sabrosa",
-      "The Update"
-    ],
-    "cSide": [
-      "Futterman's Rule",
-      "Alright Hear This",
-      "Eugene's Lament",
-      "Flute Loop",
-      "Do It"
-    ],
-    "dSide": [
-      "Ricky's Theme",
-      "Heart Attack Man",
-      "The Scoop",
-      "Shambala",
-      "Bodhisattva Vow",
-      "Transitions"
-    ],
     "style": [
-      "Alternative Hip Hop",
+      "Alternative Hip-Hop",
       "Jazz-Funk",
       "Hardcore"
     ],
@@ -726,12 +752,46 @@
     ],
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782671061/bb-illcomm_sadnv9",
     "genre": [
-      "Hip Hop",
+      "Hip-Hop",
       "Jazz",
       "Rock"
     ],
     "upc": "5099969423215",
-    "discogsLink": "https://www.discogs.com/release/4191561-Beastie-Boys-Ill-Communication"
+    "discogsLink": "https://www.discogs.com/release/4191561-Beastie-Boys-Ill-Communication",
+    "originalReleaseDate": {
+      "$date": "1994-05-31T00:00:00.000Z"
+    },
+    "slug": "beastie-boys-ill-communication",
+    "sides": {
+      "a": [
+        "Sure Shot",
+        "Tough Guy",
+        "B-Boys Makin' With The Freak Freak",
+        "Bobo On The Corner",
+        "Root Down"
+      ],
+      "b": [
+        "Sabotage",
+        "Get It Together",
+        "Sabrosa",
+        "The Update"
+      ],
+      "c": [
+        "Futterman's Rule",
+        "Alright Hear This",
+        "Eugene's Lament",
+        "Flute Loop",
+        "Do It"
+      ],
+      "d": [
+        "Ricky's Theme",
+        "Heart Attack Man",
+        "The Scoop",
+        "Shambala",
+        "Bodhisattva Vow",
+        "Transitions"
+      ]
+    }
   },
   {
     "_id": {
@@ -739,26 +799,6 @@
     },
     "artist": "The Black Keys",
     "albumName": "Rubber Factory",
-    "releaseDate": {
-      "$date": "2004-09-07T00:00:00.000Z"
-    },
-    "aSide": [
-      "When The Lights Go Out",
-      "10 A.M. Automatic",
-      "Just Couldn't Tie Me Down",
-      "All Hands Against His Own",
-      "The Desperate Man",
-      "Girl Is On My Mind"
-    ],
-    "bSide": [
-      "The Lengths",
-      "Grown So Ugly",
-      "Stack Shot Billy",
-      "Act Nice And Gentle",
-      "Aeroplane Blues",
-      "Keep Me",
-      "Till I Get My Way"
-    ],
     "style": [
       "Blues Rock",
       "Garage Rock"
@@ -785,6 +825,29 @@
         "sideA": "MRP0014-A / FR-80379-1-A / #26 / CSH / Welcome to 1979",
         "sideB": "MRP0014-B / FR-80379-1-B / B13 / CSH / Welcome to 1979"
       }
+    },
+    "originalReleaseDate": {
+      "$date": "2004-09-07T00:00:00.000Z"
+    },
+    "slug": "the-black-keys-rubber-factory",
+    "sides": {
+      "a": [
+        "When The Lights Go Out",
+        "10 A.M. Automatic",
+        "Just Couldn't Tie Me Down",
+        "All Hands Against His Own",
+        "The Desperate Man",
+        "Girl Is On My Mind"
+      ],
+      "b": [
+        "The Lengths",
+        "Grown So Ugly",
+        "Stack Shot Billy",
+        "Act Nice And Gentle",
+        "Aeroplane Blues",
+        "Keep Me",
+        "Till I Get My Way"
+      ]
     }
   },
   {
@@ -796,20 +859,6 @@
     "originalReleaseDate": {
       "$date": "2022-05-13T00:00:00.000Z"
     },
-    "aSide": [
-      "Wild Child",
-      "It Ain't Over",
-      "For The Love Of Money",
-      "Your Team Is Looking Good",
-      "Good Love"
-    ],
-    "bSide": [
-      "How Long",
-      "Burn The Damn Thing Down",
-      "Happiness",
-      "Baby I'm Coming Home",
-      "Didn't I Love You"
-    ],
     "genre": [
       "Rock"
     ],
@@ -875,7 +924,24 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-black-keys-dropout-boogie",
+    "sides": {
+      "a": [
+        "Wild Child",
+        "It Ain't Over",
+        "For The Love Of Money",
+        "Your Team Is Looking Good",
+        "Good Love"
+      ],
+      "b": [
+        "How Long",
+        "Burn The Damn Thing Down",
+        "Happiness",
+        "Baby I'm Coming Home",
+        "Didn't I Love You"
+      ]
+    }
   },
   {
     "_id": {
@@ -886,26 +952,6 @@
     "originalReleaseDate": {
       "$date": "2021-05-14T00:00:00.000Z"
     },
-    "aSide": [
-      "Crawling Kingsnake",
-      "Louise",
-      "Poor Boy A Long Way From Home"
-    ],
-    "bSide": [
-      "Stay All Night",
-      "Going Down South",
-      "Coal Black Mattie"
-    ],
-    "cSide": [
-      "Do The Romp",
-      "Sad Days, Lonely Nights",
-      "Walk With Me"
-    ],
-    "dSide": [
-      "Mellow Peaches",
-      "Come On And Go With Me",
-      "Honey Hair"
-    ],
     "genre": [
       "Rock",
       "Blues"
@@ -970,7 +1016,30 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-black-keys-delta-kream",
+    "sides": {
+      "a": [
+        "Crawling Kingsnake",
+        "Louise",
+        "Poor Boy A Long Way From Home"
+      ],
+      "b": [
+        "Stay All Night",
+        "Going Down South",
+        "Coal Black Mattie"
+      ],
+      "c": [
+        "Do The Romp",
+        "Sad Days, Lonely Nights",
+        "Walk With Me"
+      ],
+      "d": [
+        "Mellow Peaches",
+        "Come On And Go With Me",
+        "Honey Hair"
+      ]
+    }
   },
   {
     "_id": {
@@ -981,21 +1050,6 @@
     "originalReleaseDate": {
       "$date": "2006-09-12T00:00:00.000Z"
     },
-    "aSide": [
-      "Just Got To Be",
-      "Your Touch",
-      "You're The One",
-      "Just A Little Heat",
-      "Give Your Heart Away",
-      "Strange Desire"
-    ],
-    "bSide": [
-      "Modern Times",
-      "The Flame",
-      "Goodbye Babylon",
-      "Black Door",
-      "Elevator"
-    ],
     "genre": [
       "Rock",
       "Blues"
@@ -1054,7 +1108,25 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-black-keys-magic-potion",
+    "sides": {
+      "a": [
+        "Just Got To Be",
+        "Your Touch",
+        "You're The One",
+        "Just A Little Heat",
+        "Give Your Heart Away",
+        "Strange Desire"
+      ],
+      "b": [
+        "Modern Times",
+        "The Flame",
+        "Goodbye Babylon",
+        "Black Door",
+        "Elevator"
+      ]
+    }
   },
   {
     "_id": {
@@ -1065,21 +1137,6 @@
     "originalReleaseDate": {
       "$date": "2008-04-01T00:00:00.000Z"
     },
-    "aSide": [
-      "All You Ever Wanted",
-      "I Got Mine",
-      "Strange Times",
-      "Psychotic Girl",
-      "Lies",
-      "Remember When (Side A)"
-    ],
-    "bSide": [
-      "Remember When (Side B)",
-      "Same Old Thing",
-      "So He Won't Break",
-      "Oceans And Streams",
-      "Things Ain't Like They Used To Be"
-    ],
     "genre": [
       "Rock",
       "Blues"
@@ -1092,7 +1149,7 @@
     "label": [
       "Nonesuch"
     ],
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1783715634/bk_attackandrelease_dnqyjm",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1783715634/bk_attackandrelease_dnqyjm.jpg",
     "upc": "075597994087",
     "discogsLink": "https://www.discogs.com/release/4802425-The-Black-Keys-Attack-Release",
     "pressing": {
@@ -1141,7 +1198,25 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-black-keys-attack-and-release",
+    "sides": {
+      "a": [
+        "All You Ever Wanted",
+        "I Got Mine",
+        "Strange Times",
+        "Psychotic Girl",
+        "Lies",
+        "Remember When (Side A)"
+      ],
+      "b": [
+        "Remember When (Side B)",
+        "Same Old Thing",
+        "So He Won't Break",
+        "Oceans And Streams",
+        "Things Ain't Like They Used To Be"
+      ]
+    }
   },
   {
     "_id": {
@@ -1152,35 +1227,6 @@
     "originalReleaseDate": {
       "$date": "2011-12-06T00:00:00.000Z"
     },
-    "aSide": [
-      "Lonely Boy",
-      "Dead And Gone",
-      "Gold On The Ceiling",
-      "Little Black Submarines",
-      "Money Maker"
-    ],
-    "bSide": [
-      "Run Right Back",
-      "Sister",
-      "Hell Of A Season",
-      "Stop Stop",
-      "Nova Baby",
-      "Mind Eraser"
-    ],
-    "cSide": [
-      "Dead And Gone (Live In Portland, ME)",
-      "Next Girl (Live In Portland, ME)",
-      "Run Right Back (Live In Portland, ME)",
-      "Same Old Thing (Live In Portland, ME)",
-      "Gold On The Ceiling (Live In Portland, ME)"
-    ],
-    "dSide": [
-      "Thickfreakness (Live In Portland, ME)",
-      "Girl Is On My Mind (Live In Portland, ME)",
-      "I'll Be Your Man (Live In Portland, ME)",
-      "Your Touch (Live In Portland, ME)",
-      "Little Black Submarines (Live In Portland, ME)"
-    ],
     "eSide": [
       "Money Maker (Live In Portland, ME)",
       "I'm Not The One (Live In Portland, ME)",
@@ -1262,7 +1308,39 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-black-keys-el-camino-deluxe-edition",
+    "sides": {
+      "a": [
+        "Lonely Boy",
+        "Dead And Gone",
+        "Gold On The Ceiling",
+        "Little Black Submarines",
+        "Money Maker"
+      ],
+      "b": [
+        "Run Right Back",
+        "Sister",
+        "Hell Of A Season",
+        "Stop Stop",
+        "Nova Baby",
+        "Mind Eraser"
+      ],
+      "c": [
+        "Dead And Gone (Live In Portland, ME)",
+        "Next Girl (Live In Portland, ME)",
+        "Run Right Back (Live In Portland, ME)",
+        "Same Old Thing (Live In Portland, ME)",
+        "Gold On The Ceiling (Live In Portland, ME)"
+      ],
+      "d": [
+        "Thickfreakness (Live In Portland, ME)",
+        "Girl Is On My Mind (Live In Portland, ME)",
+        "I'll Be Your Man (Live In Portland, ME)",
+        "Your Touch (Live In Portland, ME)",
+        "Little Black Submarines (Live In Portland, ME)"
+      ]
+    }
   },
   {
     "_id": {
@@ -1273,16 +1351,6 @@
     "originalReleaseDate": {
       "$date": "2006-05-02T00:00:00.000Z"
     },
-    "aSide": [
-      "Keep Your Hands Off Her",
-      "Have Mercy On Me",
-      "Work Me"
-    ],
-    "bSide": [
-      "Meet Me In The City",
-      "Nobody But You",
-      "My Mind Is Ramblin'"
-    ],
     "genre": [
       "Rock",
       "Blues"
@@ -1330,10 +1398,27 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "store": "Repo Records",
+      "price": 24.99
     },
-    "userNotes": ""
+    "userNotes": "",
+    "hypeSticker": {
+      "present": true,
+      "description": "Black Label with white font The Black Keys Chulahoma The Songs of Junior Kimbrough"
+    },
+    "slug": "the-black-keys-chulahoma",
+    "sides": {
+      "a": [
+        "Keep Your Hands Off Her",
+        "Have Mercy On Me",
+        "Work Me"
+      ],
+      "b": [
+        "Meet Me In The City",
+        "Nobody But You",
+        "My Mind Is Ramblin'"
+      ]
+    }
   },
   {
     "_id": {
@@ -1344,29 +1429,6 @@
     "originalReleaseDate": {
       "$date": "2010-05-18T00:00:00.000Z"
     },
-    "aSide": [
-      "Everlasting Light",
-      "Next Girl",
-      "Tighten Up"
-    ],
-    "bSide": [
-      "Howlin' For You",
-      "She's Long Gone",
-      "Black Mud"
-    ],
-    "cSide": [
-      "The Only One",
-      "Too Afraid To Love You",
-      "Ten Cent Pistol",
-      "Sinister Kid"
-    ],
-    "dSide": [
-      "The Go Getter",
-      "I'm Not The One",
-      "Unknown Brother",
-      "Never Gonna Give You Up",
-      "These Days"
-    ],
     "genre": [
       "Rock",
       "Blues"
@@ -1424,7 +1486,33 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-black-keys-brothers",
+    "sides": {
+      "a": [
+        "Everlasting Light",
+        "Next Girl",
+        "Tighten Up"
+      ],
+      "b": [
+        "Howlin' For You",
+        "She's Long Gone",
+        "Black Mud"
+      ],
+      "c": [
+        "The Only One",
+        "Too Afraid To Love You",
+        "Ten Cent Pistol",
+        "Sinister Kid"
+      ],
+      "d": [
+        "The Go Getter",
+        "I'm Not The One",
+        "Unknown Brother",
+        "Never Gonna Give You Up",
+        "These Days"
+      ]
+    }
   },
   {
     "_id": {
@@ -1435,21 +1523,6 @@
     "originalReleaseDate": {
       "$date": "2003-04-08T00:00:00.000Z"
     },
-    "aSide": [
-      "Thickfreakness",
-      "Hard Row",
-      "Set You Free",
-      "Midnight In Her Eyes",
-      "Have Love Will Travel"
-    ],
-    "bSide": [
-      "Hurt Like Mine",
-      "Everywhere I Go",
-      "No Trust",
-      "If You See Me",
-      "Hold Me In Your Arms",
-      "I Cry Alone"
-    ],
     "genre": [
       "Rock",
       "Blues"
@@ -1500,7 +1573,25 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-black-keys-thickfreakness",
+    "sides": {
+      "a": [
+        "Thickfreakness",
+        "Hard Row",
+        "Set You Free",
+        "Midnight In Her Eyes",
+        "Have Love Will Travel"
+      ],
+      "b": [
+        "Hurt Like Mine",
+        "Everywhere I Go",
+        "No Trust",
+        "If You See Me",
+        "Hold Me In Your Arms",
+        "I Cry Alone"
+      ]
+    }
   },
   {
     "_id": {
@@ -1511,24 +1602,6 @@
     "originalReleaseDate": {
       "$date": "2024-04-05T00:00:00.000Z"
     },
-    "aSide": [
-      "This Is Nowhere",
-      "Don't Let Me Go",
-      "Beautiful People (Stay High)",
-      "On The Game",
-      "Only Love Matters",
-      "Candy And Her Friends",
-      "I Forgot To Be Your Lover"
-    ],
-    "bSide": [
-      "Please Me (Till I'm Satisfied)",
-      "You'll Pay",
-      "Paper Crown",
-      "Live Till I Die",
-      "Read Em And Weep",
-      "Fever Tree",
-      "Every Time You Leave"
-    ],
     "genre": [
       "Rock",
       "Blues"
@@ -1576,10 +1649,31 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "store": "Latchkey Records",
+      "price": 30.99
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-black-keys-ohio-players",
+    "sides": {
+      "a": [
+        "This Is Nowhere",
+        "Don't Let Me Go",
+        "Beautiful People (Stay High)",
+        "On The Game",
+        "Only Love Matters",
+        "Candy And Her Friends",
+        "I Forgot To Be Your Lover"
+      ],
+      "b": [
+        "Please Me (Till I'm Satisfied)",
+        "You'll Pay",
+        "Paper Crown",
+        "Live Till I Die",
+        "Read Em And Weep",
+        "Fever Tree",
+        "Every Time You Leave"
+      ]
+    }
   },
   {
     "_id": {
@@ -1590,24 +1684,13 @@
     "originalReleaseDate": {
       "$date": "1990-12-18T00:00:00.000Z"
     },
-    "aSide": [
-      "Endangered Species (Tales From The Darkside) (Remix)",
-      "Jackin' For Beats",
-      "Get Off My Dick And Tell Yo Bitch To Come Here (Remix)"
-    ],
-    "bSide": [
-      "The Product",
-      "Dead Homiez",
-      "JD's Gaffilin' (Part 2)",
-      "I Gotta Say What Up!!!"
-    ],
     "genre": [
-      "Hip Hop"
+      "Hip-Hop"
     ],
     "style": [
       "Gangsta",
-      "Hardcore Hip Hop",
-      "West Coast Hip Hop"
+      "Hardcore Hip-Hop",
+      "West Coast Hip-Hop"
     ],
     "catalogNumber": "EVL 7230",
     "label": [
@@ -1653,7 +1736,21 @@
       "store": "The Rock Shop, Plymouth Meeting, PA",
       "price": 18
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "ice-cube-kill-at-will",
+    "sides": {
+      "a": [
+        "Endangered Species (Tales From The Darkside) (Remix)",
+        "Jackin' For Beats",
+        "Get Off My Dick And Tell Yo Bitch To Come Here (Remix)"
+      ],
+      "b": [
+        "The Product",
+        "Dead Homiez",
+        "JD's Gaffilin' (Part 2)",
+        "I Gotta Say What Up!!!"
+      ]
+    }
   },
   {
     "_id": {
@@ -1664,27 +1761,12 @@
     "originalReleaseDate": {
       "$date": "2024-11-29T00:00:00.000Z"
     },
-    "aSide": [
-      "Hand On The Glock",
-      "Break 'Em Off Some",
-      "Dr. Greenthumb",
-      "Lightning Strikes"
-    ],
-    "bSide": [
-      "Illusions",
-      "Insane In The Brain",
-      "When The Shit Goes Down",
-      "I Wanna Get High",
-      "Stoned Is The Way Of The Walk",
-      "Hits From The Bong",
-      "Riot Starter"
-    ],
     "genre": [
-      "Hip Hop"
+      "Hip-Hop"
     ],
     "style": [
       "Conscious",
-      "Hardcore Hip Hop",
+      "Hardcore Hip-Hop",
       "Live"
     ],
     "catalogNumber": "783792",
@@ -1733,9 +1815,27 @@
         "$date": "2026-07-19T00:00:00.000Z"
       },
       "store": "The Rock Shop, Plymouth Meeting, PA",
-      "price": 18
+      "price": 29.99
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "cypress-hill-live-at-rock-im-park-1999",
+    "sides": {
+      "a": [
+        "Hand On The Glock",
+        "Break 'Em Off Some",
+        "Dr. Greenthumb",
+        "Lightning Strikes"
+      ],
+      "b": [
+        "Illusions",
+        "Insane In The Brain",
+        "When The Shit Goes Down",
+        "I Wanna Get High",
+        "Stoned Is The Way Of The Walk",
+        "Hits From The Bong",
+        "Riot Starter"
+      ]
+    }
   },
   {
     "_id": {
@@ -1746,20 +1846,6 @@
     "originalReleaseDate": {
       "$date": "2014-10-21T00:00:00.000Z"
     },
-    "aSide": [
-      "Into The Fog",
-      "The Sticks",
-      "Burnt Offering",
-      "Trail Of Tears",
-      "Magus Mountain"
-    ],
-    "bSide": [
-      "Black Venom",
-      "Tomahawk",
-      "The Enchanter",
-      "Snake Hawk",
-      "Shattered Winds"
-    ],
     "genre": [
       "Funk",
       "Jazz"
@@ -1812,7 +1898,24 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-budos-band-burnt-offering",
+    "sides": {
+      "a": [
+        "Into The Fog",
+        "The Sticks",
+        "Burnt Offering",
+        "Trail Of Tears",
+        "Magus Mountain"
+      ],
+      "b": [
+        "Black Venom",
+        "Tomahawk",
+        "The Enchanter",
+        "Snake Hawk",
+        "Shattered Winds"
+      ]
+    }
   },
   {
     "_id": {
@@ -1823,21 +1926,6 @@
     "originalReleaseDate": {
       "$date": "2020-10-09T00:00:00.000Z"
     },
-    "aSide": [
-      "Long In The Tooth",
-      "Sixth Hammer",
-      "Snake Hawk",
-      "Dusterado",
-      "Silver Stallion",
-      "Haunted Sea"
-    ],
-    "bSide": [
-      "The Wrangler",
-      "Gun Metal Grey",
-      "Mierda De Toro",
-      "Budonian Knight",
-      "Renegade"
-    ],
     "genre": [
       "Rock",
       "Funk / Soul"
@@ -1890,7 +1978,25 @@
       "store": "Long In The Tooth Records",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "the-budos-band-long-in-the-tooth",
+    "sides": {
+      "a": [
+        "Long In The Tooth",
+        "Sixth Hammer",
+        "Snake Hawk",
+        "Dusterado",
+        "Silver Stallion",
+        "Haunted Sea"
+      ],
+      "b": [
+        "The Wrangler",
+        "Gun Metal Grey",
+        "Mierda De Toro",
+        "Budonian Knight",
+        "Renegade"
+      ]
+    }
   },
   {
     "_id": {
@@ -1901,37 +2007,6 @@
     "originalReleaseDate": {
       "$date": "1989-03-03T00:00:00.000Z"
     },
-    "aSide": [
-      "Intro",
-      "The Magic Number",
-      "Change In Speak",
-      "Cool Breeze On The Rocks (The Melted Version)",
-      "Can U Keep A Secret",
-      "Jenifa Taught Me (Derwin's Revenge)",
-      "Ghetto Thang"
-    ],
-    "bSide": [
-      "Transmitting Live From Mars",
-      "Eye Know",
-      "Take It Off",
-      "A Little Bit Of Soap",
-      "Tread Water",
-      "Potholes In My Lawn"
-    ],
-    "cSide": [
-      "Say No Go",
-      "Do As De La Does",
-      "Plug Tunin' (Last Chance To Comprehend)",
-      "De La Orgee",
-      "Buddy"
-    ],
-    "dSide": [
-      "Description",
-      "Me Myself And I",
-      "This Is A Recording 4 Living In A Full Time Era (L.I.F.E.)",
-      "I Can Do Anything (Delacratic)",
-      "D.A.I.S.Y. Age"
-    ],
     "genre": [
       "Hip Hop"
     ],
@@ -1990,7 +2065,41 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "de-la-soul-3-feet-high-and-rising",
+    "sides": {
+      "a": [
+        "Intro",
+        "The Magic Number",
+        "Change In Speak",
+        "Cool Breeze On The Rocks (The Melted Version)",
+        "Can U Keep A Secret",
+        "Jenifa Taught Me (Derwin's Revenge)",
+        "Ghetto Thang"
+      ],
+      "b": [
+        "Transmitting Live From Mars",
+        "Eye Know",
+        "Take It Off",
+        "A Little Bit Of Soap",
+        "Tread Water",
+        "Potholes In My Lawn"
+      ],
+      "c": [
+        "Say No Go",
+        "Do As De La Does",
+        "Plug Tunin' (Last Chance To Comprehend)",
+        "De La Orgee",
+        "Buddy"
+      ],
+      "d": [
+        "Description",
+        "Me Myself And I",
+        "This Is A Recording 4 Living In A Full Time Era (L.I.F.E.)",
+        "I Can Do Anything (Delacratic)",
+        "D.A.I.S.Y. Age"
+      ]
+    }
   },
   {
     "_id": {
@@ -2001,19 +2110,6 @@
     "originalReleaseDate": {
       "$date": "1990-03-19T00:00:00.000Z"
     },
-    "aSide": [
-      "World In My Eyes",
-      "Sweetest Perfection",
-      "Personal Jesus",
-      "Halo",
-      "Waiting For The Night"
-    ],
-    "bSide": [
-      "Enjoy The Silence",
-      "Policy Of Truth",
-      "Blue Dress",
-      "Clean"
-    ],
     "genre": [
       "Electronic"
     ],
@@ -2064,7 +2160,23 @@
       "store": "Repo Records",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "depeche-mode-violator",
+    "sides": {
+      "a": [
+        "World In My Eyes",
+        "Sweetest Perfection",
+        "Personal Jesus",
+        "Halo",
+        "Waiting For The Night"
+      ],
+      "b": [
+        "Enjoy The Silence",
+        "Policy Of Truth",
+        "Blue Dress",
+        "Clean"
+      ]
+    }
   },
   {
     "_id": {
@@ -2075,20 +2187,6 @@
     "originalReleaseDate": {
       "$date": "2017-10-13T00:00:00.000Z"
     },
-    "aSide": [
-      "Vacation",
-      "Celebrate",
-      "West Coast",
-      "So Glad You Made It",
-      "Moon Tower"
-    ],
-    "bSide": [
-      "Lift Me Up",
-      "Cabin By The Sea (feat. Del the Funky Homosapien)",
-      "Fire In The Sky",
-      "Day By Day",
-      "Smoke Rings"
-    ],
     "genre": [
       "Rock",
       "Reggae"
@@ -2140,7 +2238,24 @@
       "store": "Amazon",
       "price": 22.99
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "dirty-heads-swimteam",
+    "sides": {
+      "a": [
+        "Vacation",
+        "Celebrate",
+        "West Coast",
+        "So Glad You Made It",
+        "Moon Tower"
+      ],
+      "b": [
+        "Lift Me Up",
+        "Cabin By The Sea (feat. Del the Funky Homosapien)",
+        "Fire In The Sky",
+        "Day By Day",
+        "Smoke Rings"
+      ]
+    }
   },
   {
     "_id": {
@@ -2151,22 +2266,6 @@
     "originalReleaseDate": {
       "$date": "2022-08-26T00:00:00.000Z"
     },
-    "aSide": [
-      "Island Glow",
-      "Heavy Water",
-      "Life's Been Good",
-      "Make Me",
-      "Rescue Me",
-      "High Tea"
-    ],
-    "bSide": [
-      "Midnight Control",
-      "Little Things",
-      "Indigo",
-      "El Dorado",
-      "Shade",
-      "Live Your Life"
-    ],
     "genre": [
       "Rock",
       "Reggae"
@@ -2219,7 +2318,26 @@
       "store": "Amazon",
       "price": 27.69
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "dirty-heads-midnight-control",
+    "sides": {
+      "a": [
+        "Island Glow",
+        "Heavy Water",
+        "Life's Been Good",
+        "Make Me",
+        "Rescue Me",
+        "High Tea"
+      ],
+      "b": [
+        "Midnight Control",
+        "Little Things",
+        "Indigo",
+        "El Dorado",
+        "Shade",
+        "Live Your Life"
+      ]
+    }
   },
   {
     "_id": {
@@ -2230,26 +2348,6 @@
     "originalReleaseDate": {
       "$date": "2014-06-09T00:00:00.000Z"
     },
-    "aSide": [
-      "Flip",
-      "Black Mambo",
-      "Pools",
-      "Gooey",
-      "Wyrd"
-    ],
-    "bSide": [
-      "Hazey",
-      "Intruxx",
-      "Toes"
-    ],
-    "cSide": [
-      "Walla Walla",
-      "Youth"
-    ],
-    "dSide": [
-      "Cocoa Hooves",
-      "JDNT"
-    ],
     "genre": [
       "Electronic",
       "Rock"
@@ -2318,7 +2416,30 @@
       "store": "Long In The Tooth Records",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "glass-animals-zaba",
+    "sides": {
+      "a": [
+        "Flip",
+        "Black Mambo",
+        "Pools",
+        "Gooey",
+        "Wyrd"
+      ],
+      "b": [
+        "Hazey",
+        "Intruxx",
+        "Toes"
+      ],
+      "c": [
+        "Walla Walla",
+        "Youth"
+      ],
+      "d": [
+        "Cocoa Hooves",
+        "JDNT"
+      ]
+    }
   },
   {
     "_id": {
@@ -2329,21 +2450,6 @@
     "originalReleaseDate": {
       "$date": "2016-08-26T00:00:00.000Z"
     },
-    "aSide": [
-      "Life Itself",
-      "Youth",
-      "Season 2 Episode 3",
-      "Pork Soda",
-      "Mama's Gun"
-    ],
-    "bSide": [
-      "Cane Shuga",
-      "Premade Sandwiches",
-      "The Other Side Of Paradise",
-      "Take A Slice",
-      "Poplar St",
-      "Agnes"
-    ],
     "genre": [
       "Electronic",
       "Rock"
@@ -2403,7 +2509,25 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "glass-animals-how-to-be-a-human-being",
+    "sides": {
+      "a": [
+        "Life Itself",
+        "Youth",
+        "Season 2 Episode 3",
+        "Pork Soda",
+        "Mama's Gun"
+      ],
+      "b": [
+        "Cane Shuga",
+        "Premade Sandwiches",
+        "The Other Side Of Paradise",
+        "Take A Slice",
+        "Poplar St",
+        "Agnes"
+      ]
+    }
   },
   {
     "_id": {
@@ -2414,26 +2538,6 @@
     "originalReleaseDate": {
       "$date": "2020-08-07T00:00:00.000Z"
     },
-    "aSide": [
-      "Dreamland",
-      "Tangerine",
-      "((home movie: 1994))",
-      "Hot Sugar",
-      "((home movie: btx))",
-      "Space Ghost Coast To Coast",
-      "Tokyo Drifting",
-      "Melon And The Coconut",
-      "Your Love (Déjà Vu)"
-    ],
-    "bSide": [
-      "Waterfalls Coming Out Your Mouth",
-      "It's All So Incredibly Loud",
-      "((home movie: rockets))",
-      "Domestic Bliss",
-      "Heat Waves",
-      "((home movie: shoes on))",
-      "Helium"
-    ],
     "genre": [
       "Electronic",
       "Rock",
@@ -2497,9 +2601,36 @@
     "purchase": {
       "date": null,
       "store": "",
-      "price": null
+      "price": 31.99
     },
-    "userNotes": ""
+    "userNotes": "",
+    "hypeSticker": {
+      "present": true,
+      "description": "180g disc includes your love (deja vu), heat waves & tangerine"
+    },
+    "slug": "glass-animals-dreamland",
+    "sides": {
+      "a": [
+        "Dreamland",
+        "Tangerine",
+        "((home movie: 1994))",
+        "Hot Sugar",
+        "((home movie: btx))",
+        "Space Ghost Coast To Coast",
+        "Tokyo Drifting",
+        "Melon And The Coconut",
+        "Your Love (Déjà Vu)"
+      ],
+      "b": [
+        "Waterfalls Coming Out Your Mouth",
+        "It's All So Incredibly Loud",
+        "((home movie: rockets))",
+        "Domestic Bliss",
+        "Heat Waves",
+        "((home movie: shoes on))",
+        "Helium"
+      ]
+    }
   },
   {
     "_id": {
@@ -2510,34 +2641,6 @@
     "originalReleaseDate": {
       "$date": "1992-07-21T00:00:00.000Z"
     },
-    "aSide": [
-      "Salutations",
-      "Jump Around",
-      "Put Your Head Out",
-      "Top O' The Morning",
-      "Commercial 1"
-    ],
-    "bSide": [
-      "House And The Rising Sun",
-      "Shamrocks And Shenanigans (Boom Shalock Lock Boom)",
-      "House Of Pain Anthem",
-      "Danny Boy, Danny Boy",
-      "Guess Who's Back",
-      "Commercial 2"
-    ],
-    "cSide": [
-      "Put On Your Shit Kickers",
-      "Come And Get Some Of This",
-      "Life Goes On",
-      "One For The Road",
-      "Feel It"
-    ],
-    "dSide": [
-      "All My Love",
-      "Jump Around (Pete Rock Remix)",
-      "Shamrocks And Shenanigans (Butch Vig Remix)",
-      "Jump Around (Mastertape Remix)"
-    ],
     "genre": [
       "Hip Hop"
     ],
@@ -2605,7 +2708,38 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "house-of-pain-house-of-pain-fine-malt-lyrics",
+    "sides": {
+      "a": [
+        "Salutations",
+        "Jump Around",
+        "Put Your Head Out",
+        "Top O' The Morning",
+        "Commercial 1"
+      ],
+      "b": [
+        "House And The Rising Sun",
+        "Shamrocks And Shenanigans (Boom Shalock Lock Boom)",
+        "House Of Pain Anthem",
+        "Danny Boy, Danny Boy",
+        "Guess Who's Back",
+        "Commercial 2"
+      ],
+      "c": [
+        "Put On Your Shit Kickers",
+        "Come And Get Some Of This",
+        "Life Goes On",
+        "One For The Road",
+        "Feel It"
+      ],
+      "d": [
+        "All My Love",
+        "Jump Around (Pete Rock Remix)",
+        "Shamrocks And Shenanigans (Butch Vig Remix)",
+        "Jump Around (Mastertape Remix)"
+      ]
+    }
   },
   {
     "_id": {
@@ -2616,26 +2750,6 @@
     "originalReleaseDate": {
       "$date": "1992-11-17T00:00:00.000Z"
     },
-    "aSide": [
-      "The First Day Of School (Intro)",
-      "When Will They Shoot?",
-      "I'm Scared (Insert)",
-      "Wicked",
-      "Now I Gotta Wet 'Cha",
-      "The Predator",
-      "It Was A Good Day",
-      "We Had To Tear This Mothafucka Up"
-    ],
-    "bSide": [
-      "Fuck 'Em (Insert)",
-      "Dirty Mack",
-      "Don't Trust 'Em",
-      "Gangsta's Fairytale 2",
-      "Check Yo Self",
-      "Who Got The Camera?",
-      "Integration (Insert)",
-      "Say Hi To The Bad Guy"
-    ],
     "genre": [
       "Hip Hop"
     ],
@@ -2694,7 +2808,30 @@
       "store": "Long In The Tooth Records",
       "price": 41.99
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "ice-cube-the-predator",
+    "sides": {
+      "a": [
+        "The First Day Of School (Intro)",
+        "When Will They Shoot?",
+        "I'm Scared (Insert)",
+        "Wicked",
+        "Now I Gotta Wet 'Cha",
+        "The Predator",
+        "It Was A Good Day",
+        "We Had To Tear This Mothafucka Up"
+      ],
+      "b": [
+        "Fuck 'Em (Insert)",
+        "Dirty Mack",
+        "Don't Trust 'Em",
+        "Gangsta's Fairytale 2",
+        "Check Yo Self",
+        "Who Got The Camera?",
+        "Integration (Insert)",
+        "Say Hi To The Bad Guy"
+      ]
+    }
   },
   {
     "_id": {
@@ -2705,22 +2842,6 @@
     "originalReleaseDate": {
       "$date": "1987-10-12T00:00:00.000Z"
     },
-    "aSide": [
-      "Guns In The Sky",
-      "New Sensation",
-      "Devil Inside",
-      "Need You Tonight",
-      "Mediate",
-      "The Loved One"
-    ],
-    "bSide": [
-      "Wild Life",
-      "Never Tear Us Apart",
-      "Mystify",
-      "Kick",
-      "Calling All Nations",
-      "Tiny Daggers"
-    ],
     "genre": [
       "Rock",
       "Pop"
@@ -2781,7 +2902,26 @@
       "store": "Repo Records",
       "price": null
     },
-    "userNotes": "Purchase store is based on recollection and has not been confirmed."
+    "userNotes": "Purchase store is based on recollection and has not been confirmed.",
+    "slug": "inxs-kick",
+    "sides": {
+      "a": [
+        "Guns In The Sky",
+        "New Sensation",
+        "Devil Inside",
+        "Need You Tonight",
+        "Mediate",
+        "The Loved One"
+      ],
+      "b": [
+        "Wild Life",
+        "Never Tear Us Apart",
+        "Mystify",
+        "Kick",
+        "Calling All Nations",
+        "Tiny Daggers"
+      ]
+    }
   },
   {
     "_id": {
@@ -2792,29 +2932,6 @@
     "originalReleaseDate": {
       "$date": "2009-09-15T00:00:00.000Z"
     },
-    "aSide": [
-      "In My Dreams (Cudder Anthem)",
-      "Soundtrack 2 My Life",
-      "Simple As...",
-      "Solo Dolo (Nightmare)"
-    ],
-    "bSide": [
-      "Heart Of A Lion (Kid Cudi Theme Music)",
-      "My World",
-      "Day 'N' Nite (Nightmare)",
-      "Sky Might Fall"
-    ],
-    "cSide": [
-      "Enter Galactic (Love Connection Part I)",
-      "Alive (Nightmare)",
-      "Cudi Zone",
-      "Make Her Say"
-    ],
-    "dSide": [
-      "Pursuit Of Happiness (Nightmare)",
-      "Hyyerr",
-      "Up Up & Away"
-    ],
     "genre": [
       "Hip Hop"
     ],
@@ -2882,7 +2999,33 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "kid-cudi-man-on-the-moon-the-end-of-day",
+    "sides": {
+      "a": [
+        "In My Dreams (Cudder Anthem)",
+        "Soundtrack 2 My Life",
+        "Simple As...",
+        "Solo Dolo (Nightmare)"
+      ],
+      "b": [
+        "Heart Of A Lion (Kid Cudi Theme Music)",
+        "My World",
+        "Day 'N' Nite (Nightmare)",
+        "Sky Might Fall"
+      ],
+      "c": [
+        "Enter Galactic (Love Connection Part I)",
+        "Alive (Nightmare)",
+        "Cudi Zone",
+        "Make Her Say"
+      ],
+      "d": [
+        "Pursuit Of Happiness (Nightmare)",
+        "Hyyerr",
+        "Up Up & Away"
+      ]
+    }
   },
   {
     "_id": {
@@ -2893,22 +3036,6 @@
     "originalReleaseDate": {
       "$date": "1993-09-21T00:00:00.000Z"
     },
-    "aSide": [
-      "Serve The Servants",
-      "Scentless Apprentice",
-      "Heart-Shaped Box",
-      "Rape Me",
-      "Frances Farmer Will Have Her Revenge On Seattle",
-      "Dumb"
-    ],
-    "bSide": [
-      "Very Ape",
-      "Milk It",
-      "Pennyroyal Tea",
-      "Radio Friendly Unit Shifter",
-      "Tourette's",
-      "All Apologies"
-    ],
     "genre": [
       "Rock"
     ],
@@ -2969,7 +3096,26 @@
       "store": "",
       "price": null
     },
-    "userNotes": ""
+    "userNotes": "",
+    "slug": "nirvana-in-utero",
+    "sides": {
+      "a": [
+        "Serve The Servants",
+        "Scentless Apprentice",
+        "Heart-Shaped Box",
+        "Rape Me",
+        "Frances Farmer Will Have Her Revenge On Seattle",
+        "Dumb"
+      ],
+      "b": [
+        "Very Ape",
+        "Milk It",
+        "Pennyroyal Tea",
+        "Radio Friendly Unit Shifter",
+        "Tourette's",
+        "All Apologies"
+      ]
+    }
   },
   {
     "_id": {
@@ -2980,27 +3126,6 @@
     "originalReleaseDate": {
       "$date": "1995-10-02T00:00:00.000Z"
     },
-    "aSide": [
-      "Hello",
-      "Roll With It",
-      "Wonderwall"
-    ],
-    "bSide": [
-      "Don't Look Back in Anger",
-      "Hey Now!",
-      "[Untitled]",
-      "Bonehead's Bank Holiday"
-    ],
-    "cSide": [
-      "Some Might Say",
-      "Cast No Shadow",
-      "She's Electric"
-    ],
-    "dSide": [
-      "Morning Glory",
-      "[Untitled]",
-      "Champagne Supernova"
-    ],
     "genre": [
       "Rock"
     ],
@@ -3067,7 +3192,31 @@
       "store": "",
       "price": null
     },
-    "userNotes": "Visible residue is present in the deadwax area. No unidentified etched symbols were observed."
+    "userNotes": "Visible residue is present in the deadwax area. No unidentified etched symbols were observed.",
+    "slug": "oasis-whats-the-story-morning-glory",
+    "sides": {
+      "a": [
+        "Hello",
+        "Roll With It",
+        "Wonderwall"
+      ],
+      "b": [
+        "Don't Look Back in Anger",
+        "Hey Now!",
+        "[Untitled]",
+        "Bonehead's Bank Holiday"
+      ],
+      "c": [
+        "Some Might Say",
+        "Cast No Shadow",
+        "She's Electric"
+      ],
+      "d": [
+        "Morning Glory",
+        "[Untitled]",
+        "Champagne Supernova"
+      ]
+    }
   },
   {
     "_id": {
@@ -3076,29 +3225,6 @@
     "artist": "OutKast",
     "albumName": "ATLiens",
     "originalReleaseDate": "1996-08-27",
-    "aSide": [
-      "You May Die (Intro)",
-      "Two Dope Boyz (In A Cadillac)",
-      "ATLiens",
-      "Wheelz Of Steel"
-    ],
-    "bSide": [
-      "Jazzy Belle",
-      "Elevators (Me & You)",
-      "Ova Da Wudz"
-    ],
-    "cSide": [
-      "Babylon",
-      "Wailin'",
-      "Mainstream"
-    ],
-    "dSide": [
-      "Decatur Psalm",
-      "Millennium",
-      "E.T. (Extraterrestrial)",
-      "13th Floor / Growing Old",
-      "Elevators (ONP 86 Mix)"
-    ],
     "genre": [
       "Hip Hop"
     ],
@@ -3179,7 +3305,33 @@
     "userNotes": [
       "Includes original comic-book style cover artwork.",
       "This pressing differs from the commonly documented U.S. United Record Pressing reissue by its Mexican manufacture and unique matrix inscriptions."
-    ]
+    ],
+    "slug": "outkast-atliens",
+    "sides": {
+      "a": [
+        "You May Die (Intro)",
+        "Two Dope Boyz (In A Cadillac)",
+        "ATLiens",
+        "Wheelz Of Steel"
+      ],
+      "b": [
+        "Jazzy Belle",
+        "Elevators (Me & You)",
+        "Ova Da Wudz"
+      ],
+      "c": [
+        "Babylon",
+        "Wailin'",
+        "Mainstream"
+      ],
+      "d": [
+        "Decatur Psalm",
+        "Millennium",
+        "E.T. (Extraterrestrial)",
+        "13th Floor / Growing Old",
+        "Elevators (ONP 86 Mix)"
+      ]
+    }
   },
   {
     "_id": {
@@ -3188,22 +3340,6 @@
     "artist": "Portugal. The Man",
     "albumName": "Evil Friends",
     "originalReleaseDate": "2013-06-04",
-    "aSide": [
-      "Plastic Soldiers",
-      "Creep in a T-Shirt",
-      "Modern Jesus",
-      "Hip Hop Kids",
-      "Atomic Man",
-      "Sea of Air"
-    ],
-    "bSide": [
-      "Holy Roller (Hallelujah)",
-      "Evil Friends",
-      "Easy Tiger",
-      "Smile",
-      "Purple Yellow Red and Blue",
-      "Floating (Time Isn't Working My Side)"
-    ],
     "genre": [
       "Rock"
     ],
@@ -3263,7 +3399,26 @@
     },
     "userNotes": [
       "Produced by Danger Mouse."
-    ]
+    ],
+    "slug": "portugal-the-man-evil-friends",
+    "sides": {
+      "a": [
+        "Plastic Soldiers",
+        "Creep in a T-Shirt",
+        "Modern Jesus",
+        "Hip Hop Kids",
+        "Atomic Man",
+        "Sea of Air"
+      ],
+      "b": [
+        "Holy Roller (Hallelujah)",
+        "Evil Friends",
+        "Easy Tiger",
+        "Smile",
+        "Purple Yellow Red and Blue",
+        "Floating (Time Isn't Working My Side)"
+      ]
+    }
   },
   {
     "_id": {
@@ -3272,20 +3427,6 @@
     "artist": "Portugal. The Man",
     "albumName": "Woodstock",
     "originalReleaseDate": "2017-06-16",
-    "aSide": [
-      "Number One (feat. Richie Havens & Son Little)",
-      "Easy Tiger",
-      "Live in the Moment",
-      "Feel It Still",
-      "Rich Friends"
-    ],
-    "bSide": [
-      "Keep On",
-      "So Young",
-      "Mr. Lonely (feat. Fat Lip)",
-      "Tidal Wave",
-      "Noise Pollution (Version A, Vocal Up Mix 1.3) (feat. Mary Elizabeth Winstead)"
-    ],
     "genre": [
       "Rock"
     ],
@@ -3344,7 +3485,24 @@
       "date": "",
       "location": ""
     },
-    "userNotes": []
+    "userNotes": [],
+    "slug": "portugal-the-man-woodstock",
+    "sides": {
+      "a": [
+        "Number One (feat. Richie Havens & Son Little)",
+        "Easy Tiger",
+        "Live in the Moment",
+        "Feel It Still",
+        "Rich Friends"
+      ],
+      "b": [
+        "Keep On",
+        "So Young",
+        "Mr. Lonely (feat. Fat Lip)",
+        "Tidal Wave",
+        "Noise Pollution (Version A, Vocal Up Mix 1.3) (feat. Mary Elizabeth Winstead)"
+      ]
+    }
   },
   {
     "_id": {
@@ -3353,21 +3511,6 @@
     "artist": "Portugal. The Man",
     "albumName": "Chris Black Changed My Life",
     "originalReleaseDate": "2023-06-23",
-    "aSide": [
-      "Heavy Games II (feat. Jeff Bhasker)",
-      "Grim Generation",
-      "Thunderdome [W.T.A.]",
-      "Dummy",
-      "Summer of Luv",
-      "Ghost Town"
-    ],
-    "bSide": [
-      "Time’s a Fantasy",
-      "Doubt",
-      "Plastic Island",
-      "Champ",
-      "Anxiety:Clarity"
-    ],
     "genre": [
       "Rock"
     ],
@@ -3432,7 +3575,25 @@
     },
     "userNotes": [
       "Hype sticker reads: Limited Edition Picture Disc."
-    ]
+    ],
+    "slug": "portugal-the-man-chris-black-changed-my-life",
+    "sides": {
+      "a": [
+        "Heavy Games II (feat. Jeff Bhasker)",
+        "Grim Generation",
+        "Thunderdome [W.T.A.]",
+        "Dummy",
+        "Summer of Luv",
+        "Ghost Town"
+      ],
+      "b": [
+        "Time’s a Fantasy",
+        "Doubt",
+        "Plastic Island",
+        "Champ",
+        "Anxiety:Clarity"
+      ]
+    }
   },
   {
     "_id": {
@@ -3441,20 +3602,6 @@
     "artist": "Portugal. The Man",
     "albumName": "SHISH",
     "originalReleaseDate": "2025-11-07",
-    "aSide": [
-      "Denali",
-      "Pittman Ralliers",
-      "Angoon",
-      "Knik",
-      "Shish"
-    ],
-    "bSide": [
-      "Mush",
-      "Tyonek",
-      "Kokhanockers",
-      "Tanana",
-      "Father Gun"
-    ],
     "genre": [
       "Rock"
     ],
@@ -3524,7 +3671,24 @@
     "userNotes": [
       "Hype sticker reads: Special Edition Pressed on \"Blood on the Snow\" Vinyl.",
       "Side B center label features a photograph of Frances with googly eyes."
-    ]
+    ],
+    "slug": "portugal-the-man-shish",
+    "sides": {
+      "a": [
+        "Denali",
+        "Pittman Ralliers",
+        "Angoon",
+        "Knik",
+        "Shish"
+      ],
+      "b": [
+        "Mush",
+        "Tyonek",
+        "Kokhanockers",
+        "Tanana",
+        "Father Gun"
+      ]
+    }
   },
   {
     "_id": {
@@ -3533,27 +3697,6 @@
     "artist": "Run the Jewels",
     "albumName": "Run the Jewels 2 (10th Anniversary Edition)",
     "originalReleaseDate": "2014-10-24",
-    "aSide": [
-      "Jeopardy",
-      "Oh My Darling Don't Cry",
-      "Blockbuster Night Part 1",
-      "Close Your Eyes (And Count to Fuck)"
-    ],
-    "bSide": [
-      "All My Life",
-      "Lie, Cheat, Steal",
-      "Early",
-      "All Due Respect"
-    ],
-    "cSide": [
-      "Love Again (Akinyele Back)",
-      "Crown",
-      "Angel Duster",
-      "Blockbuster Night Part 2"
-    ],
-    "dSide": [
-      "Bonus Etching"
-    ],
     "genre": [
       "Hip Hop"
     ],
@@ -3619,7 +3762,31 @@
       "date": "",
       "location": ""
     },
-    "userNotes": []
+    "userNotes": [],
+    "slug": "run-the-jewels-run-the-jewels-2-10th-anniversary-edition",
+    "sides": {
+      "a": [
+        "Jeopardy",
+        "Oh My Darling Don't Cry",
+        "Blockbuster Night Part 1",
+        "Close Your Eyes (And Count to Fuck)"
+      ],
+      "b": [
+        "All My Life",
+        "Lie, Cheat, Steal",
+        "Early",
+        "All Due Respect"
+      ],
+      "c": [
+        "Love Again (Akinyele Back)",
+        "Crown",
+        "Angel Duster",
+        "Blockbuster Night Part 2"
+      ],
+      "d": [
+        "Bonus Etching"
+      ]
+    }
   },
   {
     "_id": {
@@ -3628,28 +3795,6 @@
     "artist": "Run the Jewels",
     "albumName": "Run the Jewels 3",
     "originalReleaseDate": "2016-12-25",
-    "aSide": [
-      "Down",
-      "Talk to Me",
-      "Legend Has It",
-      "Call Ticketron"
-    ],
-    "bSide": [
-      "Hey Kids (Bumaye)",
-      "Stay Gold",
-      "Don't Get Captured",
-      "Thieves! (Screamed the Ghost)"
-    ],
-    "cSide": [
-      "2100",
-      "Panther Like a Panther (Miracle Mix)",
-      "Everybody Stay Calm",
-      "Oh Mama"
-    ],
-    "dSide": [
-      "Thursday in the Danger Room",
-      "A Report to the Shareholders / Kill Your Masters"
-    ],
     "genre": [
       "Hip Hop"
     ],
@@ -3714,11 +3859,36 @@
       "sleeve": ""
     },
     "purchase": {
-      "price": null,
+      "price": 37.99,
       "date": "",
-      "location": ""
+      "location": "Latchkey Records"
     },
-    "userNotes": []
+    "userNotes": [],
+    "slug": "run-the-jewels-run-the-jewels-3",
+    "sides": {
+      "a": [
+        "Down",
+        "Talk to Me",
+        "Legend Has It",
+        "Call Ticketron"
+      ],
+      "b": [
+        "Hey Kids (Bumaye)",
+        "Stay Gold",
+        "Don't Get Captured",
+        "Thieves! (Screamed the Ghost)"
+      ],
+      "c": [
+        "2100",
+        "Panther Like a Panther (Miracle Mix)",
+        "Everybody Stay Calm",
+        "Oh Mama"
+      ],
+      "d": [
+        "Thursday in the Danger Room",
+        "A Report to the Shareholders / Kill Your Masters"
+      ]
+    }
   },
   {
     "_id": {
@@ -3727,24 +3897,6 @@
     "artist": "Run the Jewels",
     "albumName": "RTJ4",
     "originalReleaseDate": "2020-06-03",
-    "aSide": [
-      "Yankee and the Brave (Ep. 4)",
-      "Ooh La La",
-      "Out of Sight",
-      "Holy Calamafuck"
-    ],
-    "bSide": [
-      "Goonies vs. E.T.",
-      "Walking in the Snow",
-      "JU$T",
-      "Never Look Back"
-    ],
-    "cSide": [
-      "The Ground Below",
-      "Pulling the Pin",
-      "A Few Words for the Firing Squad (Radiation)"
-    ],
-    "dSide": [],
     "genre": [
       "Hip Hop"
     ],
@@ -3811,7 +3963,27 @@
       "date": "",
       "location": ""
     },
-    "userNotes": []
+    "userNotes": [],
+    "slug": "run-the-jewels-rtj4",
+    "sides": {
+      "a": [
+        "Yankee and the Brave (Ep. 4)",
+        "Ooh La La",
+        "Out of Sight",
+        "Holy Calamafuck"
+      ],
+      "b": [
+        "Goonies vs. E.T.",
+        "Walking in the Snow",
+        "JU$T",
+        "Never Look Back"
+      ],
+      "c": [
+        "The Ground Below",
+        "Pulling the Pin",
+        "A Few Words for the Firing Squad (Radiation)"
+      ]
+    }
   },
   {
     "_id": {
@@ -3820,24 +3992,6 @@
     "artist": "Run the Jewels",
     "albumName": "RTJ Cu4tro",
     "originalReleaseDate": "2022-11-11",
-    "aSide": [
-      "Yankee y El Valiente",
-      "Ooh La La (Mex Institute of Sound Remix)",
-      "Fuera de Vista",
-      "Santo Calamafuck"
-    ],
-    "bSide": [
-      "Goonies vs. E.T.",
-      "Caminando en la Nieve",
-      "JU$T",
-      "Nunca Mirar Atrás"
-    ],
-    "cSide": [
-      "El Suelo Debajo",
-      "Sacando el Pasador",
-      "Unas Palabras para el Pelotón de Fusilamiento"
-    ],
-    "dSide": [],
     "genre": [
       "Hip Hop"
     ],
@@ -3905,7 +4059,27 @@
       "date": "",
       "location": ""
     },
-    "userNotes": []
+    "userNotes": [],
+    "slug": "run-the-jewels-rtj-cu4tro",
+    "sides": {
+      "a": [
+        "Yankee y El Valiente",
+        "Ooh La La (Mex Institute of Sound Remix)",
+        "Fuera de Vista",
+        "Santo Calamafuck"
+      ],
+      "b": [
+        "Goonies vs. E.T.",
+        "Caminando en la Nieve",
+        "JU$T",
+        "Nunca Mirar Atrás"
+      ],
+      "c": [
+        "El Suelo Debajo",
+        "Sacando el Pasador",
+        "Unas Palabras para el Pelotón de Fusilamiento"
+      ]
+    }
   },
   {
     "_id": {
@@ -3914,20 +4088,6 @@
     "artist": "Rage Against the Machine",
     "albumName": "Rage Against the Machine",
     "originalReleaseDate": "1992-11-03",
-    "aSide": [
-      "Bombtrack",
-      "Killing in the Name",
-      "Take the Power Back",
-      "Settle for Nothing",
-      "Bullet in the Head"
-    ],
-    "bSide": [
-      "Know Your Enemy",
-      "Wake Up",
-      "Fistful of Steel",
-      "Township Rebellion",
-      "Freedom"
-    ],
     "genre": [
       "Rock"
     ],
@@ -3995,6 +4155,23 @@
       "date": "",
       "location": ""
     },
-    "userNotes": []
+    "userNotes": [],
+    "slug": "rage-against-the-machine-rage-against-the-machine",
+    "sides": {
+      "a": [
+        "Bombtrack",
+        "Killing in the Name",
+        "Take the Power Back",
+        "Settle for Nothing",
+        "Bullet in the Head"
+      ],
+      "b": [
+        "Know Your Enemy",
+        "Wake Up",
+        "Fistful of Steel",
+        "Township Rebellion",
+        "Freedom"
+      ]
+    }
   }
 ]
