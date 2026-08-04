@@ -42,18 +42,39 @@ export default function AlbumDetail() {
               <span className="fw-bold">Album:</span> {album.albumName}
             </h5>
             <h5>
-              <span className="fw-bold">Label:</span> {album.label}
+              <span className="fw-bold">Label:</span>{" "}
+              {Array.isArray(album.label)
+                ? album.label.join(", ")
+                : album.label}
             </h5>
             <h5>
-              <span className="fw-bold">Genre:</span> {album.genre}
+              <span className="fw-bold">Genre:</span>{" "} 
+              {Array.isArray(album.genre)
+                ? album.genre.join(", ")
+                : album.genre}
             </h5>
             <h5>
-              <span className="fw-bold">Style:</span> {album.style}
+              <span className="fw-bold">Style:</span>{" "}
+              {Array.isArray(album.style)
+                ? album.style.join(", ")
+                : album.style}
             </h5>
+            <h5>
+              <span className="fw-bold">Discogs:</span>{" "}
+              <a
+                href={album.discogsLink}
+                target="_blank"
+                rel="noopener noreferer"
+              >
+                View on Discogs
+              </a>
+            </h5>
+            <Link to={"/vinyl"}>Back to the collection...</Link>
           </div>
         </div>
 
         <div className="row mt-4">
+          <h5>Track Listings</h5>
           {Object.entries(album.sides).map(([side, tracks]) => (
             <div className="col-12 col-md-6 mb-4" key={side}>
               <div className="card h-100">
@@ -70,11 +91,35 @@ export default function AlbumDetail() {
             </div>
           ))}
         </div>
+
         <div className="row mt-4">
-           <h5>Notes:</h5> {album.notes}
+          <h5>Pressing Notes:</h5>
+
+          {album.pressing?.notes?.length > 0 ? (
+            <ul className="ms-4">
+              {album.pressing.notes.map((note, index) => (
+                <li key={index}>{note}</li>
+              ))}
+            </ul>
+          ) : (
+            <p>No pressing notes available.</p>
+          )}
         </div>
+
         <div className="row mt-4">
-           <h5>User Notes:</h5> {album.notes}
+          <div className="col-12">
+            <h5>User Notes:</h5>
+
+            {album.userNotes?.length > 0 ? (
+              <ul className="ms-4">
+                {album.userNotes.map((note, index) => (
+                  <li key={index}>{note}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>No user notes added.</p>
+            )}
+          </div>
         </div>
       </div>
     </>
