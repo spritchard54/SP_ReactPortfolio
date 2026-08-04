@@ -17,6 +17,10 @@ export default function AlbumDetail() {
     );
   }
 
+  const otherAlbumsByArtist = vinylRecords.filter(
+    (record) => record.artist === album.artist && record.slug !== album.slug,
+  );
+
   return (
     <>
       <Helmet>
@@ -36,7 +40,7 @@ export default function AlbumDetail() {
             />
           </div>
 
-          <div className="col-12 col-md-9">
+          <div className="col-12 col-md-3">
             <h3 className="fw-bold">{album.artist}</h3>
             <h5>
               <span className="fw-bold">Album:</span> {album.albumName}
@@ -48,7 +52,7 @@ export default function AlbumDetail() {
                 : album.label}
             </h5>
             <h5>
-              <span className="fw-bold">Genre:</span>{" "} 
+              <span className="fw-bold">Genre:</span>{" "}
               {Array.isArray(album.genre)
                 ? album.genre.join(", ")
                 : album.genre}
@@ -60,7 +64,7 @@ export default function AlbumDetail() {
                 : album.style}
             </h5>
             <h5>
-              <span className="fw-bold">Discogs:</span>{" "}
+              <span className="fw-bold">Links:</span>{" "}
               <a
                 href={album.discogsLink}
                 target="_blank"
@@ -70,6 +74,29 @@ export default function AlbumDetail() {
               </a>
             </h5>
             <Link to={"/vinyl"}>Back to the collection...</Link>
+          </div>
+          <div className="col-12 col-md-6">
+            
+            {otherAlbumsByArtist.length > 0 && (
+              <>
+                <h5>More from the {album.artist}</h5>
+                <div className="row">
+                  {otherAlbumsByArtist.map((record) => (
+                    <div className="col-6 col-md-3 mb-4" key={record.slug}>
+                      <Link to={`/vinyl/${record.slug}`}>
+                        <img
+                          src={record.artwork}
+                          alt={`${record.albumName} album cover`}
+                          className="img-fluid"
+                          loading="lazy"
+                        />
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+            
           </div>
         </div>
 
