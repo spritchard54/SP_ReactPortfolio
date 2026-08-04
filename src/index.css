@@ -135,6 +135,16 @@ body h5 {
   text-decoration: underline;
 }
 
+a {
+  color: #166f3c;
+  text-decoration: none;
+}
+
+.home-button {
+  background-color: #3d3f54;
+  color: white;
+}
+
 .home-image {
   width: 100%;
   height: auto;

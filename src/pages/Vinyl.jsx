@@ -117,7 +117,7 @@ function Vinyl() {
               {/* h-100 makes all cards equal height */}
               <div className="card h-100">
                 {/* Card content */}
-                <div className="card-body">
+                <div className="card-body d-flex flex-column">
                   {/* 
                     Conditional rendering using a ternary operator.
                     
@@ -134,7 +134,7 @@ function Vinyl() {
                       // Bootstrap image/card spacing classes
                       className="card-img-top mb-3"
                       // Accessibility text for screen readers
-                      alt="`${record.albumName} album cover`"
+                      alt={`${record.albumName} album cover`}
                       // Lazy loading improves performance
                       // Images load only when needed
                       loading="lazy"
@@ -143,10 +143,10 @@ function Vinyl() {
                     // Fallback content when no image exists
                     <div className="mb-3">Image coming soon...</div>
                   )}
+                  
                   <h5 className="card-subtitle mb-2 text-muted">
                     {record.artist}
                   </h5>
-
                   <p className="card-text">
                     <strong>Album:</strong> {record.albumName}
                   </p>
@@ -191,7 +191,7 @@ function Vinyl() {
                       ? record.label.join(", ")
                       : record.label}
                   </p>
-                  <p className="card-text">
+                  <p className="card-text mt-auto text-end mb-0">
                     <Link to={`/vinyl/${record.slug}`}>
                     more...
                     </Link>

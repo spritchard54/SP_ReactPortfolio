@@ -101,7 +101,7 @@ export default function Home() {
                   for updates to existing projects and new projects I am working
                   on.
                 </p>
-                <Link to="Portfolio" className="btn btn-primary">
+                <Link to="Portfolio" className="btn home-button">
                   See my work...
                 </Link>
               </div>
@@ -128,7 +128,7 @@ export default function Home() {
                   I count photography among my many (maybe too many) hobbies.
                   This is mostly a collection of photos from trips I've been on.
                 </p>
-                <Link to="Photos" className="btn btn-primary">
+                <Link to="Photos" className="btn home-button">
                   Browse...
                 </Link>
               </div>
@@ -155,7 +155,7 @@ export default function Home() {
                   See where I've been recently and over the years. From the
                   hills of Pennsylvania, to the peaks the Mountain West.
                 </p>
-                <Link to="Trips" className="btn btn-primary">
+                <Link to="Trips" className="btn home-button">
                   Explore
                 </Link>
               </div>
