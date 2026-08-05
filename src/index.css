@@ -176,3 +176,17 @@ a {
   width: 300px;
   height: auto;
 }
+
+@media screen and (max-width: 440px) {
+
+  .album-artwork {
+    margin: 0 auto 15px auto;
+    width: 100%;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .album-artwork {
+    max-width: 75%;
+  }
+}

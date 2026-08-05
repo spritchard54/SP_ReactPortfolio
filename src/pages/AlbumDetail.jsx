@@ -32,7 +32,7 @@ export default function AlbumDetail() {
 
       <div className="container-fluid py-4">
         <div className="row">
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-3 col-sm-6">
             <img
               src={album.artwork}
               alt={`${album.albumName} album cover`}
@@ -40,7 +40,7 @@ export default function AlbumDetail() {
             />
           </div>
 
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-3 col-sm-6">
             <h3 className="fw-bold">{album.artist}</h3>
             <h5>
               <span className="fw-bold">Album:</span> {album.albumName}
@@ -73,16 +73,17 @@ export default function AlbumDetail() {
                 View on Discogs
               </a>
             </h5>
-            <Link to={"/vinyl"}>Back to the collection...</Link>
+            <p className="mb-3">
+              <Link to={"/vinyl"}>Back to the collection...</Link>
+            </p>
           </div>
           <div className="col-12 col-md-6">
-            
             {otherAlbumsByArtist.length > 0 && (
               <>
-                <h5>More from the {album.artist}</h5>
+                <h5 className="mb-4">More from the {album.artist}</h5>
                 <div className="row">
                   {otherAlbumsByArtist.map((record) => (
-                    <div className="col-6 col-md-3 mb-4" key={record.slug}>
+                    <div className="col-4 col-md-3 mb-4" key={record.slug}>
                       <Link to={`/vinyl/${record.slug}`}>
                         <img
                           src={record.artwork}
@@ -96,7 +97,6 @@ export default function AlbumDetail() {
                 </div>
               </>
             )}
-            
           </div>
         </div>
 
