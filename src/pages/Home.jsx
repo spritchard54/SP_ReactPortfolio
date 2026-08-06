@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { getCloudinaryUrl, getCloudinarySrcSet } from "../utils/cloudinary";
 import { Helmet } from "react-helmet-async";
+import projects from "../data/projects";
+import ProjectCard from "../components/ProjectCard";
+
 const images = [
   {
     publicId: "IMG_0456_x08fkt",
@@ -25,6 +28,8 @@ const images = [
 ];
 
 export default function Home() {
+  const featuredProjects = projects.filter((project) => project.featured);
+
   return (
     <>
       <Helmet>
@@ -44,19 +49,36 @@ export default function Home() {
       </Helmet>
 
       <div className="container-fluid">
-        <h1 className="home-title my-4">Tech Enthusiast | Aspiring Web Developer</h1>
+        <h1 className="home-title my-4">
+          Tech Enthusiast | Aspiring Web Developer
+        </h1>
         <div className="row align-items-start">
           {/* Intro Text */}
           <div className="col-12 col-md-7 order-2 order-md-1 home-paragraph">
             <h3>A portfolio project...</h3>
-             <p>
-              I bring over a decade of experience working in and alongside technology, with a background spanning customer success, consulting, and organizational change management. After beginning my career in broadcast journalism as a photojournalist, I transitioned into technology-focused roles supporting enterprise software implementations, stakeholder engagement, and customer success.
+            <p>
+              I bring over a decade of experience working in and alongside
+              technology, with a background spanning customer success,
+              consulting, and organizational change management. After beginning
+              my career in broadcast journalism as a photojournalist, I
+              transitioned into technology-focused roles supporting enterprise
+              software implementations, stakeholder engagement, and customer
+              success.
             </p>
             <p>
-              At Deloitte, I supported Oracle and SAP system implementations with a focus on change management, training, and stakeholder communication. Most recently, as a Customer Success Manager in the SaaS space, I help customers maximize value from technology investments through relationship management, platform adoption, and strategic partnership building.
+              At Deloitte, I supported Oracle and SAP system implementations
+              with a focus on change management, training, and stakeholder
+              communication. Most recently, as a Customer Success Manager in the
+              SaaS space, I help customers maximize value from technology
+              investments through relationship management, platform adoption,
+              and strategic partnership building.
             </p>
             <p>
-              Driven by a long-standing interest in web development and technology, I completed the University of Pennsylvania Full Stack Web Development Bootcamp and built a portfolio site showcasing full stack web develoment projects, photography, travel content, and interactive web experiences.
+              Driven by a long-standing interest in web development and
+              technology, I completed the University of Pennsylvania Full Stack
+              Web Development Bootcamp and built a portfolio site showcasing
+              full stack web develoment projects, photography, travel content,
+              and interactive web experiences.
             </p>
           </div>
           {/* Intro Image */}
@@ -76,9 +98,24 @@ export default function Home() {
             />
           </div>
         </div>
+
+        
+          <section className="featured-section my-4">
+            <h3 className="mb-4">Featured Project</h3>
+
+            <div className="row">
+              {featuredProjects.map((project) => (
+                <ProjectCard key={project.id} project={project} />
+              ))}
+            </div>
+          </section>
+        
+
         {/* Cards Section */}
         <div className="row justify-content-center mb-5">
-          <h3 className="mb-4 mt-3">What I've done and what I'm working on...</h3>
+          <h3 className="my-4">
+            What I've done and what I'm working on...
+          </h3>
           <div className="col-md-4">
             <div className="card mb-3">
               <img
