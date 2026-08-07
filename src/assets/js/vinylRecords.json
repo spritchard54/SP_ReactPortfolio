@@ -4173,5 +4173,194 @@
         "Freedom"
       ]
     }
+  },
+  {
+    "_id": {
+      "$oid": "6a75eac6fcd23619ed0640ed"
+    },
+    "artist": "R.L. Burnside",
+    "albumName": "A Ass Pocket of Whiskey",
+    "slug": "rl-burnside-a-ass-pocket-of-whiskey",
+    "originalReleaseDate": "1996-09-10",
+    "sides": {
+      "a": [
+        "Goin' Down South",
+        "Boogie Chillen",
+        "Poor Black Mattie",
+        "Shake 'Em on Down",
+        "Bad Luck City"
+      ],
+      "b": [
+        "Walkin' Blues",
+        "The Criminal Inside Me",
+        "Highway 61",
+        "Alice Mae",
+        "Look Over Yonder's Wall"
+      ]
+    },
+    "genre": [
+      "Blues"
+    ],
+    "style": [
+      "Hill Country Blues",
+      "Electric Blues",
+      "Blues Rock"
+    ],
+    "label": [
+      "Fat Possum Records"
+    ],
+    "catalogNumber": "FP1026-1",
+    "upc": "767981102610",
+    "discogsLink": "https://www.discogs.com/release/1516446-RL-Burnside-A-Ass-Pocket-Of-Whiskey",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786111781/rlburnside_asspocketofwhiskey_cffesr",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1996,
+      "vinylReleaseYear": 2009,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2009",
+      "format": "LP, Album, Reissue, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "John Powell",
+      "matrix": {
+        "sideA": {
+          "runout": "FP1026-1 SIDE A MRP0115 J. POWELL A4"
+        },
+        "sideB": {
+          "runout": "FP1026-1 SIDE B MRP0115 J. POWELL B4"
+        }
+      },
+      "notes": [
+        "2009 Fat Possum reissue.",
+        "Mastered by John Powell."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Features backing by The Jon Spencer Blues Explosion.",
+      "One of the defining albums of the Hill Country Blues revival.",
+      "Widely cited as a major influence on garage rock and modern blues-rock artists, including The Black Keys.",
+      "Recorded with a deliberately raw, live-in-the-room aesthetic that became a hallmark of Fat Possum Records."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a75f1f5fcd23619ed0640ee"
+    },
+    "artist": "Shakey Graves",
+    "albumName": "Can't Wake Up",
+    "slug": "shakey-graves-cant-wake-up",
+    "originalReleaseDate": "2018-05-04",
+    "sides": {
+      "a": [
+        "Counting Sheep",
+        "Kids These Days",
+        "Climb on the Cross"
+      ],
+      "b": [
+        "Dining Alone",
+        "My Neighbor",
+        "Excuses",
+        "Cops and Robbers"
+      ],
+      "c": [
+        "Mansion Door",
+        "Aibohphobia",
+        "Big Bad Wolf"
+      ],
+      "d": [
+        "Backseat Driver",
+        "Foot of Your Bed",
+        "Tin Man"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Indie Rock",
+      "Folk Rock",
+      "Alternative Rock"
+    ],
+    "label": [
+      "Dualtone"
+    ],
+    "catalogNumber": "80302-01859-13",
+    "upc": "803020185913",
+    "discogsLink": "https://www.discogs.com/release/24108329-Shakey-Graves-Cant-Wake-Up",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786114901/shakeygraves_cantwakeup_ypwrkz",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2018,
+      "vinylReleaseYear": 2018,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2018-05-04",
+      "format": "2 × LP, Album, Stereo, Limited Edition",
+      "color": "Purple & Blue Swirl",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "HDP1237 A"
+        },
+        "sideB": {
+          "runout": "HDP1237 B CSH"
+        },
+        "sideC": {
+          "runout": "HDP1237 C"
+        },
+        "sideD": {
+          "runout": "HDP1237 D CSH"
+        }
+      },
+      "notes": [
+        "Original 2018 first pressing.",
+        "Limited edition Purple & Blue Swirl vinyl.",
+        "Released by Dualtone Music Group.",
+        "Follow-up to 'And the War Came'.",
+        "Represents a stylistic shift toward fuller indie rock production while retaining Shakey Graves' folk and Americana roots.",
+        "CSH appears in the runout of sides B and D; attribution is currently unconfirmed."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Includes the palindrome-titled track 'Aibohphobia'."
+    ]
   }
 ]
