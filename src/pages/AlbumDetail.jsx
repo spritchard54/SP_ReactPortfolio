@@ -134,19 +134,17 @@ export default function AlbumDetail() {
         </div>
 
         <div className="row mt-4">
-          <div className="col-12">
-            <h5>User Notes:</h5>
+          <h5>User Notes:</h5>
 
-            {album.userNotes?.length > 0 ? (
-              <ul className="ms-4">
-                {album.userNotes.map((note, index) => (
-                  <li key={index}>{note}</li>
-                ))}
-              </ul>
-            ) : (
-              <p>No user notes added.</p>
-            )}
-          </div>
+          {album.userNotes?.length > 0 ? (
+            <ul className="ms-4">
+              {album.userNotes.map((note, index) => (
+                <li key={index}>{note}</li>
+              ))}
+            </ul>
+          ) : (
+            <p>No user notes added.</p>
+          )}
         </div>
       </div>
     </>
