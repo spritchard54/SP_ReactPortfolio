@@ -4362,5 +4362,291 @@
     "userNotes": [
       "Includes the palindrome-titled track 'Aibohphobia'."
     ]
+  },
+  {
+    "_id": {
+      "$oid": "6a78f9c52d9664f4abcaa7da"
+    },
+    "artist": "The Olympians",
+    "albumName": "In Search Of A Revival",
+    "slug": "the-olympians-in-search-of-a-revival",
+    "originalReleaseDate": "2026-06-19",
+    "sides": {
+      "sideA": [
+        "In Search Of A Revival Pt. I",
+        "Strawberry Kiwi",
+        "Thunderball",
+        "California",
+        "A Little Something",
+        "Here Comes Ben"
+      ],
+      "sideB": [
+        "In Search Of A Revival Pt. II",
+        "Saraswati Puja",
+        "Hollywood Cold",
+        "Tall Grass",
+        "Wildfire",
+        "Honey Bea"
+      ]
+    },
+    "genre": [
+      "Funk / Soul"
+    ],
+    "style": [
+      "Instrumental",
+      "Soul",
+      "Cinematic Funk",
+      "Library Music"
+    ],
+    "label": [
+      "Daptone Records"
+    ],
+    "catalogNumber": "DAP-083",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786311793/theolympians_insearchofrevival_owzfsm",
+    "pressingStatus": {
+      "classification": "Original Pressing",
+      "originalReleaseYear": 2026,
+      "vinylReleaseYear": 2026,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2026",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "Memphis Record Pressing",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "309654E2/A 02418025"
+        },
+        "sideB": {
+          "runout": "309654E1/A 02417824"
+        }
+      },
+      "notes": [
+        "Original 2026 Daptone Records pressing.",
+        "Black vinyl.",
+        "Single-pocket jacket.",
+        "Catalog number DAP-083.",
+        "No barcode/UPC printed on the jacket."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 24.99,
+      "date": "2026-08-09",
+      "location": "Main Street Music"
+    },
+    "userNotes": [
+      "All songs written by Toby Pazner.",
+      "Dedicated to the memory of Sherman S. Pazner.",
+      "Features musicians from across the Daptone Records family, including members associated with The Budos Band, Antibalas, and The Dap-Kings.",
+      "Vintage-inspired 'Stereo Compatible' jacket design modeled after 1960s soul and jazz LPs."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a7901242d9664f4abcaa7db"
+    },
+    "artist": "Beastie Boys",
+    "albumName": "Paul's Boutique Demos",
+    "slug": "beastie-boys-pauls-boutique-demos",
+    "originalReleaseDate": {
+      "$date": "2022-01-17T05:00:00.000Z"
+    },
+    "sides": {
+      "a": [
+        "3-Minute Rule (Demo)",
+        "Hello Brooklyn (Demo)",
+        "Johnny Ryall (Demo)",
+        "Johnny Ryall #2",
+        "Looking Down The Barrel Of A Gun (Demo)",
+        "Egg Man (Demo)",
+        "The Sounds Of Science (Demo)"
+      ],
+      "b": [
+        "33% God (Get Off The Mic) (Demo)",
+        "Full Clout (Shake Your Rump)",
+        "Dust Joint (Car Thief)",
+        "Dust Joint (Alt. #2)",
+        "Shake Your Rump (Extra Early Version) (Demo)",
+        "Dust Joint (Instrumental)",
+        "Full Clout (Instrumental)"
+      ]
+    },
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Golden Age Hip Hop",
+      "Boom Bap",
+      "Demo Recordings",
+      "Unofficial Release"
+    ],
+    "label": [
+      "21 Bridges Records"
+    ],
+    "catalogNumber": "21 BRIDGES-013",
+    "upc": "",
+    "discogsLink": "https://www.discogs.com/release/21800725-Beastie-Boys-Pauls-Boutique-Demos",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786315215/beastieboys_paulsboutiquedemos_jvhj4g",
+    "pressingStatus": {
+      "classification": "Unofficial Release",
+      "originalReleaseYear": 1989,
+      "vinylReleaseYear": "",
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "Germany",
+      "released": "",
+      "format": "LP, Unofficial, Compilation, Stereo",
+      "color": "Clear Smoke",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": ""
+        },
+        "sideB": {
+          "runout": ""
+        }
+      },
+      "notes": [
+        "Unofficial European pressing manufactured in Germany.",
+        "Released by 21 Bridges Records.",
+        "Clear smoke vinyl.",
+        "Contains demo recordings, alternate takes, early versions, and instrumentals from the Paul's Boutique recording sessions.",
+        "No UPC printed on the jacket.",
+        "Made in Germany."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 22.99,
+      "date": {
+        "$date": "2026-08-09T04:00:00.000Z"
+      },
+      "location": "Main Street Music"
+    },
+    "userNotes": [
+      "Features working titles such as 'Dust Joint' (later 'Car Thief') and 'Full Clout' (later 'Shake Your Rump').",
+      "Includes two demo versions of 'Johnny Ryall'.",
+      "The instrumentals showcase the Dust Brothers' production without vocals.",
+      "Artwork is inspired by the Lower East Side of Manhattan, echoing the neighborhood featured on the original Paul's Boutique album cover."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a7906972d9664f4abcaa7dc"
+    },
+    "artist": "Shakey Graves",
+    "albumName": "Movie of the Week",
+    "slug": "shakey-graves-movie-of-the-week",
+    "originalReleaseDate": "2023-09-15",
+    "sides": {
+      "a": [
+        "Channel One (Intro)",
+        "Limbo",
+        "Evergreen",
+        "Ready or Not (feat. Sierra Ferrell)",
+        "Channel Five (Interlude)",
+        "Lowlife"
+      ],
+      "b": [
+        "Big in the World",
+        "Play It Where It Lies",
+        "Playing Along",
+        "Century City",
+        "Was Here",
+        "Heartstarter (Interlude)",
+        "Heartstopper"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Indie Rock",
+      "Americana",
+      "Folk Rock",
+      "Alternative Rock"
+    ],
+    "label": [
+      "Dualtone Music Group"
+    ],
+    "catalogNumber": "80302-02549-16",
+    "upc": "803020254916",
+    "discogsLink": "https://www.discogs.com/release/28384759-Shakey-Graves-Movie-Of-The-Week",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786316516/shakeygraves_movieoftheweek_nkljun",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2023,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2023-09-15",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "10-99919 / DUA-2549-1-A 262410E1/C"
+        },
+        "sideB": {
+          "runout": "10-99919 / DUA-2549-1-B 262410E2/B"
+        }
+      },
+      "notes": [
+        "Original 2023 first pressing on standard black vinyl.",
+        "Released by Dualtone Music Group."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": "Shakey Graves concert (unconfirmed)"
+    },
+    "userNotes": [
+      "Features guest vocals by Sierra Ferrell on 'Ready or Not'.",
+      "The album is structured around the concept of changing television channels, reflected in the interludes throughout the record.",
+      "Represents a continuation of Shakey Graves' evolution from stripped-down folk recordings toward a fuller, band-oriented sound."
+    ]
   }
 ]

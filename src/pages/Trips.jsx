@@ -10,7 +10,7 @@ import {
   LayersControl,
   LayerGroup,
 } from "react-leaflet";
-import mapLocations from "../assets/js/mapLocations";
+import mapLocations from "../data/mapLocations";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import "react-leaflet-cluster/dist/assets/MarkerCluster.css";
 import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";

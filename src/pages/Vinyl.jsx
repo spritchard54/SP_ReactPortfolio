@@ -1,6 +1,6 @@
 // Import vinyl data from the JSON file.
 // Because this is a JSON file, it is imported as a default export.
-import vinylRecords from "../assets/js/vinylRecords.json";
+import vinylRecords from "../data/vinylRecords.json";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
