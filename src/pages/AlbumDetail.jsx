@@ -1,4 +1,4 @@
-import vinylRecords from "../assets/js/vinylRecords.json";
+import vinylRecords from "../data/vinylRecords.json";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
