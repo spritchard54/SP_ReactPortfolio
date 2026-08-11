@@ -4753,5 +4753,205 @@
       "Features the Grammy Award-winning title track 'Icky Thump'.",
       "Final studio album released by The White Stripes before their breakup in 2011."
     ]
+  },
+  {
+    "_id": {
+      "$oid": "6a79dfa22d9664f4abcaa7dd"
+    },
+    "artist": "Shakey Graves",
+    "albumName": "And the War Came",
+    "slug": "shakey-graves-and-the-war-came",
+    "originalReleaseDate": "2014-10-07",
+    "sides": {
+      "a": [
+        "This Is the Beginning",
+        "Only Son",
+        "Dearly Departed (feat. Esmé Patterson)",
+        "The Perfect Parts",
+        "Family and Genus",
+        "Big Time Nashville Star"
+      ],
+      "b": [
+        "The Wedding Song",
+        "Tomorrow",
+        "If Not for You",
+        "Call It Heaven",
+        "Playing Where Nobody Can See",
+        "Late July"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Americana",
+      "Indie Rock",
+      "Folk Rock"
+    ],
+    "label": [
+      "Dualtone Music Group"
+    ],
+    "catalogNumber": "80302-01683-12",
+    "upc": "803020168312",
+    "discogsLink": "https://www.discogs.com/release/28322866-Shakey-Graves-And-The-War-Came",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786372147/shakeygraves_andthewarcame_xcnbid",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2014,
+      "vinylReleaseYear": 2022,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2022",
+      "format": "LP, Album, Limited Edition, Reissue, Stereo",
+      "color": "Black & Natural Swirl",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "Welcome to 1979",
+      "masteringEngineer": "Bobbi Gentry",
+      "cuttingEngineer": "Bobbi Gentry",
+      "matrix": {
+        "sideA": {
+          "runout": "DUA-1683-1 / HDP1481 ARE BOBBI G WELCOME TO 1979"
+        },
+        "sideB": {
+          "runout": "DUA-1683-1 / HDP1481 BRE BOBBI G WELCOME TO 1979"
+        }
+      },
+      "notes": [
+        "2022 limited edition reissue on Black & Natural Swirl vinyl.",
+        "Gatefold jacket.",
+        "Mastered and lacquer cut at Welcome to 1979 in Nashville.",
+        "Deadwax signed 'BOBBI G', identifying mastering/cutting engineer Bobbi Gentry.",
+        "Reuses the original lacquer/mastering from the 2014 release."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Features Esmé Patterson on 'Dearly Departed', one of Shakey Graves' signature songs."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a79e5192d9664f4abcaa7df"
+    },
+    "artist": "Shakey Graves",
+    "albumName": "And the War Came (10th Anniversary Edition)",
+    "slug": "shakey-graves-and-the-war-came-10th-anniversary-edition",
+    "originalReleaseDate": "2014-10-07",
+    "sides": {
+      "a": [
+        "This Is The Beginning",
+        "Only Son",
+        "Dearly Departed (feat. Esmé Patterson)",
+        "The Perfect Parts",
+        "Family And Genus",
+        "Big Time Nashville Star"
+      ],
+      "b": [
+        "The Wedding Song",
+        "Tomorrow",
+        "If Not For You",
+        "Call It Heaven",
+        "Playing Where Nobody Can See",
+        "Late July"
+      ],
+      "c": [
+        "Hard Wired",
+        "Pansy Waltz",
+        "House Of Winston",
+        "Rotten Ol' Me (Kitchen Version)",
+        "If Not For You (Alt. Concept)"
+      ],
+      "d": [
+        "Dearly Departed (Demo)",
+        "The Perfect Parts (Demo)",
+        "Call It Heaven (Demo)",
+        "Where A Boy Once Stood",
+        "Tomorrow (Demo)"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Americana",
+      "Indie Rock",
+      "Folk Rock"
+    ],
+    "label": [
+      "Dualtone Music Group"
+    ],
+    "catalogNumber": "80302-02791-17",
+    "upc": "803020279117",
+    "discogsLink": "https://www.discogs.com/release/31998892-Shakey-Graves-And-The-War-Came-10-Year-Anniversary-Edition",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786373281/shakeygraves_andthewarcametenyear_rvjqjn",
+    "pressingStatus": {
+      "classification": "Anniversary Edition",
+      "originalReleaseYear": 2014,
+      "vinylReleaseYear": 2024,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2024",
+      "format": "2 × LP, Album, Anniversary Edition, Reissue, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "10-107874 / DUA-2791-1-A 289441E1/A"
+        },
+        "sideB": {
+          "runout": "10-107874 / DUA-2791-1-B 289441E2/A"
+        },
+        "sideC": {
+          "runout": "10-107874 / DUA-2791-1-C 289441E3/A"
+        },
+        "sideD": {
+          "runout": "10-107874 / DUA-2791-1-D 289441E4/A"
+        }
+      },
+      "notes": [
+        "2024 10th Anniversary Edition.",
+        "Standard black vinyl.",
+        "Gatefold jacket."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Second LP includes demos, alternate versions, and previously unreleased recordings.",
+      "Includes expanded liner notes, previously unpublished photographs, and a personal letter from Alejandro Rose-Garcia.",
+      "Celebrates the 10th anniversary of Shakey Graves' breakthrough album."
+    ]
   }
 ]
