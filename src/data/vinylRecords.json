@@ -4648,5 +4648,110 @@
       "The album is structured around the concept of changing television channels, reflected in the interludes throughout the record.",
       "Represents a continuation of Shakey Graves' evolution from stripped-down folk recordings toward a fuller, band-oriented sound."
     ]
+  },
+  {
+    "_id": {
+      "$oid": "6a7b93cd2d9664f4abcaa7e0"
+    },
+    "artist": "The White Stripes",
+    "albumName": "Icky Thump",
+    "slug": "the-white-stripes-icky-thump",
+    "originalReleaseDate": "2007-06-19",
+    "sides": {
+      "sideA": [
+        "Icky Thump",
+        "You Don't Know What Love Is (You Just Do As You're Told)",
+        "300 M.P.H. Torrential Outpour Blues",
+        "Conquest"
+      ],
+      "sideB": [
+        "Bone Broke",
+        "Prickly Thorn, But Sweetly Worn",
+        "St. Andrew (This Battle Is in the Air)"
+      ],
+      "sideC": [
+        "Little Cream Soda",
+        "Rag and Bone",
+        "I'm Slowly Turning Into You",
+        "A Martyr for My Love for You"
+      ],
+      "sideD": [
+        "Catch Hell Blues",
+        "Effect and Cause"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Garage Rock",
+      "Blues Rock"
+    ],
+    "label": [
+      "XL Recordings",
+      "Third Man Records",
+      "Columbia"
+    ],
+    "catalogNumber": "19439842441",
+    "upc": "194398424415",
+    "discogsLink": "https://www.discogs.com/release/21773368-The-White-Stripes-Icky-Thump",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786483631/whitestripes_ickythump_scg7dm",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2007,
+      "vinylReleaseYear": 2021,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "Europe",
+      "released": "2021",
+      "format": "2xLP, Album, Reissue, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "Sony DADC",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "B790193-01A XLLP-277 156051 (3) -57748- [additional hand-etched inscription]"
+        },
+        "sideB": {
+          "runout": "B790193-01B XLLP-277 156052 (3) -57748- [additional hand-etched inscription]"
+        },
+        "sideC": {
+          "runout": "B790193-01C XLLP-277 156053 (3) -57748- [additional hand-etched inscription]"
+        },
+        "sideD": {
+          "runout": "B790193-01D XLLP-277 156054 (3) -57748- [additional hand-etched inscription]"
+        }
+      },
+      "notes": [
+        "2021 XL Recordings / Third Man Records reissue.",
+        "Gatefold jacket.",
+        "Standard black vinyl.",
+        "Manufactured for European distribution.",
+        "Machine-stamped Sony DADC matrix numbers.",
+        "Additional hand-etched inscription present on all four sides; not fully deciphered."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Features the Grammy Award-winning title track 'Icky Thump'.",
+      "Final studio album released by The White Stripes before their breakup in 2011."
+    ]
   }
 ]
