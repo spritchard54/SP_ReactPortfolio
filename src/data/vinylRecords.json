@@ -4953,5 +4953,200 @@
       "Includes expanded liner notes, previously unpublished photographs, and a personal letter from Alejandro Rose-Garcia.",
       "Celebrates the 10th anniversary of Shakey Graves' breakthrough album."
     ]
+  },
+  {
+    "_id": {
+      "$oid": "6a7d0b7f2d9664f4abcaa7e1"
+    },
+    "artist": "The White Stripes",
+    "albumName": "Elephant",
+    "slug": "the-white-stripes-elephant",
+    "originalReleaseDate": "2003-04-01",
+    "sides": {
+      "a": [
+        "Seven Nation Army",
+        "Black Math",
+        "There's No Home for You Here",
+        "I Just Don't Know What to Do with Myself"
+      ],
+      "b": [
+        "In the Cold, Cold Night",
+        "I Want to Be the Boy to Warm Your Mother's Heart",
+        "You've Got Her in Your Pocket",
+        "Ball and Biscuit"
+      ],
+      "c": [
+        "The Hardest Button to Button",
+        "Little Acorns",
+        "Hypnotize",
+        "The Air Near My Fingers"
+      ],
+      "d": [
+        "Girl, You Have No Faith in Medicine",
+        "It's True That We Love One Another"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Garage Rock",
+      "Blues Rock",
+      "Alternative Rock"
+    ],
+    "label": [
+      "Third Man Records",
+      "XL Recordings",
+      "Columbia"
+    ],
+    "catalogNumber": "TMR200",
+    "upc": "194398424019",
+    "discogsLink": "https://www.discogs.com/release/22105831-The-White-Stripes-Elephant",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786579985/thewhitestripes_elephant_vybnxr",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2003,
+      "vinylReleaseYear": 2022,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2022",
+      "format": "2 × LP, Album, Reissue, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "Wes Garland",
+      "matrix": {
+        "sideA": {
+          "runout": "TMR 200-A QUEENIE WG"
+        },
+        "sideB": {
+          "runout": "TMR 200-B-RE-2 VELVETY WG"
+        },
+        "sideC": {
+          "runout": "TMR 200-C-RE-2 P KILLERY WG"
+        },
+        "sideD": {
+          "runout": "TMR 200-D CREEQUEY WG"
+        }
+      },
+      "notes": [
+        "2022 black vinyl reissue.",
+        "Gatefold jacket.",
+        "Cut by Wes Garland, identified by the WG inscription in the deadwax.",
+        "Sides B and C carry RE-2 recut designations.",
+        "Deadwax inscriptions include QUEENIE, VELVETY, P KILLERY, and CREEQUEY.",
+        "Released by Third Man Records with XL Recordings and Columbia distribution."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a7d17f52d9664f4abcaa7e3"
+    },
+    "artist": "Wu-Tang Clan",
+    "albumName": "Enter the Wu-Tang (36 Chambers)",
+    "slug": "wu-tang-clan-enter-the-wu-tang-36-chambers",
+    "originalReleaseDate": "1993-11-09",
+    "sides": {
+      "a": [
+        "Bring Da Ruckus",
+        "Shame on a Nigga",
+        "Clan in da Front",
+        "Wu-Tang: 7th Chamber",
+        "Can It Be All So Simple",
+        "Protect Ya Neck (Intermission)"
+      ],
+      "b": [
+        "Da Mystery of Chessboxin'",
+        "Wu-Tang Clan Ain't Nuthing ta F' Wit",
+        "C.R.E.A.M.",
+        "Method Man",
+        "Tearz",
+        "Wu-Tang: 7th Chamber - Part II"
+      ]
+    },
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Hardcore Hip-Hop",
+      "Boom Bap",
+      "East Coast Hip Hop"
+    ],
+    "label": [
+      "Loud Records",
+      "RCA",
+      "Wu-Tang Records"
+    ],
+    "catalogNumber": "07863 66336-1",
+    "upc": "078636633619",
+    "discogsLink": "https://www.discogs.com/release/11043111-Wu-Tang-Clan-Enter-The-Wu-Tang-36-Chambers",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786582709/wutang_enterthe36chambers_m0s97h",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1993,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "",
+      "format": "LP, Album, Reissue, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "United Record Pressing",
+      "masteringStudio": "Nashville Record Productions",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "07863-66336-1-B-RE-5 III NRP ⓤ"
+        },
+        "sideB": {
+          "runout": "07863-66336-1-B-RE-5 III NRP ⓤ"
+        }
+      },
+      "notes": [
+        "U.S. reissue/repress on standard black vinyl.",
+        "Pressed by United Record Pressing, identified by the circled-U mark in the deadwax.",
+        "NRP deadwax inscription identifies Nashville Record Productions.",
+        "Both Side A and Side B of this physical copy contain the same 07863-66336-1-B-RE-5 III deadwax matrix.",
+        "The center labels correctly identify Side A as 07863-66336-1-A and Side B as 07863-66336-1-B.",
+        "The duplicated B-RE-5 deadwax inscription has been preserved exactly as observed rather than normalized to an expected A-side matrix.",
+        "Physical identifiers closely match Discogs release 11043111."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": []
   }
 ]
