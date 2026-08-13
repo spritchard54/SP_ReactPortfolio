@@ -5148,5 +5148,100 @@
       "location": ""
     },
     "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a7dd5352d9664f4abcaa7e4"
+    },
+    "artist": "Various Artists",
+    "albumName": "Judgment Night (Music From The Motion Picture)",
+    "slug": "various-artists-judgment-night-music-from-the-motion-picture",
+    "originalReleaseDate": "1993-09-14",
+    "sides": {
+      "a": [
+        "Helmet & House Of Pain - Just Another Victim",
+        "Teenage Fanclub & De La Soul - Fallin'",
+        "Living Colour & Run-D.M.C. - Me, Myself & My Microphone",
+        "Biohazard & Onyx - Judgment Night",
+        "Slayer & Ice-T - Disorder"
+      ],
+      "b": [
+        "Faith No More & Boo-Yaa T.R.I.B.E. - Another Body Murdered",
+        "Sonic Youth & Cypress Hill - I Love You Mary Jane",
+        "Mudhoney & Sir Mix-A-Lot - Freak Momma",
+        "Dinosaur Jr. & Del The Funky Homosapien - Missing Link",
+        "Therapy? & Fatal - Come And Die",
+        "Pearl Jam & Cypress Hill - Real Thing"
+      ]
+    },
+    "genre": [
+      "Hip Hop",
+      "Rock",
+      "Stage & Screen"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Alternative Hip Hop",
+      "Rap Rock",
+      "Soundtrack"
+    ],
+    "label": [
+      "Epic Soundtrax",
+      "Legacy",
+      "Immortal Records"
+    ],
+    "catalogNumber": "19658831831",
+    "upc": "196588318313",
+    "discogsLink": "https://www.discogs.com/release/29002465-Various-Judgment-Night-Music-From-The-Motion-Picture",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786631441/soundtrack_judgementnight_t91tmz",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1993,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2023-11-24",
+      "format": "LP, Album, Reissue, Record Store Day, 30th Anniversary, Stereo",
+      "color": "Red",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "Memphis Record Pressing",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "MRP5134 / 19658831831-A #1 266881E1/A"
+        },
+        "sideB": {
+          "runout": "MRP5134 / 19658831831-B #1 266881E2/A"
+        }
+      },
+      "notes": [
+        "2023 Record Store Day Black Friday 30th Anniversary reissue.",
+        "Limited edition red vinyl.",
+        "Pressed by Memphis Record Pressing, identified by the MRP5134 matrix number.",
+        "GZ Media-style 266881E1/A and 266881E2/A manufacturing numbers appear in the runouts.",
+        "Released by Legacy and Epic Soundtrax.",
+        "Physical copy has #1 matrix variants on both sides; runouts have been preserved exactly as observed."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "The soundtrack pairs prominent early-1990s rock and metal artists with hip-hop artists on every track."
+    ]
   }
 ]
