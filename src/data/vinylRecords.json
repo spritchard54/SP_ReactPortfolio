@@ -5243,5 +5243,336 @@
     "userNotes": [
       "The soundtrack pairs prominent early-1990s rock and metal artists with hip-hop artists on every track."
     ]
+  },
+  {
+    "_id": {
+      "$oid": "6a8220302d9664f4abcaa7e6"
+    },
+    "artist": "Joe Cocker",
+    "albumName": "With a Little Help From My Friends",
+    "slug": "joe-cocker-with-a-little-help-from-my-friends",
+    "originalReleaseDate": "1969-04-23",
+    "sides": {
+      "a": [
+        "Feeling Alright",
+        "Bye Bye Blackbird",
+        "Change in Louise",
+        "Marjorine",
+        "Just Like a Woman"
+      ],
+      "b": [
+        "Do I Still Figure in Your Life?",
+        "Sandpaper Cadillac",
+        "Don't Let Me Be Misunderstood",
+        "With a Little Help From My Friends",
+        "I Shall Be Released"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Blues"
+    ],
+    "style": [
+      "Blues Rock",
+      "Classic Rock"
+    ],
+    "label": [
+      "A&M Records"
+    ],
+    "catalogNumber": "SP-4182",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786912367/joecocker_withalittlehelpfrommyfriends_spzysn",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1969,
+      "vinylReleaseYear": 1969,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1969",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "A&M SP 4263-2"
+        },
+        "sideB": {
+          "runout": "A&M SP 4264-P1"
+        }
+      },
+      "notes": [
+        "Vintage U.S. A&M Records pressing from the original 1969 release era.",
+        "Tan/gold A&M Records labels with the trumpet logo.",
+        "No UPC or barcode.",
+        "Side A center label appears to show matrix SP-4203 while the deadwax reads A&M SP 4263-2; both identifiers have been preserved as observed.",
+        "Side B center label shows SP-4264 and the deadwax reads A&M SP 4264-P1.",
+        "Original jacket includes musician photographs and track-by-track credits.",
+        "Jimmy Page is pictured and credited on the jacket and performs on several tracks.",
+        "Other credited musicians include Steve Winwood, Chris Stainton, B.J. Wilson, Matthew Fisher, Henry McCullough, and Mike Kellie.",
+        "Jacket shows age-related wear, discoloration, and staining.",
+        "Vinyl shows visible surface marks and hairlines; playback condition has not been formally graded."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "Father"
+    },
+    "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a8222482d9664f4abcaa7e7"
+    },
+    "artist": "Unknown Artist",
+    "albumName": "Masters of the Universe",
+    "slug": "unknown-artist-masters-of-the-universe",
+    "originalReleaseDate": "1983",
+    "sides": {
+      "a": [
+        "Masters of the Universe",
+        "Eternia Theme"
+      ],
+      "b": [
+        "Master of the Universe",
+        "Dawn on Eternia",
+        "Battle Theme"
+      ]
+    },
+    "genre": [
+      "Children's",
+      "Stage & Screen"
+    ],
+    "style": [
+      "Story",
+      "Soundtrack",
+      "Spoken Word"
+    ],
+    "label": [
+      "Kid Stuff Records"
+    ],
+    "catalogNumber": "KSS5042",
+    "upc": "043948504216",
+    "discogsLink": "https://www.discogs.com/release/1565105-Unknown-Artist-Masters-Of-The-Universe",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786913274/mastersoftheuniverse_fbtdau",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1983,
+      "vinylReleaseYear": 1983,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1983",
+      "format": "LP, Album, Story, Soundtrack, Spoken Word",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "KSS-5042 A"
+        },
+        "sideB": {
+          "runout": "KSS-5042 B"
+        }
+      },
+      "notes": [
+        "Original 1983 U.S. Kid Stuff Records release.",
+        "Licensed Masters of the Universe release associated with Mattel's original 1980s franchise.",
+        "No later reissue indicators are present in the catalog number or observed runouts.",
+        "Black vinyl.",
+        "Copy shows substantial wear consistent with childhood use; playback condition has not been formally graded."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "userNotes": [
+      "Originally owned during childhood and rediscovered decades later.",
+      "Retained primarily for sentimental and nostalgic value."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a8227472d9664f4abcaa7e8"
+    },
+    "artist": "Led Zeppelin",
+    "albumName": "Led Zeppelin IV",
+    "slug": "led-zeppelin-led-zeppelin-iv",
+    "originalReleaseDate": "1971-11-08",
+    "sides": {
+      "a": [
+        "Black Dog",
+        "Rock and Roll",
+        "The Battle of Evermore",
+        "Stairway to Heaven"
+      ],
+      "b": [
+        "Misty Mountain Hop",
+        "Four Sticks",
+        "Going to California",
+        "When the Levee Breaks"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Hard Rock",
+      "Blues Rock",
+      "Folk Rock"
+    ],
+    "label": [
+      "Atlantic"
+    ],
+    "catalogNumber": "SD 7208",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786914607/ledzeppelin_IV_duzkf9",
+    "pressingStatus": {
+      "classification": "Contemporary Pressing",
+      "originalReleaseYear": 1971,
+      "vinylReleaseYear": 1971,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": false,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1971",
+      "format": "LP, Album, Columbia Record Club Edition, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "ST-A 712285 1E"
+        },
+        "sideB": {
+          "runout": "ST-A-712286-1A T"
+        }
+      },
+      "notes": [
+        "U.S. Columbia Record Club edition.",
+        "Center labels are marked CRC.",
+        "Center label matrix on Side A reads ST-A-712285 PR.",
+        "Center label matrix on Side B reads ST-A-712286 PR.",
+        "Atlantic catalog number SD 7208.",
+        "Original-release-era pressing rather than a later reissue.",
+        "No PORKY, PECKO DUCK, or other additional mastering inscriptions were observed in the deadwax.",
+        "Physical characteristics and family provenance are consistent with Columbia Record Club distribution."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "Father"
+    },
+    "userNotes": [
+      "Originally owned by user's father, who was a Columbia Record Club member during this period."
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a822d852d9664f4abcaa7e9"
+    },
+    "artist": "Black Sabbath",
+    "albumName": "Master of Reality",
+    "slug": "black-sabbath-master-of-reality",
+    "originalReleaseDate": "1971-07-21",
+    "sides": {
+      "a": [
+        "Sweet Leaf",
+        "After Forever",
+        "Embryo",
+        "Children of the Grave"
+      ],
+      "b": [
+        "Orchid",
+        "Lord of This World",
+        "Solitude",
+        "Into the Void"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Heavy Metal",
+      "Hard Rock"
+    ],
+    "label": [
+      "Warner Bros. Records"
+    ],
+    "catalogNumber": "BS 2562",
+    "upc": null,
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786916260/blacksabbath_masterofreality_pybcxe",
+    "pressing": {
+      "classification": "Contemporary Pressing",
+      "year": 1971,
+      "country": "US",
+      "color": "Black",
+      "pressingPlant": "Unknown",
+      "masteringEngineer": null,
+      "matrix": {
+        "a": "BS 2562 39928-2",
+        "b": "BS 2562 39929-1"
+      },
+      "deadwax": {
+        "a": "BS 2562 39928-2, Artisan Sound Recorders logo",
+        "b": "BS 2562 39929-1, Artisan Sound Recorders logo"
+      }
+    },
+    "purchaseDate": null,
+    "purchasePrice": null,
+    "purchaseLocation": null,
+    "collectionStatus": "Extended Collection",
+    "notes": "Father's copy. Early 1971 U.S. repress with corrected 'Master of Reality' title and four-track-per-side labels. Green Warner Bros. Records labels. Artisan Sound Recorders logo etched in the deadwax on both sides. Side A label matrix S39928; Side B label matrix S39929. Originally issued with a Black Sabbath poster; poster is not present."
   }
 ]
