@@ -5574,5 +5574,160 @@
     "purchaseLocation": null,
     "collectionStatus": "Extended Collection",
     "notes": "Father's copy. Early 1971 U.S. repress with corrected 'Master of Reality' title and four-track-per-side labels. Green Warner Bros. Records labels. Artisan Sound Recorders logo etched in the deadwax on both sides. Side A label matrix S39928; Side B label matrix S39929. Originally issued with a Black Sabbath poster; poster is not present."
+  },
+  {
+    "_id": {
+      "$oid": "6a83322c2d9664f4abcaa7ea"
+    },
+    "artist": "Jim Croce",
+    "albumName": "I Got a Name",
+    "slug": "jim-croce-i-got-a-name",
+    "originalReleaseDate": "1973-12-01",
+    "sides": {
+      "a": [
+        "I Got a Name",
+        "Lover's Cross",
+        "Five Short Minutes",
+        "Age",
+        "Workin' at the Car Wash Blues"
+      ],
+      "b": [
+        "I'll Have to Say I Love You in a Song",
+        "Salon and Saloon",
+        "Thursday",
+        "Top Hat Bar and Grille",
+        "Recently",
+        "The Hard Way Every Time"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Folk Rock",
+      "Soft Rock"
+    ],
+    "label": [
+      "ABC Records"
+    ],
+    "catalogNumber": "ABCX-797",
+    "upc": null,
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786982806/jimcroce_igotaname_qo1ifk",
+    "pressing": {
+      "classification": "Original First Pressing",
+      "year": 1973,
+      "country": "US",
+      "color": "Black",
+      "pressingPlant": "Unknown",
+      "masteringEngineer": null,
+      "matrix": {
+        "a": "ABCX-797-A",
+        "b": "ABCX-797-B"
+      },
+      "deadwax": {
+        "a": "ABCX 797-A-1C 1ML",
+        "b": "1 ABCX 797-B-1A"
+      }
+    },
+    "purchaseDate": null,
+    "purchasePrice": null,
+    "purchaseLocation": null,
+    "collectionStatus": "Extended Collection",
+    "owner": "WEP",
+    "notes": "1973 U.S. ABC Records pressing. Catalog number ABCX-797. No UPC. Side A label matrix ABCX-797-A and Side B label matrix ABCX-797-B. Runouts are consistent with an original 1973 U.S. pressing."
+  },
+  {
+    "_id": {
+      "$oid": "6a836dc62d9664f4abcaa7eb"
+    },
+    "artist": "Frank Sinatra",
+    "albumName": "Frank Sinatra's Greatest Hits",
+    "slug": "frank-sinatra-frank-sinatras-greatest-hits",
+    "originalReleaseDate": "1968",
+    "sides": {
+      "a": [
+        "Strangers in the Night",
+        "Summer Wind",
+        "It Was a Very Good Year",
+        "Somewhere in Your Heart",
+        "Forget Domani",
+        "Somethin' Stupid"
+      ],
+      "b": [
+        "That's Life",
+        "Tell Her (You Love Her Each Day)",
+        "The World We Knew (Over and Over)",
+        "When Somebody Loves You",
+        "This Town",
+        "Softly, as I Leave You"
+      ]
+    },
+    "genre": [
+      "Jazz",
+      "Pop"
+    ],
+    "style": [
+      "Vocal",
+      "Easy Listening"
+    ],
+    "label": [
+      "Reprise Records"
+    ],
+    "catalogNumber": "FS 1025",
+    "upc": null,
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786998178/franksinatra_greatesthits_uxyaks",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1968,
+      "vinylReleaseYear": 1968,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1968",
+      "format": "LP, Compilation, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single-pocket jacket",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "30793-2S"
+        },
+        "sideB": {
+          "runout": "30794-2S"
+        }
+      },
+      "notes": [
+        "U.S. Reprise Records pressing.",
+        "No UPC or barcode.",
+        "Side A center label matrix reads FS 1025 (30,793).",
+        "Side B center label matrix reads FS 1025 (30,794).",
+        "Deadwax matrices correspond to the respective center-label matrix numbers.",
+        "Part of the WEP extended collection."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": "",
+      "location": ""
+    },
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    },
+    "userNotes": []
   }
 ]
