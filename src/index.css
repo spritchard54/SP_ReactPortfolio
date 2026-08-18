@@ -190,3 +190,12 @@ a {
     max-width: 75%;
   }
 }
+
+.album-cover {
+  transition: opacity 0.2s ease;
+}
+
+.album-cover:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
