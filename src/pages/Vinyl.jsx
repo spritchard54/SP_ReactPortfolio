@@ -4,7 +4,6 @@ import vinylRecords from "../data/vinylRecords.json";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 // Functional React component.
 // This component renders the Vinyl Collection page.
 function Vinyl() {
@@ -36,9 +35,6 @@ function Vinyl() {
 
     return artistMatch && genreMatch;
   });
-
-   
-
 
   return (
     // Bootstrap container adds responsive spacing and layout.
@@ -128,28 +124,35 @@ function Vinyl() {
                     -> display fallback text
                   */}
                   {record.artwork ? (
-                    <img
-                      // Image source URL from JSON data
-                      src={record.artwork}
-                      // Bootstrap image/card spacing classes
-                      className="card-img-top mb-3"
-                      // Accessibility text for screen readers
-                      alt={`${record.albumName} album cover`}
-                      // Lazy loading improves performance
-                      // Images load only when needed
-                      loading="lazy"
-                    />
+                    <Link to={`/vinyl/${record.slug}`}>
+                      <img
+                        // Image source URL from JSON data
+                        src={record.artwork}
+                        // Bootstrap image/card spacing classes
+                        className="card-img-top mb-3 album-cover"
+                        // Accessibility text for screen readers
+                        alt={`${record.albumName} album cover`}
+                        // Lazy loading improves performance
+                        // Images load only when needed
+                        loading="lazy"
+                      />
+                    </Link>
                   ) : (
                     // Fallback content when no image exists
-                    <div className="mb-3">Image coming soon...</div>
+                    <Link to={`/vinyl/${record.slug}`}>
+                      <div className="mb-3 album-cover">Image coming soon...</div>
+                    </Link>
                   )}
-                  
+
                   <h5 className="card-subtitle mb-2 text-muted">
                     {record.artist}
                   </h5>
+
                   <p className="card-text">
-                    <strong>Album:</strong> {record.albumName}
+                    <strong>Album:</strong>{" "}
+                    <Link to={`/vinyl/${record.slug}`}>{record.albumName}</Link>
                   </p>
+
                   <p className="card-text">
                     <strong>Genre:</strong>{" "}
                     {/* 
@@ -191,11 +194,11 @@ function Vinyl() {
                       ? record.label.join(", ")
                       : record.label}
                   </p>
-                  <p className="card-text mt-auto text-end mb-0">
+                  {/* <p className="card-text mt-auto text-end mb-0">
                     <Link to={`/vinyl/${record.slug}`}>
                     more...
                     </Link>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
