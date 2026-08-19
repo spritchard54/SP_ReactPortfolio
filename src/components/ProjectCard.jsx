@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa";
+
 function ProjectCard({ project }) {
   return (
     <div className="row mx-auto">
@@ -26,10 +28,7 @@ function ProjectCard({ project }) {
               </div>
               <div className="d-flex gap-2 mb-3">
                 {project.liveUrl && (
-                  <a
-                    href={project.liveUrl}
-                    className="btn home-button"
-                  >
+                  <a href={project.liveUrl} className="btn home-button">
                     Live Site
                   </a>
                 )}
@@ -39,8 +38,9 @@ function ProjectCard({ project }) {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn home-button"
+                    className="btn home-button d-inline-flex align-items-center justify-content-center gap-2"
                   >
+                    <FaGithub size="20" />
                     GitHub
                   </a>
                 )}

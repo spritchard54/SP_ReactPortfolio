@@ -27,7 +27,7 @@ const projects = [
     title: "Vinyl Logic",
     description:
       "This project is a result of my recent entry into the world of vinyl record collecting. I've been around longing enough to remember buying cassettes and then CDs before living in a world of streaming content. I miss going into the music store, I miss skimming through physical copies of my own music, and so now I'm buying records. The only format that seems to have stood the test of time.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
+    technologies: ["React", "Node.js", "MongoDB", "Bootstrap", "Cloudinary"],
     image: "https://res.cloudinary.com/dpir0th3m/image/upload/v1786039307/vinylrecords_qxlqrr",
     liveUrl: "/vinyl",
     githubUrl: "https://github.com/spritchard54/SP_ReactPortfolio",
