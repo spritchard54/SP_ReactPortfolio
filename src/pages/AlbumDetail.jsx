@@ -88,7 +88,7 @@ export default function AlbumDetail() {
                         <img
                           src={record.artwork}
                           alt={`${record.albumName} album cover`}
-                          className="img-fluid"
+                          className="img-fluid album-cover"
                           loading="lazy"
                         />
                       </Link>
