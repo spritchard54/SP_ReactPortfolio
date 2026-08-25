@@ -5729,5 +5729,110 @@
       "owner": "WEP"
     },
     "userNotes": []
+  },
+  {
+    "_id": {
+      "$oid": "6a8dcfc12d9664f4abcaa7ec"
+    },
+    "artist": "Modest Mouse",
+    "albumName": "An Eraser and a Maze",
+    "slug": "modest-mouse-an-eraser-and-a-maze",
+    "originalReleaseDate": "2026-06-05",
+    "sides": {
+      "a": [
+        "Picking Dragons' Pockets",
+        "Remember Yourself",
+        "Life's a Dream",
+        "Third Side of the Moon"
+      ],
+      "b": [
+        "Dogbed in Heaven / Give It a Skeleton",
+        "Interlude",
+        "I Can't Talk Right Now",
+        "Speak 'N Spell (Or Not)"
+      ],
+      "c": [
+        "Rotten Fruit (feat. pkpkpkpk)",
+        "Knocked Down by Waves",
+        "Absolutely Necessary Never",
+        "Song About Nothing"
+      ],
+      "d": [
+        "Stoner Party",
+        "Look How Far…",
+        "Impossible Somedays"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Indie Rock"
+    ],
+    "label": [
+      "Glacial Pace Recordings",
+      "Virgin Music Group"
+    ],
+    "catalogNumber": "GP025",
+    "upc": "",
+    "discogsLink": "https://www.discogs.com/release/37549503-Modest-Mouse-An-Eraser-And-A-Maze",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1787678834/modestmouse_eraserandamaze_xkuft0",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2026,
+      "vinylReleaseYear": 2026,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "Netherlands",
+      "released": "2026",
+      "format": "2 × LP, Album, EcoSonic, Stereo",
+      "color": "Cosmic Black",
+      "weight": "180g",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "GP025 A GN 1224 CC IM"
+        },
+        "sideB": {
+          "runout": "GP025 B GN 1224 CC IM"
+        },
+        "sideC": {
+          "runout": "GP025 C GN 1224 CC IM"
+        },
+        "sideD": {
+          "runout": "GP025 D GN 1224 CC IM"
+        }
+      },
+      "notes": [
+        "2026 original vinyl release.",
+        "Cosmic Black 180-gram EcoSonic vinyl.",
+        "Double-LP housed in a gatefold jacket.",
+        "Back cover states Made in the Netherlands.",
+        "Released by Glacial Pace Recordings with Virgin Music Group.",
+        "No UPC or barcode observed on the physical copy.",
+        "Purchased at a Modest Mouse concert at The Fillmore in Philadelphia."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 35,
+      "date": "2026-08-19",
+      "location": "The Fillmore, Philadelphia, PA"
+    },
+    "userNotes": [
+      "Purchased at the Modest Mouse concert at The Fillmore in Philadelphia on August 19, 2026."
+    ]
   }
 ]
