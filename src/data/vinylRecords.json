@@ -5834,5 +5834,117 @@
     "userNotes": [
       "Purchased at the Modest Mouse concert at The Fillmore in Philadelphia on August 19, 2026."
     ]
+  },
+  {
+    "_id": {
+      "$oid": "6a8f4a012d9664f4abcaa7ee"
+    },
+    "artist": "Modest Mouse",
+    "albumName": "The Moon & Antarctica",
+    "slug": "modest-mouse-the-moon-and-antarctica",
+    "originalReleaseDate": "2000-06-13",
+    "sides": {
+      "a": [
+        "3rd Planet",
+        "Gravity Rides Everything",
+        "Dark Center of the Universe",
+        "Perfect Disguise"
+      ],
+      "b": [
+        "Tiny Cities Made of Ashes",
+        "A Different City",
+        "The Cold Part",
+        "Alone Down There"
+      ],
+      "c": [
+        "The Stars Are Projectors",
+        "Wild Packs of Family Dogs",
+        "Paper Thin Walls"
+      ],
+      "d": [
+        "I Came as a Rat",
+        "Lives",
+        "Life Like Weeds",
+        "What People Are Made Of"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Indie Rock"
+    ],
+    "label": [
+      "Epic",
+      "Legacy"
+    ],
+    "catalogNumber": "88697 66156 1",
+    "upc": "886976615611",
+    "discogsLink": "https://www.discogs.com/release/10045844-Modest-Mouse-The-Moon-Antarctica",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1787775200/modestmouse_themoonandantarctica_xhksvq",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2000,
+      "vinylReleaseYear": 2017,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2017",
+      "format": "2 × LP, Album, Reissue, Remastered, 180 Gram, Stereo",
+      "color": "Black",
+      "weight": "180g",
+      "jacket": "",
+      "pressingPlant": "United Record Pressing",
+      "masteringStudio": "Nashville Record Productions",
+      "masteringEngineer": "",
+      "cuttingEngineer": "Wes Garland",
+      "matrix": {
+        "sideA": {
+          "runout": "88697661561-A-RE-5 [small 2 above hyphen between A and RE] NRP ⓤ"
+        },
+        "sideB": {
+          "runout": "88697661561-B-RE-3 [small 2 above hyphen between B and RE] WG ⓤ"
+        },
+        "sideC": {
+          "runout": "88697661561-C-RE-1 NRP ⓤ"
+        },
+        "sideD": {
+          "runout": "88697661561-D-RE-3 [small 2 above hyphen between D and RE] ⓤ"
+        }
+      },
+      "notes": [
+        "Later pressing of the 10th Anniversary remastered vinyl edition.",
+        "Physical identifiers are most consistent with the 2017 U.S. repress family.",
+        "Standard black 180-gram double vinyl.",
+        "Circled-U marks in the deadwax identify United Record Pressing.",
+        "NRP markings identify Nashville Record Productions.",
+        "WG inscription on Side B identifies Wes Garland.",
+        "RE-5, RE-3 and RE-1 markings indicate revised or recut lacquers used for the respective sides.",
+        "Observed runouts differ from the currently documented runout variant for the closest Discogs release.",
+        "Physical copy contained two record sleeves plus two additional printed artwork/lyric pieces.",
+        "Shrinkwrap appeared to have been applied or replaced after the original packaging process.",
+        "A barcode sticker was applied over the jacket barcode; both displayed UPC 886976615611.",
+        "No evidence that the records themselves are mismatched; all four sides carry the expected 88697661561 matrices.",
+        "Purchased directly at a Modest Mouse concert at The Fillmore in Philadelphia."
+      ]
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 35,
+      "date": "2026-08-19",
+      "location": "The Fillmore, Philadelphia, PA"
+    },
+    "userNotes": [
+      "Purchased at the Modest Mouse concert at The Fillmore in Philadelphia on August 19, 2026.",
+      "Packaging appeared to have been rewrapped or repackaged prior to purchase."
+    ]
   }
 ]
