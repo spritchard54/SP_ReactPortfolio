@@ -1,10 +1,10 @@
 import vinylRecords from "../data/vinylRecords.json";
-import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
+import { Link, useParams, useLocation} from "react-router-dom";
 
 export default function AlbumDetail() {
   const { albumSlug } = useParams();
+  const location = useLocation();
 
   const album = vinylRecords.find((item) => item.slug === albumSlug);
 
@@ -23,6 +23,7 @@ export default function AlbumDetail() {
 
   return (
     <>
+    
       <Helmet>
         <title>{`Steven Pritchard | ${album.albumName}`}</title>
         <meta name="description" content={""} />
@@ -74,7 +75,9 @@ export default function AlbumDetail() {
               </a>
             </h5>
             <p className="mb-3">
-              <Link to={"/vinyl"}>Back to the collection...</Link>
+              <Link to={location.state?.from || "/vinyl"}>
+                Back to the collection...
+              </Link>
             </p>
           </div>
           <div className="col-12 col-md-6">

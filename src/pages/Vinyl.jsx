@@ -2,13 +2,20 @@
 // Because this is a JSON file, it is imported as a default export.
 import vinylRecords from "../data/vinylRecords.json";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams, useLocation } from "react-router-dom";
 
 // Functional React component.
 // This component renders the Vinyl Collection page.
 function Vinyl() {
   const [selectedArtist, setSelectedArtist] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("");
+
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [showExtendedOnly, setShowExtendedOnly] = useState(
+    searchParams.get("extended") === "true",
+  );
+
+  const location = useLocation();
 
   // Unique artists sorted alphabetically
   const artists = [
@@ -27,13 +34,18 @@ function Vinyl() {
 
   const filteredRecords = vinylRecords.filter((record) => {
     const artistMatch = !selectedArtist || record.artist === selectedArtist;
+
     const genreMatch =
       !selectedGenre ||
       (Array.isArray(record.genre)
         ? record.genre.includes(selectedGenre)
         : record.genre === selectedGenre);
 
-    return artistMatch && genreMatch;
+    const collectionMatch =
+      !showExtendedOnly ||
+      record.ownership?.collectionStatus === "Extended Collection";
+
+    return artistMatch && genreMatch && collectionMatch;
   });
 
   return (
@@ -41,9 +53,44 @@ function Vinyl() {
     // my-4 = margin-top and margin-bottom
     <div className="container my-4">
       <h1>Vinyl Collection</h1>
-      <p>A small selection of albums from my personal record collection.</p>
+      <p>
+        I've been at record stores, flipping through records, and had to ask
+        myself "do I already own this?". So this page helps me keep track of
+        what I own when I'm at and about. It's also interesting to see how the
+        collection is coming together. Which artists do I often buy, which
+        genres, etc. Another nice feature I've included is the ability to add
+        albums to my library as part of my "Extended Collection". Not my
+        records, but records I have access to.
+      </p>
 
       <div className="row mb-4">
+        <div className="col-lg-12 mb-3">
+          <div className="form-check form-switch">
+            <input
+              className="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="collectionToggle"
+              checked={showExtendedOnly}
+              onChange={(e) => {
+                const checked = e.target.checked;
+
+                setShowExtendedOnly(checked);
+
+                if (checked) {
+                  setSearchParams({ extended: "true" });
+                } else {
+                  setSearchParams({});
+                }
+              }}
+            />
+
+            <label className="form-check-label" htmlFor="collectionToggle">
+              Extended Collection Only
+            </label>
+          </div>
+        </div>
+
         <div className="col-md-6">
           <label className="form-label">Filter by Artist</label>
           <select
@@ -124,7 +171,10 @@ function Vinyl() {
                     -> display fallback text
                   */}
                   {record.artwork ? (
-                    <Link to={`/vinyl/${record.slug}`}>
+                    <Link
+                      to={`/vinyl/${record.slug}`}
+                      state={{ from: `/vinyl${location.search}` }}
+                    >
                       <img
                         // Image source URL from JSON data
                         src={record.artwork}
@@ -139,8 +189,13 @@ function Vinyl() {
                     </Link>
                   ) : (
                     // Fallback content when no image exists
-                    <Link to={`/vinyl/${record.slug}`}>
-                      <div className="mb-3 album-cover">Image coming soon...</div>
+                    <Link
+                      to={`/vinyl/${record.slug}`}
+                      state={{ from: `/vinyl${location.search}` }}
+                    >
+                      <div className="mb-3 album-cover">
+                        Image coming soon...
+                      </div>
                     </Link>
                   )}
 
@@ -150,7 +205,12 @@ function Vinyl() {
 
                   <p className="card-text">
                     <strong>Album:</strong>{" "}
-                    <Link to={`/vinyl/${record.slug}`}>{record.albumName}</Link>
+                    <Link
+                      to={`/vinyl/${record.slug}`}
+                      state={{ from: `/vinyl${location.search}` }}
+                    >
+                      {record.albumName}
+                    </Link>
                   </p>
 
                   <p className="card-text">
