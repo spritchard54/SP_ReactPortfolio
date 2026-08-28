@@ -16,8 +16,8 @@
       "date": {
         "$date": "2024-07-19T04:00:00.000Z"
       },
-      "store": "Latchkey Records",
-      "price": 38.99
+      "price": 38.99,
+      "location": "Latchkey Records"
     },
     "slug": "glass-animals-i-love-you-so-f-ing-much",
     "sides": {
@@ -29,7 +29,46 @@
         "A Tear in Space (Airlock)"
       ]
     },
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779838469/Screenshot_2026-05-26_at_7.34.09_PM_e0mfvm"
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779838469/Screenshot_2026-05-26_at_7.34.09_PM_e0mfvm",
+    "createdOn": {
+      "$date": "2026-01-31T18:14:04.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 2024,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -68,7 +107,51 @@
         "No Woman, No Cry",
         "Manifest/Outro"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-02-02T18:18:24.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1996,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -105,7 +188,51 @@
         "Saltwater",
         "Violas And Lupitas"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-02-02T20:51:26.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 2022,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -146,7 +273,50 @@
         "Mutherfuker",
         "Blackhole"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-02-03T19:59:48.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1994,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "upc": null
   },
   {
     "_id": {
@@ -184,7 +354,51 @@
         "240 Years Before Your Time"
       ]
     },
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779900021/bkBigComeUp_cip3ir"
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1779900021/bkBigComeUp_cip3ir",
+    "createdOn": {
+      "$date": "2026-02-03T20:31:00.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1970,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -229,7 +443,51 @@
         "The Roach (The Chronic Outro)",
         "Bitches Ain't S _ _ _"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-02-04T17:44:34.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1992,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -274,7 +532,51 @@
         "Dunes (Live From Capital Studio A)",
         "Over My Head (Live From Capital Studio A)"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-05-27T00:51:15.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 2015,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -306,7 +608,51 @@
         "Kids See Ghosts",
         "Cudi Montage"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-05-27T17:49:21.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 2018,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -339,7 +685,51 @@
         "I Ain't the Same",
         "On Your Way"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-05-30T21:10:47.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 2012,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -382,7 +772,51 @@
         "Street Walkn'",
         "Goin' Home"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-05-30T21:39:40.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 2009,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -425,7 +859,51 @@
         "Rental Car",
         "Emergency Exit"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-06-02T21:24:06.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 2005,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -468,7 +946,51 @@
         "High 5 (Rock The Catskills)",
         "Ramshackle"
       ]
-    }
+    },
+    "createdOn": {
+      "$date": "2026-06-03T17:28:46.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1996,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
+    },
+    "discogsLink": "",
+    "upc": null
   },
   {
     "_id": {
@@ -518,6 +1040,48 @@
         "Crazy A** S**T",
         "The Lisa Lisa/Full Force Routine"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-03T22:00:08.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 2011,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
     }
   },
   {
@@ -561,6 +1125,48 @@
         "Slow And Low",
         "Time To Get Ill"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-12T21:00:31.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1986,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
     }
   },
   {
@@ -619,6 +1225,48 @@
           ]
         ]
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-27T18:10:24.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1989,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
     }
   },
   {
@@ -674,6 +1322,48 @@
         "Dr. Lee, PhD",
         "Instant Death"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-27T19:02:06.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1998,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
     }
   },
   {
@@ -732,6 +1422,48 @@
         "In 3's",
         "Namaste"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-27T21:40:26.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1992,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
     }
   },
   {
@@ -791,6 +1523,48 @@
         "Bodhisattva Vow",
         "Transitions"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-27T21:40:26.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressing": {
+      "country": "",
+      "released": "",
+      "format": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {},
+      "notes": [],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "pressingStatus": {
+      "classification": "Unverified",
+      "originalReleaseYear": 1994,
+      "vinylReleaseYear": null,
+      "isOriginalRelease": null,
+      "isFirstVinylPressing": null,
+      "isReissue": null,
+      "confidence": "Unknown"
     }
   },
   {
@@ -815,16 +1589,23 @@
     "upc": "045778037919",
     "discogsLink": "https://www.discogs.com/release/15452546-The-Black-Keys-Rubber-Factory",
     "pressing": {
-      "releaseYear": null,
       "country": "US",
       "format": "LP",
       "speed": "33⅓ RPM",
       "pressingPlant": "Memphis Record Pressing",
-      "mastering": "Welcome to 1979",
-      "matrixRunout": {
+      "matrix": {
         "sideA": "MRP0014-A / FR-80379-1-A / #26 / CSH / Welcome to 1979",
         "sideB": "MRP0014-B / FR-80379-1-B / B13 / CSH / Welcome to 1979"
-      }
+      },
+      "masteringStudio": "Welcome to 1979",
+      "released": null,
+      "manufacturedIn": "",
+      "color": "",
+      "weight": "",
+      "jacket": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "notes": []
     },
     "originalReleaseDate": {
       "$date": "2004-09-07T00:00:00.000Z"
@@ -848,6 +1629,32 @@
         "Keep Me",
         "Till I Get My Way"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-28T19:54:17.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2004,
+      "vinylReleaseYear": 2015,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
     }
   },
   {
@@ -878,11 +1685,8 @@
     "pressing": {
       "country": "Worldwide",
       "manufacturedIn": "Netherlands",
-      "pressedAt": "Record Industry",
-      "masteredAt": "Sterling Sound",
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "matrix": {
         "sideA": {
           "stamped": [
@@ -913,7 +1717,15 @@
         "Pressed at Record Industry.",
         "Mastered at Sterling Sound.",
         "Nonesuch / Easy Eye Sound labels."
-      ]
+      ],
+      "color": "Black",
+      "pressingPlant": "Record Industry",
+      "masteringStudio": "Sterling Sound",
+      "released": null,
+      "weight": "",
+      "jacket": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -921,8 +1733,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "the-black-keys-dropout-boogie",
@@ -941,6 +1753,22 @@
         "Baby I'm Coming Home",
         "Didn't I Love You"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-28T21:27:28.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2022,
+      "vinylReleaseYear": 2022,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -972,11 +1800,8 @@
     "pressing": {
       "country": "Europe",
       "manufacturedIn": "Germany",
-      "pressedAt": "Optimal Media GmbH",
-      "masteredAt": "",
       "format": "2 x LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "matrix": {
         "sideA": {
           "etched": [
@@ -1005,7 +1830,15 @@
         "Nonesuch / Easy Eye Sound release.",
         "Gatefold jacket.",
         "Runout inscriptions verified from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "pressingPlant": "Optimal Media GmbH",
+      "masteringStudio": "",
+      "released": null,
+      "weight": "",
+      "jacket": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1013,8 +1846,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "the-black-keys-delta-kream",
@@ -1039,6 +1872,22 @@
         "Come On And Go With Me",
         "Honey Hair"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-28T22:02:06.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2021,
+      "vinylReleaseYear": 2021,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -1064,39 +1913,51 @@
     ],
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1782685212/bk-magicpotion_wefois",
     "upc": "075597996715",
-    "discogsLink": "https://www.discogs.com/release/...",
+    "discogsLink": "https://www.discogs.com/release/1779487-The-Black-Keys-Magic-Potion",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2006,
+      "vinylReleaseYear": 2006,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
     "pressing": {
       "country": "US",
+      "manufacturedIn": "US",
+      "released": 2006,
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
+      "color": "Black",
+      "weight": "180g",
+      "jacket": "",
+      "pressingPlant": "Rainbo Records",
+      "masteringStudio": "Magnetic North / R.E.M. Sound",
+      "masteringEngineer": "Chris Keffer",
+      "cuttingEngineer": "",
       "matrix": {
         "sideA": {
           "etched": [
-            "1-79967-A"
+            "1-79967 A",
+            "S-60379",
+            "REM-RCE",
+            "17228.1"
           ]
         },
         "sideB": {
           "etched": [
-            "SE603-B",
-            "REM-RUE"
-          ]
-        },
-        "sideC": {
-          "etched": [
-            "SE603-C",
-            "REM-RUE"
-          ]
-        },
-        "sideD": {
-          "etched": [
-            "172284"
+            "1-79967 B",
+            "S-60380",
+            "17228.2",
+            "xxxxxxxxxxxx"
           ]
         }
       },
       "notes": [
-        "US Nonesuch pressing.",
-        "Runouts verified from owner's copy."
+        "2006 US Nonesuch original pressing.",
+        "Runouts verified from owner's copy.",
+        "Pressed by Rainbo Records."
       ]
     },
     "condition": {
@@ -1105,8 +1966,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "the-black-keys-magic-potion",
@@ -1126,6 +1987,13 @@
         "Black Door",
         "Elevator"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-06-28T22:17:26.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -1157,7 +2025,6 @@
       "released": 2008,
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -1187,7 +2054,12 @@
       "notes": [
         "US Nonesuch pressing.",
         "Runouts verified from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1195,8 +2067,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "the-black-keys-attack-and-release",
@@ -1216,6 +2088,22 @@
         "Oceans And Streams",
         "Things Ain't Like They Used To Be"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-09T17:30:42.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2008,
+      "vinylReleaseYear": 2008,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -1261,7 +2149,6 @@
       "released": 2021,
       "format": "3 × LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Sterling Sound",
       "masteringEngineer": "Ryan K. Smith",
       "pressingPlant": "Record Industry",
@@ -1297,7 +2184,12 @@
         "Pressed by Record Industry.",
         "Mastered by Ryan K. Smith at Sterling Sound.",
         "Runouts verified from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1305,8 +2197,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "the-black-keys-el-camino-deluxe-edition",
@@ -1340,6 +2232,22 @@
         "Your Touch (Live In Portland, ME)",
         "Little Black Submarines (Live In Portland, ME)"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-10T20:43:10.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2011,
+      "vinylReleaseYear": 2021,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
     }
   },
   {
@@ -1371,7 +2279,6 @@
       "released": 2017,
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "Memphis Record Pressing",
@@ -1390,7 +2297,12 @@
         "Pressed by Memphis Record Pressing.",
         "Lacquer cut at Welcome to 1979.",
         "Runouts verified from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1398,8 +2310,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "Repo Records",
-      "price": 24.99
+      "price": 24.99,
+      "location": "Repo Records"
     },
     "userNotes": "",
     "hypeSticker": {
@@ -1418,6 +2330,22 @@
         "Nobody But You",
         "My Mind Is Ramblin'"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-10T21:19:28.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2006,
+      "vinylReleaseYear": 2017,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
     }
   },
   {
@@ -1449,7 +2377,6 @@
       "released": 2010,
       "format": "2 × LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Bernie Grundman Mastering",
       "masteringEngineer": "Chris Bellman",
       "pressingPlant": "",
@@ -1475,7 +2402,12 @@
         "US black vinyl pressing.",
         "Mastered by Chris Bellman at Bernie Grundman Mastering.",
         "Runouts verified from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1483,8 +2415,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "the-black-keys-brothers",
@@ -1512,6 +2444,22 @@
         "Never Gonna Give You Up",
         "These Days"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-17T16:06:17.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2010,
+      "vinylReleaseYear": 2010,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -1543,7 +2491,6 @@
       "released": 2019,
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "John Powell",
       "pressingPlant": "Memphis Record Pressing",
@@ -1562,7 +2509,12 @@
         "Pressed by Memphis Record Pressing.",
         "Mastered by John Powell.",
         "Runouts verified from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1570,8 +2522,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "the-black-keys-thickfreakness",
@@ -1591,6 +2543,22 @@
         "Hold Me In Your Arms",
         "I Cry Alone"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-17T16:45:14.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2003,
+      "vinylReleaseYear": 2019,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
     }
   },
   {
@@ -1623,7 +2591,6 @@
       "released": 2024,
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Apple Red",
       "masteringStudio": "Sterling Sound",
       "masteringEngineer": "Ryan K. Smith",
       "pressingPlant": "",
@@ -1641,7 +2608,12 @@
         "Apple Red vinyl edition.",
         "Mastered by Ryan K. Smith at Sterling Sound.",
         "Runouts verified from owner's copy."
-      ]
+      ],
+      "color": "Apple Red",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1649,8 +2621,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "Latchkey Records",
-      "price": 30.99
+      "price": 30.99,
+      "location": "Latchkey Records"
     },
     "userNotes": "",
     "slug": "the-black-keys-ohio-players",
@@ -1673,6 +2645,22 @@
         "Fever Tree",
         "Every Time You Leave"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-19T20:20:05.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Contemporary Pressing",
+      "originalReleaseYear": 2024,
+      "vinylReleaseYear": 2024,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": false,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -1704,7 +2692,6 @@
       "released": 1990,
       "format": "12-inch EP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "Specialty Records Corporation",
@@ -1723,7 +2710,12 @@
         "SRC logo stamped in the runouts identifies Specialty Records Corporation.",
         "All other runout information is etched.",
         "Runouts verified from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1733,8 +2725,8 @@
       "date": {
         "$date": "2026-07-19T00:00:00.000Z"
       },
-      "store": "The Rock Shop, Plymouth Meeting, PA",
-      "price": 18
+      "price": 18,
+      "location": "The Rock Shop, Plymouth Meeting, PA"
     },
     "userNotes": "",
     "slug": "ice-cube-kill-at-will",
@@ -1750,6 +2742,22 @@
         "JD's Gaffilin' (Part 2)",
         "I Gotta Say What Up!!!"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-19T20:22:49.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1990,
+      "vinylReleaseYear": 1990,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -1782,7 +2790,6 @@
       "released": 2024,
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Blue & White Smoke",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -1804,7 +2811,12 @@
         "Artwork & Art Direction: La Sarfat'.",
         "Illustration: Mid Journey.",
         "Additional etched characters beyond the primary matrix were not fully legible and have been omitted."
-      ]
+      ],
+      "color": "Blue & White Smoke",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1814,8 +2826,8 @@
       "date": {
         "$date": "2026-07-19T00:00:00.000Z"
       },
-      "store": "The Rock Shop, Plymouth Meeting, PA",
-      "price": 29.99
+      "price": 29.99,
+      "location": "The Rock Shop, Plymouth Meeting, PA"
     },
     "userNotes": "",
     "slug": "cypress-hill-live-at-rock-im-park-1999",
@@ -1835,6 +2847,22 @@
         "Hits From The Bong",
         "Riot Starter"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-19T21:50:31.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2024,
+      "vinylReleaseYear": 2024,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -1868,7 +2896,6 @@
       "released": 2014,
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Golden Mastering",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -1887,7 +2914,12 @@
         "No barcode printed on jacket.",
         "Mastered at Golden Mastering.",
         "Additional hand-etched symbol present in the runout but not positively identifiable."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1895,8 +2927,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "the-budos-band-burnt-offering",
@@ -1915,6 +2947,22 @@
         "Snake Hawk",
         "Shattered Winds"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-19T22:15:46.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2014,
+      "vinylReleaseYear": 2014,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -1948,7 +2996,6 @@
       "released": 2020,
       "format": "LP",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Golden Mastering",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -1967,7 +3014,12 @@
         "Mastered at Golden Mastering.",
         "Possible CC initials appear in both runouts but could not be positively identified.",
         "Runouts transcribed from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -1975,8 +3027,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "Long In The Tooth Records",
-      "price": null
+      "price": null,
+      "location": "Long In The Tooth Records"
     },
     "userNotes": "",
     "slug": "the-budos-band-long-in-the-tooth",
@@ -1996,6 +3048,22 @@
         "Budonian Knight",
         "Renegade"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-20T13:33:04.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2020,
+      "vinylReleaseYear": 2020,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -2026,7 +3094,6 @@
       "released": 2023,
       "format": "2 x LP, Album, Reissue, 180g",
       "speed": "33⅓ RPM",
-      "vinylColor": "Opaque Yellow",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -2054,7 +3121,12 @@
         "Manufactured in Canada.",
         "Runouts transcribed from owner's copy.",
         "The Side B catalog inscription was transcribed as RMM-045-1 A and has not been corrected without physical verification."
-      ]
+      ],
+      "color": "Opaque Yellow",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -2062,8 +3134,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "de-la-soul-3-feet-high-and-rising",
@@ -2099,6 +3171,22 @@
         "I Can Do Anything (Delacratic)",
         "D.A.I.S.Y. Age"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-20T16:55:34.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1989,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
     }
   },
   {
@@ -2131,7 +3219,6 @@
       "released": 2014,
       "format": "LP, Album, Reissue, 180g, Gatefold",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -2149,7 +3236,12 @@
         "180-gram gatefold reissue.",
         "Runouts transcribed from owner's copy.",
         "Reissue of the original 1990 release."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -2157,8 +3249,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "Repo Records",
-      "price": null
+      "price": null,
+      "location": "Repo Records"
     },
     "userNotes": "",
     "slug": "depeche-mode-violator",
@@ -2176,6 +3268,22 @@
         "Blue Dress",
         "Clean"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-20T17:12:57.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1990,
+      "vinylReleaseYear": 2014,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
     }
   },
   {
@@ -2208,7 +3316,6 @@
       "released": 2023,
       "format": "LP, Album, Reissue",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -2225,7 +3332,12 @@
       "notes": [
         "2023 reissue.",
         "Runouts transcribed from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -2235,8 +3347,8 @@
       "date": {
         "$date": "2023-07-14T00:00:00.000Z"
       },
-      "store": "Amazon",
-      "price": 22.99
+      "price": 22.99,
+      "location": "Amazon"
     },
     "userNotes": "",
     "slug": "dirty-heads-swimteam",
@@ -2255,6 +3367,22 @@
         "Day By Day",
         "Smoke Rings"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-20T19:21:03.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2017,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
     }
   },
   {
@@ -2286,7 +3414,6 @@
       "released": 2023,
       "format": "LP, Album, Colored Vinyl",
       "speed": "33⅓ RPM",
-      "vinylColor": "New Twighlight",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "Memphis Record Pressing (MRP)",
@@ -2305,7 +3432,12 @@
         "Pressed at Memphis Record Pressing (MRP).",
         "New Twighlight colored vinyl.",
         "Runouts transcribed from owner's copy."
-      ]
+      ],
+      "color": "New Twighlight",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -2315,8 +3447,8 @@
       "date": {
         "$date": "2023-07-14T00:00:00.000Z"
       },
-      "store": "Amazon",
-      "price": 27.69
+      "price": 27.69,
+      "location": "Amazon"
     },
     "userNotes": "",
     "slug": "dirty-heads-midnight-control",
@@ -2337,6 +3469,22 @@
         "Shade",
         "Live Your Life"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-20T19:34:59.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    },
+    "pressingStatus": {
+      "classification": "First Vinyl Pressing",
+      "originalReleaseYear": 2022,
+      "vinylReleaseYear": 2023,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
     }
   },
   {
@@ -2369,7 +3517,6 @@
       "released": 2014,
       "format": "2 x LP, Album, Gatefold",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Capitol Mastering",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -2396,7 +3543,12 @@
         "Gatefold jacket.",
         "Mastered at Capitol Mastering.",
         "Runouts transcribed from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Original First Pressing",
@@ -2413,8 +3565,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "Long In The Tooth Records",
-      "price": null
+      "price": null,
+      "location": "Long In The Tooth Records"
     },
     "userNotes": "",
     "slug": "glass-animals-zaba",
@@ -2439,6 +3591,13 @@
         "Cocoa Hooves",
         "JDNT"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-22T17:13:29.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -2472,7 +3631,6 @@
       "released": 2016,
       "format": "LP, Album",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -2489,7 +3647,12 @@
       "notes": [
         "Original 2016 US pressing.",
         "Runouts transcribed from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Original First Pressing",
@@ -2506,8 +3669,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "glass-animals-how-to-be-a-human-being",
@@ -2527,6 +3690,13 @@
         "Poplar St",
         "Agnes"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-22T18:37:29.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -2562,7 +3732,6 @@
       "released": 2020,
       "format": "LP, Album, 180g",
       "speed": "33⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Sterling Sound",
       "masteringEngineer": "Joe Nino-Hernes",
       "pressingPlant": "GZ Media",
@@ -2583,7 +3752,12 @@
         "Side A contains the 0883362-B and 205769E2 inscriptions, while Side B contains 0883362-A and 205769E1.",
         "RE1 and 02A are based on the owner's best reading of uncertain inscriptions.",
         "Runouts transcribed from owner's copy."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Original First Pressing",
@@ -2600,8 +3774,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": 31.99
+      "price": 31.99,
+      "location": ""
     },
     "userNotes": "",
     "hypeSticker": {
@@ -2630,6 +3804,13 @@
         "((home movie: shoes on))",
         "Helium"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-22T19:11:47.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -2660,7 +3841,6 @@
       "released": 2022,
       "format": "2 × LP, Album, Limited Edition, Numbered, Orange & White Vinyl",
       "speed": "33 ⅓ RPM",
-      "vinylColor": "Orange / White",
       "masteringStudio": "Sterling Sound",
       "masteringEngineer": "Joe Nino-Hernes",
       "pressingPlant": "",
@@ -2688,7 +3868,12 @@
         "Orange vinyl (Disc 1)",
         "White vinyl (Disc 2)",
         "This copy is numbered 2563/6500"
-      ]
+      ],
+      "color": "Orange / White",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Reissue",
@@ -2705,8 +3890,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "house-of-pain-house-of-pain-fine-malt-lyrics",
@@ -2739,6 +3924,13 @@
         "Shamrocks And Shenanigans (Butch Vig Remix)",
         "Jump Around (Mastertape Remix)"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-22T20:45:37.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -2770,7 +3962,6 @@
       "released": 2023,
       "format": "LP, Album, Reissue, 180 Gram",
       "speed": "33 ⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -2788,7 +3979,12 @@
         "Respect The Classics series",
         "180 gram vinyl",
         "Original hype sticker retained"
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Reissue",
@@ -2805,8 +4001,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "Long In The Tooth Records",
-      "price": 41.99
+      "price": 41.99,
+      "location": "Long In The Tooth Records"
     },
     "userNotes": "",
     "slug": "ice-cube-the-predator",
@@ -2831,6 +4027,13 @@
         "Integration (Insert)",
         "Say Hi To The Bad Guy"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-23T19:02:18.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -2864,7 +4067,6 @@
       "released": 2020,
       "format": "LP, Album, Reissue, Remastered, 180 Gram",
       "speed": "33 ⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Abbey Road Studios, Room 30",
       "masteringEngineer": "Miles Showell",
       "pressingPlant": "GZ Media",
@@ -2882,7 +4084,12 @@
         "Made in Czech Republic sticker on back cover",
         "Cut by Miles Showell at Abbey Road Studios, Room 30",
         "GZ Media pressing identified by 228986E1/E2 matrix numbers"
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Reissue",
@@ -2899,8 +4106,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "Repo Records",
-      "price": null
+      "price": null,
+      "location": "Repo Records"
     },
     "userNotes": "Purchase store is based on recollection and has not been confirmed.",
     "slug": "inxs-kick",
@@ -2921,6 +4128,13 @@
         "Calling All Nations",
         "Tiny Daggers"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-23T20:29:32.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -2953,7 +4167,6 @@
       "released": 2022,
       "format": "2 × LP, Album, Reissue, Gatefold",
       "speed": "33 ⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "",
       "masteringEngineer": "",
       "pressingPlant": "",
@@ -2979,7 +4192,12 @@
         "Gatefold sleeve",
         "2022 repress identified by 1202476-1202479 matrix sequence",
         "Side A catalog inscription should be rechecked to confirm whether it reads B0013321-01 or B0013322-02"
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Reissue",
@@ -2996,8 +4214,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "kid-cudi-man-on-the-moon-the-end-of-day",
@@ -3025,6 +4243,13 @@
         "Hyyerr",
         "Up Up & Away"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-24T13:22:25.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3056,7 +4281,6 @@
       "released": 2015,
       "format": "LP, Album, Reissue, 180 Gram",
       "speed": "33 ⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Gateway Mastering",
       "masteringEngineer": "Bob Ludwig",
       "pressingPlant": "Schallplattenfabrik Pallas GmbH",
@@ -3076,7 +4300,12 @@
         "Manufactured in Germany by Schallplattenfabrik Pallas GmbH",
         "Features the original Steve Albini mixes of 'Heart-Shaped Box' and 'All Apologies'",
         "Roman numeral 'II' identifies the stamper variant"
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Reissue",
@@ -3093,8 +4322,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "",
     "slug": "nirvana-in-utero",
@@ -3115,6 +4344,13 @@
         "Tourette's",
         "All Apologies"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-24T16:17:06.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3145,7 +4381,6 @@
       "released": 2020,
       "format": "2 × LP, Album, Reissue, Remastered, Stereo, Gatefold",
       "speed": "33 ⅓ RPM",
-      "vinylColor": "Black",
       "masteringStudio": "Metropolis Studios",
       "masteringEngineer": "Ian Cooper",
       "pressingPlant": "GZ Media",
@@ -3172,7 +4407,12 @@
         "Remastered from the original tapes by Ian Cooper at Metropolis Studios under the supervision of original producer Owen Morris.",
         "GZ Media manufacturing sequence 213462E1 through 213462E4.",
         "MRP2835 is the manufacturing job number."
-      ]
+      ],
+      "color": "Black",
+      "manufacturedIn": "",
+      "weight": "",
+      "jacket": "",
+      "cuttingEngineer": ""
     },
     "pressingStatus": {
       "classification": "Reissue",
@@ -3189,8 +4429,8 @@
     },
     "purchase": {
       "date": null,
-      "store": "",
-      "price": null
+      "price": null,
+      "location": ""
     },
     "userNotes": "Visible residue is present in the deadwax area. No unidentified etched symbols were observed.",
     "slug": "oasis-whats-the-story-morning-glory",
@@ -3216,6 +4456,13 @@
         "[Untitled]",
         "Champagne Supernova"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-28T15:47:25.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3291,7 +4538,10 @@
         "Machine-stamped matrix numbers throughout.",
         "Additional 'EC' and '1M' stamps appear to be manufacturing or plating marks rather than verified mastering engineer initials.",
         "No verified pressing plant or mastering engineer could be identified from the available evidence."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -3299,7 +4549,7 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
@@ -3331,6 +4581,13 @@
         "13th Floor / Growing Old",
         "Elevators (ONP 86 Mix)"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-28T17:06:23.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3386,7 +4643,10 @@
         "Limited edition metallic gold vinyl.",
         "Pressed by Memphis Record Pressing (MRP).",
         "Metalwork supplied by GZ Media, indicated by the 260994E1/A and 260994E2/A matrix format."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -3394,7 +4654,7 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
@@ -3418,6 +4678,13 @@
         "Purple Yellow Red and Blue",
         "Floating (Time Isn't Working My Side)"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-28T18:27:51.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3474,7 +4741,10 @@
         "Manufactured in the European Union.",
         "Pressed by MPO, France.",
         "Atlantic 75 / Rocktober-era reissue using original 2017 artwork and catalog number."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -3482,7 +4752,7 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [],
@@ -3502,6 +4772,13 @@
         "Tidal Wave",
         "Noise Pollution (Version A, Vocal Up Mix 1.3) (feat. Mary Elizabeth Winstead)"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-28T20:39:58.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3562,7 +4839,10 @@
         "Pressed by Memphis Record Pressing, identified by the MRP4366 matrix number.",
         "GZ Media supplied the metalwork, indicated by the 258492E1/B and 258492E2/B matrix numbers.",
         "Made in the USA."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -3570,7 +4850,7 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
@@ -3593,6 +4873,13 @@
         "Champ",
         "Anxiety:Clarity"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-29T22:16:57.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3657,7 +4944,10 @@
         "The center label promotes Frances Changed My Life, support for Indigenous peoples and support for children with rare diseases.",
         "The album title refers to Shishmaref, Alaska.",
         "The Blood on the Snow color complements the album artwork depicting subsistence hunting in a snowy Alaskan landscape."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -3665,7 +4955,7 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
@@ -3688,6 +4978,13 @@
         "Tanana",
         "Father Gun"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-29T22:59:05.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3751,7 +5048,10 @@
         "Features interchangeable cover artwork inspired by the original release.",
         "Manufactured using GZ Media metalwork, identified by the 289596E matrix numbers.",
         "Released after Seeker Music acquired the Run the Jewels catalog."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -3759,7 +5059,7 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [],
@@ -3786,6 +5086,13 @@
       "d": [
         "Bonus Etching"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-29T23:34:42.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3852,7 +5159,10 @@
         "Features guest appearances by Danny Brown, Kamasi Washington, Trina, BOOTS and TV on the Radio's Tunde Adebimpe.",
         "Contains 'Legend Has It,' featured prominently in the marketing campaign for Marvel's Black Panther.",
         "The closing track, 'A Report to the Shareholders / Kill Your Masters,' is widely regarded as one of the duo's signature political songs."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -3860,7 +5170,7 @@
     },
     "purchase": {
       "price": 37.99,
-      "date": "",
+      "date": null,
       "location": "Latchkey Records"
     },
     "userNotes": [],
@@ -3888,6 +5198,13 @@
         "Thursday in the Danger Room",
         "A Report to the Shareholders / Kill Your Masters"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-31T00:49:31.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -3952,7 +5269,10 @@
         "Released digitally on June 3, 2020, ahead of schedule in response to the social climate following the murder of George Floyd.",
         "Physical vinyl edition released September 18, 2020.",
         "Side C includes a RE-1 recut designation."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -3960,7 +5280,7 @@
     },
     "purchase": {
       "price": 36.99,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [],
@@ -3983,6 +5303,13 @@
         "Pulling the Pin",
         "A Few Words for the Firing Squad (Radiation)"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-31T18:35:32.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -4048,7 +5375,10 @@
         "Produced in collaboration with Nick Hook.",
         "Includes bilingual liner notes and foldout poster.",
         "Manufactured using GZ Media metalwork identified by the 246898E matrix numbers."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -4056,7 +5386,7 @@
     },
     "purchase": {
       "price": 37.99,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [],
@@ -4079,6 +5409,13 @@
         "Sacando el Pasador",
         "Unas Palabras para el Pelotón de Fusilamiento"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-31T19:02:12.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -4144,7 +5481,9 @@
         "Features the iconic cover photograph of Thích Quảng Đức by Malcolm Browne, winner of the 1963 World Press Photo of the Year.",
         "The music video for 'Freedom' highlights the imprisonment of Native American activist Leonard Peltier.",
         "Tom Morello's innovative guitar techniques on this album influenced generations of rock and metal guitarists."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -4152,7 +5491,7 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [],
@@ -4172,6 +5511,13 @@
         "Township Rebellion",
         "Freedom"
       ]
+    },
+    "createdOn": {
+      "$date": "2026-07-31T20:16:36.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
     }
   },
   {
@@ -4243,7 +5589,10 @@
       "notes": [
         "2009 Fat Possum reissue.",
         "Mastered by John Powell."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": "",
+      "cuttingEngineer": ""
     },
     "condition": {
       "media": "",
@@ -4251,7 +5600,7 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
@@ -4259,7 +5608,14 @@
       "One of the defining albums of the Hill Country Blues revival.",
       "Widely cited as a major influence on garage rock and modern blues-rock artists, including The Black Keys.",
       "Recorded with a deliberately raw, live-in-the-room aesthetic that became a hallmark of Fat Possum Records."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-07T14:25:10.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -4348,7 +5704,9 @@
         "Follow-up to 'And the War Came'.",
         "Represents a stylistic shift toward fuller indie rock production while retaining Shakey Graves' folk and Americana roots.",
         "CSH appears in the runout of sides B and D; attribution is currently unconfirmed."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -4356,12 +5714,19 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
       "Includes the palindrome-titled track 'Aibohphobia'."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-07T14:55:49.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -4439,7 +5804,9 @@
         "Single-pocket jacket.",
         "Catalog number DAP-083.",
         "No barcode/UPC printed on the jacket."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -4447,7 +5814,9 @@
     },
     "purchase": {
       "price": 24.99,
-      "date": "2026-08-09",
+      "date": {
+        "$date": "2026-08-09T00:00:00.000Z"
+      },
       "location": "Main Street Music"
     },
     "userNotes": [
@@ -4455,7 +5824,14 @@
       "Dedicated to the memory of Sherman S. Pazner.",
       "Features musicians from across the Daptone Records family, including members associated with The Budos Band, Antibalas, and The Dap-Kings.",
       "Vintage-inspired 'Stereo Compatible' jacket design modeled after 1960s soul and jazz LPs."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-09T22:05:57.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -4468,7 +5844,7 @@
       "$date": "2022-01-17T05:00:00.000Z"
     },
     "sides": {
-      "a": [
+      "sideA": [
         "3-Minute Rule (Demo)",
         "Hello Brooklyn (Demo)",
         "Johnny Ryall (Demo)",
@@ -4477,7 +5853,7 @@
         "Egg Man (Demo)",
         "The Sounds Of Science (Demo)"
       ],
-      "b": [
+      "sideB": [
         "33% God (Get Off The Mic) (Demo)",
         "Full Clout (Shake Your Rump)",
         "Dust Joint (Car Thief)",
@@ -4538,7 +5914,9 @@
         "Contains demo recordings, alternate takes, early versions, and instrumentals from the Paul's Boutique recording sessions.",
         "No UPC printed on the jacket.",
         "Made in Germany."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -4556,7 +5934,14 @@
       "Includes two demo versions of 'Johnny Ryall'.",
       "The instrumentals showcase the Dust Brothers' production without vocals.",
       "Artwork is inspired by the Lower East Side of Manhattan, echoing the neighborhood featured on the original Paul's Boutique album cover."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-09T22:37:24.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -4567,7 +5952,7 @@
     "slug": "shakey-graves-movie-of-the-week",
     "originalReleaseDate": "2023-09-15",
     "sides": {
-      "a": [
+      "sideA": [
         "Channel One (Intro)",
         "Limbo",
         "Evergreen",
@@ -4575,7 +5960,7 @@
         "Channel Five (Interlude)",
         "Lowlife"
       ],
-      "b": [
+      "sideB": [
         "Big in the World",
         "Play It Where It Lies",
         "Playing Along",
@@ -4632,7 +6017,9 @@
       "notes": [
         "Original 2023 first pressing on standard black vinyl.",
         "Released by Dualtone Music Group."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -4640,119 +6027,21 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": "Shakey Graves concert (unconfirmed)"
     },
     "userNotes": [
       "Features guest vocals by Sierra Ferrell on 'Ready or Not'.",
       "The album is structured around the concept of changing television channels, reflected in the interludes throughout the record.",
       "Represents a continuation of Shakey Graves' evolution from stripped-down folk recordings toward a fuller, band-oriented sound."
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "6a7b93cd2d9664f4abcaa7e0"
-    },
-    "artist": "The White Stripes",
-    "albumName": "Icky Thump",
-    "slug": "the-white-stripes-icky-thump",
-    "originalReleaseDate": "2007-06-19",
-    "sides": {
-      "a": [
-        "Icky Thump",
-        "You Don't Know What Love Is (You Just Do As You're Told)",
-        "300 M.P.H. Torrential Outpour Blues",
-        "Conquest"
-      ],
-      "b": [
-        "Bone Broke",
-        "Prickly Thorn, But Sweetly Worn",
-        "St. Andrew (This Battle Is in the Air)"
-      ],
-      "c": [
-        "Little Cream Soda",
-        "Rag and Bone",
-        "I'm Slowly Turning Into You",
-        "A Martyr for My Love for You"
-      ],
-      "d": [
-        "Catch Hell Blues",
-        "Effect and Cause"
-      ]
-    },
-    "genre": [
-      "Rock"
     ],
-    "style": [
-      "Alternative Rock",
-      "Garage Rock",
-      "Blues Rock"
-    ],
-    "label": [
-      "XL Recordings",
-      "Third Man Records",
-      "Columbia"
-    ],
-    "catalogNumber": "19439842441",
-    "upc": "194398424415",
-    "discogsLink": "https://www.discogs.com/release/21773368-The-White-Stripes-Icky-Thump",
-    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786483631/whitestripes_ickythump_scg7dm",
-    "pressingStatus": {
-      "classification": "Reissue",
-      "originalReleaseYear": 2007,
-      "vinylReleaseYear": 2021,
-      "isOriginalRelease": false,
-      "isFirstVinylPressing": false,
-      "isReissue": true,
-      "confidence": "High"
+    "createdOn": {
+      "$date": "2026-08-09T23:00:39.000Z"
     },
-    "pressing": {
-      "country": "Europe",
-      "released": "2021",
-      "format": "2xLP, Album, Reissue, Stereo",
-      "color": "Black",
-      "weight": "",
-      "jacket": "Gatefold",
-      "pressingPlant": "Sony DADC",
-      "masteringStudio": "",
-      "masteringEngineer": "",
-      "cuttingEngineer": "",
-      "matrix": {
-        "sideA": {
-          "runout": "B790193-01A XLLP-277 156051 (3) -57748- [additional hand-etched inscription]"
-        },
-        "sideB": {
-          "runout": "B790193-01B XLLP-277 156052 (3) -57748- [additional hand-etched inscription]"
-        },
-        "sideC": {
-          "runout": "B790193-01C XLLP-277 156053 (3) -57748- [additional hand-etched inscription]"
-        },
-        "sideD": {
-          "runout": "B790193-01D XLLP-277 156054 (3) -57748- [additional hand-etched inscription]"
-        }
-      },
-      "notes": [
-        "2021 XL Recordings / Third Man Records reissue.",
-        "Gatefold jacket.",
-        "Standard black vinyl.",
-        "Manufactured for European distribution.",
-        "Machine-stamped Sony DADC matrix numbers.",
-        "Additional hand-etched inscription present on all four sides; not fully deciphered."
-      ]
-    },
-    "condition": {
-      "media": "",
-      "sleeve": ""
-    },
-    "purchase": {
-      "price": null,
-      "date": "",
-      "location": ""
-    },
-    "userNotes": [
-      "Features the Grammy Award-winning title track 'Icky Thump'.",
-      "Final studio album released by The White Stripes before their breakup in 2011."
-    ]
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -4829,7 +6118,9 @@
         "Mastered and lacquer cut at Welcome to 1979 in Nashville.",
         "Deadwax signed 'BOBBI G', identifying mastering/cutting engineer Bobbi Gentry.",
         "Reuses the original lacquer/mastering from the 2014 release."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -4837,12 +6128,19 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
       "Features Esmé Patterson on 'Dearly Departed', one of Shakey Graves' signature songs."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-10T14:26:42.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -4937,7 +6235,9 @@
         "2024 10th Anniversary Edition.",
         "Standard black vinyl.",
         "Gatefold jacket."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -4945,14 +6245,135 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
       "Second LP includes demos, alternate versions, and previously unreleased recordings.",
       "Includes expanded liner notes, previously unpublished photographs, and a personal letter from Alejandro Rose-Garcia.",
       "Celebrates the 10th anniversary of Shakey Graves' breakthrough album."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-10T14:50:01.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a7b93cd2d9664f4abcaa7e0"
+    },
+    "artist": "The White Stripes",
+    "albumName": "Icky Thump",
+    "slug": "the-white-stripes-icky-thump",
+    "originalReleaseDate": "2007-06-19",
+    "sides": {
+      "a": [
+        "Icky Thump",
+        "You Don't Know What Love Is (You Just Do As You're Told)",
+        "300 M.P.H. Torrential Outpour Blues",
+        "Conquest"
+      ],
+      "b": [
+        "Bone Broke",
+        "Prickly Thorn, But Sweetly Worn",
+        "St. Andrew (This Battle Is in the Air)"
+      ],
+      "c": [
+        "Little Cream Soda",
+        "Rag and Bone",
+        "I'm Slowly Turning Into You",
+        "A Martyr for My Love for You"
+      ],
+      "d": [
+        "Catch Hell Blues",
+        "Effect and Cause"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Garage Rock",
+      "Blues Rock"
+    ],
+    "label": [
+      "XL Recordings",
+      "Third Man Records",
+      "Columbia"
+    ],
+    "catalogNumber": "19439842441",
+    "upc": "194398424415",
+    "discogsLink": "https://www.discogs.com/release/21773368-The-White-Stripes-Icky-Thump",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786483631/whitestripes_ickythump_scg7dm",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2007,
+      "vinylReleaseYear": 2021,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "Europe",
+      "released": "2021",
+      "format": "2xLP, Album, Reissue, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "Sony DADC",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "B790193-01A XLLP-277 156051 (3) -57748- [additional hand-etched inscription]"
+        },
+        "sideB": {
+          "runout": "B790193-01B XLLP-277 156052 (3) -57748- [additional hand-etched inscription]"
+        },
+        "sideC": {
+          "runout": "B790193-01C XLLP-277 156053 (3) -57748- [additional hand-etched inscription]"
+        },
+        "sideD": {
+          "runout": "B790193-01D XLLP-277 156054 (3) -57748- [additional hand-etched inscription]"
+        }
+      },
+      "notes": [
+        "2021 XL Recordings / Third Man Records reissue.",
+        "Gatefold jacket.",
+        "Standard black vinyl.",
+        "Manufactured for European distribution.",
+        "Machine-stamped Sony DADC matrix numbers.",
+        "Additional hand-etched inscription present on all four sides; not fully deciphered."
+      ],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Features the Grammy Award-winning title track 'Icky Thump'.",
+      "Final studio album released by The White Stripes before their breakup in 2011."
+    ],
+    "createdOn": {
+      "$date": "2026-08-11T21:27:41.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -5044,7 +6465,9 @@
         "Sides B and C carry RE-2 recut designations.",
         "Deadwax inscriptions include QUEENIE, VELVETY, P KILLERY, and CREEQUEY.",
         "Released by Third Man Records with XL Recordings and Columbia distribution."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5052,10 +6475,17 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
-    "userNotes": []
+    "userNotes": [],
+    "createdOn": {
+      "$date": "2026-08-13T00:10:39.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -5136,7 +6566,9 @@
         "The center labels correctly identify Side A as 07863-66336-1-A and Side B as 07863-66336-1-B.",
         "The duplicated B-RE-5 deadwax inscription has been preserved exactly as observed rather than normalized to an expected A-side matrix.",
         "Physical identifiers closely match Discogs release 11043111."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5144,10 +6576,17 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
-    "userNotes": []
+    "userNotes": [],
+    "createdOn": {
+      "$date": "2026-08-13T01:03:49.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -5229,7 +6668,9 @@
         "GZ Media-style 266881E1/A and 266881E2/A manufacturing numbers appear in the runouts.",
         "Released by Legacy and Epic Soundtrax.",
         "Physical copy has #1 matrix variants on both sides; runouts have been preserved exactly as observed."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5237,12 +6678,19 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
       "The soundtrack pairs prominent early-1990s rock and metal artists with hip-hop artists on every track."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-13T14:31:17.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -5322,7 +6770,9 @@
         "Other credited musicians include Steve Winwood, Chris Stainton, B.J. Wilson, Matthew Fisher, Henry McCullough, and Mike Kellie.",
         "Jacket shows age-related wear, discoloration, and staining.",
         "Vinyl shows visible surface marks and hairlines; playback condition has not been formally graded."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5330,14 +6780,17 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "ownership": {
       "collectionStatus": "Extended Collection",
-      "owner": "Father"
+      "owner": "WEP"
     },
-    "userNotes": []
+    "userNotes": [],
+    "createdOn": {
+      "$date": "2026-08-16T20:40:16.000Z"
+    }
   },
   {
     "_id": {
@@ -5408,7 +6861,9 @@
         "No later reissue indicators are present in the catalog number or observed runouts.",
         "Black vinyl.",
         "Copy shows substantial wear consistent with childhood use; playback condition has not been formally graded."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5416,13 +6871,20 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "userNotes": [
       "Originally owned during childhood and rediscovered decades later.",
       "Retained primarily for sentimental and nostalgic value."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-16T20:49:12.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -5498,7 +6960,9 @@
         "Original-release-era pressing rather than a later reissue.",
         "No PORKY, PECKO DUCK, or other additional mastering inscriptions were observed in the deadwax.",
         "Physical characteristics and family provenance are consistent with Columbia Record Club distribution."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5506,16 +6970,19 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "ownership": {
       "collectionStatus": "Extended Collection",
-      "owner": "Father"
+      "owner": "WEP"
     },
     "userNotes": [
       "Originally owned by user's father, who was a Columbia Record Club member during this period."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-16T21:10:31.000Z"
+    }
   },
   {
     "_id": {
@@ -5553,27 +7020,63 @@
     "upc": null,
     "discogsLink": "",
     "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1786916260/blacksabbath_masterofreality_pybcxe",
-    "pressing": {
-      "classification": "Contemporary Pressing",
-      "year": 1971,
-      "country": "US",
-      "color": "Black",
-      "pressingPlant": "Unknown",
-      "masteringEngineer": null,
-      "matrix": {
-        "a": "BS 2562 39928-2",
-        "b": "BS 2562 39929-1"
-      },
-      "deadwax": {
-        "a": "BS 2562 39928-2, Artisan Sound Recorders logo",
-        "b": "BS 2562 39929-1, Artisan Sound Recorders logo"
-      }
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1971,
+      "vinylReleaseYear": 1971,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
     },
-    "purchaseDate": null,
-    "purchasePrice": null,
-    "purchaseLocation": null,
-    "collectionStatus": "Extended Collection",
-    "notes": "Father's copy. Early 1971 U.S. repress with corrected 'Master of Reality' title and four-track-per-side labels. Green Warner Bros. Records labels. Artisan Sound Recorders logo etched in the deadwax on both sides. Side A label matrix S39928; Side B label matrix S39929. Originally issued with a Black Sabbath poster; poster is not present."
+    "pressing": {
+      "country": "US",
+      "released": "1971",
+      "format": "LP, Album, Repress, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "Unknown",
+      "masteringStudio": "Artisan Sound Recorders",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "BS 2562 39928-2, Artisan Sound Recorders logo"
+        },
+        "sideB": {
+          "runout": "BS 2562 39929-1, Artisan Sound Recorders logo"
+        }
+      },
+      "notes": [
+        "Early 1971 U.S. repress.",
+        "Corrected 'Master of Reality' title and four-track-per-side labels.",
+        "Catalog number BS 2562.",
+        "Side A label matrix: BS 2562 39928-2.",
+        "Side B label matrix: BS 2562 39929-1.",
+        "Artisan Sound Recorders logo appears in the runout on both sides.",
+        "No UPC."
+      ],
+      "manufacturedIn": "",
+      "speed": ""
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "createdOn": {
+      "$date": "2026-08-16T21:37:09.000Z"
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    },
+    "userNotes": []
   },
   {
     "_id": {
@@ -5620,7 +7123,7 @@
       "country": "US",
       "color": "Black",
       "pressingPlant": "Unknown",
-      "masteringEngineer": null,
+      "masteringEngineer": "",
       "matrix": {
         "a": "ABCX-797-A",
         "b": "ABCX-797-B"
@@ -5628,14 +7131,44 @@
       "deadwax": {
         "a": "ABCX 797-A-1C 1ML",
         "b": "1 ABCX 797-B-1A"
-      }
+      },
+      "manufacturedIn": "",
+      "released": null,
+      "format": "",
+      "speed": "",
+      "weight": "",
+      "jacket": "",
+      "masteringStudio": "",
+      "cuttingEngineer": "",
+      "notes": []
     },
-    "purchaseDate": null,
-    "purchasePrice": null,
-    "purchaseLocation": null,
-    "collectionStatus": "Extended Collection",
-    "owner": "WEP",
-    "notes": "1973 U.S. ABC Records pressing. Catalog number ABCX-797. No UPC. Side A label matrix ABCX-797-A and Side B label matrix ABCX-797-B. Runouts are consistent with an original 1973 U.S. pressing."
+    "notes": "1973 U.S. ABC Records pressing. Catalog number ABCX-797. No UPC. Side A label matrix ABCX-797-A and Side B label matrix ABCX-797-B. Runouts are consistent with an original 1973 U.S. pressing.",
+    "createdOn": {
+      "$date": "2026-08-17T16:09:16.000Z"
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": null
+    },
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    },
+    "userNotes": [],
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1973,
+      "vinylReleaseYear": 1973,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    }
   },
   {
     "_id": {
@@ -5713,7 +7246,9 @@
         "Side B center label matrix reads FS 1025 (30,794).",
         "Deadwax matrices correspond to the respective center-label matrix numbers.",
         "Part of the WEP extended collection."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5721,14 +7256,17 @@
     },
     "purchase": {
       "price": null,
-      "date": "",
+      "date": null,
       "location": ""
     },
     "ownership": {
       "collectionStatus": "Extended Collection",
       "owner": "WEP"
     },
-    "userNotes": []
+    "userNotes": [],
+    "createdOn": {
+      "$date": "2026-08-17T20:23:34.000Z"
+    }
   },
   {
     "_id": {
@@ -5820,7 +7358,9 @@
         "Released by Glacial Pace Recordings with Virgin Music Group.",
         "No UPC or barcode observed on the physical copy.",
         "Purchased at a Modest Mouse concert at The Fillmore in Philadelphia."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5828,12 +7368,21 @@
     },
     "purchase": {
       "price": 35,
-      "date": "2026-08-19",
+      "date": {
+        "$date": "2026-08-19T00:00:00.000Z"
+      },
       "location": "The Fillmore, Philadelphia, PA"
     },
     "userNotes": [
       "Purchased at the Modest Mouse concert at The Fillmore in Philadelphia on August 19, 2026."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-25T17:24:17.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   },
   {
     "_id": {
@@ -5931,7 +7480,9 @@
         "A barcode sticker was applied over the jacket barcode; both displayed UPC 886976615611.",
         "No evidence that the records themselves are mismatched; all four sides carry the expected 88697661561 matrices.",
         "Purchased directly at a Modest Mouse concert at The Fillmore in Philadelphia."
-      ]
+      ],
+      "manufacturedIn": "",
+      "speed": ""
     },
     "condition": {
       "media": "",
@@ -5939,12 +7490,21 @@
     },
     "purchase": {
       "price": 35,
-      "date": "2026-08-19",
+      "date": {
+        "$date": "2026-08-19T00:00:00.000Z"
+      },
       "location": "The Fillmore, Philadelphia, PA"
     },
     "userNotes": [
       "Purchased at the Modest Mouse concert at The Fillmore in Philadelphia on August 19, 2026.",
       "Packaging appeared to have been rewrapped or repackaged prior to purchase."
-    ]
+    ],
+    "createdOn": {
+      "$date": "2026-08-26T20:18:09.000Z"
+    },
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   }
 ]
