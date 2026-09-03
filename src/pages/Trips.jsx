@@ -54,7 +54,7 @@ export default function Trips() {
           content="Explore where Steve Pritchard has been using the Leaflet.js maps."
         />
 
-        <meta property="og:title" content="Steven Pritchard | Trips" />
+        <meta property="og:title" content="Steve Pritchard | Trips" />
 
         <meta
           property="og:description"
