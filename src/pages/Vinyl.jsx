@@ -56,7 +56,7 @@ function Vinyl() {
       <p>
         I've been at record stores, flipping through records, and had to ask
         myself "do I already own this?". So this page helps me keep track of
-        what I own when I'm at and about. It's also interesting to see how the
+        what I own when I'm out and about. It's also interesting to see how the
         collection is coming together. Which artists do I often buy, which
         genres, etc. Another nice feature I've included is the ability to add
         albums to my library as part of my "Extended Collection". Not my
