@@ -7506,5 +7506,98 @@
       "collectionStatus": "My Collection",
       "owner": null
     }
+  },
+  {
+    "_id": {
+      "$oid": "6a9a2cbe1bb2078223f98449"
+    },
+    "artist": "Santana",
+    "albumName": "Santana",
+    "slug": "santana-santana",
+    "originalReleaseDate": "1969-08-22",
+    "sides": {
+      "a": [
+        "Waiting",
+        "Evil Ways",
+        "Shades of Time",
+        "Savor",
+        "Jingo"
+      ],
+      "b": [
+        "Persuasion",
+        "Treat",
+        "You Just Don't Care",
+        "Soul Sacrifice"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Latin"
+    ],
+    "style": [
+      "Latin Rock",
+      "Psychedelic Rock"
+    ],
+    "label": [
+      "Columbia"
+    ],
+    "catalogNumber": "CS 9781",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1788475084/santana-santana_glztjk",
+    "pressingStatus": {
+      "classification": "Contemporary Pressing",
+      "originalReleaseYear": 1969,
+      "vinylReleaseYear": 1970,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": false,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1970",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single",
+      "pressingPlant": "Columbia Records Pressing Plant, Pitman",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "XSM139377-1AF P"
+        },
+        "sideB": {
+          "runout": "XSM139378-1AC P"
+        }
+      },
+      "notes": [
+        "Early U.S. Columbia pressing of Santana's 1969 debut album.",
+        "Red/orange Columbia perimeter-text labels indicate a pressing subsequent to the original 1969 2-Eye / 360 Sound label pressings.",
+        "Stamped P in the deadwax identifies Columbia Records Pressing Plant, Pitman, New Jersey.",
+        "Additional faint deadwax markings are present on both sides but could not be identified with sufficient confidence to transcribe.",
+        "Side A label matrix is XSM 139377; Side B label matrix is XSM 139378.",
+        "Jacket and labels carry Columbia catalog number CS 9781.",
+        "Printed in U.S.A."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 1/3 RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    }
   }
 ]
