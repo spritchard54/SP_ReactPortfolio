@@ -48,6 +48,17 @@ function Vinyl() {
     return artistMatch && genreMatch && collectionMatch;
   });
 
+    const myCollectionCount = vinylRecords.filter(
+    (record) => record.ownership?.collectionStatus === "My Collection",
+  ).length;
+
+  const extCollectionCount = vinylRecords.filter(
+    (record) => record.ownership?.collectionStatus === "Extended Collection",
+  ).length;
+
+  const totalRecords = myCollectionCount + extCollectionCount;
+
+
   return (
     // Bootstrap container adds responsive spacing and layout.
     // my-4 = margin-top and margin-bottom
@@ -62,9 +73,40 @@ function Vinyl() {
         albums to my library as part of my "Extended Collection". Not my
         records, but records I have access to.
       </p>
-
+      <div className="row mb-4 gx-3">
+        <div className="col-xl-4 col-sm-12 mb-2 d-flex">
+          <div className="card w-100 h-100">
+            <div className="card-body">
+              <div className="card-title vinylCountHeader">
+                <h4>Number of records in my collection</h4>
+              </div>
+              <div className="vinylCount">{myCollectionCount}</div>
+            </div>  
+          </div>
+        </div>
+        <div className="col-xl-4 col-sm-12 mb-2 d-flex">
+          <div className="card w-100 h-100">
+            <div className="card-body">
+              <div className="card-title vinylCountHeader">
+                <h4>Number of records in my extended collection</h4>
+              </div>
+              <div className="vinylCount">{extCollectionCount}</div>
+            </div>  
+          </div>
+        </div>
+        <div className="col-xl-4 col-sm-12 mb-2 d-flex">
+          <div className="card w-100 h-100">
+            <div className="card-body">
+              <div className="card-title vinylCountHeader">
+                <h4>Total records in my collection</h4>
+              </div>
+              <div className="vinylCount">{totalRecords}</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="row mb-4">
-        <div className="col-lg-12 mb-3">
+        <div className="col-xl-12 mb-3">
           <div className="form-check form-switch">
             <input
               className="form-check-input"
