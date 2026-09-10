@@ -7704,5 +7704,106 @@
       "collectionStatus": "Extended Collection",
       "owner": "WEP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6aa31ef24b02fc3d05a49db0"
+    },
+    "artist": "Elton John",
+    "albumName": "Madman Across the Water",
+    "slug": "elton-john-madman-across-the-water",
+    "originalReleaseDate": "1971-11-05",
+    "sides": {
+      "a": [
+        "Tiny Dancer",
+        "Levon",
+        "Razor Face",
+        "Madman Across the Water"
+      ],
+      "b": [
+        "Indian Sunset",
+        "Holiday Inn",
+        "Rotten Peaches",
+        "All the Nasties",
+        "Goodbye"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Pop Rock",
+      "Classic Rock"
+    ],
+    "label": [
+      "UNI Records"
+    ],
+    "catalogNumber": "93120",
+    "upc": "",
+    "discogsLink": "https://www.discogs.com/release/1477781-Elton-John-Madman-Across-The-Water",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1789074891/eltonjohn-madmanacrossthewater_bp34od",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1971,
+      "vinylReleaseYear": 1971,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1971",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "T1 93120A E1 [additional unidentified marking]"
+        },
+        "sideB": {
+          "runout": "T UNI 93120B E2 [additional unidentified marking]"
+        }
+      },
+      "notes": [
+        "Original U.S. UNI Records issue from 1971.",
+        "Spine is marked Stereo 93120.",
+        "Back cover identifies MCA Records Inc. and carries a 1971 copyright date.",
+        "Side 1 label is marked Stereo 93120 (93120A).",
+        "Side 2 label is marked Stereo 93120 (93120B).",
+        "Observed Side A deadwax includes T1, 93120A and E1.",
+        "Observed Side B deadwax includes T, UNI, 93120B and E2.",
+        "Both sides contain additional small deadwax markings that could not be positively identified from the physical copy.",
+        "Exact pressing-plant variant remains unresolved; pressing plant has intentionally been left blank rather than inferred from uncertain markings.",
+        "Discogs link represents the closest identified 1971 U.S. UNI 93120 pressing; the observed runouts are not an exact match to the currently documented runout variant."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of the WEP extended collection.",
+      "Physical copy has no UPC.",
+      "The observed runout inscriptions have been recorded directly from the physical record.",
+      "Pressing appears to belong to the original 1971 U.S. UNI 93120 release family.",
+      "Specific pressing plant remains unidentified pending stronger evidence from the deadwax markings."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    }
   }
 ]
