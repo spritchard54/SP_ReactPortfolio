@@ -259,3 +259,14 @@ a {
     opacity: 1;
   }
 }
+
+.vinylCount {
+  font-size: 3em;
+  text-align: center;
+  color: #166f3c;
+  font-weight: bold;
+}
+
+.vinylCountHeader {
+  text-align: center;
+}
