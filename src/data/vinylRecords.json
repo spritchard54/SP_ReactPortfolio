@@ -7805,5 +7805,111 @@
       "collectionStatus": "Extended Collection",
       "owner": "WEP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6aab1fdd4b02fc3d05a49dc3"
+    },
+    "artist": "The Mamas & The Papas",
+    "albumName": "16 of Their Greatest Hits",
+    "slug": "the-mamas-and-the-papas-16-of-their-greatest-hits",
+    "originalReleaseDate": "1969-08",
+    "sides": {
+      "a": [
+        "California Dreamin'",
+        "Dedicated to the One I Love",
+        "I Call Your Name",
+        "Twelve-Thirty (Young Girls Are Coming to the Canyon)",
+        "Creeque Alley",
+        "Dancing in the Street",
+        "For the Love of Ivy",
+        "Go Where You Wanna Go"
+      ],
+      "b": [
+        "My Girl",
+        "Look Through My Window",
+        "Words of Love",
+        "Twist and Shout",
+        "I Saw Her Again Last Night",
+        "Dream a Little Dream of Me",
+        "Trip, Stumble and Fall",
+        "Monday, Monday"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Folk Rock",
+      "Pop Rock"
+    ],
+    "label": [
+      "Dunhill Records"
+    ],
+    "catalogNumber": "DS 50064",
+    "upc": "",
+    "discogsLink": "https://www.discogs.com/release/1384783-The-Mamas-The-Papas-16-Of-Their-Greatest-Hits",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1789600097/the-mamas-and-the-papas-16-of-their-greatest-hits_izuvfa",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1969,
+      "vinylReleaseYear": 1969,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1969",
+      "format": "LP, Compilation, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "DS-50064-A-(RE) P"
+        },
+        "sideB": {
+          "runout": "DS-50064-B-(RE) P"
+        }
+      },
+      "notes": [
+        "Original-era U.S. Dunhill Records pressing of the 1969 compilation.",
+        "Catalog number DS 50064 appears on the spine and center labels.",
+        "Side A label matrix is DS 50064 A; Side B label matrix is DS 50064 B.",
+        "Both observed deadwax matrices contain the RE designation, indicating revised or recut lacquers.",
+        "A P marking appears to be present in the deadwax on both sides.",
+        "The pressing plant has intentionally been left unidentified because the P marking alone has not been established with sufficient confidence as a plant identifier for this copy.",
+        "No UPC or barcode is present.",
+        "The exact observed RE runout variant could not be matched conclusively to a specific documented Discogs variant.",
+        "Discogs link represents the closest generic 1969 U.S. Dunhill DS 50064 release rather than a confirmed exact runout match."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of the WEP extended collection.",
+      "This compilation was released in 1969, close to the original recording era rather than as a decades-later retrospective collection.",
+      "The RE markings indicate that the physical copy uses revised or recut lacquers within the original 1969 release family."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    }
   }
 ]
