@@ -114,15 +114,15 @@ const mapLocations = [
     markers: [
       {
         poi: [48.03538, -123.4255],
-        description: "Heart O' The Hills Campground"
+        description: "Heart O' The Hills Campground",
       },
       {
-        poi: [48.00860, -123.43311],
-        description: "Lake Angeles Campground"
+        poi: [48.0086, -123.43311],
+        description: "Lake Angeles Campground",
       },
       {
         poi: [48.01152, -123.45811],
-        description: "Heather Park Trail Backcountry Camping"
+        description: "Heather Park Trail Backcountry Camping",
       },
     ],
     summary:
@@ -403,7 +403,42 @@ const mapLocations = [
     iconType: "np",
     tripName: "Badlands National Park",
     category: "National Parks",
-    summary: "Details are in the works...",
+    summary:
+      "Badlands National Park was established on November 10, 1978, when President Jimmy Carter signed legislation redesignating Badlands National Monument. Originally protected as a monument in 1939, the park is best known for its dramatic eroded rock formations, colorful landscapes, rich fossil beds, mixed-grass prairie, and wildlife.",
+    images: [
+      {
+        publicId: "hiking-trail-badlands_trh6cj",
+        version: "v1789651213",
+        alt: "Badlands geological formations seen from the Castle Trail.",
+      },
+      {
+        publicId: "cedar-pass-campground_cyqahx.jpg",
+        version: "v1789651214",
+        alt: "Car Camping in Badlands National Park",
+      },
+      {
+        publicId: "badlands-national-park-mounds_g5jh8t",
+        version: "v1789651211",
+        alt: "Foreign landscape seen from the Door Trail in Badlands National Park.",
+      },
+      {
+        publicId: "cacti-badlands-national-park_pcwos0",
+        version: "v1789651211",
+        alt: "Cacti seen on the Castle Trail in Badlands National Park.",
+      },
+      {
+        publicId: "sage-creek-campground_qhdkqg",
+        version: "v1789651213",
+        alt: "Sage Creek Campground seen from high above.",
+      },
+      {
+        publicId: "bison-badlands-national-park_ssfodz",
+        version: "v1789651211",
+        alt: "Bison resting in a meadow near Sage Creek Campground.",
+      },
+    ],
+    startDate: "June 3, 2021",
+    endDate: "June 5, 2021",
   },
   {
     id: "ranier",
