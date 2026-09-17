@@ -4,7 +4,7 @@ import { GiHiking } from "react-icons/gi";
 
 function TripReportCard({ trip }) {
   return (
-    <section className="card mb-4 shadwo-sm">
+    <section className="card mb-1 shadwo-sm">
       <div className="card-body">
         <h3>{trip.title}</h3>
         <h5 className="text-muted">{trip.dates}</h5>
@@ -35,7 +35,7 @@ function TripReportCard({ trip }) {
         </ul>
 
         <details className="mt-3">
-          <summary className="read-more-link">Read full trip report</summary>
+          <summary className="read-more-link">Read the full report</summary>
 
           <div className="mt-3">
             {trip.fullReport.map((paragraph, index) => (
