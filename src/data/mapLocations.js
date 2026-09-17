@@ -405,6 +405,28 @@ const mapLocations = [
     category: "National Parks",
     summary:
       "Badlands National Park was established on November 10, 1978, when President Jimmy Carter signed legislation redesignating Badlands National Monument. Originally protected as a monument in 1939, the park is best known for its dramatic eroded rock formations, colorful landscapes, rich fossil beds, mixed-grass prairie, and wildlife.",
+      markers: [
+      {
+        poi: [43.749060234293246, -101.94162248003622],
+        description: "Ben Reifel Visitor Center",
+      },
+      {
+        poi: [43.74356462539712, -101.94992729288516],
+        description: "Cedar Pass Campground",
+      },
+      {
+        poi: [43.89411716185475, -102.41381618199402],
+        description: "Sage Creek Campground",
+      },
+      {
+        poi: [43.763540540878054, -101.92665332549392],
+        description: "Notch Trail Head"
+      },
+      {
+        poi: [43.77231683451187, -102.00299276369958],
+        description: "Fossil Exhibit Trail Head"
+      }
+    ],
     images: [
       {
         publicId: "hiking-trail-badlands_trh6cj",
