@@ -7911,5 +7911,110 @@
       "collectionStatus": "Extended Collection",
       "owner": "WEP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6aac0f654b02fc3d05a49dc4"
+    },
+    "artist": "The Everly Brothers",
+    "albumName": "The Very Best of The Everly Brothers",
+    "slug": "the-everly-brothers-the-very-best-of-the-everly-brothers",
+    "originalReleaseDate": "1964-08-01",
+    "sides": {
+      "a": [
+        "Bye Bye Love",
+        "('Til) I Kissed You",
+        "Wake Up Little Susie",
+        "Crying in the Rain",
+        "Walk Right Back",
+        "Cathy's Clown"
+      ],
+      "b": [
+        "Bird Dog",
+        "All I Have to Do Is Dream",
+        "Devoted to You",
+        "Lucille",
+        "So Sad (To Watch Good Love Go Bad)",
+        "Ebony Eyes"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Rock & Roll",
+      "Pop Rock"
+    ],
+    "label": [
+      "Warner Bros. Records"
+    ],
+    "catalogNumber": "WS 1554",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1789660967/the-everly-brothers-very-best-of_q6gvtc",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1964,
+      "vinylReleaseYear": 1973,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1973",
+      "format": "LP, Compilation, Club Edition, Reissue, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single",
+      "pressingPlant": "RCA Records Pressing Plant, Indianapolis",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "R-103826-A-2S S38913 2S SP C1"
+        },
+        "sideB": {
+          "runout": "R-103826-B-5S 0-/SM1-1 A1"
+        }
+      },
+      "notes": [
+        "U.S. RCA Music Service club edition of The Very Best of The Everly Brothers.",
+        "Original Warner Bros. catalog number WS 1554 appears on the jacket and center labels.",
+        "R-103826 is the RCA Music Service catalog number assigned to this edition.",
+        "Back cover explicitly identifies the record as an RCA Music Service Edition.",
+        "Back cover states that the release was manufactured by RCA Music Service, Indianapolis, Indiana.",
+        "Side A label carries matrix S38913 and RCA Music Service number R-103826 A.",
+        "Side B label carries matrix S38914 and RCA Music Service number R-103826 B.",
+        "Observed Side A deadwax is R-103826-A-2S S38913 2S SP C1.",
+        "Observed Side B deadwax is R-103826-B-5S 0-/SM1-1 A1.",
+        "The physical copy has no UPC or barcode.",
+        "This RCA Music Service edition is identified as a 1973 reissue rather than the original 1964 Warner Bros. pressing.",
+        "Six earlier Cadence-era hits were newly recorded by The Everly Brothers in 1964 for this Warner Bros. compilation."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of the WEP extended collection.",
+      "RCA Music Service club edition manufactured in Indianapolis, Indiana.",
+      "Unlike a typical greatest-hits compilation that simply reuses the original recordings, this album contains newly recorded 1964 versions of six of The Everly Brothers' earlier Cadence hits."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    }
   }
 ]
