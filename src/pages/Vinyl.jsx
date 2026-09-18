@@ -1,7 +1,7 @@
 // Import vinyl data from the JSON file.
 // Because this is a JSON file, it is imported as a default export.
 import vinylRecords from "../data/vinylRecords.json";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link, useSearchParams, useLocation } from "react-router-dom";
 
 // Functional React component.
@@ -10,6 +10,26 @@ function Vinyl() {
   const [selectedArtist, setSelectedArtist] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("");
   const [selectedDecade, setSelectedDecade] = useState("");
+  const [artistSearch, setArtistSearch] = useState("");
+  const [artistDropdownOpen, setArtistDropdownOpen] = useState(false);
+  const artistDropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        artistDropdownRef.current &&
+        !artistDropdownRef.current.contains(event.target)
+      ) {
+        setArtistDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const [searchParams, setSearchParams] = useSearchParams();
   const [showExtendedOnly, setShowExtendedOnly] = useState(
@@ -22,6 +42,10 @@ function Vinyl() {
   const artists = [
     ...new Set(vinylRecords.map((record) => record.artist)),
   ].sort();
+
+  const filteredArtists = artists.filter((artist) =>
+    artist.toLowerCase().includes(artistSearch.toLowerCase()),
+  );
 
   //Unique Genres
   const genres = [
@@ -165,20 +189,46 @@ function Vinyl() {
 
         <div className="col-md-4">
           <label className="form-label">Filter by Artist</label>
-          <select
-            className="form-select"
-            value={selectedArtist}
-            onChange={(e) => setSelectedArtist(e.target.value)}
+          <div
+            className="artist-search-container"
+            ref={artistDropdownRef}
           >
-            <option value="">All Artists</option>
-            {artists.map((artist) => (
-              <option key={artist} value={artist}>
-                {artist}
-              </option>
-            ))}
-          </select>
-        </div>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search Artists..."
+              value={artistSearch}
+              onChange={(e) => {
+                setArtistSearch(e.target.value);
+                setArtistDropdownOpen(true);
+              }}
+              onFocus={() => {
+                setArtistSearch("");
+                setSelectedArtist("");
+                setArtistDropdownOpen(true);
+              }}
+            />
 
+            {artistDropdownOpen && (
+              <div className="artist-dropdown">
+                {filteredArtists.map((artist) => (
+                  <button
+                    type="button"
+                    className="dropdown-item"
+                    key={artist}
+                    onClick={() => {
+                      setSelectedArtist(artist);
+                      setArtistSearch(artist);
+                      setArtistDropdownOpen(false);
+                    }}
+                  >
+                    {artist}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
         <div className="col-md-4">
           <label className="form-label">Filter by Genre</label>
           <select
@@ -204,7 +254,7 @@ function Vinyl() {
             <option value="">All Decades</option>
             {decades.map((decade) => (
               <option key={decade} value={decade}>
-                {decade}
+                {`${decade}s`}
               </option>
             ))}
           </select>
@@ -302,7 +352,8 @@ function Vinyl() {
                   </p>
 
                   <p className="card-text">
-                    <strong>Release Year:</strong> {getReleaseYear(record.originalReleaseDate)}
+                    <strong>Release Year:</strong>
+                    {getReleaseYear(record.originalReleaseDate)}
                   </p>
 
                   <p className="card-text">
