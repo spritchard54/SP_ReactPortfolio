@@ -9,6 +9,7 @@ import { Link, useSearchParams, useLocation } from "react-router-dom";
 function Vinyl() {
   const [selectedArtist, setSelectedArtist] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("");
+  const [selectedDecade, setSelectedDecade] = useState("");
 
   const [searchParams, setSearchParams] = useSearchParams();
   const [showExtendedOnly, setShowExtendedOnly] = useState(
@@ -32,7 +33,37 @@ function Vinyl() {
     ),
   ].sort();
 
+  const getDecade = (releaseYear) => {
+    return Math.floor(releaseYear / 10) * 10;
+  };
+
+  const getReleaseYear = (originalReleaseDate) => {
+    const dateValue = originalReleaseDate.$date;
+
+    if (typeof dateValue === "string") {
+      return new Date(dateValue).getFullYear();
+    }
+
+    return new Date(Number(dateValue.$numberLong)).getFullYear();
+  };
+
+  const decades = [
+    ...new Set(
+      vinylRecords.map((record) => {
+        const releaseYear = getReleaseYear(record.originalReleaseDate);
+        return getDecade(releaseYear);
+      }),
+    ),
+  ].sort((a, b) => a - b);
+
   const filteredRecords = vinylRecords.filter((record) => {
+    const releaseYear = getReleaseYear(record.originalReleaseDate);
+
+    const recordDecade = getDecade(releaseYear);
+
+    const decadeMatch =
+      !selectedDecade || recordDecade === Number(selectedDecade);
+
     const artistMatch = !selectedArtist || record.artist === selectedArtist;
 
     const genreMatch =
@@ -45,10 +76,10 @@ function Vinyl() {
       !showExtendedOnly ||
       record.ownership?.collectionStatus === "Extended Collection";
 
-    return artistMatch && genreMatch && collectionMatch;
+    return artistMatch && genreMatch && collectionMatch && decadeMatch;
   });
 
-    const myCollectionCount = vinylRecords.filter(
+  const myCollectionCount = vinylRecords.filter(
     (record) => record.ownership?.collectionStatus === "My Collection",
   ).length;
 
@@ -57,7 +88,6 @@ function Vinyl() {
   ).length;
 
   const totalRecords = myCollectionCount + extCollectionCount;
-
 
   return (
     // Bootstrap container adds responsive spacing and layout.
@@ -81,7 +111,7 @@ function Vinyl() {
                 <h4>Number of records in my collection</h4>
               </div>
               <div className="vinylCount">{myCollectionCount}</div>
-            </div>  
+            </div>
           </div>
         </div>
         <div className="col-xl-4 col-sm-12 mb-2 d-flex">
@@ -91,7 +121,7 @@ function Vinyl() {
                 <h4>Number of records in my extended collection</h4>
               </div>
               <div className="vinylCount">{extCollectionCount}</div>
-            </div>  
+            </div>
           </div>
         </div>
         <div className="col-xl-4 col-sm-12 mb-2 d-flex">
@@ -133,7 +163,7 @@ function Vinyl() {
           </div>
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-4">
           <label className="form-label">Filter by Artist</label>
           <select
             className="form-select"
@@ -149,7 +179,7 @@ function Vinyl() {
           </select>
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-4">
           <label className="form-label">Filter by Genre</label>
           <select
             className="form-select"
@@ -164,6 +194,21 @@ function Vinyl() {
             ))}
           </select>
         </div>
+        <div className="col-md-4">
+          <label className="form-label">Filter by Decade</label>
+          <select
+            className="form-select"
+            value={selectedDecade}
+            onChange={(e) => setSelectedDecade(e.target.value)}
+          >
+            <option value="">All Decades</option>
+            {decades.map((decade) => (
+              <option key={decade} value={decade}>
+                {decade}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
 
       {/* 
@@ -174,6 +219,7 @@ function Vinyl() {
         - row-cols-xl-5 = 5 cards per row on extra large screens
         - g-2 = grid spacing (gutters) between cards
       */}
+
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 g-2">
         {/* 
           Create a copy of the array before sorting.
@@ -253,6 +299,10 @@ function Vinyl() {
                     >
                       {record.albumName}
                     </Link>
+                  </p>
+
+                  <p className="card-text">
+                    <strong>Release Year:</strong> {getReleaseYear(record.originalReleaseDate)}
                   </p>
 
                   <p className="card-text">
