@@ -14,10 +14,14 @@ function TripReportCard({ trip }) {
             <GiHiking size={20} />
             {trip.distance}
           </span>
-          <span className="d-flex align-items-center gap-2">
-            <MdTerrain size={20} />
-            {trip.elevation}
-          </span>
+
+          {trip.elevation && (
+            <span className="d-flex align-items-center gap-2">
+              <MdTerrain size={20} />
+              {trip.elevation}
+            </span>
+          )}
+
           <span className="d-flex align-items-center gap-2">
             <MdOutlineDateRange size={20} />
             {trip.duration}
