@@ -405,7 +405,7 @@ const mapLocations = [
     category: "National Parks",
     summary:
       "Badlands National Park was established on November 10, 1978, when President Jimmy Carter signed legislation redesignating Badlands National Monument. Originally protected as a monument in 1939, the park is best known for its dramatic eroded rock formations, colorful landscapes, rich fossil beds, mixed-grass prairie, and wildlife.",
-      markers: [
+    markers: [
       {
         poi: [43.749060234293246, -101.94162248003622],
         description: "Ben Reifel Visitor Center",
@@ -420,12 +420,12 @@ const mapLocations = [
       },
       {
         poi: [43.763540540878054, -101.92665332549392],
-        description: "Notch Trail Head"
+        description: "Notch Trail Head",
       },
       {
         poi: [43.77231683451187, -102.00299276369958],
-        description: "Fossil Exhibit Trail Head"
-      }
+        description: "Fossil Exhibit Trail Head",
+      },
     ],
     images: [
       {
@@ -460,6 +460,55 @@ const mapLocations = [
       },
     ],
     startDate: "June 3, 2021",
+    endDate: "June 5, 2021",
+  },
+  {
+    id: "rushmore",
+    geocode: [43.878912999150636, -103.45930834998606],
+    iconType: "np",
+    tripName: "Mount Rushmore National Memorial",
+    category: "National Monuments",
+    summary:
+      "Mount Rushmore National Memorial is a massive sculpture carved into the Black Hills of South Dakota. Designed by Gutzon Borglum, it features the 60-foot faces of Presidents George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln, representing America’s birth, growth, development, and preservation.",
+    images: [
+      {
+        publicId: "rushmore-wide-anglejpeg_bppgkp",
+        version: "v1789788379",
+        alt: "Rushmore seen from the distance.",
+      },
+      {
+        publicId: "rushmore-george-abe_wxefqq",
+        version: "v1789788379",
+        alt: "George Washington and Abraham Lincoln seen on Mount Rushmore.",
+      },
+      {
+        publicId: "rushmore-from-the-trail_cpdjv4",
+        version: "v1789788379",
+        alt: "Mount Rushmore seen from the scenic walking trail.",
+      },
+      {
+        publicId: "rushmore-medium_woeznl",
+        version: "v1789788379",
+        alt: "A clear shot of all foud presidents on Mount Rushmore.",
+      },
+      {
+        publicId: "rushmore-all-four_dkhcyj",
+        version: "v1789788379",
+        alt: "It's a different angle. I swear.",
+      },
+      {
+        publicId: "abraham-lincoln-rushmore_ostp6y",
+        version: "v1789788379",
+        alt: "Close up of Abraham Lincoln on Mount Rushmore.",
+      },
+    ],
+    markers: [
+      {
+        poi: [43.87879791206097, -103.45921525457845],
+        description: " Mount Rushmore National Memorial",
+      },
+    ],
+    startDate: "June 5, 2021",
     endDate: "June 5, 2021",
   },
   {

@@ -41,16 +41,12 @@ const tripCardDetails = {
       duration: "1 day / 1 night",
       summary:
         "This was the first National Park I visited on my 2021 roadtrip. The entire trip was a 'plan-as-you-go' type of trip and when I pulled in on June 3rd, I wasn't even sure where I would sleep that night. Fortunately, there was one last spot in the Cedar Pass Campground where I stayed the first night before moving over to the Sage Creek Campground the next day where spots were available on a 'first-come-first-serve' basis. This was my first time in South Dakota, and my first Trip to Badlands National Park. I would absolutely recommend adding this as a stop to a future roadtrip of your own, but depending on your appetite, it's probably not somewhere that I would plan a trip around. Which is not to say that you couldn't.",
-      highlights: [
-        "Amazing Sunsets",
-        "Scenic Drives",
-        "Panoramic Views"
-      ],
+      highlights: ["Amazing Sunsets", "Scenic Drives", "Panoramic Views"],
       fullReport: [
         "Getting a last minute campsite in any National Park is a gamble at best. Fortunately I arrived at Cedar Pass Campgrounds early in the afternoon and was able to secure a spot for one night. The only downside was the actual campsite was under water. This wasn’t a problem for me though, as I would be car camping and only needed somewhere to park for the night.",
         "The campgrounds themselves were pretty standard, but not all that large. If you’re planning to be there for multiple nights, I wouldn’t take the walk-up approach that I took. You have all of the amenities you’ll need with public bathrooms, and amazing sunsets visible from any spot in the grounds.",
         "After settling in a bit, I hit up the visitor center to inquire about trails and possibly backpacking in the park. Given the size of the park there aren’t designated campsites in the backcountry. You can camp in the backcountry with a permit so long as you abide by the same rules in almost any backcountry area. Namely, leave-no-trace, and make sure you’re well off hiking trails. I opted out of this, mostly because I felt I could see what I needed to and I was eager to get to my next stop which was Olympic National park in the state of Washington.",
-        "I ventured out that evening and took in a little sunset stroll on the Door Trail. This was a very short and flat trail that nearly anybody could do. Despite it being an easy trail, the views at sunset were pretty awesome. It was just enough to scratch the itch and work up a little appetite before heading back to camp where I had a nice freeze-dried chicken pesto pasta meal waiting for me, and a few cold beers."
+        "I ventured out that evening and took in a little sunset stroll on the Door Trail. This was a very short and flat trail that nearly anybody could do. Despite it being an easy trail, the views at sunset were pretty awesome. It was just enough to scratch the itch and work up a little appetite before heading back to camp where I had a nice freeze-dried chicken pesto pasta meal waiting for me, and a few cold beers.",
       ],
     },
     {
@@ -68,17 +64,17 @@ const tripCardDetails = {
         "Panoramic Views",
         "The Castle Trail",
         "The Medicine Root Trail",
-        "Prairie Dogs"
+        "Prairie Dogs",
       ],
       fullReport: [
         "Starting at the Notch trailhead, I started west on the trail towards the Fossil Exhibit Trail Parking which was my final destination. Mornings are always my favorite time of the day to get on the trail and I headed out just before 8:00 AM. I didn’t see many people along the walk, but I did run into somebody who had camped out overnight near the trail. When asked how the night was, he said it was pretty nice, but also a little unnerving as he could hear coyotes howling throughout the night. Hearing this actually made me wish I had camped out in the backcountry overnight, but I also enjoyed the campgrounds so I didn’t lose any sleep over my decision.",
         "The trail itself is flat and easy to navigate. It was also hot. Very hot. Even early in the morning, you’re going to get warm during the summer months. There are no trees, and so no cover from the sun. Be sure to pack sunscreen if you go. Once I arrived at the Fossil exhibit, I took some time to learn more about the geological significance of the area. There is a small loop with information placards along the way. I’m not a ‘dino guy’, but I would recommend it as part of a nice walk but not necessarily something I would go out of my way to see.",
         "After the Fossil exhibit, it was time to double back to the Notch trailhead where my car was parked. On the way back I branched off of the Castle trail and on to the Medicine Root Trail. The intersection is about 1.9 miles if you're heading east from the Fossil exhibit and is a nice way to extend your hike and make more of a ‘loop’ as opposed to ‘point-to-point’ hike.",
-        "Once the hike was complete it was time to make my way to Sage Campground. The campground is essentially an oval dirt track with grass in the center. The center is also home to a whole lot of prairie dogs. Like most of the park, you are very exposed to the sun. Some sites around the oval have sunshades, but not all. If you’re planning to stay there, make sure you have some portable shade of your own. I spent most of the afternoon watching the prairie dogs and trying to stay cool. I capped off the day and ended the night by walking up a reasonably steep hill where I, along with quite a few others, watched the sun set over the campgrounds before rolling into the next day."
+        "Once the hike was complete it was time to make my way to Sage Campground. The campground is essentially an oval dirt track with grass in the center. The center is also home to a whole lot of prairie dogs. Like most of the park, you are very exposed to the sun. Some sites around the oval have sunshades, but not all. If you’re planning to stay there, make sure you have some portable shade of your own. I spent most of the afternoon watching the prairie dogs and trying to stay cool. I capped off the day and ended the night by walking up a reasonably steep hill where I, along with quite a few others, watched the sun set over the campgrounds before rolling into the next day.",
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Day 3: Westward Bound",
       dates: "June 5, 2021",
       distance: "0 miles",
@@ -86,13 +82,27 @@ const tripCardDetails = {
       duration: "1 day",
       summary:
         "My time at Badlands National Park had come to a close. I fel that I seen all that I needed to see and was excited to get back out on the road and be on my way to Olympic National Park. There was one final surprise for me before heading out.",
-      highlights: [
-        "Amazing Sunrises",
-        "Bison"
-      ],
+      highlights: ["Amazing Sunrises", "Bison"],
       fullReport: [
         "At around 7:00 AM as I was packing my things up, I noticed people across the campground gathered in a small area and pointing into the distance. As I made my way over there I realized pretty quickly what the excitement was about. There were two large adult bison grazing a few hundred feet away. It wasn’t exactly a ‘wild encounter’, but pretty awesome to see none-the-less. With the early morning sunning trying to break through a mostly overcast sky and the fields of green grass for as far as the eye could see, it made for an incredible scene and one I was glad I didn’t miss. It was a perfect ending to my time in the Badlands.",
-        
+      ],
+    },
+  ],
+  rushmore: [
+    {
+      id: 5,
+      title: "Daytrip to Mount Rushmore",
+      dates: "June 5, 2021",
+      distance: "< 1 mile",
+      elevation: "",
+      duration: "1 day",
+      summary:
+        "Coming from the Badlands, I couldn't help but stop at the fabled Mount Rushmore. Maybe 'fabled' isn't the right word, but it is historic, and far more impressive in person than in photos and videos. I was only here long enough to walk around the immediate area and grab a few pictures. Similar to the Badlands, I wouldn't plan a trip necessarily just to see this, but if it's on the way it's worth the stop.",
+      highlights: ["Historical Site", "Great Weather"],
+      fullReport: [
+        "I'm writing this more than 5 years after I was there so the details are pretty cloudy. Like any National Park, the earlier you get there the better. I pulled in around 8:30 AM and the parking garage was filling up pretty quickly. The amphitheatre was largely empty around that time which made getting photos without people in the way pretty easy.",
+        "Within the main complex you can can a complete history of the site and learn just about anything you could ever want to learn about Rushmore. I did the usual walk-and-scan and made my way down to the Presidential Trail which is a 0.6-mile paved loop that offers visitors close-up views of the monumental sculptures, winding through scenic Black Hills pine forests.",
+        "I was likely there no more than a couple of hours before I headed out for my next stop that summer which was the town of Deadwood also in South Dakota. 100% worth the stop if you're on a roadtrip, and given what I experienced driving through the Blackhills it could be one part of a pretty amazing trip in that general area."
       ],
     },
   ],

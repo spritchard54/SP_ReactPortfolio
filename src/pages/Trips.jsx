@@ -138,7 +138,7 @@ export default function Trips() {
                   <LayersControl.Overlay
                     key={category}
                     name={category}
-                    checked={category === "National Parks"}
+                    checked={["National Parks", "National Monuments"].includes(category)}
                   >
                     <LayerGroup>
                       <MarkerClusterGroup chunkedLoading>
