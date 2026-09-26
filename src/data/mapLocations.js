@@ -505,11 +505,60 @@ const mapLocations = [
     markers: [
       {
         poi: [43.87879791206097, -103.45921525457845],
-        description: " Mount Rushmore National Memorial",
+        description: "Mount Rushmore National Memorial",
       },
     ],
     startDate: "June 5, 2021",
     endDate: "June 5, 2021",
+  },
+  {
+    id: "devilstower",
+    geocode: [44.59012137864223, -104.7145595701927],
+    iconType: "np",
+    tripName: "Devil's Tower National Monument",
+    category: "National Monuments",
+    summary:
+      "Devils Tower is a massive, striking igneous rock intrusion rising 867 feet above the Belle Fourche River in northeastern Wyoming. Declared America's first national monument in 1906, its dramatic, parallel-lined columns hold profound, sacred cultural significance for multiple Native American tribes and attract climbers worldwide.",
+    images: [
+      {
+        publicId: "devils-tower-wy-24_akwdrr",
+        version: "v1790434507",
+        alt: "Devil's Tower seen looking north from WY Hwy 24.",
+      },
+      {
+        publicId: "devils-tower-wy_qaidui",
+        version: "v1790435405",
+        alt: "Looking up from below the tower inside of the park.",
+      },
+      {
+        publicId: "belle-fourche-campground-wy_khrjug",
+        version: "v1790434507",
+        alt: "Devil's Tower seen in the distance from Belle Fourche Campground.",
+      },
+      {
+        publicId: "devils-tower-south_brb5nn",
+        version: "v1790434508",
+        alt: "Not a paid endorsement. Unless you want to Subaru.",
+      },
+      {
+        publicId: "devils-tower-tower-trail_cvxura",
+        version: "v1790434511",
+        alt: "Looking up at Devil's tower from the Tower Trail.",
+      },
+      {
+        publicId: "devilstower-joyner-ridge-trail_mistwy",
+        version: "v1790436371",
+        alt: "Looking south east near the intersection of Joyner Ridge Trail and West Road.",
+      },
+    ],
+    markers: [
+      {
+        poi: [44.59012137864223, -104.7145595701927],
+        description: "Devil's Tower, WY",
+      },  
+    ],
+    startDate: "June 5, 2021",
+    endDate: "June 6, 2021",
   },
   {
     id: "ranier",
