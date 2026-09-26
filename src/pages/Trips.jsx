@@ -37,8 +37,13 @@ export default function Trips() {
   // acc = accumulator
   // .reduce() moves through the mapLocations array accumulating objects into the various category "buckets" or arrays
   const groupedMarkers = mapLocations.reduce((acc, marker) => {
-    const category = marker.category || "Other";
+    const category =
+      marker.category === "National Parks" ||
+      marker.category === "National Monuments"
+        ? "National Parks & Monuments"
+        : marker.category || "Other";
     // if an array for the category does not exist, then create a new empty array for that category
+
     if (!acc[category]) acc[category] = [];
     acc[category].push(marker);
     return acc;
@@ -138,7 +143,9 @@ export default function Trips() {
                   <LayersControl.Overlay
                     key={category}
                     name={category}
-                    checked={["National Parks", "National Monuments"].includes(category)}
+                    checked={["National Parks & Monuments"].includes(
+                      category,
+                    )}
                   >
                     <LayerGroup>
                       <MarkerClusterGroup chunkedLoading>
