@@ -33,14 +33,27 @@ const iconMap = {
   // }),
 };
 
+const natParks = mapLocations.filter(
+  (nPark) => nPark.category === "National Parks",
+).length;
+
+const natMonuments = mapLocations.filter(
+  (nMonument) => nMonument.category === "National Monuments",
+).length;
+
+const natMemorials = mapLocations.filter(
+  (nMemorial) => nMemorial.category === "National Memorials",
+).length;
+
 export default function Trips() {
   // acc = accumulator
   // .reduce() moves through the mapLocations array accumulating objects into the various category "buckets" or arrays
   const groupedMarkers = mapLocations.reduce((acc, marker) => {
     const category =
       marker.category === "National Parks" ||
-      marker.category === "National Monuments"
-        ? "National Parks & Monuments"
+      marker.category === "National Monuments" ||
+      marker.category === "National Memorials"
+        ? "National Parks, Monuments & Memorials"
         : marker.category || "Other";
     // if an array for the category does not exist, then create a new empty array for that category
 
@@ -108,6 +121,33 @@ export default function Trips() {
           </p>
         </div>
         <div className="row mb-3">
+          <div className="col-4 d-flex">
+            <div className="card w-100 h-100 ">
+              <div className="card-body">
+                <div className="card-title countHeader"><h4>National Parks</h4></div>
+                <div className="count">{natParks}</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-4 d-flex">
+            <div className="card w-100 h-100 ">
+              <div className="card-body">
+                <div className="card-title countHeader"><h4>National Monuments</h4></div>
+                <div className="count">{natMonuments}</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-4 d-flex">
+            <div className="card w-100 h-100 ">
+              <div className="card-body">
+                <div className="card-title countHeader"><h4>National Memorials</h4></div>
+                <div className="count">{natMemorials}</div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div className="row mb-3">
           <div className="col-12">
             <MapContainer
               className="trip-map"
@@ -143,7 +183,7 @@ export default function Trips() {
                   <LayersControl.Overlay
                     key={category}
                     name={category}
-                    checked={["National Parks & Monuments"].includes(
+                    checked={["National Parks, Monuments & Memorials"].includes(
                       category,
                     )}
                   >
