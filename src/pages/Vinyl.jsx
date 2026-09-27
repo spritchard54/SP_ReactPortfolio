@@ -131,30 +131,30 @@ function Vinyl() {
         <div className="col-xl-4 col-sm-12 mb-2 d-flex">
           <div className="card w-100 h-100">
             <div className="card-body">
-              <div className="card-title vinylCountHeader">
+              <div className="card-title countHeader">
                 <h4>Number of records in my collection</h4>
               </div>
-              <div className="vinylCount">{myCollectionCount}</div>
+              <div className="count">{myCollectionCount}</div>
             </div>
           </div>
         </div>
         <div className="col-xl-4 col-sm-12 mb-2 d-flex">
           <div className="card w-100 h-100">
             <div className="card-body">
-              <div className="card-title vinylCountHeader">
+              <div className="card-title countHeader">
                 <h4>Number of records in my extended collection</h4>
               </div>
-              <div className="vinylCount">{extCollectionCount}</div>
+              <div className="count">{extCollectionCount}</div>
             </div>
           </div>
         </div>
         <div className="col-xl-4 col-sm-12 mb-2 d-flex">
           <div className="card w-100 h-100">
             <div className="card-body">
-              <div className="card-title vinylCountHeader">
+              <div className="card-title countHeader">
                 <h4>Total records in my collection</h4>
               </div>
-              <div className="vinylCount">{totalRecords}</div>
+              <div className="count">{totalRecords}</div>
             </div>
           </div>
         </div>

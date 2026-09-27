@@ -467,7 +467,7 @@ const mapLocations = [
     geocode: [43.878912999150636, -103.45930834998606],
     iconType: "np",
     tripName: "Mount Rushmore National Memorial",
-    category: "National Monuments",
+    category: "National Memorials",
     summary:
       "Mount Rushmore National Memorial is a massive sculpture carved into the Black Hills of South Dakota. Designed by Gutzon Borglum, it features the 60-foot faces of Presidents George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln, representing America’s birth, growth, development, and preservation.",
     images: [

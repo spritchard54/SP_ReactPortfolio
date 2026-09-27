@@ -260,14 +260,14 @@ a {
   }
 }
 
-.vinylCount {
+.count {
   font-size: 3em;
   text-align: center;
   color: #166f3c;
   font-weight: bold;
 }
 
-.vinylCountHeader {
+.countHeader {
   text-align: center;
 }
 
