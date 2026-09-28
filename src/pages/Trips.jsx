@@ -121,7 +121,7 @@ export default function Trips() {
           </p>
         </div>
         <div className="row mb-3">
-          <div className="col-4 d-flex">
+          <div className="col-xl-4 col-sm-12 mb-2 d-flex">
             <div className="card w-100 h-100 ">
               <div className="card-body">
                 <div className="card-title countHeader"><h4>National Parks</h4></div>
@@ -129,7 +129,7 @@ export default function Trips() {
               </div>
             </div>
           </div>
-          <div className="col-4 d-flex">
+          <div className="col-xl-4 col-sm-12 mb-2 d-flex">
             <div className="card w-100 h-100 ">
               <div className="card-body">
                 <div className="card-title countHeader"><h4>National Monuments</h4></div>
@@ -137,7 +137,7 @@ export default function Trips() {
               </div>
             </div>
           </div>
-          <div className="col-4 d-flex">
+          <div className="col-xl-4 col-sm-12 mb-2 d-flex">
             <div className="card w-100 h-100 ">
               <div className="card-body">
                 <div className="card-title countHeader"><h4>National Memorials</h4></div>
