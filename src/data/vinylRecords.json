@@ -8195,5 +8195,109 @@
       "collectionStatus": "Extended Collection",
       "owner": "WEP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6ac2bf5fb7efef940c5a1b11"
+    },
+    "artist": "Bread",
+    "albumName": "Baby I'm-A Want You",
+    "slug": "bread-baby-im-a-want-you",
+    "originalReleaseDate": {
+      "$date": "1972-01-21T00:00:00.000Z"
+    },
+    "sides": {
+      "a": [
+        "Mother Freedom",
+        "Baby I'm-A Want You",
+        "Down on My Knees",
+        "Everything I Own",
+        "Nobody Like You",
+        "Diary"
+      ],
+      "b": [
+        "Dream Lady",
+        "Daughter",
+        "Games of Magic",
+        "This Isn't What the Governmeant",
+        "Just Like Yesterday",
+        "I Don't Love You"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Soft Rock",
+      "Pop Rock"
+    ],
+    "label": [
+      "Elektra"
+    ],
+    "catalogNumber": "EKS-75015",
+    "upc": "",
+    "discogsLink": "https://www.discogs.com/release/1903600-Bread-Baby-Im-A-Want-You",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1791148024/bread_im-a-want-you_koagpw",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1972,
+      "vinylReleaseYear": 1972,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1972",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Gatefold",
+      "pressingPlant": "Columbia Records Pressing Plant, Pitman",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "EKS-75015 A-3 CP"
+        },
+        "sideB": {
+          "runout": "EKS-75015 [partially unreadable] CP"
+        }
+      },
+      "notes": [
+        "Original 1972 U.S. stereo issue of Baby I'm-A Want You.",
+        "Side A center label reads EKS-75015-A Stereo.",
+        "Side B center label reads EKS-75015-B Stereo.",
+        "Center label states ℗ 1972 by Elektra Records.",
+        "A circled or stamped P is visible on the record and is consistent with manufacture by Columbia Records Pressing Plant, Pitman, New Jersey.",
+        "CP markings in the runouts are consistent with the documented Columbia Pitman pressing of this release.",
+        "Observed Side A deadwax is EKS-75015 A-3 CP.",
+        "Side B begins with EKS-75015 and ends with CP, but the intervening characters are too difficult to read confidently and have not been inferred.",
+        "The front cover has a separately applied raised white-framed photographic element; its edge can be physically felt above the surrounding jacket surface.",
+        "The applied front-cover element is consistent with the original-style jacket construction associated with early copies of this release.",
+        "Back cover carries catalog number EKS-75015 Stereo and Elektra identification.",
+        "The physical copy has no UPC or barcode."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of the WEP extended collection."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    }
   }
 ]
