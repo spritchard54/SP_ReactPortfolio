@@ -8299,5 +8299,108 @@
       "collectionStatus": "Extended Collection",
       "owner": "WEP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6ac41025b7efef940c5a1b12"
+    },
+    "artist": "Three Dog Night",
+    "albumName": "Naturally",
+    "slug": "three-dog-night-naturally",
+    "originalReleaseDate": {
+      "$date": "1970-11-18T00:00:00.000Z"
+    },
+    "sides": {
+      "a": [
+        "I Can Hear You Calling",
+        "One Man Band",
+        "I'll Be Creeping",
+        "Fire Eater",
+        "Can't Get Enough of It"
+      ],
+      "b": [
+        "Sunlight",
+        "Heavy Church",
+        "Liar",
+        "I've Got Enough Heartache",
+        "Joy to the World"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Pop Rock",
+      "Classic Rock"
+    ],
+    "label": [
+      "Dunhill",
+      "ABC Records"
+    ],
+    "catalogNumber": "DSX 50088",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1791233494/three-dog-night_naturally_phf4fy",
+    "pressingStatus": {
+      "classification": "Contemporary Pressing",
+      "originalReleaseYear": 1970,
+      "vinylReleaseYear": 1972,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1972",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Fold-Out",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "T DSX 50088A-1A"
+        },
+        "sideB": {
+          "runout": "T 50088B-1D"
+        }
+      },
+      "notes": [
+        "1972 U.S. pressing of Three Dog Night's Naturally, originally released in 1970.",
+        "Black Dunhill/ABC Records center labels with multicolor Dunhill and ABC logos.",
+        "Both center labels state ℗ 1972, ABC Records, Inc.",
+        "Side A center label carries catalog number DSX 50088 and matrix DSX 50088 A.",
+        "Side B center label carries catalog number DSX 50088 and matrix DSX 50088 B.",
+        "Observed Side A deadwax is T DSX 50088A-1A.",
+        "Observed Side B deadwax is T 50088B-1D.",
+        "Pressing plant has been left unidentified because the observed T marking alone is not considered sufficient evidence for a specific plant.",
+        "The copy retains the distinctive original-style multi-panel fold-out jacket featuring an extended Three Dog Night photo collage.",
+        "Produced by Richard Podolor and engineered by Bill Cooper.",
+        "The physical copy has no UPC or barcode."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of the WEP extended collection.",
+      "Copy retains the distinctive fold-out album jacket."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    }
   }
 ]
