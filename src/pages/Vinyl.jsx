@@ -352,7 +352,7 @@ function Vinyl() {
                   </p>
 
                   <p className="card-text">
-                    <strong>Release Year:</strong>
+                    <strong>Release Year: </strong>
                     {getReleaseYear(record.originalReleaseDate)}
                   </p>
 

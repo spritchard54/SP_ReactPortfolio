@@ -8402,5 +8402,118 @@
       "collectionStatus": "Extended Collection",
       "owner": "WEP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6ac564fbb7efef940c5a1b13"
+    },
+    "artist": "Tommy James and the Shondells",
+    "albumName": "Hanky Panky",
+    "slug": "tommy-james-and-the-shondells-hanky-panky",
+    "originalReleaseDate": {
+      "$date": {
+        "$numberLong": "-110592000000"
+      }
+    },
+    "sides": {
+      "a": [
+        "Hanky Panky",
+        "I'll Go Crazy",
+        "I'm So Proud",
+        "The Lover",
+        "Love Makes the World Go Round",
+        "Good Lovin'"
+      ],
+      "b": [
+        "Say I Am (What I Am)",
+        "Cleo's Mood",
+        "Don't Throw Our Love Away",
+        "Shake a Tail Feather",
+        "Soul Searchin' Baby",
+        "Lots of Pretty Girls"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Garage Rock",
+      "Pop Rock"
+    ],
+    "label": [
+      "Roulette"
+    ],
+    "catalogNumber": "SR-25336",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1791320994/tommy-james-and-the-shondells-hanky-pank_h9umsp",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1966,
+      "vinylReleaseYear": 1966,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1966",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "RSD474A-1"
+        },
+        "sideB": {
+          "runout": "RSD474B-1"
+        }
+      },
+      "notes": [
+        "Original 1966 U.S. stereo pressing on Roulette Records.",
+        "Orange and yellow Roulette pinwheel center label.",
+        "Side A label identifies the stereo catalog number as SR-25336 and the matrix as RSD-474-A.",
+        "The jacket displays (S)R25336, reflecting packaging used for the mono and stereo configurations of the album.",
+        "Side A deadwax reads RSD474A-1.",
+        "Side B deadwax reads RSD474B-1.",
+        "Additional deadwax markings appear on both sides and include what appears to be a 6-66 inscription, potentially indicating June 1966.",
+        "Other additional deadwax characters are partially illegible and have not been interpreted.",
+        "Pressing plant has been left unidentified because the observed deadwax markings do not provide sufficiently reliable evidence for a specific plant.",
+        "Front cover carries the Roulette Quality Sound branding and states Printed in U.S.A.",
+        "Center label states Made in U.S.A. by Roulette Records, Inc.",
+        "Album and center label credit A Bob Mack Production.",
+        "The physical copy has no UPC or barcode."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of the CSP extended collection.",
+      "\"Hanky Panky\" was originally recorded by Tommy James and the Shondells in 1964 and released by the small Snap label.",
+      "The recording unexpectedly resurfaced as a regional hit around Pittsburgh in 1966, roughly two years after its original release.",
+      "After the record's renewed popularity, Tommy James was tracked down and Roulette Records acquired the recording for national distribution.",
+      "\"Hanky Panky\" subsequently reached No. 1 in the United States in 1966 and provided the foundation for the group's breakthrough.",
+      "The Hanky Panky LP was assembled around the success of the hit single, helping launch Tommy James and the Shondells' national career."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "CSP"
+    }
   }
 ]
