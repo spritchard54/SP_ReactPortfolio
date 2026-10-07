@@ -8515,5 +8515,107 @@
       "collectionStatus": "Extended Collection",
       "owner": "CSP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6ac6b8d0b7efef940c5a1b14"
+    },
+    "artist": "Seals & Crofts",
+    "albumName": "Summer Breeze",
+    "slug": "seals-and-crofts-summer-breeze",
+    "originalReleaseDate": {
+      "$date": "1972-09-01T00:00:00.000Z"
+    },
+    "sides": {
+      "a": [
+        "Hummingbird",
+        "Funny Little Man",
+        "Say",
+        "Summer Breeze",
+        "East of Ginger Trees"
+      ],
+      "b": [
+        "Fiddle in the Sky",
+        "The Boy Down the Road",
+        "The Euphrates",
+        "Advance Guards",
+        "Yellow Dirt"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Soft Rock",
+      "Folk Rock",
+      "Pop Rock"
+    ],
+    "label": [
+      "Warner Bros. Records"
+    ],
+    "catalogNumber": "BS 2629",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1791406025/seals-and-crofts_summer-breeze_iiootj.jpg",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1972,
+      "vinylReleaseYear": 1972,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1972",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "BS 2629, 40203-1A, 40202-1A, 7, 2"
+        },
+        "sideB": {
+          "runout": "BS2629A, 40203-1A [etched out], 40203"
+        }
+      },
+      "notes": [
+        "Original-era 1972 U.S. stereo pressing on the green Warner Bros. Records label.",
+        "Both center labels identify the record as stereo.",
+        "Side A center label shows matrix S40,202.",
+        "Side A deadwax contains BS 2629, 40203-1A, 40202-1A, 7 and 2 markings.",
+        "Side B deadwax contains BS2629A and 40203; a 40203-1A inscription appears to have been etched out.",
+        "Deadwax inscriptions are recorded as physically observed rather than normalized because the Side A runout contains both 40203-1A and 40202-1A markings and the Side B runout contains a crossed-out inscription.",
+        "Spine reads BS 2629, 0598-1972 Warner Bros. Records Inc. - Made in U.S.A.",
+        "Produced by Louie Shelton, who also played guitar on the album.",
+        "This copy uses the earlier green Warner Bros. Records center-label design rather than the later Warner Bros. Burbank/palm-tree label design.",
+        "Specific pressing plant has not been identified with sufficient confidence.",
+        "The physical copy has no UPC or barcode."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of the CSP extended collection."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "CSP"
+    }
   }
 ]
