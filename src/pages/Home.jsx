@@ -99,25 +99,23 @@ export default function Home() {
           </div>
         </div>
 
-        
-          <section className="featured-section my-4">
-            <h3 className="mb-4">Featured Project</h3>
+        <section className="featured-section my-4">
+          <h3 className="mb-4">Featured Project</h3>
 
-            <div className="row">
-              {featuredProjects.map((project) => (
-                <ProjectCard key={project.id} project={project} />
-              ))}
-            </div>
-          </section>
-        
+          <div className="row">
+            {featuredProjects.map((project) => (
+              <div className="col-12" key={project.id}>
+                <ProjectCard project={project} variant="featured" />
+              </div>
+            ))}
+          </div>
+        </section>
 
         {/* Cards Section */}
         <div className="row justify-content-center mb-5">
-          <h3 className="my-4">
-            What I've done and what I'm working on...
-          </h3>
+          <h3 className="my-4">What I've done and what I'm working on...</h3>
           <div className="col-md-4">
-            <div className="card mb-3">
+            <div className="card h-100 mb-3">
               <img
                 src={getCloudinaryUrl(images[0].publicId, images[0].version, {
                   width: 800,
@@ -131,21 +129,21 @@ export default function Home() {
                 alt="..."
                 loading="lazy"
               />
-              <div className="card-body">
+              <div className="card-body d-flex flex-column">
                 <h5 className="card-title">Portfolio</h5>
                 <p className="card-text">
                   Download my resume and view my portfolio. Check back regularly
                   for updates to existing projects and new projects I am working
                   on.
                 </p>
-                <Link to="Portfolio" className="btn home-button">
+                <Link to="Portfolio" className="btn home-button mt-auto">
                   See my work...
                 </Link>
               </div>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card mb-3">
+            <div className="card h-100 mb-3">
               <img
                 src={getCloudinaryUrl(images[1].publicId, images[1].version, {
                   width: 800,
@@ -159,20 +157,20 @@ export default function Home() {
                 alt="..."
                 loading="lazy"
               />
-              <div className="card-body">
+              <div className="card-body d-flex flex-column">
                 <h5 className="card-title">Photos</h5>
                 <p className="card-text">
                   I count photography among my many (maybe too many) hobbies.
                   This is mostly a collection of photos from trips I've been on.
                 </p>
-                <Link to="Photos" className="btn home-button">
+                <Link to="Photos" className="btn home-button mt-auto">
                   Browse...
                 </Link>
               </div>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card mb-3">
+            <div className="card h-100 mb-3">
               <img
                 src={getCloudinaryUrl(images[2].publicId, images[2].version, {
                   width: 800,
@@ -186,13 +184,13 @@ export default function Home() {
                 alt="..."
                 loading="lazy"
               />
-              <div className="card-body">
+              <div className="card-body d-flex flex-column">
                 <h5 className="card-title">Trips</h5>
                 <p className="card-text">
                   See where I've been recently and over the years. From the
                   hills of Pennsylvania, to the peaks the Mountain West.
                 </p>
-                <Link to="Trips" className="btn home-button">
+                <Link to="Trips" className="btn home-button mt-auto">
                   Explore
                 </Link>
               </div>
