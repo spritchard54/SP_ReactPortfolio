@@ -1,5 +1,5 @@
-import activate from "../assets/portfolioImages/actMe_1000w.png";
-import weather from "../assets/portfolioImages/weatherDash_1000w.png";
+import projects from "../data/projects";
+import ProjectCard from "../components/ProjectCard";
 import { FaGithub } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
 
@@ -33,13 +33,13 @@ export default function Portfolio() {
           </p>
           <p>
             My career path has since evolved into the technology space. As a
-            Customer Success Manager for multiple marketing technology (SaaS) companies,
-            my primary focus has been building strong customer relationships and
-            ensuring clients realize measurable value from their investment in
-            the platform. This includes guiding strategic platform adoption,
-            identifying opportunities for growth, and helping customers stay
-            informed about solutions that support long-term success for both the
-            client and the business.
+            Customer Success Manager for multiple marketing technology (SaaS)
+            companies, my primary focus has been building strong customer
+            relationships and ensuring clients realize measurable value from
+            their investment in the platform. This includes guiding strategic
+            platform adoption, identifying opportunities for growth, and helping
+            customers stay informed about solutions that support long-term
+            success for both the client and the business.
           </p>
           <p>
             Where I see myself in the future is still evolving, but one thing
@@ -64,78 +64,17 @@ export default function Portfolio() {
           </p>
         </div>
         <div className="row">
-          <div className="col-md-6">
-            <div className="card mt-5">
-              <img
-                src={activate}
-                className="card-img-top shadow-sm rounded"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">ActivateMe</h5>
-                <p className="card-text">
-                  Time has a way of slipping away from us. This inspired myself
-                  and team members from my UPENN Web Development Bootcamp to
-                  create ActivateMe. Log and view daily activities and utilize
-                  data visualizations to better understand where all that time
-                  is going.
-                </p>
-                <a
-                  href="https://activateme.onrender.com/#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary me-2"
-                >
-                  View the App...
-                </a>
-                <a
-                  href="https://github.com/spritchard54/ActivateMe"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary d-inline-flex align-items-center justify-content-center gap-2"
-                >
-                  <FaGithub size="20" />
-                  Github Repo...
-                </a>
+          {/* Projects Start */}
+
+          {projects.map((project) => {
+            return (
+              <div className="col-md-6 mb-3" key={project.id}>
+                <ProjectCard project={project} />
               </div>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="card mt-5">
-              <img
-                src={weather}
-                className="card-img-top shadow-sm rounded"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">OpenWeather Forecast</h5>
-                <p className="card-text">
-                  This site allows users to view the forecast for a desired
-                  location by typing in the name of the city. Time allowing I
-                  want to add in zip code functionality and city and state
-                  funtionality. It utilizes the OpenWeather API and the site was
-                  built using HTML, CSS, and JavaScript.
-                </p>
-                <a
-                  href="https://spritchard54.github.io/weatherDashboard/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary me-2"
-                >
-                  View the App...
-                </a>
-                <a
-                  href="https://github.com/spritchard54/weatherDashboard"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary d-inline-flex align-items-center justify-content-center gap-2"
-                >
-                  <FaGithub size="20" />
-                  Github Repo...
-                </a>
-              </div>
-            </div>
-          </div>
+            );
+          })}
+
+          {/* Projects End */}
         </div>
         <div className="row mt-3">
           <h1 className="mb-4">Work Experience</h1>

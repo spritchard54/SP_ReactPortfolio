@@ -1,13 +1,10 @@
-import activateMeImg from "../assets/portfolioImages/actMe_1000w.png";
-import weatherDash from "..//assets/portfolioImages/weatherDash_1000w.png";
-
 const projects = [
   {
     id: 1,
     title: "ActivateMe",
     description:
-      "Time has a way of slipping away from us. This inspired myself and team members from my UPENN Web Development Bootcamp to create ActivateMe. Log and view daily activities and utilize data visualizations to better understand where all that time is going.",
-    image: activateMeImg,
+      "A collaborative full-stack application developed during my UPenn Web Development Bootcamp. Users can track daily activities and visualize how they spend their time through interactive charts and dashboards.",
+    image: "https://res.cloudinary.com/dpir0th3m/image/upload/v1791819588/activate_me_16x9",
     liveUrl: "https://activateme.onrender.com/#",
     githubUrl: "https://github.com/spritchard54/ActivateMe",
     featured: false,
@@ -16,8 +13,8 @@ const projects = [
     id: 2,
     title: "OpenWeather Forecast",
     description:
-      "This site allows users to view the forecast for a desired location by typing in the name of the city. Time allowing I want to add in zip code functionality and city and state funtionality. It utilizes the OpenWeather API and the site was built using HTML, CSS, and JavaScript.",
-    image: weatherDash,
+      "A weather dashboard built with HTML, CSS, and JavaScript that integrates the OpenWeather API. Users can search by city to retrieve current weather conditions and a five-day forecast.",
+    image: "https://res.cloudinary.com/dpir0th3m/image/upload/v1791819785/weather-dashboard16x9",
     liveUrl: "https://spritchard54.github.io/weatherDashboard/",
     githubUrl: "https://github.com/spritchard54/weatherDashboard",
     featured: false,
@@ -26,12 +23,25 @@ const projects = [
     id: 3,
     title: "Vinyl Logic",
     description:
-      "This project is a result of my recent entry into the world of vinyl record collecting. I've been around long enough to remember buying cassettes and then CDs before living in a world of streaming content. I miss going into the music store, I miss skimming through physical copies of my own music, and so now I'm buying records. The only format that seems to have stood the test of time.",
+      "A React-based vinyl record catalog featuring searchable records, artist and decade filters, detailed album information, and responsive layouts. Built to organize and explore a growing personal record collection.",
     technologies: ["React", "Node.js", "MongoDB", "Bootstrap", "Cloudinary"],
-    image: "https://res.cloudinary.com/dpir0th3m/image/upload/v1786039307/vinylrecords_qxlqrr",
+    image:
+      "https://res.cloudinary.com/dpir0th3m/image/upload/v1791819944/copy_of_vinylrecords_lfkml1",
     liveUrl: "/vinyl",
     githubUrl: "https://github.com/spritchard54/SP_ReactPortfolio",
     featured: true,
+  },
+  {
+    id: 4,
+    title: "Timed JS Quiz",
+    description:
+      "An interactive JavaScript quiz featuring a countdown timer, penalties for incorrect answers, and a persistent high-score leaderboard using localStorage. Built with HTML, CSS, and vanilla JavaScript.",
+    technologies: ["JavaScript", "CSS", "HTML", "Bootstrap"],
+    image:
+      "https://res.cloudinary.com/dpir0th3m/image/upload/v1791819848/s-timed-quiz16x9",
+    liveUrl: "https://spritchard54.github.io/JS_timedQuiz/",
+    githubUrl: "https://github.com/spritchard54/JS_timedQuiz",
+    featured: false,
   },
 ];
 
