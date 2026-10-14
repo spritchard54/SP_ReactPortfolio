@@ -8617,5 +8617,113 @@
       "collectionStatus": "Extended Collection",
       "owner": "CSP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6acec83bcd974d30c177a4f2"
+    },
+    "artist": "The Olympians",
+    "albumName": "The Olympians",
+    "slug": "the-olympians-the-olympians",
+    "originalReleaseDate": {
+      "$date": "2016-10-28T00:00:00.000Z"
+    },
+    "sides": {
+      "a": [
+        "Sirens of Jupiter",
+        "Venus",
+        "Apollo's Mood",
+        "Mars",
+        "Neptune"
+      ],
+      "b": [
+        "Saturn",
+        "Diana By My Side",
+        "Pluto's Lament",
+        "Mercury's Odyssey",
+        "Europa and the Bull",
+        "Sagittarius By Moonlight"
+      ]
+    },
+    "genre": [
+      "Funk / Soul"
+    ],
+    "style": [
+      "Soul",
+      "Funk",
+      "Instrumental"
+    ],
+    "label": [
+      "Daptone Records"
+    ],
+    "catalogNumber": "DAP-044",
+    "upc": "",
+    "discogsLink": "https://www.discogs.com/release/9266920-The-Olympians-The-Olympians",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1791936210/the-olympians-the-olympians_irh1bh",
+    "pressingStatus": {
+      "classification": "Contemporary Pressing",
+      "originalReleaseYear": 2016,
+      "vinylReleaseYear": 2016,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": false,
+      "isReissue": false,
+      "confidence": "Medium"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2016",
+      "format": "LP, Album",
+      "color": "Black",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "Golden Mastering",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "DAP-044 A 598429 Golden 1213373 241908E1"
+        },
+        "sideB": {
+          "runout": "DAP-044 B re-1 5-98430 RE-1 1213375 Golden 241908E2"
+        }
+      },
+      "notes": [
+        "U.S. black-vinyl LP associated with the original 2016 release of The Olympians.",
+        "Both center labels state A Toby Pazner Production.",
+        "The physical copy has no visible UPC or barcode.",
+        "Golden is inscribed in the deadwax on both sides, indicating mastering or cutting associated with Golden Mastering.",
+        "Side B includes RE-1 markings, suggesting a revised lacquer or recut.",
+        "The exact Discogs pressing has not been confirmed by matching both runout inscriptions.",
+        "The Discogs URL references the closest identified 2016 U.S. LP release, not a verified exact pressing match.",
+        "The manufacturing year of this particular copy is unconfirmed; 2016 represents the original vinyl release year.",
+        "The specific pressing plant has not been verified."
+      ],
+      "manufacturedIn": "",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 25,
+      "date": {
+        "$date": "2026-10-03T00:00:00.000Z"
+      },
+      "location": "Daptone Records Online Store"
+    },
+    "userNotes": [
+      "Purchased directly from the Daptone Records online store on October 3, 2026, for $25.00.",
+      "The Olympians is an instrumental soul project led by multi-instrumentalist and producer Toby Pazner.",
+      "Pazner developed the album's Greek mythology concept after experiencing recurring dreams while traveling in Greece.",
+      "The recording features musicians associated with the Daptone musical community, drawing on the sounds of classic soul, funk, cinematic orchestration and vintage instrumental arrangements.",
+      "The album features eleven instrumental compositions named after figures and stories from Greek and Roman mythology.",
+      "Released in October 2016, the album represents a collaboration among musicians associated with artists including Sharon Jones, Charles Bradley and Lee Fields."
+    ],
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   }
 ]
