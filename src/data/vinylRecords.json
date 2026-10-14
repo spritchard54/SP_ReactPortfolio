@@ -8725,5 +8725,122 @@
       "collectionStatus": "My Collection",
       "owner": null
     }
+  },
+  {
+    "_id": {
+      "$oid": "6acfa6cecd974d30c177a4f3"
+    },
+    "artist": "Menahan Street Band",
+    "albumName": "Make the Road by Walking",
+    "slug": "menahan-street-band-make-the-road-by-walking",
+    "originalReleaseDate": {
+      "$date": "2008-10-14T00:00:00.000Z"
+    },
+    "sides": {
+      "a": [
+        "Make the Road by Walking",
+        "Tired of Fighting",
+        "Home Again!",
+        "Montego Sunset",
+        "Karina"
+      ],
+      "b": [
+        "The Traitor",
+        "The Contender",
+        "Birds",
+        "Esma",
+        "Going the Distance"
+      ]
+    },
+    "genre": [
+      "Funk / Soul",
+      "Jazz"
+    ],
+    "style": [
+      "Soul",
+      "Funk",
+      "Instrumental",
+      "Afrobeat"
+    ],
+    "label": [
+      "Dunham Records",
+      "Daptone Records"
+    ],
+    "catalogNumber": "DUN-1000",
+    "upc": "823134971516",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1791993332/menehan-street-band_make-the-road-by-walking_pgb1lh",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 2008,
+      "vinylReleaseYear": 2024,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "Worldwide",
+      "released": "2024",
+      "format": "LP, Album, Reissue, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Single",
+      "pressingPlant": "GZ Media",
+      "masteringStudio": "",
+      "masteringEngineer": "Steve Berson, Paul Gold",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "242899E1/B"
+        },
+        "sideB": {
+          "runout": "242899E2/B"
+        }
+      },
+      "notes": [
+        "Likely 2024 reissue/repress of the original 2008 Dunham Records album.",
+        "Both runout inscriptions match identifiers reported for the 2024 pressing.",
+        "Side A runout: 242899E1/B.",
+        "Side B runout: 242899E2/B.",
+        "GZ Media pressing plant attribution is supported by the matching runout identifiers and documented reissue.",
+        "The physical record is pressed on standard black vinyl.",
+        "Front cover displays DUNHAM 1000 Stereo and Dunham branding.",
+        "Back cover displays DUN-1000 (DAP-015).",
+        "Back cover credits mixing to T. Brenneck and G. Roth.",
+        "Back cover credits mastering to Steve Berson and Paul Gold.",
+        "UPC 823134971516 appears on the hype sticker rather than the album jacket.",
+        "The 2024 pressing identification is strongly supported by the runouts, although the exact manufacturing date of this individual copy is unconfirmed.",
+        "Specific Discogs release URL has not been independently verified."
+      ],
+      "manufacturedIn": "Czech Republic",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 25,
+      "date": {
+        "$date": "2026-10-03T00:00:00.000Z"
+      },
+      "location": "Daptone Records Online Store"
+    },
+    "userNotes": [
+      "Purchased directly from the Daptone Records online store on October 3, 2026, for $25.00.",
+      "Make the Road by Walking is the debut studio album by Brooklyn-based instrumental soul collective Menahan Street Band, originally released October 14, 2008.",
+      "The group was founded by multi-instrumentalist and producer Thomas Brenneck and features musicians associated with Sharon Jones & the Dap-Kings, El Michels Affair, Antibalas, and the Budos Band.",
+      "The album combines vintage soul, funk, jazz, Afrobeat, and cinematic instrumental arrangements.",
+      "The title track provided the sample for Jay-Z's Roc Boys (And the Winner Is)... from his 2007 album American Gangster.",
+      "The Traitor has been sampled by Kid Cudi on Solo Dolo, among other hip-hop recordings.",
+      "Going the Distance draws on Bill Conti's famous Rocky film theme.",
+      "Menahan Street Band later became closely associated with soul singer Charles Bradley, serving as a backing band and contributing to his recordings.",
+      "The album's title references Make the Road by Walking, a Brooklyn community organization near Menahan Street."
+    ],
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   }
 ]
