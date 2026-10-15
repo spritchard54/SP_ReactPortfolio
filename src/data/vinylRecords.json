@@ -8842,5 +8842,126 @@
       "collectionStatus": "My Collection",
       "owner": null
     }
+  },
+  {
+    "_id": {
+      "$oid": "6ad13e35cd974d30c177a4f4"
+    },
+    "artist": "Menahan Street Band",
+    "albumName": "The Crossing",
+    "slug": "menahan-street-band-the-crossing",
+    "originalReleaseDate": {
+      "$date": "2012-10-30T00:00:00.000Z"
+    },
+    "sides": {
+      "a": [
+        "The Crossing",
+        "Lights Out",
+        "Keep Coming Back",
+        "Three Faces",
+        "Sleight of Hand"
+      ],
+      "b": [
+        "Everyday a Dream",
+        "Seven Is the Wind",
+        "Bullet for the Bagman",
+        "Driftwood",
+        "Ivory and Blue",
+        "The World (Is Going Up in Flames)"
+      ]
+    },
+    "genre": [
+      "Funk / Soul",
+      "Jazz"
+    ],
+    "style": [
+      "Soul",
+      "Funk",
+      "Instrumental",
+      "Afrobeat",
+      "Cinematic Soul"
+    ],
+    "label": [
+      "Dunham Records",
+      "Daptone Records"
+    ],
+    "catalogNumber": "DUN-1003",
+    "upc": "823134002913",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1792097822/menahan-street-band_the-crossing_mitqhq",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2012,
+      "vinylReleaseYear": 2012,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2012",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Heavy Cardboard Gatefold",
+      "pressingPlant": "Rainbo Records",
+      "masteringStudio": "Golden Mastering",
+      "masteringEngineer": "JJ Golden",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "DAP-029 A S-83212 JJ GOLDEN"
+        },
+        "sideB": {
+          "runout": "DAP-029 B S-83213 JJ GOLDEN"
+        }
+      },
+      "notes": [
+        "U.S. stereo pressing matching the original 2012 release configuration.",
+        "Side A runout includes DAP-029 A, S-83212, JJ, and GOLDEN.",
+        "Side B runout includes DAP-029 B, S-83213, JJ, and GOLDEN.",
+        "S-83212 and S-83213 are consistent with Rainbo Records matrix identifiers.",
+        "JJ GOLDEN identifies mastering engineer JJ Golden and Golden Mastering.",
+        "The album is pressed on standard black vinyl.",
+        "The record is housed in a heavy cardboard gatefold jacket.",
+        "An MP3 download card was included inside the jacket.",
+        "UPC 823134002913 appears on the hype sticker rather than the jacket.",
+        "The spine displays catalog number DUN-1003.",
+        "The front cover displays Dunham Records, DUN-1003, DAP-029, and Stereo.",
+        "The back cover credits Thomas Brenneck as producer.",
+        "The physical runouts and packaging closely match the documented original 2012 pressing.",
+        "A later manufacturing batch using the original metalwork and packaging cannot be ruled out.",
+        "Original First Pressing classification is provisional because the exact manufacturing date of this copy is unconfirmed."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 25,
+      "date": {
+        "$date": "2026-10-03T00:00:00.000Z"
+      },
+      "location": "Daptone Records Online Store"
+    },
+    "userNotes": [
+      "Purchased directly from the Daptone Records online store on October 3, 2026, for $25.00.",
+      "The Crossing is the second studio album by Brooklyn-based instrumental soul collective Menahan Street Band, originally released October 30, 2012.",
+      "The group was founded by guitarist, multi-instrumentalist, and producer Thomas Brenneck, who also worked extensively with Charles Bradley and Sharon Jones & the Dap-Kings.",
+      "The album builds on the cinematic instrumental soul sound established on the group's 2008 debut, Make the Road by Walking.",
+      "Its arrangements combine vintage soul, funk, jazz, atmospheric horns, and influences from classic film soundtracks.",
+      "The album was recorded during a period when Menahan Street Band was also collaborating extensively with soul singer Charles Bradley.",
+      "The closing track, The World (Is Going Up in Flames), is an instrumental interpretation of a song closely associated with Charles Bradley's 2011 debut album No Time for Dreaming.",
+      "The band's music has attracted attention from hip-hop producers, with material from their debut sampled by Jay-Z and other artists.",
+      "This copy retains the original-style heavy gatefold packaging and included MP3 download card."
+    ],
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   }
 ]
