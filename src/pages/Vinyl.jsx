@@ -12,7 +12,9 @@ function Vinyl() {
   const [selectedDecade, setSelectedDecade] = useState("");
   const [artistSearch, setArtistSearch] = useState("");
   const [artistDropdownOpen, setArtistDropdownOpen] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const artistDropdownRef = useRef(null);
+  const artistListRef = useRef(null);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -30,6 +32,19 @@ function Vinyl() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  useEffect(() => {
+    // console.log("Current highlighted index:", highlightedIndex);
+    const dropdown = artistListRef.current;
+    if (dropdown) {
+      const activeItem = dropdown.querySelector(".dropdown-item.active");
+      if (activeItem) {
+        activeItem.scrollIntoView({
+          block: "nearest",
+        });
+      }
+    }
+  }, [highlightedIndex]);
 
   const [searchParams, setSearchParams] = useSearchParams();
   const [showExtendedOnly, setShowExtendedOnly] = useState(
@@ -189,10 +204,7 @@ function Vinyl() {
 
         <div className="col-md-4">
           <label className="form-label">Filter by Artist</label>
-          <div
-            className="artist-search-container"
-            ref={artistDropdownRef}
-          >
+          <div className="artist-search-container" ref={artistDropdownRef}>
             <input
               type="text"
               className="form-control"
@@ -201,20 +213,51 @@ function Vinyl() {
               onChange={(e) => {
                 setArtistSearch(e.target.value);
                 setArtistDropdownOpen(true);
+                setHighlightedIndex(0);
               }}
               onFocus={() => {
                 setArtistSearch("");
                 setSelectedArtist("");
                 setArtistDropdownOpen(true);
+                setHighlightedIndex(0);
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "ArrowDown" && filteredArtists.length > 0) {
+                  e.preventDefault();
+                  setHighlightedIndex((prev) =>
+                    Math.min(prev + 1, filteredArtists.length - 1),
+                  );
+                } else if (e.key === "ArrowUp" && filteredArtists.length > 0) {
+                  e.preventDefault();
+                  setHighlightedIndex((prev) =>
+                    prev === -1
+                      ? filteredArtists.length - 1
+                      : Math.max(prev - 1, 0),
+                  );
+                } else if (
+                  e.key === "Enter" &&
+                  highlightedIndex >= 0 &&
+                  highlightedIndex < filteredArtists.length
+                ) {
+                  e.preventDefault();
+                  setSelectedArtist(filteredArtists[highlightedIndex]);
+                  setArtistSearch(filteredArtists[highlightedIndex]);
+                  setArtistDropdownOpen(false);
+                } else if (e.key === "Escape") {
+                  setArtistDropdownOpen(false);
+                  setHighlightedIndex(-1);
+                }
               }}
             />
 
             {artistDropdownOpen && (
-              <div className="artist-dropdown">
-                {filteredArtists.map((artist) => (
+              <div className="artist-dropdown" ref={artistListRef}>
+                {filteredArtists.map((artist, index) => (
                   <button
                     type="button"
-                    className="dropdown-item"
+                    className={`dropdown-item ${
+                      index === highlightedIndex ? "active" : ""
+                    }`}
                     key={artist}
                     onClick={() => {
                       setSelectedArtist(artist);
