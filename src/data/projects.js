@@ -14,7 +14,7 @@ const projects = [
     title: "OpenWeather Forecast",
     description:
       "A weather dashboard built with HTML, CSS, and JavaScript that integrates the OpenWeather API. Users can search by city to retrieve current weather conditions and a five-day forecast.",
-    image: "https://res.cloudinary.com/dpir0th3m/image/upload/v1791819785/weather-dashboard16x9",
+    image: "https://res.cloudinary.com/dpir0th3m/image/upload/v1792871672/weather_dash_2_himtrp",
     liveUrl: "https://spritchard54.github.io/weatherDashboard/",
     githubUrl: "https://github.com/spritchard54/weatherDashboard",
     featured: false,
