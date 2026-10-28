@@ -8963,5 +8963,126 @@
       "collectionStatus": "My Collection",
       "owner": null
     }
+  },
+  {
+    "_id": {
+      "$oid": "6ae2086ecd974d30c177a4f5"
+    },
+    "artist": "Various Artists",
+    "albumName": "Rain Man (Original Motion Picture Soundtrack)",
+    "slug": "various-artists-rain-man-original-motion-picture-soundtrack",
+    "originalReleaseDate": {
+      "$date": "1989-01-01T00:00:00.000Z"
+    },
+    "releaseDatePrecision": "year",
+    "sides": {
+      "a": [
+        "Iko Iko",
+        "Scatterlings of Africa",
+        "Dry Bones",
+        "At Last",
+        "Lonely Avenue",
+        "Nathan Jones"
+      ],
+      "b": [
+        "Leaving Wallbrook / On the Road",
+        "Las Vegas / End Credits",
+        "Stardust",
+        "Beyond the Blue Horizon"
+      ]
+    },
+    "genre": [
+      "Stage & Screen",
+      "Pop",
+      "Rock",
+      "Funk / Soul"
+    ],
+    "style": [
+      "Soundtrack",
+      "Score",
+      "Pop Rock",
+      "Soul"
+    ],
+    "label": [
+      "Capitol Records"
+    ],
+    "catalogNumber": "C1-91866",
+    "upc": "077779186617",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1793198148/rain_main-original-motion-picture-soundtrack_uavlkd",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1989,
+      "vinylReleaseYear": 1989,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium-High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1989",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Standard Single Sleeve",
+      "pressingPlant": "Specialty Records Corporation",
+      "masteringStudio": "Capitol Mastering",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "C1-1-91866 G-1 H or 1-1 MASTERED BY CAPITOL"
+        },
+        "sideB": {
+          "runout": "C1-2-91866 G-2 1 1-1 MASTERED BY CAPITOL [SRC logo]"
+        }
+      },
+      "notes": [
+        "Original-era U.S. Capitol Records pressing associated with the 1988 motion picture Rain Man.",
+        "The jacket displays 1989 Capitol Records and 1989 United Artists Pictures Inc. copyright information.",
+        "The spine displays catalog number C1-91866.",
+        "Side A runout includes C1-1-91866, G-1, additional partially legible markings, and MASTERED BY CAPITOL.",
+        "Side B runout includes C1-2-91866, G-2 1, 1-1, MASTERED BY CAPITOL, and the interlocking SRC logo.",
+        "The SRC pressing-plant logo was visually confirmed from a photograph of the Side B deadwax.",
+        "The SRC logo identifies Specialty Records Corporation, located in Olyphant, Pennsylvania.",
+        "MASTERED BY CAPITOL is stamped into the deadwax on both sides.",
+        "The precise additional characters in the Side A runout remain uncertain.",
+        "The original first pressing classification is supported by the period catalog number, mastering inscriptions, and pressing-plant stamp, but the exact manufacturing date has not been independently verified.",
+        "An exact Discogs release matching the Specialty Records Corporation runouts has not yet been located."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 3,
+      "date": {
+        "$date": "2026-10-25T00:00:00.000Z"
+      },
+      "location": "Main Street Music"
+    },
+    "userNotes": [
+      "Purchased for $3.00 at Main Street Music on October 25, 2026.",
+      "Rain Man is the soundtrack album for the 1988 drama film directed by Barry Levinson and starring Dustin Hoffman and Tom Cruise.",
+      "The film follows Charlie Babbitt and his estranged autistic brother Raymond on a cross-country journey.",
+      "Rain Man won four Academy Awards, including Best Picture, Best Director, Best Actor for Dustin Hoffman, and Best Original Screenplay.",
+      "The soundtrack combines previously recorded pop, rock, and soul songs with original instrumental music composed by Hans Zimmer.",
+      "The Belle Stars' recording of Iko Iko accompanies one of the film's memorable early sequences.",
+      "Johnny Clegg and Savuka contribute Scatterlings of Africa, reflecting the soundtrack's eclectic musical selection.",
+      "Etta James' At Last and the Delta Rhythm Boys' Dry Bones bring classic rhythm and blues and vocal harmony into the compilation.",
+      "The soundtrack includes two instrumental selections by Hans Zimmer: Leaving Wallbrook / On the Road and Las Vegas / End Credits.",
+      "Zimmer's score blends electronic textures, percussion, and atmospheric instrumental passages, helping establish the sound of his early Hollywood film work.",
+      "Hans Zimmer received an Academy Award nomination for Best Original Score for Rain Man.",
+      "This U.S. pressing was manufactured by Specialty Records Corporation in Olyphant, Pennsylvania, as confirmed by the SRC stamp in the Side B runout.",
+      "The record retains its original-era Capitol mastering inscriptions and is provisionally classified as an Original First Pressing."
+    ],
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   }
 ]
