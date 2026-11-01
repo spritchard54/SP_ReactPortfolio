@@ -9084,5 +9084,125 @@
       "collectionStatus": "My Collection",
       "owner": null
     }
+  },
+  {
+    "_id": {
+      "$oid": "6ae5f2e8cd974d30c177a4f6"
+    },
+    "artist": "J. Roddy Walston & The Business",
+    "albumName": "Essential Tremors",
+    "slug": "j-roddy-walston-the-business-essential-tremors",
+    "originalReleaseDate": {
+      "$date": "2013-09-10T00:00:00.000Z"
+    },
+    "releaseDatePrecision": "full",
+    "sides": {
+      "a": [
+        "Heavy Bells",
+        "Marigold",
+        "Take It As It Comes",
+        "Black Light",
+        "Sweat Shock",
+        "Nobody Knows"
+      ],
+      "b": [
+        "Hard Times",
+        "Boys Can Never Tell",
+        "Same Days",
+        "Tear Jerk",
+        "Midnight Cry"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Indie Rock",
+      "Southern Rock",
+      "Rock & Roll",
+      "Roots Rock"
+    ],
+    "label": [
+      "ATO Records"
+    ],
+    "catalogNumber": "ATO0197",
+    "upc": "880882187910",
+    "discogsLink": "https://www.discogs.com/artist/1403211-J-Roddy-Walston-And-The-Business",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1793454449/j-roddy-walston-and-the-business_essential-tremors_bj0ngn",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2013,
+      "vinylReleaseYear": 2013,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium"
+    },
+    "pressing": {
+      "country": "",
+      "released": "2013",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "Sarah Register",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "ATO-0197 0882187910 A"
+        },
+        "sideB": {
+          "runout": "ATO-0197 0882187910 B"
+        }
+      },
+      "notes": [
+        "Standard black-vinyl edition of Essential Tremors on ATO Records.",
+        "The jacket spine displays catalog number ATO0197.",
+        "The album jacket displays a 2013 ATO Records copyright.",
+        "The back cover credits Matt Wignall and Mark Neill as producers.",
+        "Side A runout reads ATO-0197 0882187910 A.",
+        "Side B runout reads ATO-0197 0882187910 B.",
+        "The runout numbers correspond to the album's catalog and UPC identifiers.",
+        "Sarah Register is credited with mastering the album, but her involvement in cutting this particular lacquer has not been established.",
+        "No identifiable pressing-plant symbol has been confirmed from the supplied runouts.",
+        "The copy is consistent with the original 2013 black-vinyl edition.",
+        "Original First Pressing classification is provisional because an exact Discogs matrix match and manufacturing date have not been established.",
+        "The pressing country remains unverified."
+      ],
+      "manufacturedIn": "",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 10,
+      "date": {
+        "$date": "2026-10-25T00:00:00.000Z"
+      },
+      "location": "Main Street Music"
+    },
+    "userNotes": [
+      "Purchased for $10.00 at Main Street Music on October 25, 2026.",
+      "Essential Tremors is the third studio album by American rock band J. Roddy Walston & The Business, released September 10, 2013, through ATO Records.",
+      "The band consisted of J. Roddy Walston on vocals, piano and guitar, Billy Gordon on guitar and vocals, Logan Davis on bass and vocals, and Steve Colmus on drums.",
+      "The album was recorded at Soil of the South Studios in Valdosta, Georgia, with producers Matt Wignall and Mark Neill.",
+      "Mark Neill previously produced The Black Keys' Brothers, providing an interesting connection to another artist represented in this vinyl collection.",
+      "Matt Wignall is also known for his work with Cold War Kids and Delta Spirit.",
+      "The band's energetic sound combines piano-driven rock and roll, Southern rock, indie rock, and classic soul influences.",
+      "J. Roddy Walston's forceful piano playing and vocals are central to the band's distinctive sound, drawing comparisons to Jerry Lee Lewis and other classic rock performers.",
+      "Heavy Bells opens the album and became one of the band's signature songs.",
+      "The album's sound reflects the intensity of the band's live performances while incorporating more varied arrangements and melodic songwriting than their earlier recordings.",
+      "Essential Tremors helped expand the band's national audience following their signing with ATO Records in 2013.",
+      "This copy is the standard black-vinyl edition with ATO0197 catalog markings and matching runout identifiers."
+    ],
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   }
 ]
