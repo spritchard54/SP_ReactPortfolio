@@ -16,6 +16,7 @@ import "react-leaflet-cluster/dist/assets/MarkerCluster.css";
 import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
 import skiIcon from "/images/ski.png";
 import npsIcon from "/images/nps.png";
+import LocationList from "../components/LocationList";
 
 const iconMap = {
   skiing: new L.Icon({
@@ -212,6 +213,11 @@ export default function Trips() {
                 ))}
               </LayersControl>
             </MapContainer>
+          </div>
+        </div>
+        <div className="row mb-3">
+          <div>
+            <LocationList />
           </div>
         </div>
       </div>
