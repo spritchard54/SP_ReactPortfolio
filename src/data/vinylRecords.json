@@ -9204,5 +9204,152 @@
       "collectionStatus": "My Collection",
       "owner": null
     }
+  },
+  {
+    "_id": {
+      "$oid": "6ae77d2fcd974d30c177a4f7"
+    },
+    "artist": "A Tribe Called Quest",
+    "albumName": "The Low End Theory",
+    "slug": "a-tribe-called-quest-the-low-end-theory",
+    "originalReleaseDate": {
+      "$date": "1991-09-24T00:00:00.000Z"
+    },
+    "releaseDatePrecision": "full",
+    "sides": {
+      "a": [
+        "Excursions",
+        "Buggin' Out",
+        "Rap Promoter",
+        "Butter"
+      ],
+      "b": [
+        "Verses from the Abstract",
+        "Show Business",
+        "Vibes and Stuff"
+      ],
+      "c": [
+        "The Infamous Date Rape",
+        "Check the Rhime",
+        "Everything Is Fair"
+      ],
+      "d": [
+        "Jazz (We've Got)",
+        "Skypager",
+        "What?",
+        "Scenario"
+      ]
+    },
+    "genre": [
+      "Hip Hop"
+    ],
+    "style": [
+      "Conscious Hip Hop",
+      "Jazz Rap",
+      "East Coast Hip Hop",
+      "Alternative Hip Hop"
+    ],
+    "label": [
+      "Jive Records"
+    ],
+    "catalogNumber": "01241-41418-1",
+    "upc": "012414141811",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1793555694/A-Tribe-Called-Quest_The_Low_End_Theory_nuokcz",
+    "pressingStatus": {
+      "classification": "Reissue",
+      "originalReleaseYear": 1991,
+      "vinylReleaseYear": 1996,
+      "isOriginalRelease": false,
+      "isFirstVinylPressing": false,
+      "isReissue": true,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "2000s (exact year unconfirmed)",
+      "format": "2 x LP, Album, Reissue, Remastered, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "United Record Pressing",
+      "masteringStudio": "DMS, New York City",
+      "masteringEngineer": "Tom Coyne",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "0124141-4181-A-RE-3 [superscript 3] NRP [circled U]"
+        },
+        "sideB": {
+          "runout": "0124141-4181-B [superscript 3]-RE-3 NRP [circled U]"
+        },
+        "sideC": {
+          "runout": "0124141 4181-C [superscript 4]-RE-3 NRP [circled U]"
+        },
+        "sideD": {
+          "runout": "0124141 4181-D-RE-3 NRP [circled U]"
+        }
+      },
+      "notes": [
+        "U.S. double-LP reissue of A Tribe Called Quest's 1991 album The Low End Theory.",
+        "The vinyl is standard black across both records.",
+        "The jacket spine displays 01241-41418-1 and Jive Records.",
+        "The UPC is 012414141811.",
+        "All four sides contain RE-3 and NRP inscriptions.",
+        "NRP identifies Nashville Record Productions, associated with the vinyl cutting and mastering.",
+        "All four sides feature a handwritten circled U pressing-plant symbol, visually documented in photographs.",
+        "The circled U identifies United Record Pressing in Nashville, Tennessee.",
+        "Side A runout was transcribed as 0124141-4181-A-RE-3 with a superscript 3, NRP, and circled U.",
+        "Side B runout was transcribed as 0124141-4181-B with a superscript 3, RE-3, NRP, and circled U.",
+        "Side C runout was transcribed as 0124141 4181-C with a superscript 4, RE-3, NRP, and circled U.",
+        "Side D runout was transcribed as 0124141 4181-D-RE-3, NRP, and circled U.",
+        "The runouts closely match Discogs release 9069762, identified as a 2000s-era reissue.",
+        "The exact manufacturing year of this copy is not documented.",
+        "The 1996 date represents the earlier double-LP reissue lineage, not a verified manufacturing date for this copy.",
+        "The album credits Tom Coyne with mastering at DMS in New York City.",
+        "The NRP inscriptions identify a later vinyl-cutting lineage; Tom Coyne should not automatically be credited as the cutting engineer for these specific discs.",
+        "The pressing is classified as a Reissue with high confidence based on the matrix inscriptions, pressing-plant identification, and Discogs comparison."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": 35.99,
+      "date": {
+        "$date": "2026-10-25T00:00:00.000Z"
+      },
+      "location": "Main Street Music"
+    },
+    "userNotes": [
+      "Purchased at Main Street Music on October 25, 2026, for $35.99.",
+      "The Low End Theory is the second studio album by A Tribe Called Quest, released September 24, 1991, through Jive Records.",
+      "The group consisted of Q-Tip, Phife Dawg, Ali Shaheed Muhammad, and Jarobi White, although Jarobi was not an active recording member during this album's production.",
+      "The album is widely regarded as one of the most influential recordings in hip-hop history, particularly for its integration of jazz instrumentation and sampling with stripped-down hip-hop production.",
+      "Its sound emphasizes deep bass lines, jazz samples, crisp drum programming, and the conversational interplay between Q-Tip and Phife Dawg.",
+      "The album's title refers both to low-frequency bass and to the group's musical philosophy of emphasizing rhythm, groove, and musical foundations.",
+      "Legendary jazz bassist Ron Carter, known for his work with Miles Davis and numerous other jazz musicians, plays upright bass on Verses from the Abstract.",
+      "Ron Carter's participation helped connect the album's jazz influences with the musicians who originally developed that musical tradition.",
+      "Phife Dawg takes a much more prominent role on this album than on the group's debut, People's Instinctive Travels and the Paths of Rhythm.",
+      "Buggin' Out is particularly notable for showcasing Phife Dawg's distinctive lyrical personality and chemistry with Q-Tip.",
+      "Check the Rhime became one of the group's signature songs and features memorable exchanges between Q-Tip and Phife Dawg.",
+      "The Check the Rhime music video was filmed in the group's home neighborhood of St. Albans, Queens, New York.",
+      "Jazz (We've Got) is one of the album's clearest expressions of the group's jazz-influenced production style.",
+      "Scenario features Leaders of the New School, including Charlie Brown, Dinco D, and Busta Rhymes.",
+      "Busta Rhymes' explosive closing verse on Scenario became one of the most celebrated guest performances in hip-hop and helped establish him as a major emerging artist.",
+      "Show Business features Diamond D, Lord Jamar, and Sadat X, reflecting the collaborative New York hip-hop scene of the early 1990s.",
+      "The album's production is closely associated with Q-Tip and Ali Shaheed Muhammad, whose approach favored carefully selected jazz samples, prominent bass, and spacious arrangements.",
+      "The album influenced generations of hip-hop musicians and producers and helped establish jazz rap as an important part of alternative hip-hop.",
+      "The distinctive cover artwork features a painted female figure against a dark background with red and green accents, an image that became closely associated with A Tribe Called Quest's visual identity.",
+      "This copy is a later double-LP remastered reissue pressed by United Record Pressing, with RE-3 and NRP inscriptions on all four sides.",
+      "Although the original album was released in 1991 and the double-LP reissue lineage dates to 1996, the exact manufacturing year of this particular pressing remains unknown."
+    ],
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
   }
 ]

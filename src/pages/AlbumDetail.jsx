@@ -1,6 +1,6 @@
 import vinylRecords from "../data/vinylRecords.json";
 import { Helmet } from "react-helmet-async";
-import { Link, useParams, useLocation} from "react-router-dom";
+import { Link, useParams, useLocation } from "react-router-dom";
 
 export default function AlbumDetail() {
   const { albumSlug } = useParams();
@@ -23,7 +23,6 @@ export default function AlbumDetail() {
 
   return (
     <>
-    
       <Helmet>
         <title>{`Steven Pritchard | ${album.albumName}`}</title>
         <meta name="description" content={""} />
@@ -66,13 +65,17 @@ export default function AlbumDetail() {
             </h5>
             <h5>
               <span className="fw-bold">Links:</span>{" "}
-              <a
-                href={album.discogsLink}
-                target="_blank"
-                rel="noopener noreferer"
-              >
-                View on Discogs
-              </a>
+              {album.discogsLink ? (
+                <a
+                  href={album.discogsLink}
+                  target="_blank"
+                  rel="noopener noreferer"
+                >
+                  View on Discogs
+                </a>
+              ) : (
+                "No Links Yet"
+              )}
             </h5>
             <p className="mb-3">
               <Link to={location.state?.from || "/vinyl"}>
