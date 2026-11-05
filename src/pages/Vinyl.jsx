@@ -3,6 +3,7 @@
 import vinylRecords from "../data/vinylRecords.json";
 import { useState, useRef, useEffect } from "react";
 import { Link, useSearchParams, useLocation } from "react-router-dom";
+import { FaEye } from "react-icons/fa";
 
 // Functional React component.
 // This component renders the Vinyl Collection page.
@@ -15,6 +16,11 @@ function Vinyl() {
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const artistDropdownRef = useRef(null);
   const artistListRef = useRef(null);
+  const [revealedAlbums, setRevealedAlbums] = useState([]);
+
+  const revealAlbum = (slug) => {
+    setRevealedAlbums((prev) => [...prev, slug]);
+  };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -352,24 +358,43 @@ function Vinyl() {
                     -> display fallback text
                   */}
                   {record.artwork ? (
-                    <Link
-                      to={`/vinyl/${record.slug}`}
-                      state={{ from: `/vinyl${location.search}` }}
-                    >
-                      <img
-                        // Image source URL from JSON data
-                        src={record.artwork}
-                        // Bootstrap image/card spacing classes
-                        className="card-img-top mb-3 album-cover"
-                        // Accessibility text for screen readers
-                        alt={`${record.albumName} album cover`}
-                        // Lazy loading improves performance
-                        // Images load only when needed
-                        loading="lazy"
-                      />
-                    </Link>
+                    record.sensitiveContent &&
+                    !revealedAlbums.includes(record.slug) ? (
+                      // Sensitive artwork that hasn't been revealed
+                      <button
+                        type="button"
+                        className="sensitive-artwork-button mb-3"
+                        onClick={() => revealAlbum(record.slug)}
+                        aria-label={`Reveal sensitive artwork for ${record.albumName}`}
+                      >
+                        <img
+                          src={record.artwork}
+                          className="card-img-top album-cover sensitive-blur"
+                          alt=""
+                          loading="lazy"
+                        />
+                        <span className="sensitive-artwork-overlay">
+                          Sensitive Content
+                          <small>Click to Reveal</small>
+                          <FaEye size={20} aria-hidden="true" />
+                        </span>
+                      </button>
+                    ) : (
+                      // Normal artwork or previously revealed artwork
+                      <Link
+                        to={`/vinyl/${record.slug}`}
+                        state={{ from: `/vinyl${location.search}` }}
+                      >
+                        <img
+                          src={record.artwork}
+                          className="card-img-top mb-3 album-cover"
+                          alt={`${record.albumName} album cover`}
+                          loading="lazy"
+                        />
+                      </Link>
+                    )
                   ) : (
-                    // Fallback content when no image exists
+                    // Existing fallback when no artwork is available
                     <Link
                       to={`/vinyl/${record.slug}`}
                       state={{ from: `/vinyl${location.search}` }}
