@@ -9354,5 +9354,263 @@
       "collectionStatus": "My Collection",
       "owner": null
     }
+  },
+  {
+    "_id": {
+      "$oid": "6af250f8cd974d30c177a4f8"
+    },
+    "artist": "Humble Pie",
+    "albumName": "Smokin'",
+    "slug": "humble-pie-smokin",
+    "originalReleaseDate": {
+      "$date": "1972-03-01T00:00:00.000Z"
+    },
+    "releaseDatePrecision": "month-year",
+    "sides": {
+      "a": [
+        "Hot 'N' Nasty",
+        "The Fixer",
+        "You're So Good For Me",
+        "C'mon Everybody",
+        "Old Time Feelin'"
+      ],
+      "b": [
+        "30 Days in the Hole",
+        "Road Runner / Road Runners 'G' Jam",
+        "I Wonder",
+        "Sweet Peace and Time"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Blues Rock",
+      "Hard Rock",
+      "Psychedelic Rock"
+    ],
+    "label": [
+      "A&M Records"
+    ],
+    "catalogNumber": "SP-4342",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1794264833/humble_pie-smokin_roejnm",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1972,
+      "vinylReleaseYear": 1972,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1972 (exact pressing date unconfirmed)",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Standard Single Sleeve, Hollywood Address Variation",
+      "pressingPlant": "Columbia Records Pressing Plant, Pitman, New Jersey",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "A&M SP4583(RE-1)-P4"
+        },
+        "sideB": {
+          "runout": "A&M SP4584(RE-1)-P4"
+        }
+      },
+      "notes": [
+        "U.S. A&M Records pressing of Humble Pie's 1972 album Smokin'.",
+        "The jacket spine displays A&M SP4342.",
+        "The record has no UPC barcode.",
+        "Side A center label displays SP4342 and matrix number SP-4583.",
+        "Side B center label displays SP4342 and matrix number SP-4584.",
+        "Side A deadwax reads A&M SP4583(RE-1)-P4.",
+        "Side B deadwax reads A&M SP4584(RE-1)-P4.",
+        "Both runouts match documented Columbia Records Pitman pressing variants.",
+        "The P4 suffix is consistent with the Pitman pressing identification.",
+        "RE-1 indicates a revised lacquer cut and does not necessarily establish a later reissue.",
+        "The back cover displays the A&M Records Hollywood address rather than the Beverly Hills P.O. Box address.",
+        "The Hollywood-address sleeve is associated with a later jacket variation.",
+        "The record and jacket may have been manufactured in different production batches.",
+        "The precise manufacturing date remains unverified.",
+        "Original First Pressing classification is provisional because the Hollywood-address jacket and revised lacquer inscriptions do not conclusively establish first-pressing status.",
+        "The back cover credits recording at Olympic Sound Studios in February 1972.",
+        "Production is credited to The Pie, referring to Humble Pie.",
+        "No exact Discogs release has been independently verified for the combination of runouts and Hollywood-address jacket."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "Poor (P)",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of WEP's extended vinyl collection.",
+      "The vinyl disc is severely warped, possibly from exposure to excessive heat.",
+      "The first three tracks on Side A and the first three tracks on Side B are largely unplayable because of the warping.",
+      "The cause of the warping has not been confirmed.",
+      "Media condition is classified as Poor (P) because the physical deformation substantially interferes with playback.",
+      "Smokin' is the fifth studio album by English rock band Humble Pie, originally released in March 1972.",
+      "The album was recorded at Olympic Studios in London and produced by the band under the collective credit The Pie.",
+      "Smokin' was the band's first studio album following the departure of founding guitarist Peter Frampton, who left in 1971 to pursue a solo career.",
+      "Guitarist Dave Clempson joined the lineup alongside Steve Marriott, Greg Ridley, and Jerry Shirley.",
+      "The album reached number 6 on the Billboard 200, becoming Humble Pie's highest-charting album in the United States.",
+      "30 Days in the Hole became one of Humble Pie's signature songs and remains a classic-rock radio staple.",
+      "The album's sound combines blues-based hard rock, boogie, soul, and the powerful vocals of Steve Marriott.",
+      "C'mon Everybody is a reinterpretation of the rock-and-roll song originally recorded by Eddie Cochran.",
+      "The album includes guest contributions from musicians associated with the British blues and soul scenes.",
+      "Smokin' followed the band's successful 1971 live album Performance: Rockin' the Fillmore, which helped establish their reputation as a major live rock act.",
+      "The album represents Humble Pie's transition into a heavier, more blues-oriented sound after Peter Frampton's departure.",
+      "This copy is a U.S. Pitman pressing with revised RE-1 lacquer inscriptions and a Hollywood-address jacket variation."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "WEP"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af259a5cd974d30c177a4fa"
+    },
+    "artist": "Creedence Clearwater Revival",
+    "albumName": "Willy and the Poor Boys",
+    "slug": "creedence-clearwater-revival-willy-and-the-poor-boys",
+    "originalReleaseDate": {
+      "$date": {
+        "$numberLong": "-5184000000"
+      }
+    },
+    "releaseDatePrecision": "full",
+    "sides": {
+      "a": [
+        "Down on the Corner",
+        "It Came Out of the Sky",
+        "Cotton Fields",
+        "Poorboy Shuffle",
+        "Feelin' Blue"
+      ],
+      "b": [
+        "Fortunate Son",
+        "Don't Look Now (It Ain't You or Me)",
+        "The Midnight Special",
+        "Side o' the Road",
+        "Effigy"
+      ]
+    },
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Blues Rock",
+      "Swamp Rock",
+      "Roots Rock",
+      "Country Rock"
+    ],
+    "label": [
+      "Fantasy Records"
+    ],
+    "catalogNumber": "8397",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1794267110/creedance_clearwater_revival-willy_and_the_poorboys_kabmsi",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1969,
+      "vinylReleaseYear": 1969,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1969 (original-era pressing; exact manufacturing year unconfirmed)",
+      "format": "LP, Album, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "F-2762--1C--C4J R"
+        },
+        "sideB": {
+          "runout": "F-2763-6-C1F"
+        }
+      },
+      "notes": [
+        "U.S. Fantasy Records stereo pressing with catalog number 8397.",
+        "The front cover displays Fantasy 8397.",
+        "The back cover includes the statement All Selections BMI.",
+        "No UPC barcode is present.",
+        "The record features a dark blue Fantasy Full Radial Stereo center label.",
+        "The label has a large silver Fantasy logo, silver lettering, and a circular border.",
+        "The center label design was visually confirmed from a photograph supplied by the owner.",
+        "Side A center label displays matrix number F-2762.",
+        "Side B matrix is identified as F-2763.",
+        "Side A deadwax was transcribed as F-2762--1C--C4J, with an additional R marking.",
+        "Side B deadwax was transcribed as F-2763-6-C1F.",
+        "The matrix numbers correspond to the original Fantasy 8397 release family.",
+        "The isolated R marking on Side A has not been conclusively associated with a pressing plant.",
+        "The dark blue Full Radial Stereo label is consistent with original-era Fantasy pressings.",
+        "Fantasy used similar blue labels across multiple manufacturing periods, so the label design alone does not prove a 1969 pressing date.",
+        "Original First Pressing classification is provisional, with medium confidence.",
+        "The exact pressing plant and manufacturing date remain unconfirmed.",
+        "No exact Discogs release has been independently verified against both runout inscriptions."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of CSP's extended vinyl collection.",
+      "Willy and the Poor Boys is the fourth studio album by Creedence Clearwater Revival, originally released November 2, 1969, through Fantasy Records.",
+      "It was the third studio album CCR released in 1969, following Bayou Country in January and Green River in August.",
+      "The album was produced by John Fogerty, who also served as the band's lead vocalist, principal songwriter, and lead guitarist.",
+      "The classic Creedence Clearwater Revival lineup consisted of John Fogerty, Tom Fogerty, Stu Cook, and Doug Clifford.",
+      "The album reached number 3 on the Billboard 200 and became one of the band's most commercially successful recordings.",
+      "Down on the Corner and Fortunate Son were released together as a double-sided single in 1969.",
+      "Down on the Corner tells the story of a fictional street-corner jug band called Willy and the Poor Boys, which inspired the album's title and cover concept.",
+      "Fortunate Son became one of the defining protest songs of the Vietnam War era.",
+      "John Fogerty wrote Fortunate Son as a criticism of inherited privilege and the unequal burdens of military service, particularly the advantages enjoyed by wealthy and politically connected families.",
+      "Although strongly associated with the Vietnam War, Fortunate Son is more broadly a protest against class inequality and political hypocrisy.",
+      "Fortunate Son was later selected for preservation in the National Recording Registry by the Library of Congress.",
+      "Cotton Fields is a traditional American folk and blues song popularized by Lead Belly, reflecting CCR's interest in earlier American roots music.",
+      "The Midnight Special is another traditional folk song associated with Lead Belly and the American prison-song tradition.",
+      "Poorboy Shuffle features a loose acoustic jug-band arrangement, providing a contrast to the band's heavier electric recordings.",
+      "Side o' the Road is an instrumental track that highlights the band's blues-based musicianship.",
+      "Effigy closes the album with an extended, ominous arrangement and politically charged lyrics.",
+      "Despite originating in the San Francisco Bay Area, CCR developed a distinctive swamp-rock sound influenced by Southern blues, country, gospel, and early rock and roll.",
+      "The album is widely regarded as one of CCR's essential recordings and an important example of American roots rock.",
+      "This copy retains the original-era dark blue Fantasy Full Radial Stereo center-label design and early-style matrix inscriptions.",
+      "The exact pressing plant and manufacturing year have not been established."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "CSP"
+    }
   }
 ]
