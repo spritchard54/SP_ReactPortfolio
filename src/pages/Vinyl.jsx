@@ -1,14 +1,11 @@
-// Import vinyl data from the JSON file.
-// Because this is a JSON file, it is imported as a default export.
 import vinylRecords from "../data/vinylRecords.json";
 import { useState, useRef, useEffect } from "react";
-import { Link, useSearchParams, useLocation } from "react-router-dom";
-import { FaEye } from "react-icons/fa";
+import { useSearchParams, useLocation } from "react-router-dom";
+
 import CollectionStatCard from "../components/CollectionStatCard";
 import CollectionFilter from "../components/CollectionFilter";
+import AlbumCard from "../components/AlbumCard";
 
-// Functional React component.
-// This component renders the Vinyl Collection page.
 function Vinyl() {
   const [selectedArtist, setSelectedArtist] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("");
@@ -16,9 +13,10 @@ function Vinyl() {
   const [artistSearch, setArtistSearch] = useState("");
   const [artistDropdownOpen, setArtistDropdownOpen] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
+  const [revealedAlbums, setRevealedAlbums] = useState([]);
+
   const artistDropdownRef = useRef(null);
   const artistListRef = useRef(null);
-  const [revealedAlbums, setRevealedAlbums] = useState([]);
 
   const revealAlbum = (slug) => {
     setRevealedAlbums((prev) => [...prev, slug]);
@@ -285,173 +283,26 @@ function Vinyl() {
         />
       </div>
 
-      {/* 
-        Bootstrap responsive grid:
-        - row-cols-1 = 1 card per row on extra small screens
-        - row-cols-sm-2 = 2 cards per row on small screens
-        - row-cols-md-3 = 3 cards per row on medium screens
-        - row-cols-xl-5 = 5 cards per row on extra large screens
-        - g-2 = grid spacing (gutters) between cards
-      */}
-
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 g-2">
-        {/* 
-          Create a copy of the array before sorting.
-          Why? .sort() mutates the original array.
-          Using [...filteredRecords] preserves the original data.
-        */}
         {[...filteredRecords]
-
-          // Sort albums alphabetically by artist name.
-          // We remove "The" from artist names so
-          // "The Black Keys" sorts under B instead of T.
           .sort((a, b) =>
             a.artist
-              .replace(/The /i, "")
+              .replace(/^The /i, "")
               .localeCompare(b.artist.replace(/^The /i, "")),
           )
-          // Loop through each record and render a card.
-          // .map() transforms array items into JSX elements.
           .map((record) => (
-            /*
-              Bootstrap column.
-              key is required by React when rendering lists.
-              We use MongoDB's unique object ID.
-            */
-            <div className="col" key={record._id.$oid}>
-              {/* h-100 makes all cards equal height */}
-              <div className="card h-100">
-                {/* Card content */}
-                <div className="card-body d-flex flex-column">
-                  {/* 
-                    Conditional rendering using a ternary operator.
-                    
-                    If artwork exists:
-                    -> render image
-                    
-                    If artwork does NOT exist:
-                    -> display fallback text
-                  */}
-                  {record.artwork ? (
-                    record.sensitiveContent &&
-                    !revealedAlbums.includes(record.slug) ? (
-                      // Sensitive artwork that hasn't been revealed
-                      <button
-                        type="button"
-                        className="sensitive-artwork-button mb-3"
-                        onClick={() => revealAlbum(record.slug)}
-                        aria-label={`Reveal sensitive artwork for ${record.albumName}`}
-                      >
-                        <img
-                          src={record.artwork}
-                          className="card-img-top album-cover sensitive-blur"
-                          alt=""
-                          loading="lazy"
-                        />
-                        <span className="sensitive-artwork-overlay">
-                          Sensitive Content
-                          <small>Click to Reveal</small>
-                          <FaEye size={20} aria-hidden="true" />
-                        </span>
-                      </button>
-                    ) : (
-                      // Normal artwork or previously revealed artwork
-                      <Link
-                        to={`/vinyl/${record.slug}`}
-                        state={{ from: `/vinyl${location.search}` }}
-                      >
-                        <img
-                          src={record.artwork}
-                          className="card-img-top mb-3 album-cover"
-                          alt={`${record.albumName} album cover`}
-                          loading="lazy"
-                        />
-                      </Link>
-                    )
-                  ) : (
-                    // Existing fallback when no artwork is available
-                    <Link
-                      to={`/vinyl/${record.slug}`}
-                      state={{ from: `/vinyl${location.search}` }}
-                    >
-                      <div className="mb-3 album-cover">
-                        Image coming soon...
-                      </div>
-                    </Link>
-                  )}
-
-                  <h5 className="card-subtitle mb-2 text-muted">
-                    {record.artist}
-                  </h5>
-
-                  <p className="card-text">
-                    <strong>Album:</strong>{" "}
-                    <Link
-                      to={`/vinyl/${record.slug}`}
-                      state={{ from: `/vinyl${location.search}` }}
-                    >
-                      {record.albumName}
-                    </Link>
-                  </p>
-
-                  <p className="card-text">
-                    <strong>Release Year: </strong>
-                    {getReleaseYear(record.originalReleaseDate)}
-                  </p>
-
-                  <p className="card-text">
-                    <strong>Genre:</strong>{" "}
-                    {/* 
-                    Genre display
-                    Some records have:
-                    genre: "Rock"
-
-                    Others have:
-                    genre: ["Rock", "Blues"]
-
-                    We check if genre is an array.
-                  */}
-                    {Array.isArray(record.genre) ? (
-                      /*
-                        If genre is an array:
-                        loop through genres and create badges
-                      */
-                      record.genre.map((genre) => (
-                        <span
-                          key={genre}
-                          className="badge text-bg-secondary me-2"
-                        >
-                          {genre}
-                        </span>
-                      ))
-                    ) : (
-                      /*
-                        If genre is NOT an array:
-                        display single genre badge
-                      */
-                      <span className="badge text-bg-secondary me-2">
-                        {record.genre}
-                      </span>
-                    )}
-                  </p>
-                  <p className="card-text">
-                    <strong>Label:</strong>{" "}
-                    {Array.isArray(record.label)
-                      ? record.label.join(", ")
-                      : record.label}
-                  </p>
-                  {/* <p className="card-text mt-auto text-end mb-0">
-                    <Link to={`/vinyl/${record.slug}`}>
-                    more...
-                    </Link>
-                  </p> */}
-                </div>
-              </div>
-            </div>
+            <AlbumCard
+              record={record}
+              isRevealed={revealedAlbums.includes(record.slug)}
+              revealAlbum={revealAlbum}
+              locationSearch={location.search}
+              releaseYear={getReleaseYear}
+              key={record._id.$oid}
+            />
           ))}
       </div>
     </div>
   );
 }
-// Export component so it can be imported into routes/pages
+
 export default Vinyl;
