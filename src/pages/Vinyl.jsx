@@ -4,6 +4,8 @@ import vinylRecords from "../data/vinylRecords.json";
 import { useState, useRef, useEffect } from "react";
 import { Link, useSearchParams, useLocation } from "react-router-dom";
 import { FaEye } from "react-icons/fa";
+import CollectionStatCard from "../components/CollectionStatCard";
+import CollectionFilter from "../components/CollectionFilter";
 
 // Functional React component.
 // This component renders the Vinyl Collection page.
@@ -150,34 +152,22 @@ function Vinyl() {
       </p>
       <div className="row mb-4 gx-3">
         <div className="col-xl-4 col-sm-12 mb-2 d-flex">
-          <div className="card w-100 h-100">
-            <div className="card-body">
-              <div className="card-title countHeader">
-                <h4>Number of records in my collection</h4>
-              </div>
-              <div className="count">{myCollectionCount}</div>
-            </div>
-          </div>
+          <CollectionStatCard
+            title="Number of records in my collection"
+            count={myCollectionCount}
+          />
         </div>
         <div className="col-xl-4 col-sm-12 mb-2 d-flex">
-          <div className="card w-100 h-100">
-            <div className="card-body">
-              <div className="card-title countHeader">
-                <h4>Number of records in my extended collection</h4>
-              </div>
-              <div className="count">{extCollectionCount}</div>
-            </div>
-          </div>
+          <CollectionStatCard
+            title="Number of records in my extended collection"
+            count={extCollectionCount}
+          />
         </div>
         <div className="col-xl-4 col-sm-12 mb-2 d-flex">
-          <div className="card w-100 h-100">
-            <div className="card-body">
-              <div className="card-title countHeader">
-                <h4>Total records in my collection</h4>
-              </div>
-              <div className="count">{totalRecords}</div>
-            </div>
-          </div>
+          <CollectionStatCard
+            title="Total records in my collection"
+            count={totalRecords}
+          />
         </div>
       </div>
       <div className="row mb-4">
@@ -278,36 +268,21 @@ function Vinyl() {
             )}
           </div>
         </div>
-        <div className="col-md-4">
-          <label className="form-label">Filter by Genre</label>
-          <select
-            className="form-select"
-            value={selectedGenre}
-            onChange={(e) => setSelectedGenre(e.target.value)}
-          >
-            <option value="">All Genres</option>
-            {genres.map((genre) => (
-              <option key={genre} value={genre}>
-                {genre}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div className="col-md-4">
-          <label className="form-label">Filter by Decade</label>
-          <select
-            className="form-select"
-            value={selectedDecade}
-            onChange={(e) => setSelectedDecade(e.target.value)}
-          >
-            <option value="">All Decades</option>
-            {decades.map((decade) => (
-              <option key={decade} value={decade}>
-                {`${decade}s`}
-              </option>
-            ))}
-          </select>
-        </div>
+        <CollectionFilter
+          label="Filter by Genre"
+          value={selectedGenre}
+          onChange={setSelectedGenre}
+          options={genres}
+          defaultLabel={"All Genres"}
+        />
+        <CollectionFilter
+          label="Filter by Decade"
+          value={selectedDecade}
+          onChange={setSelectedDecade}
+          options={decades}
+          defaultLabel={"All Decades"}
+          isDecade={true}
+        />
       </div>
 
       {/* 
