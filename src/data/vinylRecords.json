@@ -9612,5 +9612,139 @@
       "collectionStatus": "Extended Collection",
       "owner": "CSP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6af765afcd974d30c177a4fb"
+    },
+    "artist": "Donovan",
+    "albumName": "Donovan's Greatest Hits",
+    "slug": "donovan-donovans-greatest-hits",
+    "originalReleaseDate": {
+      "$date": {
+        "$numberLong": "-31536000000"
+      }
+    },
+    "releaseDatePrecision": "month-year",
+    "sides": {
+      "a": [
+        "Epistle to Dippy",
+        "Sunshine Superman",
+        "There Is a Mountain",
+        "Jennifer Juniper",
+        "Wear Your Love Like Heaven",
+        "Season of the Witch"
+      ],
+      "b": [
+        "Mellow Yellow",
+        "Colours",
+        "Hurdy Gurdy Man",
+        "Catch the Wind",
+        "Laléna"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Folk Rock",
+      "Psychedelic Rock",
+      "Psychedelic Pop",
+      "Folk"
+    ],
+    "label": [
+      "Epic Records"
+    ],
+    "catalogNumber": "BXN 26439",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1794598294/donovan-donovans_greatest_hits_f2ckxq",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1969,
+      "vinylReleaseYear": 1969,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium-High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1969",
+      "format": "LP, Compilation, Stereo",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Gatefold with Attached Photographic Booklet",
+      "pressingPlant": "Columbia Records Pressing Plant, Pitman, New Jersey",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "XSB138953-1G P 3"
+        },
+        "sideB": {
+          "runout": "XSB138954-1H P 3"
+        }
+      },
+      "notes": [
+        "Original-era U.S. stereo pressing of Donovan's Greatest Hits on Epic Records.",
+        "The jacket spine displays catalog number BXN 26439.",
+        "The record features yellow Epic center labels with black lettering.",
+        "Side A center label displays BXN 26439 and matrix number XSB 138953.",
+        "Side B center label displays BXN 26439 and matrix number XSB 138954.",
+        "Side A deadwax reads XSB138953-1G, P, and 3.",
+        "Side B deadwax reads XSB138954-1H, P, and 3.",
+        "The P markings on both sides are consistent with Columbia Records' Pitman pressing plant in New Jersey.",
+        "The 1G and 1H suffixes identify different lacquer cuts within Columbia's matrix numbering system.",
+        "Both center labels credit D. Leitch as songwriter and Mickie Most as producer.",
+        "The center labels include the Epic trademark statement and Printed in the USA.",
+        "Side B identifies Mellow Yellow as electronically rechanneled for stereo.",
+        "The album is housed in its original-style gatefold jacket.",
+        "The original photographic booklet remains attached inside the gatefold.",
+        "The yellow Epic labels, matrix inscriptions, and gatefold packaging are consistent with the original 1969 release configuration.",
+        "Original First Pressing classification is provisional because the precise manufacturing date and earliest pressing status have not been conclusively established.",
+        "No exact Discogs release has been independently verified against both runout inscriptions."
+      ],
+      "manufacturedIn": "USA",
+      "speed": "33 ⅓ RPM"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of CSP's extended vinyl collection.",
+      "Donovan's Greatest Hits is a compilation album by Scottish singer-songwriter Donovan, originally released in January 1969 through Epic Records in the United States.",
+      "Donovan was born Donovan Phillips Leitch in Glasgow, Scotland, in 1946.",
+      "The compilation captures Donovan's transition from acoustic folk music to the psychedelic folk-rock and pop arrangements that defined much of his later 1960s work.",
+      "The album reached number 4 on the Billboard 200, becoming Donovan's highest-charting album in the United States.",
+      "The album was produced by Mickie Most, whose production credits also include recordings by The Animals, Herman's Hermits, and Jeff Beck.",
+      "Sunshine Superman reached number 1 on the Billboard Hot 100 in 1966 and helped establish psychedelic pop as a mainstream musical style.",
+      "This compilation features the extended version of Sunshine Superman rather than the shorter hit single edit.",
+      "Jimmy Page contributed guitar to the original recording of Sunshine Superman before forming Led Zeppelin.",
+      "Season of the Witch became one of Donovan's most influential compositions and has been interpreted by numerous artists, including Al Kooper, Stephen Stills, and Julie Driscoll with Brian Auger and the Trinity.",
+      "Mellow Yellow reached number 2 on the Billboard Hot 100 in 1966.",
+      "Mellow Yellow is presented in electronically rechanneled stereo on this pressing, as indicated by the Side B center label.",
+      "Colours and Catch the Wind were newly recorded in 1968 for this compilation rather than using their original 1965 recordings.",
+      "These rerecorded versions make the original vinyl compilation distinct from certain later remastered editions that substitute the earlier recordings.",
+      "Hurdy Gurdy Man reflects Donovan's exploration of Indian musical and spiritual influences during the late 1960s.",
+      "Donovan traveled to Rishikesh, India, in 1968 to study transcendental meditation alongside members of The Beatles.",
+      "Jennifer Juniper was inspired by Jenny Boyd, the sister of Pattie Boyd, who was married to George Harrison at the time.",
+      "Donovan helped popularize the fingerpicking guitar technique that John Lennon used on several songs recorded for The Beatles' 1968 White Album.",
+      "The album's original gatefold packaging includes a photographic booklet documenting Donovan's life and career.",
+      "CSP's copy retains the attached photographic booklet, an important part of the original album packaging.",
+      "The record is consistent with an original-era U.S. Pitman pressing, although its exact manufacturing date remains unconfirmed."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "CSP"
+    }
   }
 ]
