@@ -55,11 +55,16 @@ export function Navbar() {
               </NavLink>
             </li>
 
-            {/* <li className="nav-item">
-              <NavLink className="nav-link" to="/vinyl" onClick={closeMenu}>
-                Vinyl
-              </NavLink>
-            </li> */}
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="https://developer-quick-reference-guide.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Dev QRG
+              </a>
+            </li>
 
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact" onClick={closeMenu}>
