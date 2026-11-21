@@ -9746,5 +9746,412 @@
       "collectionStatus": "Extended Collection",
       "owner": "CSP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6b005bf5cd974d30c177a4fc"
+    },
+    "artist": "Menahan Street Band",
+    "albumName": "Illusions",
+    "slug": "menahan-street-band-illusions",
+    "originalReleaseDate": {
+      "$date": "2026-11-13T00:00:00.000Z"
+    },
+    "releaseDatePrecision": "full",
+    "sides": {
+      "a": [
+        "Palace of Illusions",
+        "Aurora Was Her Name",
+        "Gentleman's Getaway",
+        "El-Onta's Dance",
+        "Sound of Distant Thunder"
+      ],
+      "b": [
+        "The Emerald Courtyard",
+        "Crystal Crown",
+        "Another Magic Morning",
+        "There Before the Sun",
+        "City After City"
+      ]
+    },
+    "genre": [
+      "Funk",
+      "Soul"
+    ],
+    "style": [
+      "Instrumental",
+      "Jazz-Funk",
+      "Psychedelic Soul",
+      "Cinematic Soul"
+    ],
+    "label": [
+      "Diamond West Records"
+    ],
+    "catalogNumber": "DWR-010",
+    "upc": "617308067668",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1795185723/menahan_street_band-illusions_l5yu2m",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 2026,
+      "vinylReleaseYear": 2026,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "High"
+    },
+    "pressing": {
+      "country": "",
+      "released": "2026-11-13",
+      "format": "LP, Album, Stereo",
+      "speed": "33 ⅓ RPM",
+      "color": "Black",
+      "weight": "",
+      "jacket": "",
+      "pressingPlant": "Record Technology Incorporated (RTI) - probable, unverified",
+      "masteringStudio": "Golden Mastering, Ventura, California",
+      "masteringEngineer": "JJ Golden",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "DWR-010 A JJ Golden 48471.1(2)"
+        },
+        "sideB": {
+          "runout": "DWR-010 B JJ Golden 48471.2(2)"
+        }
+      },
+      "notes": [
+        "Standard black-vinyl edition released in November 2026 on Diamond West Records.",
+        "The catalog number DWR-010 appears on the spine and is reflected in the record labels and runout inscriptions.",
+        "Side A center label identifies Diamond West Records, DWR 010-A, and producer Tommy Brenneck.",
+        "Side B center label identifies Diamond West Records, DWR 010-B, and producer Tommy Brenneck.",
+        "Side A deadwax reads DWR-010 A, JJ Golden, and 48471.1(2), with additional trailing markings not fully transcribed.",
+        "Side B deadwax reads DWR-010 B, JJ Golden, and 48471.2(2), with additional trailing markings not fully transcribed.",
+        "The 48471.1(2) and 48471.2(2) matrix numbers resemble the numbering format used by Record Technology Incorporated (RTI).",
+        "RTI is a probable pressing plant based on the matrix inscriptions, but this attribution has not been independently confirmed.",
+        "The back cover credits JJ Golden at Golden Mastering in Ventura, California, as mastering engineer.",
+        "The album was produced by Tommy Brenneck.",
+        "The record is standard black vinyl, as confirmed by the owner.",
+        "Purchased five days after the album's official release date, strongly supporting identification as an initial-release pressing.",
+        "Original First Pressing classification is based on the release date, purchase date, catalog information, and matching runouts; exact manufacturing date remains unverified.",
+        "An exact Discogs release matching both runout inscriptions has not yet been verified."
+      ],
+      "manufacturedIn": ""
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "date": {
+        "$date": "2026-11-18T00:00:00.000Z"
+      },
+      "price": 26.99,
+      "location": "Main Street Music"
+    },
+    "userNotes": [
+      "Purchased new at Main Street Music on November 18, 2026, for $26.99, just five days after the album's official release.",
+      "Illusions is the fourth full-length studio album by Menahan Street Band, released November 13, 2026, through Diamond West Records.",
+      "The album marks the band's return approximately twenty years after its formation in Brooklyn, New York.",
+      "Menahan Street Band was formed in Tommy Brenneck's Bushwick apartment on Menahan Street, which provided the group's name.",
+      "The core group consists of Tommy Brenneck, Dave Guy, Nick Movshon, Leon Michels, and Homer Steinweiss.",
+      "Illusions was released through Diamond West Records, the label founded and operated by Tommy Brenneck.",
+      "Brenneck produced the album, bringing together musicians who had pursued numerous independent recording, production, and touring projects.",
+      "The album features string arrangements by influential Brazilian composer and arranger Arthur Verocai.",
+      "Verocai is known for his distinctive orchestral arrangements combining Brazilian music, jazz, soul, and cinematic textures.",
+      "The record blends Menahan Street Band's established instrumental soul sound with atmospheric orchestral arrangements.",
+      "The album contains ten instrumental compositions divided evenly across two sides.",
+      "Its music draws from funk, soul, jazz, and cinematic instrumental traditions.",
+      "Tommy Brenneck has also performed with The Budos Band and worked as a producer for artists including Baby Rose and Rogê.",
+      "Trumpeter Dave Guy performs with The Roots, the house band for The Tonight Show Starring Jimmy Fallon.",
+      "Leon Michels is the creative force behind El Michels Affair and the founder of Big Crown Records.",
+      "Drummer Homer Steinweiss and bassist Nick Movshon have contributed to numerous influential soul, funk, and pop recordings.",
+      "Menahan Street Band became widely recognized through its association with soul singer Charles Bradley, whose recordings featured several members of the group.",
+      "The band's recording The Traitor was sampled by Jay-Z for Roc Boys (And the Winner Is)... from his 2007 album American Gangster.",
+      "The cover artwork for Illusions was created by artist Ariana Papademetropoulos.",
+      "The album was recorded with an emphasis on spontaneity and the musical chemistry of the reunited band.",
+      "Illusions follows the band's earlier full-length albums Make the Road by Walking, The Crossing, and The Exciting Sounds of Menahan Street Band.",
+      "This copy joins Make the Road by Walking and The Crossing in the owner's personal vinyl collection.",
+      "The standard black-vinyl copy preserves the JJ Golden mastering inscriptions and probable RTI matrix numbering.",
+      "The album represents a new chapter for the group through its move to Diamond West Records and collaboration with Arthur Verocai."
+    ],
+    "ownership": {
+      "collectionStatus": "My Collection",
+      "owner": null
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b01f37fcd974d30c177a4fd"
+    },
+    "artist": "Gary Lewis & The Playboys",
+    "albumName": "Hits Again!",
+    "slug": "gary-lewis-and-the-playboys-hits-again",
+    "originalReleaseDate": {
+      "$date": {
+        "$numberLong": "-115516800000"
+      }
+    },
+    "releaseDatePrecision": "month-year",
+    "sides": {
+      "a": [
+        "Look Through Any Window",
+        "It's Too Late",
+        "Face in the Crowd",
+        "A Well Respected Man",
+        "Rubber Ball",
+        "Green Grass"
+      ],
+      "b": [
+        "Autumn",
+        "One Track Mind",
+        "You Baby",
+        "I Can Read Between the Lines",
+        "Daydream",
+        "Sure Gonna Miss Her"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Pop Rock",
+      "Rock & Roll"
+    ],
+    "label": [
+      "Liberty Records"
+    ],
+    "catalogNumber": "LRP-3452",
+    "upc": "",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1795290040/gary-lewis-and-the-playboys_hits-again_exmsm1",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1966,
+      "vinylReleaseYear": 1966,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium-High"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "May 1966 (original release; exact pressing date unconfirmed)",
+      "format": "LP, Album, Mono",
+      "speed": "33 ⅓ RPM",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Standard Single Sleeve",
+      "pressingPlant": "",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "LRP-3452-1-SIDE 1"
+        },
+        "sideB": {
+          "runout": "LRP-3452-1-SIDE 2"
+        }
+      },
+      "notes": [
+        "Original-era U.S. mono edition on Liberty Records, catalog number LRP-3452.",
+        "The front cover and spine display Liberty Records catalog number LRP-3452.",
+        "The front cover includes the statement Printed in USA.",
+        "The back cover identifies LRP-3452 as the mono catalog number and advertises a separately available stereo edition.",
+        "The stereo edition was issued as LST-7452.",
+        "Both center labels display the original-style Liberty rainbow design.",
+        "The labels feature the Liberty Records logo with the Statue of Liberty and multicolored bands surrounding the center label.",
+        "The labels identify the album as Hits Again! by Gary Lewis & The Playboys.",
+        "Both labels credit Leon Russell with the musical arrangements.",
+        "Side A runout reads LRP-3452-1-SIDE 1.",
+        "Side B runout reads LRP-3452-1-SIDE 2.",
+        "The catalog number, rainbow labels, and matching mono matrices are consistent with the album's original 1966 release period.",
+        "The pressing plant has not been identified from the available runout inscriptions.",
+        "The exact manufacturing date and earliest pressing batch have not been independently confirmed.",
+        "Original First Pressing is a provisional classification based on the original-era characteristics of the copy.",
+        "The supplied label photograph shows visible surface marks; playback condition has not been established.",
+        "No exact Discogs release matching both runout inscriptions has been verified."
+      ],
+      "manufacturedIn": "USA"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of CSP's extended vinyl collection.",
+      "Hits Again! is a studio album by American pop-rock group Gary Lewis & The Playboys, released in May 1966 by Liberty Records.",
+      "The album reached number 47 on the Billboard 200.",
+      "Gary Lewis is the son of comedian, actor, and filmmaker Jerry Lewis.",
+      "The Playboys emerged during the mid-1960s American pop-rock boom and became one of the country's most commercially successful groups during the British Invasion era.",
+      "The group achieved its commercial breakthrough in 1965 with This Diamond Ring, which reached number one on the Billboard Hot 100.",
+      "Hits Again! was released during a particularly successful period for the group, following several consecutive Top 10 singles.",
+      "The album was produced by Dave Pell and arranged by Leon Russell.",
+      "Leon Russell was an accomplished Los Angeles session musician, pianist, songwriter, and arranger before becoming a prominent solo recording artist.",
+      "Russell's work with Gary Lewis & The Playboys reflects his early career as part of the Los Angeles studio recording scene.",
+      "The album includes Green Grass, a 1966 hit written by Roger Greenaway and Roger Cook.",
+      "Green Grass reached number 8 on the Billboard Hot 100 and became one of the group's best-known singles.",
+      "Sure Gonna Miss Her was another successful 1966 single, reaching number 9 on the Billboard Hot 100.",
+      "The album features a mixture of original material, contemporary hits, and interpretations of songs previously associated with other artists.",
+      "Look Through Any Window was originally recorded by The Hollies and was written by Graham Gouldman and Charles Silverman.",
+      "A Well Respected Man was written by Ray Davies and originally recorded by The Kinks.",
+      "Rubber Ball had previously been a major hit for Bobby Vee.",
+      "Daydream was written by John Sebastian and became a hit for The Lovin' Spoonful.",
+      "The album also includes compositions by Bobby Goldsboro and David Gates, who later achieved widespread success with the band Bread.",
+      "The original mono edition carries catalog number LRP-3452, while the separately issued stereo edition carries LST-7452.",
+      "Mono and stereo editions of 1960s pop albums can contain different mixes, making the original mono version historically interesting to collectors.",
+      "The mono version of Sure Gonna Miss Her is particularly noteworthy for its horn arrangement, which differs from a commonly encountered stereo mix.",
+      "The Liberty rainbow label is an identifiable feature of the label's classic mid-1960s releases.",
+      "The surviving mono pressing provides an example of how American pop records were marketed during the transition from mono to stereo LP production.",
+      "CSP's copy retains the original-style Liberty rainbow labels and matching LRP-3452 mono runout inscriptions."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "CSP"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b01fd0bcd974d30c177a4fe"
+    },
+    "artist": "Various Artists",
+    "albumName": "Baby Boomer Classics: Surfin' Sixties",
+    "slug": "various-artists-baby-boomer-classics-surfin-sixties",
+    "originalReleaseDate": {
+      "$date": "1985-01-01T00:00:00.000Z"
+    },
+    "releaseDatePrecision": "year",
+    "sides": {
+      "a": [
+        "Ride the Wild Surf",
+        "I Live for the Sun",
+        "Out of Limits",
+        "California Sun",
+        "Endless Summer",
+        "Wipe Out"
+      ],
+      "b": [
+        "G.T.O.",
+        "Pipeline",
+        "Surfer Joe",
+        "Let's Go (Pony)",
+        "The Lonely Surfer",
+        "Surf City"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Surf Rock",
+      "Instrumental Rock",
+      "Rock & Roll",
+      "Pop Rock"
+    ],
+    "label": [
+      "JCI Records"
+    ],
+    "catalogNumber": "JCI-3106",
+    "upc": "05109131061",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1795291962/baby-boomer-surfin-sixties_x6erah",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1985,
+      "vinylReleaseYear": 1985,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1985 (exact manufacturing date unconfirmed)",
+      "format": "LP, Compilation",
+      "speed": "33 ⅓ RPM",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Standard Single Sleeve",
+      "pressingPlant": "Specialty Records Corporation, Olyphant, Pennsylvania",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "JCI-3106-A 1-2 SP-1 [SRC logo] CB"
+        },
+        "sideB": {
+          "runout": "JCI-3106-B [SRC logo] SP-1 1-2 CB"
+        }
+      },
+      "notes": [
+        "U.S. pressing of the 1985 JCI Records compilation Baby Boomer Classics: Surfin' Sixties.",
+        "The jacket spine and back cover display catalog number JCI-3106.",
+        "The back cover bears a 1985 copyright date.",
+        "The back cover lists JCI's address as 5308 Derry Avenue, Agoura Hills, California 91301.",
+        "The barcode was transcribed by the owner as 0 5109-13106-1; the full twelve-digit UPC has not been independently confirmed.",
+        "Side A runout reads JCI-3106-A, 1-2, SP-1, an SRC logo, and CB.",
+        "Side B runout reads JCI-3106-B, an SRC logo, SP-1, 1-2, and CB.",
+        "The interlocking SRC logo is visible in the owner's deadwax photograph.",
+        "The SRC logo appears on both sides, according to the owner's inspection.",
+        "The interlocking SRC logo identifies Specialty Records Corporation of Olyphant, Pennsylvania.",
+        "The SP-1 markings are consistent with the Specialty manufacturing identification, although their exact meaning has not been independently established.",
+        "The CB inscriptions have not been conclusively attributed to a mastering or cutting engineer.",
+        "The record is consistent with the original 1985 release period.",
+        "The original first-pressing classification is provisional because the exact manufacturing date and earliest pressing batch are not established.",
+        "The compilation contains recordings originally associated with the 1960s surf-music era; the LP itself was issued in 1985.",
+        "The twelve-track sequence is based on published album listings; the exact division between the two vinyl sides should be checked against the physical labels.",
+        "No exact Discogs release matching both runout inscriptions has been verified."
+      ],
+      "manufacturedIn": "USA"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of CSP's extended vinyl collection.",
+      "Baby Boomer Classics: Surfin' Sixties is a various-artists compilation issued by JCI Records in 1985.",
+      "The album was part of JCI's Baby Boomer Classics series, which collected popular recordings from the 1950s, 1960s, and 1970s.",
+      "The series was designed to appeal to listeners who had grown up with the original recordings.",
+      "A June 1985 Billboard article reported that JCI invested approximately $1.2 million in packaging and promoting the Baby Boomer Classics series.",
+      "The first eight compilations in the series reached retailers in May 1985, including Surfin' Sixties.",
+      "The original suggested retail price was $5.98, positioning the albums as affordable nostalgia compilations.",
+      "JCI promoted the use of original recordings rather than contemporary cover versions.",
+      "The album brings together vocal surf-pop hits and instrumental surf-rock recordings from the early and middle 1960s.",
+      "Jan & Dean are represented by Ride the Wild Surf and Surf City.",
+      "Surf City was written by Jan Berry and Brian Wilson and became a number-one Billboard Hot 100 hit for Jan & Dean in 1963.",
+      "Brian Wilson's involvement connects the compilation to the development of California surf-pop and The Beach Boys.",
+      "The Surfaris are represented by Wipe Out and Surfer Joe.",
+      "Wipe Out is one of the most recognizable surf-rock instrumentals, celebrated for its energetic drum performance.",
+      "The Chantays' Pipeline became a defining instrumental of the surf-rock era.",
+      "The Marketts' Out of Limits combined surf-guitar sounds with a dramatic, television-theme-inspired arrangement.",
+      "The Rivieras' California Sun became a popular example of Midwestern musicians adopting the California surf sound.",
+      "The Routers' Let's Go (Pony) became associated with the rhythmic handclap patterns heard at sporting events.",
+      "Ronny & the Daytonas' G.T.O. reflects the close relationship between surf music, hot-rod culture, and youth-oriented pop during the 1960s.",
+      "The Sandals' Endless Summer is associated with the influential 1966 surfing documentary The Endless Summer.",
+      "Jack Nitzsche's The Lonely Surfer showcases the more atmospheric and orchestral side of instrumental surf music.",
+      "The compilation illustrates how surf music encompassed both vocal harmony groups and guitar-driven instrumental ensembles.",
+      "The album also reflects the mid-1980s commercial revival of interest in 1960s popular music.",
+      "CSP's copy was manufactured by Specialty Records Corporation in Olyphant, Pennsylvania, as indicated by the SRC logo in the runout areas.",
+      "The record provides an example of 1980s vinyl manufacturing used to reissue and compile recordings from an earlier musical era."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "CSP"
+    }
   }
 ]
