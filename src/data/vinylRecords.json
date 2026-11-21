@@ -10016,5 +10016,142 @@
       "collectionStatus": "Extended Collection",
       "owner": "CSP"
     }
+  },
+  {
+    "_id": {
+      "$oid": "6b01fd0bcd974d30c177a4fe"
+    },
+    "artist": "Various Artists",
+    "albumName": "Baby Boomer Classics: Surfin' Sixties",
+    "slug": "various-artists-baby-boomer-classics-surfin-sixties",
+    "originalReleaseDate": {
+      "$date": "1985-01-01T00:00:00.000Z"
+    },
+    "releaseDatePrecision": "year",
+    "sides": {
+      "a": [
+        "Ride the Wild Surf",
+        "I Live for the Sun",
+        "Out of Limits",
+        "California Sun",
+        "Endless Summer",
+        "Wipe Out"
+      ],
+      "b": [
+        "G.T.O.",
+        "Pipeline",
+        "Surfer Joe",
+        "Let's Go (Pony)",
+        "The Lonely Surfer",
+        "Surf City"
+      ]
+    },
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Surf Rock",
+      "Instrumental Rock",
+      "Rock & Roll",
+      "Pop Rock"
+    ],
+    "label": [
+      "JCI Records"
+    ],
+    "catalogNumber": "JCI-3106",
+    "upc": "05109131061",
+    "discogsLink": "",
+    "artwork": "https://res.cloudinary.com/dpir0th3m/image/upload/v1795291962/baby-boomer-surfin-sixties_x6erah",
+    "pressingStatus": {
+      "classification": "Original First Pressing",
+      "originalReleaseYear": 1985,
+      "vinylReleaseYear": 1985,
+      "isOriginalRelease": true,
+      "isFirstVinylPressing": true,
+      "isReissue": false,
+      "confidence": "Medium"
+    },
+    "pressing": {
+      "country": "US",
+      "released": "1985 (exact manufacturing date unconfirmed)",
+      "format": "LP, Compilation",
+      "speed": "33 ⅓ RPM",
+      "color": "Black",
+      "weight": "",
+      "jacket": "Standard Single Sleeve",
+      "pressingPlant": "Specialty Records Corporation, Olyphant, Pennsylvania",
+      "masteringStudio": "",
+      "masteringEngineer": "",
+      "cuttingEngineer": "",
+      "matrix": {
+        "sideA": {
+          "runout": "JCI-3106-A 1-2 SP-1 [SRC logo] CB"
+        },
+        "sideB": {
+          "runout": "JCI-3106-B [SRC logo] SP-1 1-2 CB"
+        }
+      },
+      "notes": [
+        "U.S. pressing of the 1985 JCI Records compilation Baby Boomer Classics: Surfin' Sixties.",
+        "The jacket spine and back cover display catalog number JCI-3106.",
+        "The back cover bears a 1985 copyright date.",
+        "The back cover lists JCI's address as 5308 Derry Avenue, Agoura Hills, California 91301.",
+        "The barcode was transcribed by the owner as 0 5109-13106-1; the full twelve-digit UPC has not been independently confirmed.",
+        "Side A runout reads JCI-3106-A, 1-2, SP-1, an SRC logo, and CB.",
+        "Side B runout reads JCI-3106-B, an SRC logo, SP-1, 1-2, and CB.",
+        "The interlocking SRC logo is visible in the owner's deadwax photograph.",
+        "The SRC logo appears on both sides, according to the owner's inspection.",
+        "The interlocking SRC logo identifies Specialty Records Corporation of Olyphant, Pennsylvania.",
+        "The SP-1 markings are consistent with the Specialty manufacturing identification, although their exact meaning has not been independently established.",
+        "The CB inscriptions have not been conclusively attributed to a mastering or cutting engineer.",
+        "The record is consistent with the original 1985 release period.",
+        "The original first-pressing classification is provisional because the exact manufacturing date and earliest pressing batch are not established.",
+        "The compilation contains recordings originally associated with the 1960s surf-music era; the LP itself was issued in 1985.",
+        "The twelve-track sequence is based on published album listings; the exact division between the two vinyl sides should be checked against the physical labels.",
+        "No exact Discogs release matching both runout inscriptions has been verified."
+      ],
+      "manufacturedIn": "USA"
+    },
+    "condition": {
+      "media": "",
+      "sleeve": ""
+    },
+    "purchase": {
+      "price": null,
+      "date": null,
+      "location": ""
+    },
+    "userNotes": [
+      "Part of CSP's extended vinyl collection.",
+      "Baby Boomer Classics: Surfin' Sixties is a various-artists compilation issued by JCI Records in 1985.",
+      "The album was part of JCI's Baby Boomer Classics series, which collected popular recordings from the 1950s, 1960s, and 1970s.",
+      "The series was designed to appeal to listeners who had grown up with the original recordings.",
+      "A June 1985 Billboard article reported that JCI invested approximately $1.2 million in packaging and promoting the Baby Boomer Classics series.",
+      "The first eight compilations in the series reached retailers in May 1985, including Surfin' Sixties.",
+      "The original suggested retail price was $5.98, positioning the albums as affordable nostalgia compilations.",
+      "JCI promoted the use of original recordings rather than contemporary cover versions.",
+      "The album brings together vocal surf-pop hits and instrumental surf-rock recordings from the early and middle 1960s.",
+      "Jan & Dean are represented by Ride the Wild Surf and Surf City.",
+      "Surf City was written by Jan Berry and Brian Wilson and became a number-one Billboard Hot 100 hit for Jan & Dean in 1963.",
+      "Brian Wilson's involvement connects the compilation to the development of California surf-pop and The Beach Boys.",
+      "The Surfaris are represented by Wipe Out and Surfer Joe.",
+      "Wipe Out is one of the most recognizable surf-rock instrumentals, celebrated for its energetic drum performance.",
+      "The Chantays' Pipeline became a defining instrumental of the surf-rock era.",
+      "The Marketts' Out of Limits combined surf-guitar sounds with a dramatic, television-theme-inspired arrangement.",
+      "The Rivieras' California Sun became a popular example of Midwestern musicians adopting the California surf sound.",
+      "The Routers' Let's Go (Pony) became associated with the rhythmic handclap patterns heard at sporting events.",
+      "Ronny & the Daytonas' G.T.O. reflects the close relationship between surf music, hot-rod culture, and youth-oriented pop during the 1960s.",
+      "The Sandals' Endless Summer is associated with the influential 1966 surfing documentary The Endless Summer.",
+      "Jack Nitzsche's The Lonely Surfer showcases the more atmospheric and orchestral side of instrumental surf music.",
+      "The compilation illustrates how surf music encompassed both vocal harmony groups and guitar-driven instrumental ensembles.",
+      "The album also reflects the mid-1980s commercial revival of interest in 1960s popular music.",
+      "CSP's copy was manufactured by Specialty Records Corporation in Olyphant, Pennsylvania, as indicated by the SRC logo in the runout areas.",
+      "The record provides an example of 1980s vinyl manufacturing used to reissue and compile recordings from an earlier musical era."
+    ],
+    "ownership": {
+      "collectionStatus": "Extended Collection",
+      "owner": "CSP"
+    }
   }
 ]
